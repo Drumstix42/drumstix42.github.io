@@ -218,7 +218,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.0.0-beta.11, @vue/devtools-api@npm:^6.0.0-beta.18":
+"@vue/devtools-api@npm:^6.0.0-beta.18, @vue/devtools-api@npm:^6.0.0-beta.21":
   version: 6.0.0-beta.21.1
   resolution: "@vue/devtools-api@npm:6.0.0-beta.21.1"
   checksum: 0ba256aa6e184455ff0e990e765ebb4d8f7cb5509c97d25898d2e98f213c2d2b3d44492b3f92ff50fae22ee4806f684675f15f324ae81260ada89e9b3e12303c
@@ -775,6 +775,7 @@ __metadata:
     eslint: ^8.7.0
     eslint-plugin-vue: ^8.4.0
     gh-pages: ^3.2.3
+    pinia: ^2.0.10
     primeflex: ^3.1.2
     primeicons: ^5.0.0
     primevue: ^3.11.0
@@ -783,7 +784,6 @@ __metadata:
     vite-plugin-eslint: ^1.3.0
     vue: ^3.2.29
     vue-router: 4.0.12
-    vuex: 4.0.2
   languageName: unknown
   linkType: soft
 
@@ -2192,6 +2192,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pinia@npm:^2.0.10":
+  version: 2.0.10
+  resolution: "pinia@npm:2.0.10"
+  dependencies:
+    "@vue/devtools-api": ^6.0.0-beta.21
+    vue-demi: "*"
+  peerDependencies:
+    "@vue/composition-api": ^1.4.0
+    typescript: ">=4.4.4"
+    vue: ^2.6.14 || ^3.2.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+    typescript:
+      optional: true
+  checksum: 3138fd3d67ec682fe93af5a96e37dba71a8cb023f8d48b2b4320b56ed421db7d5086563b45760edba477e5a2700a0ceb9538545641d66b3d29fc106c7056e5ca
+  languageName: node
+  linkType: hard
+
 "pinkie-promise@npm:^2.0.0":
   version: 2.0.1
   resolution: "pinkie-promise@npm:2.0.1"
@@ -2831,17 +2850,6 @@ __metadata:
     "@vue/server-renderer": 3.2.29
     "@vue/shared": 3.2.29
   checksum: e9564e79015d4d62ebf97aad93567627e64627d3fd33fc7ba0614e83bca529c9f49085e66d99975219b8eed3fb72f7c034597dcaff2dba99d75457a826177263
-  languageName: node
-  linkType: hard
-
-"vuex@npm:4.0.2":
-  version: 4.0.2
-  resolution: "vuex@npm:4.0.2"
-  dependencies:
-    "@vue/devtools-api": ^6.0.0-beta.11
-  peerDependencies:
-    vue: ^3.0.2
-  checksum: d7c03f0afcbad045ef58921a4baa9ec23bc12c71dbaf1317f1df94e7d8740ce839b9fac48ec775955ce7a8893dceb7217bc05e45421fc6bacc559ed3541e6052
   languageName: node
   linkType: hard
 
