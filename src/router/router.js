@@ -12,7 +12,7 @@ const routes = [
         name: RouteName.ICARUS,
         path: '/icarus',
         title: 'Icarus',
-        component: () => import('@/pages/Icarus.vue'),
+        component: () => import('@/pages/Icarus/Icarus.vue'),
     },
 ];
 
