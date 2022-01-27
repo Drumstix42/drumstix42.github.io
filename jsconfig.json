@@ -1,0 +1,14 @@
+{
+    "allowJs": true,
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"],
+            "~/*": ["./node_modules/*"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["dist", "node_modules"]
+}
