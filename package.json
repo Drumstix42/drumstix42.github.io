@@ -6,9 +6,12 @@
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist",
+        "gh": "yarn build && yarn deploy"
     },
     "dependencies": {
+        "primeicons": "^5.0.0",
+        "primevue": "^3.11.0",
         "vue": "^3.2.29"
     },
     "devDependencies": {
