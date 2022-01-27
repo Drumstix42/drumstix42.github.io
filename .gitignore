@@ -1,0 +1,19 @@
+# Package Managers
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Log files
+yarn-debug.log*
+yarn-error.log*
+
+# Cache/temp files
+eslint-report.json
+.dccache
+.DS_Store
+.eslintcache
+.tmp/
