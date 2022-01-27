@@ -1,14 +1,17 @@
+import { RouteName } from '@/constants/router';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
     {
-        name: 'Home',
+        name: RouteName.HOMEPAGE,
         path: '/',
+        title: 'Home',
         component: () => import('@/pages/Home.vue'),
     },
     {
-        name: 'Icarus',
+        name: RouteName.ICARUS,
         path: '/icarus',
+        title: 'Icarus',
         component: () => import('@/pages/Icarus.vue'),
     },
 ];

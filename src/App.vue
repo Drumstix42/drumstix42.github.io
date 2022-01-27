@@ -13,5 +13,6 @@ import Header from '@/components/header/Header.vue';
 body {
     color: var(--text-color);
     font-family: var(--font-family);
+    font-size: 14px;
 }
 </style>
