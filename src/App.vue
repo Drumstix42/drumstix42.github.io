@@ -1,6 +1,6 @@
 <template>
     <Header></Header>
-    <div class="w-full h-full flex flex-column align-items-center justify-content-center">
+    <div class="p-4">
         <router-view></router-view>
     </div>
 </template>

@@ -1,7 +1,9 @@
 <template>
-    <div>Icarus test</div>
+    <tabs-view></tabs-view>
 </template>
 
-<script></script>
+<script setup>
+import TabsView from '@/pages/Icarus/CraftingCalculator/TabsView.vue';
+</script>
 
 <style></style>

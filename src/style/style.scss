@@ -2,3 +2,19 @@
     outline: none;
     box-shadow: none;
 }
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.p-tabview .p-tabview-panels {
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.p-disabled,
+.p-component:disabled {
+    cursor: not-allowed !important;
+    pointer-events: initial;
+}

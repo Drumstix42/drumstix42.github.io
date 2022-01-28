@@ -1,14 +1,14 @@
 <template>
     <header>
-        <div class="">
+        <div class="" :style="{ backgroundColor: 'var(--bluegray-900)' }">
             <router-link custom v-for="item in routeItems" :to="item.path" v-slot="{ href, route, navigate, isActive, isExactActive }">
-                <P-Button
+                <p-button
                     :label="item.title"
                     class="p-button-text outline-none"
                     :class="[!isActive && 'p-button-plain', !isExactActive && ' p-button-plain']"
                     :href="href"
                     @click="navigate"
-                ></P-Button>
+                ></p-button>
             </router-link>
         </div>
     </header>
