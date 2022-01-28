@@ -8,7 +8,8 @@
         <template #content>
             <p-tab-view x-scrollable lazy v-model:activeIndex="activeTabIndex" class="overflow-x-auto">
                 <p-tab-panel v-for="tab in tabs" :key="tab.id" :header="tab.title">
-                    <manage-tab :tab="tab" :tab-index="tab.id"></manage-tab>
+                    <manage-tab :tab="tab"></manage-tab>
+                    <crafting-calculator :tab="tab"></crafting-calculator>
                 </p-tab-panel>
             </p-tab-view>
         </template>
@@ -20,6 +21,7 @@ import { mapActions, mapState } from 'pinia';
 import { useIcarusStore } from '@/store/icarus';
 
 import ManageTab from '@/pages/Icarus/CraftingTool/ManageTab.vue';
+import CraftingCalculator from '@/pages/Icarus/CraftingTool/CraftingCalculator/CraftingCalculator.vue';
 
 const icarusStore = useIcarusStore();
 
@@ -27,6 +29,7 @@ export default {
     name: 'CraftingToolTabView',
     components: {
         ManageTab,
+        CraftingCalculator
     },
     props: [],
     data() {

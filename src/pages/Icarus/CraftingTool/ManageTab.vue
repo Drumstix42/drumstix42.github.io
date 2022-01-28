@@ -1,10 +1,10 @@
 <template>
     <div class="flex p-2" :style="{ backgroundColor: 'var(--gray-700)' }">
         <div class="flex-grow-1 flex align-items-center">
-            <!-- <div>{{ tabIndex }}</div> -->
+            <!-- <div>{{ tab.id }}</div> -->
             <div><input v-model.lazy="tab.title" /></div>
         </div>
-        <p-button class="p-button-danger" @click="removeTab(tabIndex)">
+        <p-button class="p-button-danger" @click="removeTab(tab.id)">
             <span class="pi pi-times"></span>
         </p-button>
     </div>
@@ -20,10 +20,6 @@ export default {
     props: {
         tab: {
             type: Object,
-            required: true,
-        },
-        tabIndex: {
-            type: Number,
             required: true,
         },
     },
