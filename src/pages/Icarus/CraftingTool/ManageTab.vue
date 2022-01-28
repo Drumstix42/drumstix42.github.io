@@ -15,7 +15,7 @@ import { mapActions, mapState } from 'pinia';
 import { useIcarusStore } from '@/store/icarus';
 
 export default {
-    name: 'CraftingCalculatorManageTab',
+    name: 'CraftingToolManageTab',
     components: {},
     props: {
         tab: {

@@ -4,6 +4,7 @@ import { createPinia } from 'pinia';
 import PrimeVue from 'primevue/config';
 import PrimeButton from 'primevue/button';
 import PrimeCard from 'primevue/card';
+import PrimeDropdown from 'primevue/dropdown';
 import PrimeTabView from 'primevue/tabview';
 import PrimeTabPanel from 'primevue/tabpanel';
 
@@ -26,6 +27,7 @@ app.use(PrimeVue);
 
 app.component('PButton', PrimeButton);
 app.component('PCard', PrimeCard);
+app.component('PDropdown', PrimeDropdown);
 app.component('PTabView', PrimeTabView);
 app.component('PTabPanel', PrimeTabPanel);
 

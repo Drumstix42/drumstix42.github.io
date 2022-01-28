@@ -19,12 +19,12 @@
 import { mapActions, mapState } from 'pinia';
 import { useIcarusStore } from '@/store/icarus';
 
-import ManageTab from '@/pages/Icarus/CraftingCalculator/ManageTab.vue';
+import ManageTab from '@/pages/Icarus/CraftingTool/ManageTab.vue';
 
 const icarusStore = useIcarusStore();
 
 export default {
-    name: 'CraftingCalculatorTabView',
+    name: 'CraftingToolTabView',
     components: {
         ManageTab,
     },
