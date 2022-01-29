@@ -1,36 +1,54 @@
 <template>
-    <div class="manage-tab flex p-2" :style="{ backgroundColor: 'var(--gray-700)' }">
+    <div class="manage-tab flex align-items-center p-2">
         <div class="flex-grow-1 flex align-items-center">
             <!-- <div>{{ tab.id }}</div> -->
-            <div><input v-model.lazy="tab.title" /></div>
+            <div><input v-model="tab.title" /></div>
         </div>
-        <p-button v-if="tabCount > 1" class="p-button-danger" @click="removeTab(tab.id)">
-            <span class="pi pi-times"></span>
-        </p-button>
+
+        <n-tooltip v-if="tabCount > 1" trigger="hover">
+            <template #trigger>
+                <n-button class="" secondary type="error" @click="removeTab">
+                    <n-icon size="20">
+                        <Times></Times>
+                    </n-icon>
+                </n-button>
+            </template>
+            Delete Tab
+        </n-tooltip>
     </div>
 </template>
 
 <script>
-import { mapActions, mapState } from 'pinia';
+import { mapState } from 'pinia';
+import { Times } from '@vicons/fa';
+
 import { useIcarusStore } from '@/store/icarus';
 
 export default {
     name: 'CraftingToolManageTab',
-    components: {},
+    components: {
+        Times: Times,
+    },
     props: {
         tab: {
             type: Object,
             required: true,
         },
     },
+    emits: ['removeTab'],
     data() {
-        return {};
+        return {
+            Times,
+        };
     },
     computed: {
         ...mapState(useIcarusStore, ['tabs', 'tabCount']),
     },
     methods: {
-        ...mapActions(useIcarusStore, ['removeTab']),
+        //...mapActions(useIcarusStore, ['removeTab']),
+        removeTab() {
+            this.$emit('removeTab', { tabId: this.tab.id });
+        },
     },
 };
 </script>
@@ -38,5 +56,6 @@ export default {
 <style scoped lang="scss">
 .manage-tab {
     min-height: 3.5rem;
+    background-color: black;
 }
 </style>

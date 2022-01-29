@@ -1,0 +1,22 @@
+:root {
+    --navbar-bg-color: #181818;
+    --navbar-border-color: #333333;
+}
+
+// button focus removal
+.n-button:not(.n-button--disabled):focus {
+    background-color: var(--n-color);
+    color: var(--n-text-color);
+}
+.n-button:not(.n-button--disabled):hover {
+    background-color: var(--n-color-hover);
+    color: var(--n-text-color-hover);
+}
+
+// tab scroll shadow (improved for dark theme)
+.n-tabs .n-tabs-nav-scroll-wrapper.n-tabs-nav-scroll-wrapper--shadow-before::before {
+    box-shadow: inset 10px 0 8px -8px rgba(200, 200, 200, 0.12);
+}
+.n-tabs .n-tabs-nav-scroll-wrapper.n-tabs-nav-scroll-wrapper--shadow-after::after {
+    box-shadow: inset -10px 0 8px -8px rgba(200, 200, 200, 0.12);
+}

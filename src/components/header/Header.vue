@@ -1,14 +1,10 @@
 <template>
     <header>
-        <div class="" :style="{ backgroundColor: 'var(--bluegray-900)' }">
+        <div class="navbar">
             <router-link custom v-for="item in routeItems" :to="item.path" v-slot="{ href, route, navigate, isActive, isExactActive }">
-                <p-button
-                    :label="item.title"
-                    class="p-button-text outline-none"
-                    :class="[!isActive && 'p-button-plain', !isExactActive && ' p-button-plain']"
-                    :href="href"
-                    @click="navigate"
-                ></p-button>
+                <n-button quaternary size="large" :type="isActive || isExactActive ? 'info' : 'default'" :href="href" @click="navigate">
+                    {{ item.title }}
+                </n-button>
             </router-link>
         </div>
     </header>
@@ -39,3 +35,11 @@ export default {
     },
 };
 </script>
+
+<style lang="scss">
+.navbar {
+    padding: 0.25rem;
+    background-color: var(--navbar-bg-color);
+    border-bottom: 1px solid var(--navbar-border-color);
+}
+</style>
