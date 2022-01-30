@@ -1,5 +1,6 @@
 import { reactive } from 'vue';
 import { defineStore } from 'pinia';
+import { processRecipeData } from '@/utility/icarusData';
 
 // utility methods
 const generateTabId = () => Date.now();
@@ -15,10 +16,13 @@ const findTabIndex = (id, tabs) => tabs.findIndex((tab) => tab.id === id);
 const defaultTab = generateNewTab();
 const defaultTabId = defaultTab.id;
 
+// * data store
 export const useIcarusStore = defineStore('icarus', {
     state: () => ({
         activeTabId: defaultTabId,
         tabs: [defaultTab],
+        recipeData: {},
+        isLoadingRecipeData: false,
     }),
     getters: {
         activeTab: (state) => state.tabs.find((tab) => tab.id === state.activeTabId),
@@ -55,6 +59,24 @@ export const useIcarusStore = defineStore('icarus', {
             if (matchingId !== -1) {
                 this.tabs[matchingId].title = title;
             }
+        },
+
+        async loadRecipeData() {
+            this.isLoadingRecipeData = true;
+
+            const response = await fetch(`/src/assets/Icarus/Data/Recipes.json`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+
+            const recipes = await response.json();
+            const recipeData = processRecipeData(recipes?.Rows);
+            
+            console.log(recipeData);
+            this.recipeData = recipeData;
+            this.isLoadingRecipeData = false;
         },
     },
 });

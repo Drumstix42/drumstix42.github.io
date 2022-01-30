@@ -1,5 +1,4 @@
 <template>
-    <div>Crafting Calculator</div>
     <div>
         <item-selector></item-selector>
     </div>

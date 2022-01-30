@@ -22,7 +22,7 @@
             <!-- `name` acts as ID here -->
             <n-tab-pane v-for="tab in tabs" :tab="tab.title" :name="tab.id" :key="tab.id">
                 <manage-tab :tab="tab" @remove-tab="removeTab"></manage-tab>
-                <crafting-calculator :tab="tab"></crafting-calculator>
+                <crafting-calculator class="mt-4" :tab="tab"></crafting-calculator>
             </n-tab-pane>
             <!-- <template #prefix>Prefix</template>
             <template #suffix>Suffix</template> -->

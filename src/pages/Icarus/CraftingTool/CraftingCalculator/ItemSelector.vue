@@ -1,36 +1,47 @@
 <template>
     <div>
-        <n-select v-model:show="isOpen" filterable placeholder="Select a recipe" :options="options">
+        <!-- <n-select v-model:show="isOpen" filterable placeholder="Select a recipe" :options="options">
             <template v-if="isOpen" #arrow>
                 <n-icon size="12">
-                        <Search></Search>
-                    </n-icon>
+                    <Search></Search>
+                </n-icon>
             </template>
-        </n-select>
+        </n-select> -->
+        <Multiselect class="multiselect-dark" v-model="value" :options="options" searchable placeholder="Select a recipe"></Multiselect>
     </div>
 </template>
 
 <script>
+import Multiselect from '@vueform/multiselect';
 import { Search } from '@vicons/fa';
 
 export default {
     name: 'CraftingToolItemSelector',
     components: {
+        Multiselect,
         Search,
     },
     props: {},
     data() {
         return {
-            Search,
             isOpen: false,
+            value: null,
             options: [
                 {
                     label: 'Test 1',
-                    value: 123,
+                    value: 1,
                 },
                 {
                     label: 'Test 2',
-                    value: 345,
+                    value: 2,
+                },
+                {
+                    label: 'Test 3',
+                    value: 3,
+                },
+                {
+                    label: 'Test 4',
+                    value: 4,
                 },
             ],
         };
@@ -39,3 +50,5 @@ export default {
     methods: {},
 };
 </script>
+
+<style src="@vueform/multiselect/themes/default.css"></style>

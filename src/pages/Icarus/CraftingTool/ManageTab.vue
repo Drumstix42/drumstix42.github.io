@@ -37,9 +37,7 @@ export default {
     },
     emits: ['removeTab'],
     data() {
-        return {
-            Times,
-        };
+        return {};
     },
     computed: {
         ...mapState(useIcarusStore, ['tabs', 'tabCount']),
@@ -56,6 +54,6 @@ export default {
 <style scoped lang="scss">
 .manage-tab {
     min-height: 3.5rem;
-    background-color: black;
+    background-color: var(--n-action-color);
 }
 </style>

@@ -363,6 +363,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vueform/multiselect@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@vueform/multiselect@npm:2.3.1"
+  checksum: 9ffdd93cafead3a205f923b228c96a0da0137e0a931727121708f7d31c8d787b464339ca6055f592712e82ee7fb3e9279a1ebc58d59aa5ca2013f1acdff3a2e3
+  languageName: node
+  linkType: hard
+
 "@vueuse/core@npm:^7.5.5":
   version: 7.5.5
   resolution: "@vueuse/core@npm:7.5.5"
@@ -925,6 +932,7 @@ __metadata:
     "@vicons/fa": ^0.11.0
     "@vicons/utils": ^0.1.4
     "@vitejs/plugin-vue": ^2.1.0
+    "@vueform/multiselect": ^2.3.1
     "@vueuse/core": ^7.5.5
     eslint: ^8.8.0
     eslint-plugin-vue: ^8.4.0
