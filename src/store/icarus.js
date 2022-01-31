@@ -16,28 +16,44 @@ const findTabIndex = (id, tabs) => tabs.findIndex((tab) => tab.id === id);
 const defaultTab = generateNewTab();
 const defaultTabId = defaultTab.id;
 
-export let recipeData = {};
-export let recipeOptions = [];
-
 // * data store
 export const useIcarusStore = defineStore('icarus', {
     state: () => ({
         activeTabId: defaultTabId,
         tabs: [defaultTab],
-        //recipeData: {},
-        //recipeOptions: [],
-        isLoadingRecipeData: false,
+
+        recipeData: {},
+        recipeOptions: [],
+        isLoadingRecipes: false,
+
+        recipeSearch: '',
     }),
     getters: {
         activeTab: (state) => state.tabs.find((tab) => tab.id === state.activeTabId),
         tabCount() {
             return this.tabs.length;
         },
+        sortedRecipeOptions(state) {
+            return state.recipeOptions.sort((a, b) => a.label.localeCompare(b.label));
+        },
+        filteredRecipeOptions(state) {
+            if (state.recipeSearch) {
+                const searchLabel = state.recipeSearch.toLowerCase();
+
+                return this.sortedRecipeOptions.filter((item) => {
+                    const label = item.label.toLowerCase();
+                    return label.includes(searchLabel);
+                });
+            }
+            return this.sortedRecipeOptions;
+        },
     },
     actions: {
+        // * tab methods
         addTab() {
             const tab = generateNewTab();
             this.tabs.push(tab);
+            return tab;
         },
         removeTab(id) {
             const tabIndex = findTabIndex(id, this.tabs);
@@ -65,8 +81,41 @@ export const useIcarusStore = defineStore('icarus', {
             }
         },
 
+        // * item list methods
+        addItem(itemId, quantity = 1) {
+            // implicitly adds or updates item to currently selected tab
+            const currentTab = this.activeTab;
+
+            if (currentTab) {
+                const matchingItem = currentTab.items.find((item) => item.value === itemId);
+
+                if (matchingItem) {
+                    matchingItem.quantity += quantity;
+                } else {
+                    currentTab.items.push({
+                        value: itemId,
+                        quantity,
+                    });
+                }
+            } else {
+                console.error(`Could not find tab with id ${this.activeTabId}`, this.tabs);
+            }
+        },
+        removeItem(itemId) {
+            // implicitly removes item from currently selected tab
+            const currentTab = this.activeTab;
+
+            if (currentTab) {
+                const matchingItemIndex = currentTab.items.findIndex((item) => item.value === itemId);
+                currentTab.items.splice(matchingItemIndex, 1);
+            } else {
+                console.error(`Could not find tab with id ${this.activeTabId}`, this.tabs);
+            }
+        },
+
+        // * recipe data
         async loadRecipeData() {
-            this.isLoadingRecipeData = true;
+            this.isLoadingRecipes = true;
 
             const response = await fetch(`/Icarus/Data/Recipes.json`, {
                 method: 'GET',
@@ -77,11 +126,11 @@ export const useIcarusStore = defineStore('icarus', {
 
             const recipes = await response.json();
             const data = processRecipeData(recipes?.Rows);
-            
+
             console.log(data);
-            recipeData = data;
-            recipeOptions = Object.values(data);
-            this.isLoadingRecipeData = false;
+            this.recipeData = data;
+            this.recipeOptions = Object.values(data);
+            this.isLoadingRecipes = false;
         },
     },
 });

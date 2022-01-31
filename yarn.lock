@@ -946,6 +946,7 @@ __metadata:
     vite-plugin-eslint: ^1.3.0
     vue: ^3.2.29
     vue-router: 4.0.12
+    vue-virtual-scroller: next
   languageName: unknown
   linkType: soft
 
@@ -2176,6 +2177,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mitt@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "mitt@npm:2.1.0"
+  checksum: 5b0f698cbff2e47cc3b81b991f1230fadd429bdf4a2d9051d936059ad8090e36932694f299dd52434365463e6c52075026fb2161adcfd52b234b6f5392a514d2
+  languageName: node
+  linkType: hard
+
 "mkdirp@npm:^1.0.3, mkdirp@npm:^1.0.4":
   version: 1.0.4
   resolution: "mkdirp@npm:1.0.4"
@@ -3112,6 +3120,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-observe-visibility@npm:^2.0.0-alpha.1":
+  version: 2.0.0-alpha.1
+  resolution: "vue-observe-visibility@npm:2.0.0-alpha.1"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 78971fc60d75eccf8a98ff4096fe5557314d381812d8c973db423c6300847cc1799dceb009affe7ee6b68c2fe403ef608a851e83b8b0c2169763d904b783559b
+  languageName: node
+  linkType: hard
+
+"vue-resize@npm:^2.0.0-alpha.1":
+  version: 2.0.0-alpha.1
+  resolution: "vue-resize@npm:2.0.0-alpha.1"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 574321cc4792a393fe8f698a840cd6f11c8524da7869cffa8dc17a342521ee17579e14c243510bba96ef197f9a99ef8c57c22e9320c1486f62150f01f7a17ebe
+  languageName: node
+  linkType: hard
+
 "vue-router@npm:4.0.12":
   version: 4.0.12
   resolution: "vue-router@npm:4.0.12"
@@ -3120,6 +3146,19 @@ __metadata:
   peerDependencies:
     vue: ^3.0.0
   checksum: 5ac66dffd956d088267ba45ec17e390de0aebb1ad08fc9431deb1397e265a003ae99b705fe7ca4ee610782de70aef129b4adf0a494171620d8153d794b2e5498
+  languageName: node
+  linkType: hard
+
+"vue-virtual-scroller@npm:next":
+  version: 2.0.0-alpha.1
+  resolution: "vue-virtual-scroller@npm:2.0.0-alpha.1"
+  dependencies:
+    mitt: ^2.1.0
+    vue-observe-visibility: ^2.0.0-alpha.1
+    vue-resize: ^2.0.0-alpha.1
+  peerDependencies:
+    vue: ^3.0.11
+  checksum: 64149068124d538e48bde5992815d0899a454255291388b81c2621a9ace6e3db0e56e3ac48f03ae862b02c0823da846105d288170128956cfa8fab7a3f6487c6
   languageName: node
   linkType: hard
 

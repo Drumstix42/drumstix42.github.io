@@ -1,8 +1,12 @@
 <template>
-    <div class="manage-tab flex align-items-center p-2">
+    <div class="manage-tab flex align-items-center">
         <div class="flex-grow-1 flex align-items-center">
             <!-- <div>{{ tab.id }}</div> -->
-            <div><input v-model="tab.title" /></div>
+            <div class="flex align-items-center">
+                <span class="flex-shrink-0 mr-3">List Name:</span>
+                <!-- <input v-model="tab.title" /> -->
+                <n-input type="text" v-model:value="tab.title" placeholder="Name" />
+            </div>
         </div>
 
         <n-tooltip v-if="tabCount > 1" trigger="hover">
@@ -54,6 +58,8 @@ export default {
 <style scoped lang="scss">
 .manage-tab {
     min-height: 3.5rem;
+    padding: 0.5rem;
     background-color: var(--n-action-color);
+    border-radius: 3px;
 }
 </style>

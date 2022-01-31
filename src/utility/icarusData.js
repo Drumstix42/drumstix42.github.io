@@ -8,15 +8,11 @@ export function processRecipeData(rows = []) {
 
     rows.forEach((recipe) => {
         const itemName = recipe.Name;
-        const image = new Image();
-        image.src = `/Icarus/ItemIcons/ITEM_${itemName}.png`;
 
         recipeData[itemName] = {
             // TODO: add `label` parsing?
             label: itemName,
             value: itemName,
-
-            image,
 
             inputs: [],
             sources: [],

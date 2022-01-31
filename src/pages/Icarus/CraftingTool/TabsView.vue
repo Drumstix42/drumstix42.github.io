@@ -1,33 +1,33 @@
 <template>
-    <div class="flex align-items-center mb-3">
-        <div class="flex align-items-center ml-auto">
-            <div class="mr-3">{{ tabCount }} / {{ maxTabCount }}</div>
-            <n-button class="" strong secondary type="primary" @click="addTab" :disabled="tabCount === maxTabCount">
-                <span>Add Tab</span>
-            </n-button>
+    <div>
+        <div class="flex align-items-center mb-3">
+            <div class="flex align-items-center ml-auto">
+                <div class="mr-3">{{ tabCount }} / {{ maxTabCount }}</div>
+                <n-button class="" strong secondary type="primary" @click="addTab" :disabled="tabCount === maxTabCount">
+                    <span>Add Tab</span>
+                </n-button>
+            </div>
         </div>
+        <n-card>
+            <!-- {{ activeTabId }} - {{ activeTab?.id }} -->
+            <n-tabs
+                ref="tabsInstRef"
+                v-model:value="activeTabId"
+                type="bar"
+                :addable="addable"
+                :closable="closable"
+                tab-style=""
+            >
+                <!-- `name` acts as ID here -->
+                <n-tab-pane v-for="tab in tabs" :tab="tab.title" :name="tab.id" :key="tab.id">
+                    <manage-tab :tab="tab" @remove-tab="removeTab"></manage-tab>
+                    <crafting-calculator :tab="tab"></crafting-calculator>
+                </n-tab-pane>
+                <!-- <template #prefix>Prefix</template>
+                <template #suffix>Suffix</template> -->
+            </n-tabs>
+        </n-card>
     </div>
-    <n-card>
-        {{ activeTabId }} - {{ activeTab?.id }}
-        <n-tabs
-            ref="tabsInstRef"
-            v-model:value="activeTabId"
-            type="bar"
-            :addable="addable"
-            :closable="closable"
-            @close="handleClose"
-            @add="handleAdd"
-            tab-style=""
-        >
-            <!-- `name` acts as ID here -->
-            <n-tab-pane v-for="tab in tabs" :tab="tab.title" :name="tab.id" :key="tab.id">
-                <manage-tab :tab="tab" @remove-tab="removeTab"></manage-tab>
-                <crafting-calculator class="mt-4" :tab="tab"></crafting-calculator>
-            </n-tab-pane>
-            <!-- <template #prefix>Prefix</template>
-            <template #suffix>Suffix</template> -->
-        </n-tabs>
-    </n-card>
 </template>
 
 <script>
@@ -65,15 +65,23 @@ export default {
         ...mapState(useIcarusStore, ['tabs', 'tabCount', 'activeTab']),
     },
     methods: {
-        ...mapActions(useIcarusStore, ['addTab', 'setActiveTab']),
+        ...mapActions(useIcarusStore, ['setActiveTab']),
         handleAdd() {},
         handleClose() {},
+        addTab() {
+            const newTab = icarusStore.addTab();
+            this.setActiveTab(newTab.id);
+            this.syncSelectedTab();
+        },
         removeTab({ tabId } = {}) {
             // update store
             icarusStore.removeTab(tabId);
+            this.syncSelectedTab();
+        },
+        syncSelectedTab() {
             // update component from store
             this.activeTabId = icarusStore.activeTabId;
-            // fix tab underline position
+            // fix tab underline position (recommended approach from library docs)
             this.$nextTick(() => {
                 this.$refs.tabsInstRef?.syncBarPosition();
             });

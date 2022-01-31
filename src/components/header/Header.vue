@@ -1,11 +1,13 @@
 <template>
     <header>
         <div class="navbar">
-            <router-link custom v-for="item in routeItems" :to="item.path" v-slot="{ href, route, navigate, isActive, isExactActive }">
-                <n-button quaternary size="large" :type="isActive || isExactActive ? 'info' : 'default'" :href="href" @click="navigate">
-                    {{ item.title }}
-                </n-button>
-            </router-link>
+            <div class="inner">
+                <router-link custom v-for="item in routeItems" :to="item.path" v-slot="{ href, route, navigate, isActive, isExactActive }">
+                    <n-button quaternary size="large" :type="isActive || isExactActive ? 'info' : 'default'" :href="href" @click="navigate">
+                        {{ item.title }}
+                    </n-button>
+                </router-link>
+            </div>
         </div>
     </header>
 </template>
@@ -41,5 +43,10 @@ export default {
     padding: 0.25rem;
     background-color: var(--navbar-bg-color);
     border-bottom: 1px solid var(--navbar-border-color);
+
+    .inner {
+        margin: 0 auto;
+        max-width: 100rem;
+    }
 }
 </style>
