@@ -21,10 +21,17 @@
     box-shadow: inset -10px 0 8px -8px rgba(200, 200, 200, 0.12);
 }
 
+// * Multiselect
+.multiselect-dropdown {
+    max-height: var(--ms-max-height) !important;
+}
 input.multiselect-search {
     color: var(--pane-text-color);
     background-color: transparent;
     height: 100%;
+}
+.multiselect-no-results {
+    color: #aaaaaa !important;
 }
 .multiselect-dark {
     --n-option-text-color: #ffffff;
@@ -40,7 +47,7 @@ input.multiselect-search {
     --ms-ring-width: 3px;
     --ms-ring-color: #10b98130;
     --ms-placeholder-color: #9ca3af;
-    --ms-max-height: 10rem;
+    --ms-max-height: 20rem;
 
     --ms-spinner-color: #10b981;
     --ms-caret-color: #888888;

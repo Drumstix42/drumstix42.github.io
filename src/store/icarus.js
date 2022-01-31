@@ -16,12 +16,16 @@ const findTabIndex = (id, tabs) => tabs.findIndex((tab) => tab.id === id);
 const defaultTab = generateNewTab();
 const defaultTabId = defaultTab.id;
 
+export let recipeData = {};
+export let recipeOptions = [];
+
 // * data store
 export const useIcarusStore = defineStore('icarus', {
     state: () => ({
         activeTabId: defaultTabId,
         tabs: [defaultTab],
-        recipeData: {},
+        //recipeData: {},
+        //recipeOptions: [],
         isLoadingRecipeData: false,
     }),
     getters: {
@@ -64,7 +68,7 @@ export const useIcarusStore = defineStore('icarus', {
         async loadRecipeData() {
             this.isLoadingRecipeData = true;
 
-            const response = await fetch(`/src/assets/Icarus/Data/Recipes.json`, {
+            const response = await fetch(`/Icarus/Data/Recipes.json`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -72,10 +76,11 @@ export const useIcarusStore = defineStore('icarus', {
             });
 
             const recipes = await response.json();
-            const recipeData = processRecipeData(recipes?.Rows);
+            const data = processRecipeData(recipes?.Rows);
             
-            console.log(recipeData);
-            this.recipeData = recipeData;
+            console.log(data);
+            recipeData = data;
+            recipeOptions = Object.values(data);
             this.isLoadingRecipeData = false;
         },
     },

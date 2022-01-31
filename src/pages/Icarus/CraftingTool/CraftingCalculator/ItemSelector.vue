@@ -1,19 +1,31 @@
 <template>
     <div>
-        <!-- <n-select v-model:show="isOpen" filterable placeholder="Select a recipe" :options="options">
-            <template v-if="isOpen" #arrow>
-                <n-icon size="12">
-                    <Search></Search>
-                </n-icon>
+        <Multiselect class="multiselect-dark" v-model="value" :options="options" searchable placeholder="Select a recipe">
+            <!-- <template v-slot:singlelabel="{ value }">
+                <div class="multiselect-single-label"><img class="character-label-icon" :src="value.icon" /> {{ value.label }}</div>
+            </template> -->
+
+            <template v-slot:option="{ option }">
+                <!-- <n-image
+                    width="30"
+                    :src="`/Icarus/ItemIcons/ITEM_${option.value}.png`"
+                    fallback-src="https://07akioni.oss-cn-beijing.aliyuncs.com/07akioni.jpeg"
+                    preview-disabled="true"
+                /> -->
+
+                <img class="character-option-icon" :src="option.image.src" width="30" />
+                {{ option.label }}
             </template>
-        </n-select> -->
-        <Multiselect class="multiselect-dark" v-model="value" :options="options" searchable placeholder="Select a recipe"></Multiselect>
+        </Multiselect>
     </div>
 </template>
 
 <script>
 import Multiselect from '@vueform/multiselect';
+import { mapState } from 'pinia';
 import { Search } from '@vicons/fa';
+
+import { recipeOptions, useIcarusStore } from '@/store/icarus';
 
 export default {
     name: 'CraftingToolItemSelector',
@@ -26,27 +38,17 @@ export default {
         return {
             isOpen: false,
             value: null,
-            options: [
-                {
-                    label: 'Test 1',
-                    value: 1,
-                },
-                {
-                    label: 'Test 2',
-                    value: 2,
-                },
-                {
-                    label: 'Test 3',
-                    value: 3,
-                },
-                {
-                    label: 'Test 4',
-                    value: 4,
-                },
-            ],
+            options: recipeOptions,
         };
     },
-    computed: {},
+    computed: {
+        ...mapState(useIcarusStore, ['isLoadingRecipeData']),
+    },
+    watch: {
+        isLoadingRecipeData() {
+            this.options = recipeOptions;
+        },
+    },
     methods: {},
 };
 </script>

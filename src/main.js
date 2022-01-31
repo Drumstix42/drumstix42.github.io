@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
-import { create, NButton, NCard, NIcon, NTabPane, NTabs, NSelect, NTooltip } from 'naive-ui';
+import { create, NButton, NCard, NIcon, NImage, NTabPane, NTabs, NSelect, NTooltip } from 'naive-ui';
 
 import 'primeflex/primeflex.css';
 
@@ -10,7 +10,7 @@ import App from '@/App.vue';
 import router from '@/router/router.js';
 
 const naive = create({
-    components: [NButton, NCard, NIcon, NTabPane, NTabs, NSelect, NTooltip],
+    components: [NButton, NCard, NIcon, NImage, NTabPane, NTabs, NSelect, NTooltip],
 });
 
 const app = createApp(App);
