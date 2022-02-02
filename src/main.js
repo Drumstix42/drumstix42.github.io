@@ -1,6 +1,24 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
-import { create, NAlert, NButton, NCard, NIcon, NImage, NInput, NInputNumber, NTabPane, NTabs, NText, NSelect, NSpin, NTooltip } from 'naive-ui';
+import {
+    create,
+    NAlert,
+    NButton,
+    NButtonGroup,
+    NCard,
+    NIcon,
+    NImage,
+    NInput,
+    NInputNumber,
+    NTabPane,
+    NTabs,
+    NTag,
+    NText,
+    NSelect,
+    NSpin,
+    NSwitch,
+    NTooltip,
+} from 'naive-ui';
 import VueVirtualScroller from 'vue-virtual-scroller';
 
 import 'primeflex/primeflex.css';
@@ -13,7 +31,24 @@ import App from '@/App.vue';
 import router from '@/router/router.js';
 
 const naive = create({
-    components: [NAlert, NButton, NCard, NIcon, NImage, NInput, NInputNumber, NTabPane, NTabs, NText, NSelect, NSpin, NTooltip],
+    components: [
+        NAlert,
+        NButton,
+        NButtonGroup,
+        NCard,
+        NIcon,
+        NImage,
+        NInput,
+        NInputNumber,
+        NTabPane,
+        NTabs,
+        NTag,
+        NText,
+        NSelect,
+        NSpin,
+        NSwitch,
+        NTooltip,
+    ],
 });
 
 const app = createApp(App);

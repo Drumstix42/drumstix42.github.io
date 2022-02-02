@@ -16,6 +16,7 @@ export function processRecipeData(rows = []) {
 
             inputs: [],
             sources: [],
+            preferredSource: null,
             quantity: 1,
         };
 
@@ -31,6 +32,9 @@ export function processRecipeData(rows = []) {
         (recipe.RecipeSets || []).forEach((source) => {
             recipeData[itemName].sources.push(source.RowName);
         });
+
+        // TODO: set preferred source from localStorage
+        recipeData[itemName].preferredSource = recipeData[itemName].sources[0];
 
         // determine output quantity
         (recipe.Outputs || []).forEach((output) => {

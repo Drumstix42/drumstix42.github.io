@@ -28,13 +28,14 @@
                     <n-image
                         class="icon"
                         width="32"
-                        :src="`/Icarus/ItemIcons/ITEM_${recipeData[item.value].label}.png`"
+                        :src="`/Icarus/ItemIcons/ITEM_${recipeData[item.value].value}.png`"
                         fallback-src="/Icarus/Images/question-mark.png"
                         :preview-disabled="false"
                     />
                     <div class="flex-shrink" style="min-width: 0">
                         <div class="label text-overflow-ellipsis">{{ recipeData[item.value].label }}</div>
                     </div>
+                    <component-source-picker :component-name="item.value" @change="calculateRequiredItems()"></component-source-picker>
                     <n-tooltip trigger="hover">
                         <template #trigger>
                             <n-button class="hover-button ml-auto" secondary type="error" size="small" @click="removeItem(item)">
@@ -49,11 +50,37 @@
             </transition-group>
 
             <div class="flex align-items-center mt-3">
-                <h3>Required Components</h3>
+                <h3>Components</h3>
+            </div>
+            <div class="p-1">
+                <div class="flex align-items-center mb-3">
+                    <n-switch class="mr-2" v-model:value="showSubComponents" size="small" />
+                    <span>Show sub-components</span>
+                </div>
+                <div>
+                    <div v-for="(quantity, componentName) in requiredItemData" :key="componentName" class="component-row flex align-items-center">
+                        <div class="label">{{ quantity }} {{ componentName }}</div>
+                        <component-source-picker :component-name="componentName" @change="calculateRequiredItems()"></component-source-picker>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <div v-for="(quantity, key) in requiredItemData">{{ quantity }} {{ key }}</div>
+            <div class="flex align-items-center">
+                <h3>Crafting Stations</h3>
+            </div>
+            <div class="">
+                <div v-for="componentName in requiredCraftingStations" class="recipe-item pl-0 flex align-items-center">
+                    <div class="flex align-items-center">
+                        <n-image
+                            class="icon"
+                            width="32"
+                            :src="`/Icarus/ItemIcons/ITEM_${recipeData[componentName].value}.png`"
+                            fallback-src="/Icarus/Images/question-mark.png"
+                            :preview-disabled="false"
+                        />
+                        <div class="label">{{ componentName }}</div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -68,11 +95,13 @@
 import { mapState } from 'pinia';
 import { SortAlphaDown, Times } from '@vicons/fa';
 
+import ComponentSourcePicker from './ComponentSourcePicker.vue';
 import { useIcarusStore } from '@/store/icarus';
 
 export default {
     name: 'CraftingToolCalculator',
     components: {
+        ComponentSourcePicker,
         SortAlphaDown,
         Times,
     },
@@ -85,6 +114,8 @@ export default {
     data() {
         return {
             requiredItemData: {},
+            requiredCraftingStations: [],
+            showSubComponents: true,
         };
     },
     computed: {
@@ -130,6 +161,7 @@ export default {
         },
         calculateRequiredItems() {
             const requiredItemData = {};
+            const requiredCraftingStations = new Set([]);
 
             (this.tab.items || []).forEach((item) => {
                 const itemData = this.recipeData[item.value];
@@ -144,7 +176,26 @@ export default {
                 });
             });
 
+            /* if (this.showSubComponents) {
+            } */
+
+            Object.keys(requiredItemData).forEach((componentName) => {
+                const componentData = this.recipeData[componentName];
+                if (componentData?.preferredSource) {
+                    requiredCraftingStations.add(componentData.preferredSource);
+                }
+            });
+
+            // transform set into array
+            this.requiredCraftingStations = [...requiredCraftingStations];
+
+            //console.log(requiredCraftingStations);
+            //console.log(requiredItemData);
             this.requiredItemData = requiredItemData;
+        },
+        setComponentPreferredSource(componentName, craftingStationName) {
+            this.recipeData[componentName].preferredSource = craftingStationName;
+            this.calculateRequiredItems();
         },
     },
 };
@@ -191,5 +242,13 @@ export default {
 }
 .list-move {
     transition: transform 0.5s ease;
+}
+
+.component-row {
+    height: 1.7rem;
+
+    .label {
+        min-width: 12rem;
+    }
 }
 </style>

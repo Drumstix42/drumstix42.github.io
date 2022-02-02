@@ -10,7 +10,7 @@
                         <n-image
                             class="icon"
                             width="32"
-                            :src="`/Icarus/ItemIcons/ITEM_${item.label}.png`"
+                            :src="`/Icarus/ItemIcons/ITEM_${item.value}.png`"
                             fallback-src="/Icarus/Images/question-mark.png"
                             :preview-disabled="true"
                         />
