@@ -5,12 +5,12 @@
         </div>
         <n-spin :show="isLoadingRecipes">
             <n-card class="scroll-wrap" content-style="padding: 0;">
-                <RecycleScroller class="scroller" :items="filteredRecipeOptions" :item-size="40" key-field="value" v-slot="{ index, item }">
-                    <div class="recipe-item flex align-items-center" @click="addItem(item.value)">
+                <RecycleScroller class="scroller" :items="filteredRecipeOptions" :item-size="40" key-field="id" v-slot="{ index, item }">
+                    <div class="recipe-item flex align-items-center" @click="addItem(item.id)">
                         <n-image
                             class="icon"
                             width="32"
-                            :src="`/Icarus/ItemIcons/ITEM_${item.value}.png`"
+                            :src="`/Icarus/ItemIcons/ITEM_${item.id}.png`"
                             fallback-src="/Icarus/Images/question-mark.png"
                             :preview-disabled="true"
                         />
@@ -35,10 +35,10 @@
 </template>
 
 <script>
+import { debounce } from 'debounce';
 import { mapActions, mapState } from 'pinia';
 import { Plus } from '@vicons/fa';
 
-import { debounce } from '@/utility/debounce';
 import { useIcarusStore } from '@/store/icarus';
 
 const icarusStore = useIcarusStore();

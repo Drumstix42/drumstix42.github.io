@@ -87,14 +87,15 @@ export const useIcarusStore = defineStore('icarus', {
             const currentTab = this.activeTab;
 
             if (currentTab) {
-                const matchingItem = currentTab.items.find((item) => item.value === itemId);
+                const matchingItem = currentTab.items.find((item) => item.id === itemId);
+                const outputQuantity = this.recipeData[itemId].outputQuantity ?? 1;
 
                 if (matchingItem) {
-                    matchingItem.quantity += quantity;
+                    matchingItem.quantity += outputQuantity;
                 } else {
                     currentTab.items.push({
-                        value: itemId,
-                        quantity,
+                        id: itemId,
+                        quantity: outputQuantity,
                     });
                 }
             } else {
@@ -106,7 +107,7 @@ export const useIcarusStore = defineStore('icarus', {
             const currentTab = this.activeTab;
 
             if (currentTab) {
-                const matchingItemIndex = currentTab.items.findIndex((item) => item.value === itemId);
+                const matchingItemIndex = currentTab.items.findIndex((item) => item.id === itemId);
                 currentTab.items.splice(matchingItemIndex, 1);
             } else {
                 console.error(`Could not find tab with id ${this.activeTabId}`, this.tabs);

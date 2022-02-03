@@ -8,7 +8,7 @@
                 </n-button>
             </div>
         </div>
-        <n-card>
+        <n-card class="overflow-hidden">
             <!-- {{ activeTabId }} - {{ activeTab?.id }} -->
             <n-tabs
                 ref="tabsInstRef"

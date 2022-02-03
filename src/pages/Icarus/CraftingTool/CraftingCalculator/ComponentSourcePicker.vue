@@ -1,22 +1,20 @@
 <template>
-    <template v-if="recipeData[componentName]">
+    <template v-if="recipeData[componentId]">
         <n-button-group size="small">
-            <template v-for="(craftingStationName, index) in recipeData[componentName].sources" :key="craftingStationName">
+            <template v-for="(craftingStationName, index) in recipeData[componentId].sources" :key="craftingStationName">
                 <n-button
                     class="mx-1"
                     size="tiny"
                     ghost
-                    round
                     type="info"
                     :style="[
-                        recipeData[componentName].preferredSource === craftingStationName
+                        recipeData[componentId].preferredSource === craftingStationName
                             ? null
                             : '--n-border: 1px solid rgba(255, 255, 255, 0.2); --n-text-color: #bbb',
                     ]"
-                    @click="setComponentPreferredSource(componentName, craftingStationName)"
+                    @click="setComponentPreferredSource(componentId, craftingStationName)"
                 >
-                    <span v-if="recipeData[craftingStationName]">{{ recipeData[craftingStationName].label }}</span>
-                    <span v-else>{{ craftingStationName }}</span>
+                    <span>{{ recipeData[craftingStationName]?.label ?? itemLabelMap[craftingStationName] ?? craftingStationName }}</span>
                 </n-button>
             </template>
         </n-button-group>
@@ -26,26 +24,29 @@
 <script>
 import { mapState } from 'pinia';
 import { useIcarusStore } from '@/store/icarus';
+import { itemLabelMap } from '@/utility/icarusData';
 
 export default {
     name: 'CraftingToolComponentSourcePicker',
     components: {},
     props: {
-        componentName: {
+        componentId: {
             type: String,
             required: true,
         },
     },
     data() {
-        return {};
+        return {
+            itemLabelMap: itemLabelMap,
+        };
     },
     computed: {
         ...mapState(useIcarusStore, ['recipeData']),
     },
     methods: {
-        setComponentPreferredSource(componentName, craftingStationName) {
-            this.recipeData[componentName].preferredSource = craftingStationName;
-            this.$emit('update');
+        setComponentPreferredSource(componentId, craftingStationName) {
+            this.recipeData[componentId].preferredSource = craftingStationName;
+            this.$emit('change');
         },
     },
 };
