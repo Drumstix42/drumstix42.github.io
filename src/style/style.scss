@@ -3,6 +3,10 @@
     --navbar-border-color: #333333;
 }
 
+body {
+    background-color: rgb(16, 16, 20);
+}
+
 .text-overflow-ellipsis {
     overflow: hidden;
     text-overflow: ellipsis !important;

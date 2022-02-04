@@ -27,8 +27,7 @@ import 'vue-virtual-scroller/dist/vue-virtual-scroller.css';
 
 import '@/style/style.scss';
 
-import App from '@/App.vue';
-import router from '@/router/router.js';
+import App from '@/pages/icarus/Index.vue';
 
 const naive = create({
     components: [
@@ -50,12 +49,11 @@ const naive = create({
         NTooltip,
     ],
 });
-
+const pinia = createPinia();
 const app = createApp(App);
 
 app.use(naive);
-app.use(createPinia());
-app.use(router);
+app.use(pinia);
 app.use(VueVirtualScroller);
 
 app.mount('#app');

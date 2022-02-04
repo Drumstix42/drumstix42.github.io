@@ -118,7 +118,7 @@ export const useIcarusStore = defineStore('icarus', {
         async loadRecipeData() {
             this.isLoadingRecipes = true;
 
-            const response = await fetch(`/Icarus/Data/Recipes.json`, {
+            const response = await fetch(`/icarus-game/Data/Recipes.json`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
