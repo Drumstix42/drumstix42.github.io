@@ -22,10 +22,11 @@
                 </n-icon>
             </template>
             <ul>
-                <li>Improve item labels vs what shows in-game</li>
-                <li>Resolve item icon mis-matches</li>
+                <li>Improve item labels vs what shows in-game (labels from game data export are not perfect, and must be mapped manually)</li>
+                <li>Resolve item icon mis-matches (game data export doesn't match image export)</li>
                 <li>Show stack size on icons that normally produce more than 1 item</li>
                 <li>Save tab data in localStorage to support session restoration</li>
+                <li>Indicate which items belong to each Tier (not specified in game data export directly)</li>
                 <li>Implement talent options logic to impact component output calculation</li>
                 <li>Improve item search matching</li>
             </ul>
