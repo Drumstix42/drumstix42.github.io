@@ -34,8 +34,8 @@
 import { mapActions, mapState } from 'pinia';
 import { useIcarusStore } from '@/store/icarus';
 
-import ManageTab from '@/pages/Icarus/CraftingTool/ManageTab.vue';
-import CraftingCalculator from '@/pages/Icarus/CraftingTool/CraftingCalculator/CraftingCalculator.vue';
+import ManageTab from '@/pages/icarus/components/ManageTab.vue';
+import CraftingCalculator from '@/pages/icarus/components/craftingCalculator/CraftingCalculator.vue';
 
 const icarusStore = useIcarusStore();
 

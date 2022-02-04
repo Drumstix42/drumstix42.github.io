@@ -6,13 +6,13 @@ const routes = [
         name: RouteName.HOMEPAGE,
         path: '/',
         title: 'Home',
-        component: () => import('@/pages/Home.vue'),
+        component: () => import('@/Index.vue'),
     },
     {
         name: RouteName.ICARUS,
         path: '/icarus',
         title: 'Icarus',
-        component: () => import('@/pages/Icarus/Icarus.vue'),
+        component: () => import('@/pages/icarus/icarus.vue'),
     },
 ];
 

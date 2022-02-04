@@ -30,8 +30,8 @@
                     <n-image
                         class="icon"
                         width="32"
-                        :src="`/Icarus/ItemIcons/ITEM_${recipeData[item.id]?.id}.png`"
-                        fallback-src="/Icarus/Images/question-mark.png"
+                        :src="`/icarus-game/ItemIcons/ITEM_${recipeData[item.id]?.id}.png`"
+                        fallback-src="/icarus-game/Images/question-mark.png"
                         :preview-disabled="false"
                     />
                     <div class="flex-shrink label-wrap">
@@ -80,8 +80,8 @@
                         <n-image
                             class="icon"
                             width="32"
-                            :src="`/Icarus/ItemIcons/ITEM_${recipeData[componentName]?.id}.png`"
-                            fallback-src="/Icarus/Images/question-mark.png"
+                            :src="`/icarus-game/ItemIcons/ITEM_${recipeData[componentName]?.id}.png`"
+                            fallback-src="/icarus-game/Images/question-mark.png"
                             :preview-disabled="false"
                         />
                         <div class="label">{{ recipeData[componentName]?.label ?? itemLabelMap[componentName] ?? componentName }}</div>

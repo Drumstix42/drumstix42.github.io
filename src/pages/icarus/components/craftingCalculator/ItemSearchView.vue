@@ -5,13 +5,15 @@
         </div>
         <n-spin :show="isLoadingRecipes">
             <n-card class="scroll-wrap" content-style="padding: 0;">
+                <div v-if="filteredRecipeOptions.length === 0" class="p-3 font-italic">No matching items found.</div>
+
                 <RecycleScroller class="scroller" :items="filteredRecipeOptions" :item-size="40" key-field="id" v-slot="{ index, item }">
                     <div class="recipe-item flex align-items-center" @click="addItem(item.id)">
                         <n-image
                             class="icon"
                             width="32"
-                            :src="`/Icarus/ItemIcons/ITEM_${item.id}.png`"
-                            fallback-src="/Icarus/Images/question-mark.png"
+                            :src="`/icarus-game/ItemIcons/ITEM_${item.id}.png`"
+                            fallback-src="/icarus-game/Images/question-mark.png"
                             :preview-disabled="true"
                         />
                         <div class="flex-shrink" style="min-width: 0">
@@ -40,7 +42,6 @@ import { mapActions, mapState } from 'pinia';
 import { Plus } from '@vicons/fa';
 
 import { useIcarusStore } from '@/store/icarus';
-
 const icarusStore = useIcarusStore();
 
 export default {
@@ -69,6 +70,7 @@ export default {
 <style scoped lang="scss">
 .scroll-wrap {
     padding: 0;
+    height: 30rem;
 }
 .scroller {
     height: 30rem;
