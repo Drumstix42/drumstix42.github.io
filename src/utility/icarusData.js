@@ -28,6 +28,7 @@ export const itemLabelMap = Object.freeze({
     Rope_Armor_Bench: 'Rope (Armor Bench)',
     Epoxy_2: 'Epoxy (Crushed Bone)',
     Raw_Meat: 'Raw Meat',
+    Building_UpgradeTool: 'Building Upgrade Tool',
 });
 
 const cleanItemDefaultLabel = (itemId) => {
