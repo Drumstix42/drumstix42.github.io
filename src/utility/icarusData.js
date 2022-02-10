@@ -12,6 +12,8 @@ export const itemLabelMap = Object.freeze({
     Platinum_Ore: 'Platinum Ore',
     Titanium_Ore: 'Titanium Ore',
     Refined_Metal: 'Iron Ingot',
+    Refined_Copper: 'Copper Ingot',
+    Refined_Gold: 'Gold Ingot',
     Metal_Axe: 'Iron Axe',
     Metal_Bolt: 'Iron Bolt',
     Metal_Crate_Medium: 'Iron Crate Medium',
