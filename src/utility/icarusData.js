@@ -1,5 +1,6 @@
 export const itemIgnoreMap = Object.freeze({
-    Basic_Oxite_Dissolver: true,
+    Basic_Oxite_Dissolver: true, // unused?
+    Charcoal: true, // shows "Spoiled Meat" as the only input, which is misleading
 });
 
 export const itemLabelMap = Object.freeze({
@@ -56,6 +57,7 @@ export const itemLabelMap = Object.freeze({
     Wood_Wall_Angled_CarpentryBench: 'Wood Wall Angled (Carpentry Bench)',
     Wood_Wall_CarpentryBench: 'Wood Wall (Carpentry Bench)',
     Steel_Bloom2: 'Steel Bloom (Ingot)',
+    Spoiled_Meat: 'Spoiled Meat',
 });
 
 const cleanItemDefaultLabel = (itemId) => {
