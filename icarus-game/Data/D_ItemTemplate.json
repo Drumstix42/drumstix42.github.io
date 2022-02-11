@@ -4843,7 +4843,13 @@
             "Name": "Meta_Canteen_Larkwell",
             "ItemStaticData": {
                 "RowName": "Meta_Canteen_Larkwell"
-            }
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
         },
         {
             "Name": "Meta_Frag_Larkwell",
@@ -5529,6 +5535,42 @@
             "Name": "Bear_Statue_Decoration_Bronze",
             "ItemStaticData": {
                 "RowName": "Bear_Statue_Decoration_Bronze"
+            }
+        },
+        {
+            "Name": "Hyena_Statue_Decoration_Bronze",
+            "ItemStaticData": {
+                "RowName": "Hyena_Statue_Decoration_Bronze"
+            }
+        },
+        {
+            "Name": "Cougar_Statue_Decoration_Bronze",
+            "ItemStaticData": {
+                "RowName": "Cougar_Statue_Decoration_Bronze"
+            }
+        },
+        {
+            "Name": "Jaguar_Statue_Decoration_Bronze",
+            "ItemStaticData": {
+                "RowName": "Jaguar_Statue_Decoration_Bronze"
+            }
+        },
+        {
+            "Name": "SnowLeopard_Statue_Decoration_Bronze",
+            "ItemStaticData": {
+                "RowName": "SnowLeopard_Statue_Decoration_Bronze"
+            }
+        },
+        {
+            "Name": "Elephant_Statue_Decoration_Bronze",
+            "ItemStaticData": {
+                "RowName": "Elephant_Statue_Decoration_Bronze"
+            }
+        },
+        {
+            "Name": "Piranha_Statue_Decoration_Stone",
+            "ItemStaticData": {
+                "RowName": "Piranha_Statue_Decoration_Stone"
             }
         },
         {
@@ -6591,6 +6633,72 @@
             "Name": "Landmine",
             "ItemStaticData": {
                 "RowName": "Landmine"
+            }
+        },
+        {
+            "Name": "Thumper",
+            "ItemStaticData": {
+                "RowName": "Thumper"
+            }
+        },
+        {
+            "Name": "Salt",
+            "ItemStaticData": {
+                "RowName": "Salt"
+            }
+        },
+        {
+            "Name": "Salting_Station",
+            "ItemStaticData": {
+                "RowName": "Salting_Station"
+            }
+        },
+        {
+            "Name": "Deep_Freeze",
+            "ItemStaticData": {
+                "RowName": "Deep_Freeze"
+            }
+        },
+        {
+            "Name": "Layered_Plating",
+            "ItemStaticData": {
+                "RowName": "Layered_Plating"
+            }
+        },
+        {
+            "Name": "Gold_Wire",
+            "ItemStaticData": {
+                "RowName": "Gold_Wire"
+            }
+        },
+        {
+            "Name": "Copper_Wire",
+            "ItemStaticData": {
+                "RowName": "Copper_Wire"
+            }
+        },
+        {
+            "Name": "Rhubarb",
+            "ItemStaticData": {
+                "RowName": "Rhubarb"
+            }
+        },
+        {
+            "Name": "Kumara",
+            "ItemStaticData": {
+                "RowName": "Kumara"
+            }
+        },
+        {
+            "Name": "Avocado",
+            "ItemStaticData": {
+                "RowName": "Avocado"
+            }
+        },
+        {
+            "Name": "Strawberry",
+            "ItemStaticData": {
+                "RowName": "Strawberry"
             }
         }
     ]
