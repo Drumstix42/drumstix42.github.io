@@ -68,6 +68,17 @@ const getItemLabel = (itemId) => {
     return label ? label : cleanItemDefaultLabel(itemId);
 };
 
+const postProcessByItem = Object.freeze({
+    Stick(item, id, recipeData) {
+        // TODO: add talent toggle to support this option
+        item.sources.unshift('Character');
+        item.preferredSource = item.sources[0];
+    },
+    Stick_Talent(item, id, recipeData) {
+        delete recipeData[id];
+    },
+});
+
 export function processRecipeData(rows = []) {
     const recipeData = {};
 
@@ -114,5 +125,13 @@ export function processRecipeData(rows = []) {
         });
     });
 
+    return postProcessData(recipeData);
+}
+
+function postProcessData(recipeData = {}) {
+    Object.keys(recipeData).forEach((id) => {
+        const item = recipeData[id];
+        postProcessByItem[id]?.(item, id, recipeData);
+    });
     return recipeData;
 }
