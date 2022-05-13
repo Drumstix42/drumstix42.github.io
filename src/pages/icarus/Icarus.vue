@@ -9,7 +9,7 @@
                 <item-search-view class="item-selector"></item-search-view>
                 <div class="m-2 text-200">
                     <n-text depth="3">Supports game version</n-text>&nbsp;
-                    <n-text code>1.1.1.91151 - 2022/02/11</n-text>
+                    <n-text code>1.1.14.95804 - 2022/05/13</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -29,6 +29,7 @@
                 <li>Implement talent options logic to impact component output calculation</li>
                 <li>Indicate which items belong to each Tier (not specified in game data export directly)</li>
                 <li>Improve item search matching (scrubby search)</li>
+                <li>Add way to "check" off items (mark as done)</li>
             </ul>
         </n-alert>
 
