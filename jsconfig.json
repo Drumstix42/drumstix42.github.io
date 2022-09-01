@@ -4,6 +4,7 @@
         "target": "esnext",
         "module": "esnext",
         "baseUrl": ".",
+        "jsx": "preserve",
         "paths": {
             "@/*": ["./src/*"],
             "~/*": ["./node_modules/*"]

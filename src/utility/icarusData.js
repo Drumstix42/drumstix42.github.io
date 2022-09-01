@@ -58,6 +58,7 @@ export const itemLabelMap = Object.freeze({
     Wood_Wall_CarpentryBench: 'Wood Wall (Carpentry Bench)',
     Steel_Bloom2: 'Steel Bloom (Ingot)',
     Spoiled_Meat: 'Spoiled Meat',
+    Jerrycan: 'Biofuel Can',
 });
 
 const cleanItemDefaultLabel = (itemId) => {
