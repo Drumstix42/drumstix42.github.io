@@ -4,7 +4,7 @@
             Search and add items from the list below to add them to your to-do list, which will calculate your item requirements.
         </n-alert>
 
-        <n-alert v-if="showWelcomeAlert" class="m-2 mb-3" title="What's News?" type="success" closable @after-leave="dismissAlert('whatsNew')">
+        <n-alert v-if="showWhatsNewAlert" class="m-2 mb-3" title="What's News?" type="success" closable @after-leave="dismissAlert('whatsNew')">
             <ul>
                 <li>The "Jerrycan" item is now labeled "Biofuel Can" to match the in-game display name.</li>
             </ul>
@@ -81,6 +81,7 @@ export default {
     data() {
         return {
             showWelcomeAlert: isAlertVisible('welcome'),
+            showWhatsNewAlert: isAlertVisible('whatsNew'),
         };
     },
     computed: {},
