@@ -5,7 +5,7 @@
         </n-alert>
 
         <n-alert v-if="showWhatsNewAlert" class="m-2 mb-3" title="What's New?" type="success" closable @after-leave="dismissAlert('whatsNew')">
-            <ul>
+            <ul class="mb-0">
                 <li>The "Jerrycan" item is now labeled "Biofuel Can" to match the in-game display name.</li>
             </ul>
         </n-alert>
