@@ -9,7 +9,7 @@
                 <item-search-view class="item-selector"></item-search-view>
                 <div class="m-2 text-200">
                     <n-text depth="3">Supports game version</n-text>&nbsp;
-                    <n-text code>1.1.14.95804 - 2022/05/13</n-text>
+                    <n-text code>1.2.13.100500 - 2022/08/26</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
