@@ -14,7 +14,7 @@
             "RowName": "None",
             "DataTableName": "D_CharacterFlags"
         },
-        "RequiredMillijoules": 5000,
+        "RequiredMillijoules": 2500,
         "RecipeSets": [],
         "ResourceCostMultipliers": [],
         "Inputs": [
@@ -215,7 +215,7 @@
             "Requirement": {
                 "RowName": "Bone_Spear"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -328,7 +328,7 @@
             "Requirement": {
                 "RowName": "Bone_Knife"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -433,7 +433,7 @@
             "Requirement": {
                 "RowName": "Stone_Arrow"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -490,7 +490,7 @@
             "Requirement": {
                 "RowName": "Bone_Arrow"
             },
-            "RequiredMillijoules": 750,
+            "RequiredMillijoules": 375,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -686,7 +686,7 @@
             "Requirement": {
                 "RowName": "Wood_Flare"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -738,7 +738,7 @@
             "Requirement": {
                 "RowName": "Campfire"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -790,7 +790,7 @@
             "Requirement": {
                 "RowName": "FireWhacker"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -1482,7 +1482,7 @@
             "Requirement": {
                 "RowName": "Basic_Oxite_Dissolver"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -1542,7 +1542,7 @@
             "Requirement": {
                 "RowName": "Crafting_Bench"
             },
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -2669,7 +2669,7 @@
             "Requirement": {
                 "RowName": "Wood_Crate_Medium"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -2721,7 +2721,7 @@
             "Requirement": {
                 "RowName": "ResourceStack_Wood"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -2758,7 +2758,7 @@
             "Requirement": {
                 "RowName": "ResourceStack_Stone"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -2974,7 +2974,7 @@
             "Requirement": {
                 "RowName": "Steel_Spear"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3245,7 +3245,7 @@
             "Requirement": {
                 "RowName": "Flint_Arrow"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -3287,6 +3287,63 @@
                 {
                     "Element": {
                         "RowName": "Flint_Arrow",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Steel_Arrow",
+            "Requirement": {
+                "RowName": "Steel_Arrow"
+            },
+            "RequiredMillijoules": 250,
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "ResourceCostMultipliers": [
+                {
+                    "Value": "BaseArrowCraftingCost_+%"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Arrow",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
@@ -3460,7 +3517,7 @@
             "Requirement": {
                 "RowName": "Metal_Bolt"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3504,7 +3561,7 @@
             "Requirement": {
                 "RowName": "Copper_Bolt"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3548,7 +3605,7 @@
             "Requirement": {
                 "RowName": "Steel_Bolt"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3691,7 +3748,7 @@
         },
         {
             "Name": "Rope",
-            "RequiredMillijoules": 3000,
+            "RequiredMillijoules": 1500,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -3727,7 +3784,7 @@
             "Requirement": {
                 "RowName": "Mortar_And_Pestle"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -3771,7 +3828,7 @@
             "Requirement": {
                 "RowName": "Machine_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -3847,7 +3904,7 @@
             "Requirement": {
                 "RowName": "Skinning_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -3907,7 +3964,7 @@
             "Requirement": {
                 "RowName": "Carpentry_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -3959,7 +4016,7 @@
             "Requirement": {
                 "RowName": "Cooking_Station"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -4019,7 +4076,7 @@
             "Requirement": {
                 "RowName": "Stone_Furnace"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -4079,7 +4136,7 @@
             "Requirement": {
                 "RowName": "Oxite_Dissolver"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -4131,7 +4188,7 @@
             "Requirement": {
                 "RowName": "Wood_Cupboard"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -4199,7 +4256,7 @@
             "Requirement": {
                 "RowName": "Stone_Frame"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4268,7 +4325,7 @@
             "Requirement": {
                 "RowName": "Stone_Beam"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4337,7 +4394,7 @@
             "Requirement": {
                 "RowName": "Stone_Floor"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4406,7 +4463,7 @@
             "Requirement": {
                 "RowName": "Stone_Wall"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4475,7 +4532,7 @@
             "Requirement": {
                 "RowName": "Stone_Halfpiece"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4544,7 +4601,7 @@
             "Requirement": {
                 "RowName": "Stone_Half_Pitch"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4613,7 +4670,7 @@
             "Requirement": {
                 "RowName": "Stone_Wall_Angled"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4682,7 +4739,7 @@
             "Requirement": {
                 "RowName": "Stone_Ramp"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4751,7 +4808,7 @@
             "Requirement": {
                 "RowName": "Stone_Roof_Corner"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
@@ -4820,7 +4877,7 @@
             "Requirement": {
                 "RowName": "Reinforced_Door"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -4888,7 +4945,7 @@
             "Requirement": {
                 "RowName": "Reinforced_Window"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -4956,7 +5013,7 @@
             "Requirement": {
                 "RowName": "Reinforced_TrapDoor"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -5024,7 +5081,7 @@
             "Requirement": {
                 "RowName": "Reinforced_Ladder"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -5202,7 +5259,7 @@
             "Requirement": {
                 "RowName": "Rain_Reservoir"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -5732,7 +5789,7 @@
             "Requirement": {
                 "RowName": "Small_Crop_Plot"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -5808,7 +5865,7 @@
         },
         {
             "Name": "Cooked_Meat",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -5845,7 +5902,7 @@
         },
         {
             "Name": "Cooked_Fish",
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -5882,7 +5939,7 @@
         },
         {
             "Name": "Refined_Metal",
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Stone_Furnace",
@@ -5923,7 +5980,7 @@
         },
         {
             "Name": "Refined_Copper",
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Stone_Furnace",
@@ -5964,7 +6021,7 @@
         },
         {
             "Name": "Refined_Gold",
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Concrete_Furnace",
@@ -6001,7 +6058,7 @@
         },
         {
             "Name": "Glass",
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Concrete_Furnace",
@@ -6038,7 +6095,7 @@
         },
         {
             "Name": "Carbon_Fiber",
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Concrete_Furnace",
@@ -6075,7 +6132,7 @@
         },
         {
             "Name": "Aluminum",
-            "RequiredMillijoules": 30000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Electric_Furnace",
@@ -6115,7 +6172,7 @@
             "Requirement": {
                 "RowName": "Epoxy"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -6163,7 +6220,7 @@
             "Requirement": {
                 "RowName": "GunPowder"
             },
-            "RequiredMillijoules": 4000,
+            "RequiredMillijoules": 2000,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -6211,7 +6268,7 @@
             "Requirement": {
                 "RowName": "Carbon_Paste"
             },
-            "RequiredMillijoules": 2500,
+            "RequiredMillijoules": 1250,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -6500,7 +6557,7 @@
             "Requirement": {
                 "RowName": "Fabricator"
             },
-            "RequiredMillijoules": 40000,
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -6627,7 +6684,7 @@
             "Requirement": {
                 "RowName": "Aluminium_Arrow"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -6684,7 +6741,7 @@
             "Requirement": {
                 "RowName": "Carbon_Arrow"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -6741,6 +6798,7 @@
             "Requirement": {
                 "RowName": "Concrete_Furnace"
             },
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -6800,7 +6858,7 @@
             "Requirement": {
                 "RowName": "Electric_Furnace"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -6983,7 +7041,7 @@
             "Requirement": {
                 "RowName": "Platinum_Spear"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -7040,7 +7098,7 @@
             "Requirement": {
                 "RowName": "Titanium_Spear"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -7097,7 +7155,7 @@
             "Requirement": {
                 "RowName": "Concrete_Frame"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7158,7 +7216,7 @@
             "Requirement": {
                 "RowName": "Concrete_Beam"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7219,7 +7277,7 @@
             "Requirement": {
                 "RowName": "Concrete_Floor"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7280,7 +7338,7 @@
             "Requirement": {
                 "RowName": "Concrete_Wall"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7341,7 +7399,7 @@
             "Requirement": {
                 "RowName": "Concrete_Halfpiece"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7402,7 +7460,7 @@
             "Requirement": {
                 "RowName": "Concrete_Halfpitch"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7463,7 +7521,7 @@
             "Requirement": {
                 "RowName": "Concrete_Wall_Angled"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7524,7 +7582,7 @@
             "Requirement": {
                 "RowName": "Concrete_Ramp"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7585,7 +7643,7 @@
             "Requirement": {
                 "RowName": "Concrete_Roof_Corner"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7697,7 +7755,7 @@
             "Requirement": {
                 "RowName": "Concrete_TrapDoor"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -7909,6 +7967,43 @@
             }
         },
         {
+            "Name": "Biofuel5",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Cooked_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Tree_Sap",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 100
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
             "Name": "Biofuel2",
             "RecipeSets": [
                 {
@@ -8020,45 +8115,8 @@
             }
         },
         {
-            "Name": "Biofuel5",
-            "RecipeSets": [
-                {
-                    "RowName": "Composter",
-                    "DataTableName": "D_RecipeSets"
-                }
-            ],
-            "Inputs": [
-                {
-                    "Element": {
-                        "RowName": "Cooked_Meat",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 5,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Tree_Sap",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
-                }
-            ],
-            "Outputs": [],
-            "ResourceOutputs": [
-                {
-                    "Type": "Fuel",
-                    "RequiredUnits": 100
-                }
-            ],
-            "Audio": {
-                "RowName": "Composter"
-            }
-        },
-        {
             "Name": "Concrete_Mix",
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Cement_Mixer",
@@ -8111,7 +8169,7 @@
         },
         {
             "Name": "Composites",
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Electric_Furnace",
@@ -8144,7 +8202,7 @@
         },
         {
             "Name": "Organic_Resin",
-            "RequiredMillijoules": 1000,
+            "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -8189,7 +8247,7 @@
         },
         {
             "Name": "Tree_Sap",
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -8229,7 +8287,7 @@
             "Requirement": {
                 "RowName": "Composite_Paste"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Material_Processor",
@@ -8289,7 +8347,7 @@
             "Requirement": {
                 "RowName": "Composite_Paste"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Material_Processor",
@@ -8408,7 +8466,7 @@
             "Requirement": {
                 "RowName": "Composite_Arrow"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -9023,7 +9081,7 @@
         },
         {
             "Name": "Refined_Wood",
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Carpentry_Bench",
@@ -10391,7 +10449,7 @@
             "Requirement": {
                 "RowName": "Shotgun_Shell_Buckshot"
             },
-            "RequiredMillijoules": 1000,
+            "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -10448,7 +10506,7 @@
             "Requirement": {
                 "RowName": "Fireplace"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -10741,7 +10799,7 @@
             "Requirement": {
                 "RowName": "Hunting_Rifle"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -10809,7 +10867,7 @@
             "Requirement": {
                 "RowName": "Rifle_Round"
             },
-            "RequiredMillijoules": 1000,
+            "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -11118,7 +11176,7 @@
             "Requirement": {
                 "RowName": "Flour"
             },
-            "RequiredMillijoules": 2500,
+            "RequiredMillijoules": 1250,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -11316,7 +11374,7 @@
         },
         {
             "Name": "Ore_Meta",
-            "RequiredMillijoules": 4000,
+            "RequiredMillijoules": 2000,
             "RecipeSets": [
                 {
                     "RowName": "Meta_Extractor",
@@ -11340,7 +11398,7 @@
         },
         {
             "Name": "Fill_Oxygen_Container",
-            "RequiredMillijoules": 2000,
+            "RequiredMillijoules": 1000,
             "RecipeSets": [
                 {
                     "RowName": "Oxite_Dissolver",
@@ -12165,7 +12223,7 @@
             "Requirement": {
                 "RowName": "Brazier"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -12656,7 +12714,7 @@
         },
         {
             "Name": "Fill_Oxygen_Container_Metal",
-            "RequiredMillijoules": 2000,
+            "RequiredMillijoules": 1000,
             "RecipeSets": [
                 {
                     "RowName": "Metal_Oxite_Dissolver",
@@ -12852,7 +12910,7 @@
         },
         {
             "Name": "Titanium_Ingot",
-            "RequiredMillijoules": 200000,
+            "RequiredMillijoules": 100000,
             "RecipeSets": [
                 {
                     "RowName": "Concrete_Furnace",
@@ -12889,7 +12947,7 @@
         },
         {
             "Name": "Platinum_Ingot",
-            "RequiredMillijoules": 200000,
+            "RequiredMillijoules": 100000,
             "RecipeSets": [
                 {
                     "RowName": "Concrete_Furnace",
@@ -13023,7 +13081,7 @@
             "Requirement": {
                 "RowName": "Armor_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -13083,7 +13141,7 @@
             "Requirement": {
                 "RowName": "Masonry_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -13143,7 +13201,7 @@
             "Requirement": {
                 "RowName": "Cement_Mixer"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -13510,7 +13568,7 @@
             "Requirement": {
                 "RowName": "Herbalism_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -13701,7 +13759,7 @@
             "Requirement": {
                 "RowName": "Trophy_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -14701,7 +14759,7 @@
             "Requirement": {
                 "RowName": "Paste_Health_Regen"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -14749,7 +14807,7 @@
             "Requirement": {
                 "RowName": "Paste_Health_Buff"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -14805,7 +14863,7 @@
             "Requirement": {
                 "RowName": "Paste_Health_Restore"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -14861,7 +14919,7 @@
             "Requirement": {
                 "RowName": "Paste_Stamina_Regen"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -14901,7 +14959,7 @@
             "Requirement": {
                 "RowName": "Paste_Stamina_Buff"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -14957,7 +15015,7 @@
             "Requirement": {
                 "RowName": "Paste_Stamina_Restore"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -15013,7 +15071,7 @@
             "Requirement": {
                 "RowName": "Paste_Stamina_Consumption"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -15061,7 +15119,7 @@
             "Requirement": {
                 "RowName": "Paste_Oxygen_Buff"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -15109,7 +15167,7 @@
             "Requirement": {
                 "RowName": "Paste_Oxygen_Restore"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -15165,7 +15223,7 @@
             "Requirement": {
                 "RowName": "Paste_Oxygen_Consumption"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -15213,7 +15271,7 @@
             "Requirement": {
                 "RowName": "Paste_Food_Consumption"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -15269,7 +15327,7 @@
             "Requirement": {
                 "RowName": "Paste_Water_Consumption"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -15448,7 +15506,7 @@
             "Requirement": {
                 "RowName": "IceBox"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -16066,7 +16124,7 @@
             "Requirement": {
                 "RowName": "Titanium_Arrow"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -16182,7 +16240,7 @@
             "Requirement": {
                 "RowName": "Repair_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -16584,7 +16642,7 @@
             "Requirement": {
                 "RowName": "Poison_Paste"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -16723,7 +16781,7 @@
         },
         {
             "Name": "Steel_Ingot",
-            "RequiredMillijoules": 30000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Concrete_Furnace",
@@ -16950,7 +17008,7 @@
             "Requirement": {
                 "RowName": "Suture_Kit"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -17206,7 +17264,7 @@
             "Requirement": {
                 "RowName": "Anvil_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -17305,7 +17363,7 @@
             "Requirement": {
                 "RowName": "FirePit"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -17483,7 +17541,7 @@
             "Requirement": {
                 "RowName": "Talent_Wood_Sticks"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -17521,7 +17579,7 @@
             "Requirement": {
                 "RowName": "Epoxy"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -17561,7 +17619,7 @@
             "Requirement": {
                 "RowName": "Crushed_Bone"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -17601,7 +17659,7 @@
             "Requirement": {
                 "RowName": "Glassworking_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -17669,7 +17727,7 @@
             "Requirement": {
                 "RowName": "Kitchen_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -17729,7 +17787,7 @@
             "Requirement": {
                 "RowName": "Kitchen_Stove"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -17797,7 +17855,7 @@
             "Requirement": {
                 "RowName": "Kitchen_Storage"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -17917,6 +17975,134 @@
             }
         },
         {
+            "Name": "Carcass_Jaguar",
+            "RecipeSets": [
+                {
+                    "RowName": "Skinning_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "AnimalCarcass_Jaguar",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stringy_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "SkinningBench"
+            }
+        },
+        {
+            "Name": "Carcass_SnowLeopord",
+            "RecipeSets": [
+                {
+                    "RowName": "Skinning_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "AnimalCarcass_SnowLeopard",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 40,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stringy_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "SkinningBench"
+            }
+        },
+        {
             "Name": "Carcass_Desert_Wolf",
             "RecipeSets": [
                 {
@@ -17985,7 +18171,7 @@
             "Requirement": {
                 "RowName": "Bone_Sickle"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -18383,7 +18569,7 @@
         },
         {
             "Name": "Rope_Armor_Bench",
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
@@ -18625,7 +18811,7 @@
             "Requirement": {
                 "RowName": "Rifle_Round_Incendiary"
             },
-            "RequiredMillijoules": 1000,
+            "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -18708,7 +18894,7 @@
             "Requirement": {
                 "RowName": "Talent_Leather_Rope"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -18745,7 +18931,7 @@
             "Requirement": {
                 "RowName": "Platinum_Bolt"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -18789,7 +18975,7 @@
             "Requirement": {
                 "RowName": "Titanium_Bolt"
             },
-            "RequiredMillijoules": 500,
+            "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -18901,6 +19087,62 @@
             }
         },
         {
+            "Name": "Carcass_Kea",
+            "RecipeSets": [
+                {
+                    "RowName": "Skinning_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "AnimalCarcass_Kea",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "White_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "SkinningBench"
+            }
+        },
+        {
             "Name": "Carcass_Snow_Rabbit",
             "RecipeSets": [
                 {
@@ -18969,7 +19211,7 @@
             "Requirement": {
                 "RowName": "Antibiotic_Tonic"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -19025,7 +19267,7 @@
             "Requirement": {
                 "RowName": "Antiparasitic_Tonic"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -19081,7 +19323,7 @@
             "Requirement": {
                 "RowName": "Antipoison_Tonic"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -19137,7 +19379,7 @@
             "Requirement": {
                 "RowName": "Blood_Thinning_Tonic"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Herbalism_Bench",
@@ -19193,7 +19435,7 @@
             "Requirement": {
                 "RowName": "Antibiotic_Pill"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Kitchen_Bench",
@@ -19249,7 +19491,7 @@
             "Requirement": {
                 "RowName": "Antiparasitic_Pill"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Kitchen_Bench",
@@ -19305,7 +19547,7 @@
             "Requirement": {
                 "RowName": "Antipoison_Pill"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Kitchen_Bench",
@@ -19361,7 +19603,7 @@
             "Requirement": {
                 "RowName": "Blood_Thinning_Pill"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Kitchen_Bench",
@@ -19859,10 +20101,10 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Sandworm_Items"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
-                    "RowName": "Character",
+                    "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19916,10 +20158,10 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Sandworm_Items"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
-                    "RowName": "Character",
+                    "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19976,10 +20218,10 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Sandworm_Items"
             },
-            "RequiredMillijoules": 750,
+            "RequiredMillijoules": 375,
             "RecipeSets": [
                 {
-                    "RowName": "Character",
+                    "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20036,10 +20278,10 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Sandworm_Items"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
-                    "RowName": "Character",
+                    "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20093,7 +20335,7 @@
             "Requirement": {
                 "RowName": "BoltAction_Rifle"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -20161,7 +20403,7 @@
             "Requirement": {
                 "RowName": "Pistol_Handgun"
             },
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -20229,7 +20471,7 @@
             "Requirement": {
                 "RowName": "Pistol_Round"
             },
-            "RequiredMillijoules": 1000,
+            "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -20278,7 +20520,7 @@
             "Requirement": {
                 "RowName": "Reinforced_Railing"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -20716,11 +20958,75 @@
             }
         },
         {
+            "Name": "Carcass_Scorpion",
+            "RecipeSets": [
+                {
+                    "RowName": "Skinning_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "AnimalCarcass_Scorpion",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Soft_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Pincer",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Tail",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stringy_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "SkinningBench"
+            }
+        },
+        {
             "Name": "LightningRod_Basic",
             "Requirement": {
                 "RowName": "LightningRod_Basic"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -20764,7 +21070,7 @@
             "CharacterRequirement": {
                 "RowName": "Talent_Rifle_Bulk_Ammo"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -20816,7 +21122,7 @@
             "CharacterRequirement": {
                 "RowName": "Talent_Pistol_Bulk_Ammo"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -20868,7 +21174,7 @@
             "CharacterRequirement": {
                 "RowName": "Talent_Shotgun_Bulk_Ammo"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -22150,7 +22456,7 @@
             "Requirement": {
                 "RowName": "Electric_Dehumidifier"
             },
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -22454,7 +22760,7 @@
             "Requirement": {
                 "RowName": "Biofuel_Generator"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -22624,7 +22930,7 @@
             "Requirement": {
                 "RowName": "Solar_Panel"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -22692,7 +22998,7 @@
             "Requirement": {
                 "RowName": "Chemistry_Bench"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -22760,7 +23066,7 @@
             "Requirement": {
                 "RowName": "Composter_Electric"
             },
-            "RequiredMillijoules": 30000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -22828,7 +23134,7 @@
             "Requirement": {
                 "RowName": "Masonry_Bench_T4"
             },
-            "RequiredMillijoules": 30000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -22896,7 +23202,7 @@
             "Requirement": {
                 "RowName": "Carpentry_Bench_T4"
             },
-            "RequiredMillijoules": 30000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -23063,7 +23369,7 @@
         },
         {
             "Name": "GreenTea_Drink",
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -23104,7 +23410,7 @@
         },
         {
             "Name": "WildTea_Drink",
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -23145,7 +23451,7 @@
         },
         {
             "Name": "Cocoa_Drink",
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -23186,7 +23492,7 @@
         },
         {
             "Name": "Coffee_Drink",
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -23227,7 +23533,7 @@
         },
         {
             "Name": "IceWater_Drink",
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -23271,7 +23577,7 @@
             "Requirement": {
                 "RowName": "Basic_Backpack"
             },
-            "RequiredMillijoules": 100000,
+            "RequiredMillijoules": 50000,
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
@@ -23323,7 +23629,7 @@
             "CharacterRequirement": {
                 "RowName": "Unlocked_Bait"
             },
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Cooking_Station",
@@ -23367,7 +23673,7 @@
             "CharacterRequirement": {
                 "RowName": "Unlocked_Bait"
             },
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Cooking_Station",
@@ -23412,7 +23718,7 @@
                 "DataTableName": "D_SessionFlags",
                 "RowName": "ShipPartRecipes"
             },
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -23465,7 +23771,7 @@
                 "DataTableName": "D_SessionFlags",
                 "RowName": "ShipPartRecipes"
             },
-            "RequiredMillijoules": 50000,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -23953,7 +24259,7 @@
             "CharacterRequirement": {
                 "RowName": "Talent_GunpowderRecipe"
             },
-            "RequiredMillijoules": 4000,
+            "RequiredMillijoules": 2000,
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
@@ -24056,7 +24362,7 @@
             "Requirement": {
                 "RowName": "Wood_Composter"
             },
-            "RequiredMillijoules": 3000,
+            "RequiredMillijoules": 1500,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -24175,7 +24481,7 @@
             "Requirement": {
                 "RowName": "Hydro_Crop_Plot"
             },
-            "RequiredMillijoules": 30000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -24235,7 +24541,7 @@
             "Requirement": {
                 "RowName": "Water_Pump"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -24295,7 +24601,7 @@
             "Requirement": {
                 "RowName": "Water_Sprinkler"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -24347,7 +24653,7 @@
             "Requirement": {
                 "RowName": "Drying_Rack"
             },
-            "RequiredMillijoules": 25000,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Character",
@@ -24396,7 +24702,7 @@
         },
         {
             "Name": "Cooked_Giant_Steak",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -24433,7 +24739,7 @@
         },
         {
             "Name": "Cooked_Fatty_TBone",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -24470,7 +24776,7 @@
         },
         {
             "Name": "Cooked_Gamey_Meat",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -24507,7 +24813,7 @@
         },
         {
             "Name": "Cooked_Soft_Meat",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -24544,7 +24850,7 @@
         },
         {
             "Name": "Cooked_Stringy_Meat",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -24581,7 +24887,7 @@
         },
         {
             "Name": "Cooked_White_Meat",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -24618,7 +24924,7 @@
         },
         {
             "Name": "Cooked_Bacon",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Campfire",
@@ -24655,7 +24961,7 @@
         },
         {
             "Name": "Crispy_Bacon",
-            "RequiredMillijoules": 15000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Kitchen_Stove",
@@ -24700,7 +25006,7 @@
         },
         {
             "Name": "Dried_Giant_Steak",
-            "RequiredMillijoules": 35000,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Drying_Rack",
@@ -24733,7 +25039,7 @@
         },
         {
             "Name": "Dried_Fatty_Tbond",
-            "RequiredMillijoules": 35000,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Drying_Rack",
@@ -24766,7 +25072,7 @@
         },
         {
             "Name": "Dried_Gamey_Meat",
-            "RequiredMillijoules": 35000,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Drying_Rack",
@@ -24799,7 +25105,7 @@
         },
         {
             "Name": "Dried_Soft_Meat",
-            "RequiredMillijoules": 35000,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Drying_Rack",
@@ -24832,7 +25138,7 @@
         },
         {
             "Name": "Dried_Stringy_Meat",
-            "RequiredMillijoules": 35000,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Drying_Rack",
@@ -24865,7 +25171,7 @@
         },
         {
             "Name": "Dried_White_Meat",
-            "RequiredMillijoules": 35000,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Drying_Rack",
@@ -24904,7 +25210,7 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Cave_Worm_Analyser"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -24972,7 +25278,7 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Cave_Worm_Analyser"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -25040,7 +25346,7 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Cave_Worm_Analyser"
             },
-            "RequiredMillijoules": 750,
+            "RequiredMillijoules": 375,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -25108,7 +25414,7 @@
             "CharacterRequirement": {
                 "RowName": "Mission_Cave_Worm_Analyser"
             },
-            "RequiredMillijoules": 7500,
+            "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
@@ -25328,7 +25634,7 @@
             "Requirement": {
                 "RowName": "Deep_Ore_Scanner"
             },
-            "RequiredMillijoules": 20000,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Fabricator",
@@ -25388,7 +25694,7 @@
             "Requirement": {
                 "RowName": "Cave_Scanner"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
@@ -26873,6 +27179,3809 @@
             ],
             "Audio": {
                 "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Scorpion_Head_Armor",
+            "CharacterRequirement": {
+                "RowName": "Mission_Scorpion_Armor_Items"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 40,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Carapace",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Head_Armor",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Scorpion_Chest_Armor",
+            "CharacterRequirement": {
+                "RowName": "Mission_Scorpion_Armor_Items"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 18,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Carapace",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Chest_Armor",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Scorpion_Legs_Armor",
+            "CharacterRequirement": {
+                "RowName": "Mission_Scorpion_Armor_Items"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 60,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 12,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Carapace",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Legs_Armor",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Scorpion_Arms_Armor",
+            "CharacterRequirement": {
+                "RowName": "Mission_Scorpion_Armor_Items"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 40,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Carapace",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Arms_Armor",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Scorpion_Feet_Armor",
+            "CharacterRequirement": {
+                "RowName": "Mission_Scorpion_Armor_Items"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 35,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Carapace",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Feet_Armor",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Vapour_Condenser",
+            "Requirement": {
+                "RowName": "Vapour_Condenser"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Composites",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 12,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Refined_Copper",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Vapour_Condenser",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
+            }
+        },
+        {
+            "Name": "Deer_Statue_Decoration_Wood",
+            "RecipeSets": [
+                {
+                    "RowName": "Rustic_Decorations_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Condensed_Enzymes",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Deer_Statue_Decoration_Wood",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Refundable": "Block",
+            "Audio": {
+                "RowName": "CarpentryBench"
+            }
+        },
+        {
+            "Name": "Scorpion_Statue_Decoration_Bronze",
+            "RecipeSets": [
+                {
+                    "RowName": "Rustic_Decorations_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Copper",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Condensed_Enzymes",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Statue_Decoration_Bronze",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Refundable": "Block",
+            "Audio": {
+                "RowName": "CarpentryBench"
+            }
+        },
+        {
+            "Name": "PolarBear_Statue_Decoration_Bronze",
+            "RecipeSets": [
+                {
+                    "RowName": "Rustic_Decorations_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Copper",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Condensed_Enzymes",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "PolarBear_Statue_Decoration_Bronze",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Refundable": "Block",
+            "Audio": {
+                "RowName": "CarpentryBench"
+            }
+        },
+        {
+            "Name": "Bear_Statue_Decoration_Bronze",
+            "RecipeSets": [
+                {
+                    "RowName": "Rustic_Decorations_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Copper",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Condensed_Enzymes",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Bear_Statue_Decoration_Bronze",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Refundable": "Block",
+            "Audio": {
+                "RowName": "CarpentryBench"
+            }
+        },
+        {
+            "Name": "Mission_STYX_D_Research2_Containment",
+            "SessionRequirement": {
+                "DataTableName": "D_SessionFlags",
+                "RowName": "Recipe_STYX_D_Research2_Containment"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Mission_STYX_D_Research2_Containment",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Mission_STYX_D_Research2_Catalyst",
+            "SessionRequirement": {
+                "DataTableName": "D_SessionFlags",
+                "RowName": "Recipe_STYX_D_Research2_Catalyst"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Oxite",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 40,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ice",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Mission_STYX_D_Research2_Catalyst",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Mission_STYX_D_Research2_Bomb",
+            "SessionRequirement": {
+                "DataTableName": "D_SessionFlags",
+                "RowName": "Recipe_STYX_D_Research2_Bomb"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 12,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Concrete_Mix",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Mission_STYX_D_Research2_BombParts",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Mission_STYX_D_Research2_Bomb",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Mission_Full_Enzyme_Containment_Unit",
+            "SessionRequirement": {
+                "DataTableName": "D_SessionFlags",
+                "RowName": "Mission_Craft_Enzyme_Containment"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Character",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Mission_Empty_Enzyme_Container",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Digested_Enzymes",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 100,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Mission_Full_Enzyme_Storage",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Glass_Floor",
+            "Requirement": {
+                "RowName": "Glass_Floor"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Glassworking_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "ResourceCostMultipliers": [
+                {
+                    "Value": "BaseGlassBuildingCraftingCost_+%"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 12,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Glass_Floor",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Glassbench"
+            }
+        },
+        {
+            "Name": "Raw_Meat_Bacon",
+            "RecipeSets": [
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Bacon",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Raw_Meat_Soft",
+            "RecipeSets": [
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Soft_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Raw_Meat_White",
+            "RecipeSets": [
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "White_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Raw_Meat_Stringy",
+            "RecipeSets": [
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Stringy_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Raw_Meat_Gamey",
+            "RecipeSets": [
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Gamey_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Raw_Meat_Tbone",
+            "RecipeSets": [
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fatty_Tbone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Raw_Meat_Steak",
+            "RecipeSets": [
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Giant_Steak",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Alteration_Bench",
+            "Requirement": {
+                "RowName": "Alteration_Bench"
+            },
+            "RequiredMillijoules": 5000,
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 24,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Copper_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 40,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Alteration_Bench",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Advanced_Alteration_Bench",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Bench"
+            },
+            "RequiredMillijoules": 15000,
+            "RecipeSets": [
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Concrete_Mix",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 25,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Alteration_Bench",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Attachment_Melee_Damage_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Melee_Damage_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Melee_Damage_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Copper_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Melee_Damage_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Melee_Damage_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Melee_Attack_Speed_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Attack_Speed_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Melee_Attack_Speed_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Composites",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Attack_Speed_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Attack_Speed_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Prime_Meat_Chance_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Prime_Meat_Chance_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Prime_Meat_Chance_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Prime_Meat_Chance_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Prime_Meat_Chance_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Bone_Yield_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Bone_Yield_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Bone_Yield_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Bone_Yield_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Bone_Yield_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Leather_Yield_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Leather_Yield_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Leather_Yield_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Leather_Yield_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Knife_Attachment_Leather_Yield_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Gold_Yield_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Copper_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Gold_Yield_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Gold_Yield_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Gold",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Gold_Yield_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Gold_Yield_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Copper_Yield_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Copper_Yield_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Copper_Yield_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Copper",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Copper_Yield_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Copper_Yield_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Platnium_Yield_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Platnium_Yield_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Platnium_Yield_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Platnium_Yield_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Platnium_Yield_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Reaping_Yield_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Sickle_Attachment_Reaping_Yield_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Reaping_Yield_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Sickle_Attachment_Reaping_Yield_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Sickle_Attachment_Reaping_Yield_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Repair_Time_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Hammer_Attachment_Repair_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Repair_Time_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Hammer_Attachment_Repair_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Hammer_Attachment_Repair_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Black_Wolf_Knife",
+            "SessionRequirement": {
+                "RowName": "Mission_BlackWolf_Items"
+            },
+            "RequiredMillijoules": 5000,
+            "RecipeSets": [
+                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "ResourceCostMultipliers": [
+                {
+                    "Value": "BaseKnifeCraftingCost_+%"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Black_Wolf_Tooth",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Metal_Ore",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Black_Wolf_Knife",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AnvilBench"
+            }
+        },
+        {
+            "Name": "Black_Wolf_Arrow",
+            "SessionRequirement": {
+                "RowName": "Mission_BlackWolf_Items"
+            },
+            "RequiredMillijoules": 1000,
+            "RecipeSets": [
+                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Metal_Ore",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Black_Wolf_Tooth",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Black_Wolf_Arrow",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AnvilBench"
+            }
+        },
+        {
+            "Name": "Attachment_Melee_Bleed_Attacks",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 25000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Bleed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Melee_Poison_Attacks",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 25000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Poison_Sack",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Poison",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Melee_Electroshock_Attacks",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 25000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Gold_Ore",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tool_Attachment_Electroshock",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Titanium_Yeild_1",
+            "Requirement": {
+                "RowName": "Melee_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Copper",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Titanium_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Titanium_Yeild_2",
+            "Requirement": {
+                "RowName": "Advanced_Alteration_Melee_Pack"
+            },
+            "RequiredMillijoules": 20000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Titanium_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Pickaxe_Attachment_Titanium_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Target_Dummy",
+            "CharacterRequirement": {
+                "RowName": "Mission_Targets"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Silica",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Target_Dummy",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ]
+        },
+        {
+            "Name": "Bullseye_Target",
+            "CharacterRequirement": {
+                "RowName": "Mission_Targets"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 25,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Berry",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Bullseye_Target",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ]
+        },
+        {
+            "Name": "Attachment_Cave_Resistance_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Copper",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Helmet_Attachment_Cave_Resistance_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Cave_Resistance_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Helment_Attachment_Cave_Resistance_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Helmet_Attachment_Cave_Resistance_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Storm_Resistance_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Helmet_Attachment_Storm_Resistance_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Storm_Resistance_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Helment_Attachment_Storm_Resistance_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Helmet_Attachment_Storm_Resistance_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Poison_Water_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Helmet_Attachment_Poison_Water_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Poison_Water_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Helment_Attachment_Poison_Water_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Helmet_Attachment_Poison_Water_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Tool_Use_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Arms_Attachment_Tool_Use_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Tool_Use_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Arms_Attachment_Tool_Use_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Arms_Attachment_Tool_Use_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Movement_Bonus_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Copper_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Feet_Legs_Attachment_Movement_Bonus_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Movement_Bonus_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Feet_Legs_Attachment_Movement_Bonus_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Feet_Legs_Attachment_Movement_Bonus_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Fall_Resistance_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Feet_Hands_Attachment_Fall_Resistance_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Fall_Resistance_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Feet_Arms_Attachment_Fall_Resistance_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Feet_Hands_Attachment_Fall_Resistance_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Stealth_Movement_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Feet_Body_Legs_Attachment_Stealth_Movement_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Stealth_Movement_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Feet_Body_Legs_Attachment_Stealth_Movement_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Feet_Body_Legs_Attachment_Stealth_Movement_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Carrying_Bonus_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Body_Legs_Arms_Attachment_Carrying_Bonus_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Carrying_Bonus_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Body_Legs_Arms_Attachment_Carrying_Bonus_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Body_Legs_Arms_Attachment_Carrying_Bonus_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Regen_Resistance_1",
+            "Requirement": {
+                "RowName": "Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Body_Legs_Attachment_Regen_Resistance_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Regen_Resistance_2",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Composites",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Body_Legs_Attachment_Regen_Resistance_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Body_Legs_Attachment_Regen_Resistance_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Boss_Tracker",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Head_Attachment_Boss_Tracker",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Stomach_Capacity",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Composites",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Body_Attachment_Stomach_Capacity",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Quick_Healing",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Composites",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Body_Head_Attachment_Quick_Healing",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
             }
         }
     ]
