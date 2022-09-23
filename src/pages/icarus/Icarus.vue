@@ -6,16 +6,24 @@
 
         <n-alert v-if="showWhatsNewAlert" class="m-2 mb-3" title="What's New?" type="success" closable @after-leave="dismissAlert('whatsNew')">
             <ul class="mb-0">
-                <li>The "Jerrycan" item is now labeled "Biofuel Can" to match the in-game display name.</li>
+                <li>
+                    Support for
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3310732036321885507" target="_blank"
+                        >Icarus Week Forty Two Update | Tame and Ride the new Buffalo and Moa Mounts</a
+                    >
+                </li>
             </ul>
         </n-alert>
 
         <div class="flex flex-wrap">
             <div>
                 <item-search-view class="item-selector"></item-search-view>
-                <div class="m-2 text-200">
-                    <n-text depth="3">Supports game version</n-text>&nbsp;
-                    <n-text code>1.2.13.100500 - 2022/08/26</n-text>
+                <div class="m-2 text-200 flex align-items-center">
+                    <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
+                    <div class="game-version">
+                        <n-input :value="'v1.2.17.101928'" readonly></n-input>
+                    </div>
+                    <n-text depth="3">2022/09/23</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -28,7 +36,10 @@
                 </n-icon>
             </template>
             <ul>
-                <li>Improve any mismatching item labels vs what shows in-game (labels from game data export are not perfect, and must be mapped manually)</li>
+                <li>
+                    Improve any mismatching item labels vs what shows in-game (labels from game data export are not perfect, and must be mapped
+                    manually)
+                </li>
                 <li>Resolve remaining item icon mis-matches (game data export doesn't match image export)</li>
                 <li>Save tab data in localStorage to support session restoration</li>
                 <li>Show stack size on icons that normally produce more than 1 item</li>
@@ -40,7 +51,7 @@
         </n-alert>
 
         <div class="m-2">
-            <div>Created by <a href="https://github.com/Drumstix42/drumstix42.github.io">Drumstix42.</a></div>
+            <div>Created by <a class="text-primary font-bold" href="https://github.com/Drumstix42/drumstix42.github.io">Drumstix42</a></div>
             <div>
                 This page/site is not affiliated with
                 <a class="text-primary" href="https://store.steampowered.com/app/1149460/ICARUS/" target="_blank">Icarus</a>,
@@ -62,7 +73,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 1,
+    whatsNew: 20220923,
 });
 
 const isAlertVisible = (alertName) => {
@@ -93,7 +104,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .icarus-wrap {
     max-width: 100rem;
     margin: 0 auto;
@@ -105,5 +116,10 @@ export default {
 .item-selector {
     width: 25rem;
     margin: 0.5rem;
+}
+.game-version {
+    width: 8rem;
+    text-align: center;
+    margin: 0 1rem;
 }
 </style>

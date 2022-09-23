@@ -3187,7 +3187,7 @@
         {
             "Name": "Longbow",
             "Requirement": {
-                "RowName": "LongBow"
+                "RowName": "Longbow"
             },
             "RecipeSets": [
                 {
@@ -5323,6 +5323,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5365,6 +5369,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -5409,6 +5417,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5451,6 +5463,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -5495,6 +5511,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5538,6 +5558,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5562,7 +5586,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -5589,6 +5613,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5613,7 +5641,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 4,
                     "DynamicProperties": []
                 }
             ],
@@ -5640,6 +5668,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5664,7 +5696,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2,
+                    "Count": 1,
                     "DynamicProperties": []
                 }
             ],
@@ -5691,6 +5723,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5715,7 +5751,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 3,
                     "DynamicProperties": []
                 }
             ],
@@ -5742,6 +5778,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -5766,7 +5806,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -5818,41 +5858,6 @@
                 {
                     "Element": {
                         "RowName": "Farming_CropPlot",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
-                }
-            ],
-            "Audio": {
-                "RowName": "CraftingBench"
-            }
-        },
-        {
-            "Name": "Road",
-            "Requirement": {
-                "RowName": "Road"
-            },
-            "RecipeSets": [
-                {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                }
-            ],
-            "Inputs": [
-                {
-                    "Element": {
-                        "RowName": "Stone",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 10,
-                    "DynamicProperties": []
-                }
-            ],
-            "Outputs": [
-                {
-                    "Element": {
-                        "RowName": "Kit_Road",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
@@ -6218,7 +6223,7 @@
         {
             "Name": "Gunpowder",
             "Requirement": {
-                "RowName": "GunPowder"
+                "RowName": "Gunpowder"
             },
             "RequiredMillijoules": 2000,
             "RecipeSets": [
@@ -9532,7 +9537,7 @@
         {
             "Name": "Interior_Wood_Halfpiece",
             "Requirement": {
-                "RowName": "Interior_Wood_HalfPiece"
+                "RowName": "Interior_Wood_Halfpiece"
             },
             "RecipeSets": [
                 {
@@ -11435,6 +11440,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11459,7 +11468,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -11486,6 +11495,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11510,7 +11523,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 4,
                     "DynamicProperties": []
                 }
             ],
@@ -11537,6 +11550,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11561,7 +11578,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2,
+                    "Count": 1,
                     "DynamicProperties": []
                 }
             ],
@@ -11588,6 +11605,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11612,7 +11633,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 3,
                     "DynamicProperties": []
                 }
             ],
@@ -11639,6 +11660,10 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11663,7 +11688,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -12026,7 +12051,7 @@
         {
             "Name": "Jerrycan",
             "Requirement": {
-                "RowName": "JerryCan"
+                "RowName": "Jerrycan"
             },
             "RecipeSets": [
                 {
@@ -12384,7 +12409,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12420,14 +12445,6 @@
                     },
                     "Count": 2,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Refined_Gold",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 2,
-                    "DynamicProperties": []
                 }
             ],
             "Outputs": [
@@ -12451,7 +12468,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12487,14 +12504,6 @@
                     },
                     "Count": 2,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Refined_Gold",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 2,
-                    "DynamicProperties": []
                 }
             ],
             "Outputs": [
@@ -12518,7 +12527,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12554,14 +12563,6 @@
                     },
                     "Count": 2,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Refined_Gold",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 2,
-                    "DynamicProperties": []
                 }
             ],
             "Outputs": [
@@ -12585,7 +12586,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12621,14 +12622,6 @@
                     },
                     "Count": 2,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Refined_Gold",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 2,
-                    "DynamicProperties": []
                 }
             ],
             "Outputs": [
@@ -12652,7 +12645,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12684,14 +12677,6 @@
                 {
                     "Element": {
                         "RowName": "Carbon_Fiber",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 2,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Refined_Gold",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 2,
@@ -16527,7 +16512,7 @@
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Waterbomb",
+                        "RowName": "WaterBomb",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 5,
@@ -17361,7 +17346,7 @@
         {
             "Name": "Firepit",
             "Requirement": {
-                "RowName": "FirePit"
+                "RowName": "Firepit"
             },
             "RequiredMillijoules": 10000,
             "RecipeSets": [
@@ -18315,21 +18300,25 @@
         {
             "Name": "Polarbear_Head_Armor",
             "Requirement": {
-                "RowName": "Polarbear_Head"
+                "RowName": "PolarBear_Head"
             },
             "RecipeSets": [
                 {
-                    "RowName": "Armor_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 3,
                     "DynamicProperties": []
                 },
                 {
@@ -18337,7 +18326,15 @@
                         "RowName": "Polarbear_Pelt",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 15,
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
                     "DynamicProperties": []
                 },
                 {
@@ -18345,7 +18342,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8,
+                    "Count": 4,
                     "DynamicProperties": []
                 }
             ],
@@ -18370,22 +18367,34 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Armor_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10,
+                    "Count": 5,
                     "DynamicProperties": []
                 },
                 {
                     "Element": {
                         "RowName": "Polarbear_Pelt",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 20,
@@ -18421,22 +18430,34 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Armor_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 3,
                     "DynamicProperties": []
                 },
                 {
                     "Element": {
                         "RowName": "Polarbear_Pelt",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 8,
@@ -18447,7 +18468,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -18472,17 +18493,21 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Armor_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8,
+                    "Count": 4,
                     "DynamicProperties": []
                 },
                 {
@@ -18490,7 +18515,15 @@
                         "RowName": "Polarbear_Pelt",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 18,
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 16,
                     "DynamicProperties": []
                 },
                 {
@@ -18498,7 +18531,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8,
+                    "Count": 6,
                     "DynamicProperties": []
                 }
             ],
@@ -18523,17 +18556,21 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Armor_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 3,
                     "DynamicProperties": []
                 },
                 {
@@ -18541,7 +18578,15 @@
                         "RowName": "Polarbear_Pelt",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 14,
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
                     "DynamicProperties": []
                 },
                 {
@@ -18549,7 +18594,7 @@
                         "RowName": "Rope",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -18571,6 +18616,14 @@
             "Name": "Rope_Armor_Bench",
             "RequiredMillijoules": 5000,
             "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
@@ -19321,7 +19374,7 @@
         {
             "Name": "AntiPoison_Tonic",
             "Requirement": {
-                "RowName": "Antipoison_Tonic"
+                "RowName": "AntiPoison_Tonic"
             },
             "RequiredMillijoules": 10000,
             "RecipeSets": [
@@ -19363,7 +19416,7 @@
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Antipoison_Tonic",
+                        "RowName": "AntiPoison_Tonic",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
@@ -19561,7 +19614,7 @@
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Antipoison_Tonic",
+                        "RowName": "AntiPoison_Tonic",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 1,
@@ -22179,17 +22232,29 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Fiber",
+                        "RowName": "Platinum_Weave",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 120,
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 3,
                     "DynamicProperties": []
                 },
                 {
@@ -22230,25 +22295,29 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Fiber",
+                        "RowName": "Platinum_Weave",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 160,
+                    "Count": 5,
                     "DynamicProperties": []
                 },
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20,
+                    "Count": 6,
                     "DynamicProperties": []
                 },
                 {
@@ -22289,25 +22358,29 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Fiber",
+                        "RowName": "Platinum_Weave",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 120,
+                    "Count": 2,
                     "DynamicProperties": []
                 },
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 8,
+                    "Count": 4,
                     "DynamicProperties": []
                 },
                 {
@@ -22340,25 +22413,29 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Fiber",
+                        "RowName": "Platinum_Weave",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 160,
+                    "Count": 4,
                     "DynamicProperties": []
                 },
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20,
+                    "Count": 4,
                     "DynamicProperties": []
                 },
                 {
@@ -22399,25 +22476,29 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Fiber",
+                        "RowName": "Platinum_Weave",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 80,
+                    "Count": 1,
                     "DynamicProperties": []
                 },
                 {
                     "Element": {
-                        "RowName": "Leather",
+                        "RowName": "Advanced_Leather",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12,
+                    "Count": 2,
                     "DynamicProperties": []
                 },
                 {
@@ -23581,6 +23662,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -26935,6 +27024,14 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -26985,6 +27082,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -27037,6 +27142,14 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -27087,6 +27200,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -27139,6 +27260,14 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -27189,6 +27318,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -27241,6 +27378,14 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -27291,6 +27436,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -27343,6 +27496,14 @@
                 {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -27393,6 +27554,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -28288,7 +28457,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Default"
+                "RowName": "MachiningBench"
             }
         },
         {
@@ -30982,6 +31151,2223 @@
             ],
             "Audio": {
                 "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Hard_Leather_Head_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Leather_Head"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Hard_Leather_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Hard_Leather_Chest_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Leather_Chest"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 13,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Hard_Leather_Chest",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Hard_Leather_Arms_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Leather_Arms"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 7,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Hard_Leather_Arms",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Hard_Leather_Legs_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Leather_Legs"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Hard_Leather_Legs",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Hard_Leather_Feet_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Leather_Feet"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Hard_Leather_Feet",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Attachment_ADS_Upgrade_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_ADS_Upgrade_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_ADS_Upgrade_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_ADS_Upgrade_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_ADS_Upgrade_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ammo_Highlight_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Ammo_Highlight_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ammo_Highlight_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Aluminium",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Ammo_Highlight_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Ammo_Highlight_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Wear_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Wear_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Wear_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Aluminium",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Wear_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Wear_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Stealth_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Stealth_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Stealth_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Stealth_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Stealth_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Lightweight_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Lightweight_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Lightweight_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Lightweight_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Lightweight_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Economic_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Economic_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Economic_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Aluminium",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Economic_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Economic_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Rapid_Fire",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Composites",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Rapid_Fire",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Damage_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Damage_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Damage_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Damage_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Damage_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Extended_Mag",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Extended_Mag",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Speed_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Speed_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Speed_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Speed_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Speed_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Additional_Projectiles",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Additional_Projectiles",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapons_Sniper_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Sniper_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapons_Sniper_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Sniper_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Sniper_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapons_Animal_Highlight",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Animal_Hightlight",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Increased_Spread",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Increased_Spread",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Decreased_Spread_1",
+            "Requirement": {
+                "RowName": "Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Decreased_Spread_1",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Attachment_Ranged_Weapon_Decreased_Spread_2",
+            "Requirement": {
+                "RowName": "Advanced_Ranged_Attachment_Pack"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Decreased_Spread_1",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ranged_Weapon_Attachment_Decreased_Spread_2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "AlterationsBench"
+            }
+        },
+        {
+            "Name": "Advanced_Armor_Bench",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Bench"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 40,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Armor_Bench",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
+            }
+        },
+        {
+            "Name": "Electric_Armor_Bench",
+            "Requirement": {
+                "RowName": "Electric_Armour_Bench"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Concrete_Mix",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 18,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Electric_Armour_Bench",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
+            }
+        },
+        {
+            "Name": "Advanced_Leather",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Bench"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Drying_Rack",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Tree_Sap",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "DryingRack"
+            }
+        },
+        {
+            "Name": "Platinum_Wave",
+            "Requirement": {
+                "RowName": "Advanced_Armor_Bench"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Platinum_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Advanced_Cloth_Head_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Cloth_Head"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Cloth_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Advanced_Cloth_Chest_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Cloth_Chest"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Cloth_Chest",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Advanced_Cloth_Arms_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Cloth_Arms"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Cloth_Arms",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Advanced_Cloth_Legs_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Cloth_Legs"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Cloth_Legs",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Advanced_Cloth_Feet_Armor",
+            "Requirement": {
+                "RowName": "Advanced_Cloth_Feet"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Cloth_Feet",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Saddle_Standard",
+            "Requirement": {
+                "RowName": "Saddle_Standard"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 14,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Saddle_Mount",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Animal_Bed",
+            "Requirement": {
+                "RowName": "Animal_Bed"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 60,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Animal_Bed",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
+            }
+        },
+        {
+            "Name": "Food_Trough",
+            "Requirement": {
+                "RowName": "Food_Trough"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 60,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 16,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Food_Trough",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Water_Trough",
+            "Requirement": {
+                "RowName": "Water_Trough"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 60,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 16,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Water_Trough",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Saddle_Standard_Bag",
+            "Requirement": {
+                "RowName": "Saddle_Standard_Bag"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Platinum_Weave",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Rope",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Saddle_Bag_Mount",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ArmorBench"
             }
         }
     ]

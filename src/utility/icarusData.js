@@ -59,6 +59,7 @@ export const itemLabelMap = Object.freeze({
     Steel_Bloom2: 'Steel Bloom (Ingot)',
     Spoiled_Meat: 'Spoiled Meat',
     Jerrycan: 'Biofuel Can',
+    Platinum_Weave: 'Platinum Weave',
 });
 
 const cleanItemDefaultLabel = (itemId) => {
