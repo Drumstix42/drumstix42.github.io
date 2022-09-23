@@ -4,6 +4,7 @@ export const itemIgnoreMap = Object.freeze({
 });
 
 export const itemLabelMap = Object.freeze({
+    // raw material that doesn't have a recipe definition with `Name` will need correcting
     Bauxite: 'Aluminum Ore',
     Copper_Ore: 'Copper Ore',
     Iron_Ore: 'Iron Ore',
@@ -60,6 +61,7 @@ export const itemLabelMap = Object.freeze({
     Spoiled_Meat: 'Spoiled Meat',
     Jerrycan: 'Biofuel Can',
     Platinum_Weave: 'Platinum Weave',
+    Platinum_Wave: 'Platinum Weave',
 });
 
 const cleanItemDefaultLabel = (itemId) => {
