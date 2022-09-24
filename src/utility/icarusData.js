@@ -153,6 +153,13 @@ export function processItemTableData(rows = []) {
 }
 
 export function processRecipeData(rows = [], { itemTemplateData = {}, itemStaticData = {}, itemTableData = {} } = {}) {
+    const recipeDataByName = {};
+
+    // map Array to Object so we can cross reference as needed
+    rows.forEach((recipe) => {
+        recipeDataByName[recipe.name] = recipe;
+    });
+
     const recipeData = {};
 
     rows.forEach((recipe) => {
@@ -167,10 +174,18 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
         const itemTemplateId = id;
         const outputFallbackId = () => {
             const outputName = recipe.Outputs[0]?.Element.RowName;
-            return outputName && outputName?.includes(itemTemplateId) ? outputName : null;
+            if (
+                recipe.Outputs.length === 1 &&
+                outputName &&
+                (outputName?.includes(itemTemplateId) || recipe.Requirement || !recipeDataByName[outputName])
+            ) {
+                return outputName;
+            }
+            return null;
         };
         const inputFallbackId = recipe.Inputs[0]?.Element.RowName;
-        const itemTemplateRecord = itemTemplateData[itemTemplateId] ?? itemTemplateData[outputFallbackId()];
+        const itemTemplateRecord =
+            itemTemplateData[itemTemplateId] ?? itemTemplateData[recipe.Requirement?.RowName] ?? itemTemplateData[outputFallbackId()];
         const itemStaticRecord = itemStaticData[itemTemplateRecord?.itemStaticId] ?? itemStaticData[inputFallbackId];
 
         recipeData[id] = {
