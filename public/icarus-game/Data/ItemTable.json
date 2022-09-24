@@ -7934,7 +7934,7 @@
         {
             "Name": "Item_Attachment_Storm_Resistance_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_1-DisplayName\", \"Storm Visor Attachment\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachStormStaminaRegen_Exposure_Res.ITEM_ArmorAttachStormStaminaRegen_Exposure_Res",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachStormStaminaRegen_Exposure_Res",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_1-Description\", \"An attachment that improves stamina regenration in storms and exposure resistance. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_1-FlavorText\", \"Can be equipped to head armor at an Alteration Bench.\")",
             "Weight": 1000
@@ -7942,7 +7942,7 @@
         {
             "Name": "Item_Attachment_Storm_Resistance_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_2-DisplayName\", \"Advanced Storm Visor Attachment\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachStormStaminaRegen_Exposure_Res.ITEM_ArmorAttachStormStaminaRegen_Exposure_Res",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachStormStaminaRegen_Exposure_Res",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_2-Description\", \"An attachment that greatly improves stamina regenration in storms and exposure resistance. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_2-FlavorText\", \"Can be equipped to head armor at an Alteration Bench.\")",
             "Weight": 1000
