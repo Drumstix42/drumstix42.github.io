@@ -30,7 +30,7 @@
                     <n-image
                         class="icon"
                         width="32"
-                        :src="`/icarus-game/ItemIcons/ITEM_${recipeData[item.id]?.id}.png`"
+                        :src="`/icarus-game/ItemIcons/${recipeData[item.id]?.iconPath}.png`"
                         fallback-src="/icarus-game/Images/question-mark.png"
                         :preview-disabled="false"
                     />
@@ -80,7 +80,7 @@
                         <n-image
                             class="icon"
                             width="32"
-                            :src="`/icarus-game/ItemIcons/ITEM_${recipeData[componentName]?.id ?? componentName}.png`"
+                            :src="`/icarus-game/ItemIcons/${recipeData[componentName]?.iconPath}.png`"
                             fallback-src="/icarus-game/Images/question-mark.png"
                             :preview-disabled="false"
                         />
@@ -144,7 +144,7 @@ export default {
         },
     },
     computed: {
-        ...mapState(useIcarusStore, ['recipeData']),
+        ...mapState(useIcarusStore, ['recipeData', 'itemTableData']),
     },
     methods: {
         sortInputs() {

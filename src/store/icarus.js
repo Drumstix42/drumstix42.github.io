@@ -1,6 +1,6 @@
 import { reactive } from 'vue';
 import { defineStore } from 'pinia';
-import { processRecipeData } from '@/utility/icarusData';
+import { processItemStaticData, processItemTableData, processItemTemplateData, processRecipeData } from '@/utility/icarusData';
 
 // utility methods
 const generateTabId = () => Date.now();
@@ -21,6 +21,10 @@ export const useIcarusStore = defineStore('icarus', {
     state: () => ({
         activeTabId: defaultTabId,
         tabs: [defaultTab],
+
+        itemTemplateData: {},
+        itemStaticData: {},
+        itemTableData: {},
 
         recipeData: {},
         recipeOptions: [],
@@ -118,20 +122,56 @@ export const useIcarusStore = defineStore('icarus', {
         async loadRecipeData() {
             this.isLoadingRecipes = true;
 
-            const response = await fetch(`/icarus-game/Data/Recipes.json`, {
+            const itemTemplateResponse = await fetch('/icarus-game/Data/ItemTemplate.json', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
                 },
             });
+            const itemTemplate = await itemTemplateResponse.json();
 
-            const recipes = await response.json();
-            const data = processRecipeData(recipes?.Rows);
+            const itemStaticResponse = await fetch('/icarus-game/Data/ItemStatic.json', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const itemStatic = await itemStaticResponse.json();
 
-            console.log(data);
-            this.recipeData = data;
-            this.recipeOptions = Object.values(data);
+            const itemTableResponse = await fetch('/icarus-game/Data/ItemTable.json', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const itemTable = await itemTableResponse.json();
+
+            const recipeResponse = await fetch(`/icarus-game/Data/Recipes.json`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            const recipes = await recipeResponse.json();
+
+            const startTime = performance.now();
+
+            const itemTemplateData = processItemTemplateData(itemTemplate.Rows);
+            this.itemTemplateData = itemTemplateData;
+
+            const itemStaticData = processItemStaticData(itemStatic.Rows);
+            this.itemStaticData = itemStaticData;
+
+            const itemTableData = processItemTableData(itemTable.Rows);
+            this.itemTableData = itemTableData;
+
+            const recipeData = processRecipeData(recipes?.Rows, { itemTemplateData, itemStaticData, itemTableData });
+            this.recipeData = recipeData;
+            this.recipeOptions = Object.values(recipeData);
             this.isLoadingRecipes = false;
+
+            console.log({ itemTemplateData, itemStaticData, itemTableData, recipeData });
+            console.log(`Processed data in ${performance.now() - startTime}ms`);
         },
     },
 });

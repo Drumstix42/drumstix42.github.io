@@ -85,7 +85,74 @@ const postProcessByItem = Object.freeze({
     },
 });
 
-export function processRecipeData(rows = []) {
+/* const cleanItemTableName = (itemName = '') => {
+    return itemName.replace(/^Item_Kit_/, '').replace(/^Item_/, '');
+}; */
+
+const cleanItemTableDisplayName = (displayName = '') => {
+    return displayName
+        .replace(/NSLOCTEXT.*", /, '')
+        .replace(/\"/g, '')
+        .replace(/\)$/, '');
+};
+
+const cleanItemTableIconPath = (path = '') => {
+    return path.replace('/Game/Assets/2DArt/UI/Items/Item_Icons/', '');
+};
+
+export function processItemTemplateData(rows = []) {
+    const itemTemplateData = {};
+
+    rows.forEach((itemRecord) => {
+        const itemId = itemRecord.Name;
+
+        if (!itemTemplateData[itemId]) {
+            itemTemplateData[itemId] = {
+                id: itemId,
+                itemStaticId: itemRecord.ItemStaticData?.RowName,
+            };
+        }
+    });
+
+    return itemTemplateData;
+}
+
+export function processItemStaticData(rows = []) {
+    const itemStaticData = {};
+
+    rows.forEach((itemRecord) => {
+        const itemId = itemRecord.Name;
+        if (!itemStaticData[itemId]) {
+            itemStaticData[itemId] = {
+                id: itemId,
+                itemTableId: itemRecord.Itemable?.RowName,
+            };
+        }
+    });
+
+    return itemStaticData;
+}
+
+export function processItemTableData(rows = []) {
+    const itemTableData = {};
+
+    rows.forEach((itemRecord) => {
+        const itemId = itemRecord.Name;
+
+        if (!itemTableData[itemId]) {
+            itemTableData[itemId] = {
+                id: itemId,
+                displayName: cleanItemTableDisplayName(itemRecord.DisplayName),
+                //description: cleanDescription(itemRecord.Description),
+                icon: cleanItemTableIconPath(itemRecord.Icon),
+            };
+        }
+    });
+
+    return itemTableData;
+}
+
+export function processRecipeData(rows = [], { itemTemplateData = {}, itemStaticData = {}, itemTableData = {} } = {}) {
     const recipeData = {};
 
     rows.forEach((recipe) => {
@@ -97,9 +164,19 @@ export function processRecipeData(rows = []) {
 
         // TODO: setup custom data merge for known duplicates (e.g. Rope, Talent_Leather_Rope)
 
+        const itemTemplateId = recipe.Requirement?.RowName ?? id;
+        const outputFallbackId = () => {
+            const outputName = recipe.Outputs[0]?.Element.RowName;
+            return outputName && outputName?.includes(itemTemplateId) ? outputName : null;
+        };
+        const inputFallbackId = recipe.Inputs[0]?.Element.RowName;
+        const itemTemplateRecord = itemTemplateData[itemTemplateId] ?? itemTemplateData[outputFallbackId()];
+        const itemStaticRecord = itemStaticData[itemTemplateRecord?.itemStaticId] ?? itemStaticData[inputFallbackId];
+
         recipeData[id] = {
-            label: getItemLabel(id),
             id: id,
+            label: getItemLabel(id),
+            iconPath: itemTableData[itemStaticRecord?.itemTableId]?.icon,
 
             inputs: [],
             sources: [],

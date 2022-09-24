@@ -12,6 +12,7 @@
                         >Icarus Week Forty Two Update | Tame and Ride the new Buffalo and Moa Mounts</a
                     >
                 </li>
+                <li>In-game image icons have been mapped to all of the recipes and crafting stations.</li>
             </ul>
         </n-alert>
 
@@ -73,7 +74,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20220923,
+    whatsNew: 20220924,
 });
 
 const isAlertVisible = (alertName) => {

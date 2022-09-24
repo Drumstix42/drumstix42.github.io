@@ -12,7 +12,7 @@
                         <n-image
                             class="icon"
                             width="32"
-                            :src="`/icarus-game/ItemIcons/ITEM_${item.id}.png`"
+                            :src="`/icarus-game/ItemIcons/${item.iconPath}.png`"
                             fallback-src="/icarus-game/Images/question-mark.png"
                             :preview-disabled="true"
                         />
