@@ -7918,7 +7918,7 @@
         {
             "Name": "Item_Attachment_Cave_Resistance_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Cave_Resistance_1-DisplayName\", \"Supplemental Respiration Attachment\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance.ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Cave_Resistance_1-Description\", \"An attachment that helps prevent pneumonia and improves health regeneration while in caves.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Cave_Resistance_1-FlavorText\", \"Can be equipped to head armor at an Alteration Bench.\")",
             "Weight": 1000
@@ -7926,7 +7926,7 @@
         {
             "Name": "Item_Attachment_Cave_Resistance_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Cave_Resistance_2-DisplayName\", \"Advanced Supplemental Respiration Attachment\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance.ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Cave_Resistance_2-Description\", \"An attachment that greatly helps prevent pneumonia and greatly improves health regeneration while in caves.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Cave_Resistance_2-FlavorText\", \"Can be equipped to head armor at an Alteration Bench.\")",
             "Weight": 1000
