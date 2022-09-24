@@ -164,7 +164,7 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
 
         // TODO: setup custom data merge for known duplicates (e.g. Rope, Talent_Leather_Rope)
 
-        const itemTemplateId = recipe.Requirement?.RowName ?? id;
+        const itemTemplateId = id;
         const outputFallbackId = () => {
             const outputName = recipe.Outputs[0]?.Element.RowName;
             return outputName && outputName?.includes(itemTemplateId) ? outputName : null;

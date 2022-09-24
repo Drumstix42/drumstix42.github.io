@@ -6,7 +6,7 @@
                     <n-image
                         class="icon"
                         width="24"
-                        :src="`/icarus-game/ItemIcons/ITEM_Building_UpgradeTool.png`"
+                        :src="`/icarus-game/ItemIcons/Tools/ITEM_Building_RepairTool.ITEM_Building_RepairTool.png`"
                         :preview-disabled="true"
                     />
                     <span class="px-2">Icarus Crafting Calculator</span>
