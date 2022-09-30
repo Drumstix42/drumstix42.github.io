@@ -8,8 +8,8 @@
             <ul class="mb-0">
                 <li>
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3310732036321885507" target="_blank"
-                        >Icarus Week Forty Two Update | Tame and Ride the new Buffalo and Moa Mounts</a
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3289340571613172970" target="_blank"
+                        >Icarus Week 43 Update | Improvements to all exploration missions + more</a
                     >
                 </li>
                 <li>In-game image icons have been mapped to all of the recipes and crafting stations.</li>
@@ -22,9 +22,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.2.17.101928'" readonly></n-input>
+                        <n-input :value="'v1.2.18.101993'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2022/09/23</n-text>
+                    <n-text depth="3">2022/09/30</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -41,7 +41,6 @@
                     Improve any mismatching item labels vs what shows in-game (labels from game data export are not perfect, and must be mapped
                     manually)
                 </li>
-                <li>Resolve remaining item icon mis-matches (game data export doesn't match image export)</li>
                 <li>Save tab data in localStorage to support session restoration</li>
                 <li>Show stack size on icons that normally produce more than 1 item</li>
                 <li>Implement talent options logic to impact component output calculation</li>
@@ -74,7 +73,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20220924,
+    whatsNew: 20220930,
 });
 
 const isAlertVisible = (alertName) => {
