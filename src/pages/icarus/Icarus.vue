@@ -73,7 +73,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20220930,
+    whatsNew: 20221007,
 });
 
 const isAlertVisible = (alertName) => {
