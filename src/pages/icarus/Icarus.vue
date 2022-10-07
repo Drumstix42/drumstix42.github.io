@@ -37,10 +37,6 @@
                 </n-icon>
             </template>
             <ul>
-                <li>
-                    Improve any mismatching item labels vs what shows in-game (labels from game data export are not perfect, and must be mapped
-                    manually)
-                </li>
                 <li>Save tab data in localStorage to support session restoration</li>
                 <li>Show stack size on icons that normally produce more than 1 item</li>
                 <li>Implement talent options logic to impact component output calculation</li>
