@@ -12,7 +12,7 @@
                         >Icarus Week 44 Update | Early Mission Revamp #2</a
                     >
                 </li>
-                <li>In-game image icons have been mapped to all of the recipes and crafting stations.</li>
+                <li>Item labels are now mapped from in-game data label text and should be more familiar overall.</li>
             </ul>
         </n-alert>
 

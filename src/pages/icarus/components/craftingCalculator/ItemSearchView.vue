@@ -17,7 +17,7 @@
                             :preview-disabled="true"
                         />
                         <div class="flex-shrink" style="min-width: 0">
-                            <div class="label text-overflow-ellipsis">{{ item.label }}</div>
+                            <div class="label text-overflow-ellipsis" v-bind:item-id="item.id">{{ item.label }}</div>
                         </div>
                         <n-tooltip trigger="hover">
                             <template #trigger>
