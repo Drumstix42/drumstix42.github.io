@@ -9,7 +9,7 @@
                 <li>
                     Support for
                     <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3314110913457052547" target="_blank"
-                        >Icarus Week 44 Update | Early Mission Revamp #2</a
+                        >Icarus Week 52 Update | Two new Open World mission types + Fortifications</a
                     >
                 </li>
                 <li>Item labels are now mapped from in-game data label text and should be more familiar overall.</li>
@@ -22,9 +22,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.2.19.102260'" readonly></n-input>
+                        <n-input :value="'v1.2.27.105033'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2022/10/07</n-text>
+                    <n-text depth="3">2022/12/02</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -69,7 +69,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20221007,
+    whatsNew: 20221202,
 });
 
 const isAlertVisible = (alertName) => {
