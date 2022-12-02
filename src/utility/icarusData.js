@@ -31,7 +31,7 @@ export const itemLabelMap = Object.freeze({
     /* Armor_Bench: 'Textiles Bench', */
     Rope_Armor_Bench: 'Rope (Armor Bench)',
     Epoxy_2: 'Epoxy (Crushed Bone)',
-    /* Raw_Meat: 'Raw Meat', */
+    Raw_Meat: 'Raw Meat',
     /* Building_UpgradeTool: 'Building Upgrade Tool', */
     Composite_Paste: 'Composite Paste (Gold)',
     Composite_Paste_Plat: 'Composite Paste (Platinum)',
