@@ -145,7 +145,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Spear-DisplayName\", \"Carbon Spear\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Spears/ITEM_CarbonSpear.ITEM_CarbonSpear",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Spear-Description\", \"A light, resilient spear made of layered carbon fiber.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Spear-FlavorText\", \"Kills faster, flies further.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Spear-FlavorText\", \"Kills faster, lasts longer.\")",
             "Weight": 1000
         },
         {
@@ -450,7 +450,7 @@
             "Name": "Item_Bone_Spear",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Spear-DisplayName\", \"Bone Spear\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Spears/ITEM_Bone_Spear.ITEM_Bone_Spear",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Spear-Description\", \"A bone blade improves melee and ranged damage.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Spear-Description\", \"A bone blade improves melee damage.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Spear-FlavorText\", \"As most new arrivals on Icarus realise at some stage, there is a certain elegance to hunting an animal for its bones, in order to craft a more effective weapon to hunt further animals.\")",
             "Weight": 1000
         },
@@ -458,7 +458,7 @@
             "Name": "Item_Bone_Arrow",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Arrow-DisplayName\", \"Bone Arrow\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Bone_Arrow.ITEM_Bone_Arrow",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Arrow-Description\", \"A primitive arrow, dealing greater damage than flint or stone.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Arrow-Description\", \"A primitive arrow, dealing greater damage than stone.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Arrow-FlavorText\", \"In the mid-22nd century, the fletchers art is being rediscovered on Icarus.\")",
             "Weight": 10,
             "MaxStack": 100
@@ -605,10 +605,25 @@
             "Weight": 40000
         },
         {
+            "Name": "Item_Concrete_Furnace_V2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Furnace_V2-DisplayName\", \"Concrete Furnace\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Concrete_Furnace_V2.ITEM_Concrete_Furnace_V2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Furnace_V2-Description\", \"An insulated, high-temperature furnace for smelting a wide range of materials including steel.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Furnace_V2-FlavorText\", \"Icarus\\'s oxygen levels may slow combustion, but ceramic insulation produces temperatures sufficient for smelting more advanced alloys.\")",
+            "Weight": 40000
+        },
+        {
             "Name": "Item_Kit_Electric_Furnace",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Electric_Furnace-DisplayName\", \"Electric Furnace\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Kit_Electric_Furnace.ITEM_Kit_Electric_Furnace",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Electric_Furnace-Description\", \"A laboratory grade arc furnace, smelts basic and advanced materials alike.\")",
+            "Weight": 50000
+        },
+        {
+            "Name": "Item_Electric_Furnace_Large",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Furnace_Large-DisplayName\", \"Electric Furnace\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Electric_Furnace_Large.ITEM_Electric_Furnace_Large",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Furnace_Large-Description\", \"A laboratory grade arc furnace, smelts basic and advanced materials alike.\")",
             "Weight": 50000
         },
         {
@@ -713,8 +728,8 @@
             "Name": "Item_Flint_Arrow",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Flint_Arrow-DisplayName\", \"Flint Arrow\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Flint_Arrow.ITEM_Flint_Arrow",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flint_Arrow-Description\", \"Flies further, hits harder than stone.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flint_Arrow-FlavorText\", \"Knappable flint provides a sharper arrowhead and greater penetration than stone.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flint_Arrow-Description\", \"Flies further, hits harder than stone or bone.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flint_Arrow-FlavorText\", \"Knappable flint provides a sharper arrowhead and greater penetration than stone or bone.\")",
             "Weight": 10,
             "MaxStack": 100
         },
@@ -1052,6 +1067,14 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Cooking_Station.ITEM_Cooking_Station",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station-Description\", \"A food preperation and butchering bench.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station-FlavorText\", \"While it may not deliver high cuisine, the Cooking Station rewards the attentions of an attentive chef with a swifter, more sustaining food supply.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Cooking_Station_V2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station_V2-DisplayName\", \"Cooking Station\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Cooking_Station_V2.ITEM_Cooking_Station_V2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station_V2-Description\", \"A food preperation and butchering bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station_V2-FlavorText\", \"While it may not deliver high cuisine, the Cooking Station rewards the attentions of an attentive chef with a swifter, more sustaining food supply.\")",
             "Weight": 2000
         },
         {
@@ -1471,6 +1494,14 @@
             "Weight": 10000
         },
         {
+            "Name": "Item_Carcass_RockDog",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_RockDog-DisplayName\", \"RockDog Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_RockDog-Description\", \"[DNT} Rockdog Carcass\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_RockDog-FlavorText\", \"[DNT} Rockdog Carcass\")",
+            "Weight": 10000
+        },
+        {
             "Name": "Item_Carcass_Raccoon",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raccoon-DisplayName\", \"Raccoon Carcass\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Raccoon.ITEM_AnimalCarcass_Raccoon",
@@ -1725,12 +1756,6 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Canteen_Light.ITEM_Canteen_Light",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Canteen_Lightweight-Description\", \"A lightweight vessel for holding water, has a small thermal protection layer, to keep the water cold.\")",
             "Weight": 250
-        },
-        {
-            "Name": "Dev_Meta_Reveal",
-            "DisplayName": "INVTEXT(\"[DEV] Meta Reveal Tool\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Dev_Meta_Reveal-Description\", \"Equip and Left Click to reveal Meta on map. Left click again to hide.\")",
-            "Weight": 10
         },
         {
             "Name": "Item_Wood_TrapDoor_Refined",
@@ -2009,7 +2034,7 @@
         {
             "Name": "Item_Pistol_Round",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Pistol_Round-DisplayName\", \"Pistol Round\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Rifle_Round.ITEM_Rifle_Round",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Ammo_Pistol_Round.ITEM_Ammo_Pistol_Round",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pistol_Round-Description\", \"Reliable 9mm ammunition.\")",
             "Weight": 10,
             "MaxStack": 100
@@ -2421,10 +2446,10 @@
         },
         {
             "Name": "Item_Building_RepairTool",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Building_RepairTool-DisplayName\", \"Wood Repair Hammer\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Building_RepairTool-DisplayName\", \"Wood Hammer\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Building_RepairTool.ITEM_Building_RepairTool",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Building_RepairTool-Description\", \"Maintain your structures against the wrath of Icarus.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Building_RepairTool-FlavorText\", \"Quickly beat dislodged planks back into place with this basic repair tool.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Building_RepairTool-Description\", \"Maintain or upgrade your structures against the wrath of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Building_RepairTool-FlavorText\", \"Quickly beat dislodged planks back into place, or replace those planks with sturdier materials, a single hammer does it all!\")",
             "Weight": 10
         },
         {
@@ -3405,7 +3430,7 @@
             "Name": "Item_Titanium_Spear",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Spear-DisplayName\", \"Titanium Spear\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Spears/ITEM_TitaniumSpear.ITEM_TitaniumSpear",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Spear-Description\", \"A powerful, precise projectile and combat weapon. \")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Spear-Description\", \"A powerful, precise combat weapon. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Spear-FlavorText\", \"Extremely strong and lightweight, the titanium spear is a devastating hunting and protective tool in well-trained hands.\")",
             "Weight": 1000
         },
@@ -3439,8 +3464,8 @@
             "Name": "Item_Repair_Bench",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Repair_Bench-DisplayName\", \"Repair Bench\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Repair_Bench.ITEM_Repair_Bench",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Repair_Bench-Description\", \"Repair any Item Crafted on Other Benches\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Repair_Bench-FlavorText\", \"A Specialized Bench which allows you to Repair Items Crafted on any Bench\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Repair_Bench-Description\", \"Repairs any item, requiring power to repair tier 4 or workshop items.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Repair_Bench-FlavorText\", \"A little duct tape, maybe some lubricant, this bench can fix anything!\")",
             "Weight": 20000
         },
         {
@@ -3757,6 +3782,14 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Glassworking_Bench.ITEM_Glassworking_Bench",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glassworking_Bench-Description\", \"Tools for creating glass items and construction elements.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Glassworking_Bench-FlavorText\", \"True glass-making originated in the Indus Valley in 1700 BCE, passing into the Mediterranean, then Africa and the rest of the world, before extending through space to Icarus in the mid 22nd century.\")",
+            "Weight": 25000
+        },
+        {
+            "Name": "Item_Glassworking_Bench_V2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glassworking_Bench_V2-DisplayName\", \"Glassworking Bench\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Glassworking_Bench_V2.ITEM_Glassworking_Bench_V2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glassworking_Bench_V2-Description\", \"Tools for creating glass items and construction elements.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Glassworking_Bench_V2-FlavorText\", \"True glass-making originated in the Indus Valley in 1700 BCE, passing into the Mediterranean, then Africa and the rest of the world, before extending through space to Icarus in the mid 22nd century.\")",
             "Weight": 25000
         },
         {
@@ -4142,7 +4175,7 @@
             "Name": "Item_Platinum_Spear",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-DisplayName\", \"Platinum Spear\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Spears/ITEM_Platinum_Spear.ITEM_Platinum_Spear",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-Description\", \"Priceless on Earth. A projectile on Icarus.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-Description\", \"Priceless on Earth. An advanced survival tool on Icarus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-FlavorText\", \"A midweight, short-shafted ahlspeiss spear that, composition aside, would not have looked out of place in 16th century Prussia.\")",
             "Weight": 1000
         },
@@ -5191,7 +5224,7 @@
         {
             "Name": "Item_Water_Generator",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Generator-DisplayName\", \"Waterwheel Generator\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ComingSoon2.Icon_ComingSoon2",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_WaterWheel_Generator.ITEM_WaterWheel_Generator",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Generator-Description\", \"A combined wheel and generator, turns fluid motion into angular momentum.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Generator-FlavorText\", \"Still one of humanity\\'s greatest ideas.\")",
             "Weight": 20000
@@ -5229,29 +5262,33 @@
         {
             "Name": "Item_Electric_Stove",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Stove-DisplayName\", \"Electric Stove\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ComingSoon2.Icon_ComingSoon2",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Electric_Stove.ITEM_Electric_Stove",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Stove-Description\", \"A swifter, safer cooking system.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Stove-FlavorText\", \"Less explosive than using home made biofuel.\")",
             "Weight": 20000
         },
         {
             "Name": "Item_Advanced_Kitchen_Bench",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Bench-DisplayName\", \"Advanced Kitchen Bench\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ComingSoon2.Icon_ComingSoon2",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Bench-Description\", \"A full food and herbal preparation area.\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Bench-DisplayName\", \"Marble Kitchen Bench\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Advanced_Kitchen_Bench.ITEM_Advanced_Kitchen_Bench",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Bench-Description\", \"A full food preparation area.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Bench-FlavorText\", \"Cleaner and more durable than other benches on Icarus. \")",
             "Weight": 20000
         },
         {
             "Name": "Item_Advanced_Kitchen_Storage",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Storage-DisplayName\", \"Advanced Kitchen Storage\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ComingSoon2.Icon_ComingSoon2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Storage-DisplayName\", \"Marble Kitchen Storage\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Advanced_Kitchen_Storage.ITEM_Advanced_Kitchen_Storage",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Storage-Description\", \"The best cabinets this planet can offer.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Storage-FlavorText\", \"Can never have enough storage.\")",
             "Weight": 20000
         },
         {
             "Name": "Item_Advanced_Kitchen_Sink",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Sink-DisplayName\", \"Advanced Kitchen Sink\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ComingSoon2.Icon_ComingSoon2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Sink-DisplayName\", \"Plumbed Sink\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Advanced_Kitchen_Sink.ITEM_Advanced_Kitchen_Sink",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Sink-Description\", \"Fully plumbed basin and running water, a luxury of sorts.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Kitchen_Sink-FlavorText\", \"Just like home.\")",
             "Weight": 20000
         },
         {
@@ -5403,6 +5440,14 @@
             "Weight": 20000
         },
         {
+            "Name": "Item_Electric_Dehumidier_V2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Dehumidier_V2-DisplayName\", \"Electric Dehumidifier\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Electric_Dehumidifier_V2.ITEM_Electric_Dehumidifier_V2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Dehumidier_V2-Description\", \"Diminishes such health risks as pneumonia, while also seeming to dispel cave worms.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Dehumidier_V2-FlavorText\", \"Whether cave worms are offended by the sudden aridity it produces, or the high pitched whine, research is yet to confirm.\")",
+            "Weight": 20000
+        },
+        {
             "Name": "Item_Faction_Mission_Laser",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Faction_Mission_Laser-DisplayName\", \"Vapor Laser\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Faction_Mission_Laser.ITEM_Faction_Mission_Laser",
@@ -5437,7 +5482,7 @@
         {
             "Name": "Item_WaterWheel_Generator",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_WaterWheel_Generator-DisplayName\", \"Water Wheel\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_ComingSoon2.Icon_ComingSoon2",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_WaterWheel_Generator.ITEM_WaterWheel_Generator",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_WaterWheel_Generator-Description\", \"A combined wheel and generator, turns fluid motion into angular momentum.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_WaterWheel_Generator-FlavorText\", \"Still one of humanity\\'s greatest ideas.\")",
             "Weight": 15000
@@ -5759,6 +5804,51 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Alphawolf_Trophy.ITEM_Alphawolf_Trophy",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AlphaWolf_Trophy-Description\", \"A mounted alpha wolf head.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AlphaWolf_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_ConiferWolf_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ConiferWolf_Head-DisplayName\", \"Conifer Wolf Head\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_ConiferWolf_Trophy.ITEM_ConiferWolf_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ConiferWolf_Head-Description\", \"The head of a Conifer Wolf, can be crafted into a deployable trophy to hang on your wall.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_ConiferWolf_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ConiferWolf_Trophy-DisplayName\", \"Conifer Wolf Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_ConiferWolf_Trophy.ITEM_ConiferWolf_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ConiferWolf_Trophy-Description\", \"A mounted conifer wolf head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_ConiferWolf_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_SnowWolf_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SnowWolf_Head-DisplayName\", \"Snow Wolf Head\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_SnowWolf_Trophy.ITEM_SnowWolf_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SnowWolf_Head-Description\", \"The head of a Snow Wolf, can be crafted into a deployable trophy to hang on your wall.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_SnowWolf_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SnowWolf_Trophy-DisplayName\", \"Snow Wolf Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_SnowWolf_Trophy.ITEM_SnowWolf_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SnowWolf_Trophy-Description\", \"A mounted snow wolf head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SnowWolf_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_DesertWolf_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DesertWolf_Head-DisplayName\", \"Hyena Head\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_DesertWolf_Trophy.ITEM_DesertWolf_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DesertWolf_Head-Description\", \"The head of a Hyena, can be crafted into a deployable trophy to hang on your wall.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_DesertWolf_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DesertWolf_Trophy-DisplayName\", \"Hyena Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_DesertWolf_Trophy.ITEM_DesertWolf_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DesertWolf_Trophy-Description\", \"A mounted hyena head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_DesertWolf_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
             "Weight": 2000
         },
         {
@@ -6873,11 +6963,11 @@
             "Weight": 20000
         },
         {
-            "Name": "Item_Rustic_Bench",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Rustic_Bench-DisplayName\", \"Rustic Bench\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Rustic_Bench.ITEM_Rustic_Bench",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Rustic_Bench-Description\", \"A rudimentary bench from which to watch the world go by.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Rustic_Bench-FlavorText\", \"Perfect for your garden.\")",
+            "Name": "Item_Rustic_SittingBench",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Rustic_SittingBench-DisplayName\", \"Rustic Sitting Bench\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Rustic_SittingBench.ITEM_Rustic_SittingBench",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Rustic_SittingBench-Description\", \"A rudimentary bench from which to watch the world go by.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Rustic_SittingBench-FlavorText\", \"Perfect for your garden.\")",
             "Weight": 20000
         },
         {
@@ -7098,7 +7188,7 @@
         },
         {
             "Name": "Item_Mission_Prototype_Laser",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Prototype_Laser-DisplayName\", \"MK-200 Weponised Laser (Repaired)\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Prototype_Laser-DisplayName\", \"MK-200 Weaponized Laser (Repaired)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Prototype_Laser.ITEM_Mission_Prototype_Laser",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Prototype_Laser-Description\", \"The result of a makeshift repair.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Prototype_Laser-FlavorText\", \"It doesn\\'t look that unstable....\")",
@@ -7212,7 +7302,7 @@
         },
         {
             "Name": "Item_Condensed_Enzymes",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Condensed_Enzymes-DisplayName\", \"Condensed Enymes\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Condensed_Enzymes-DisplayName\", \"Condensed Enzymes\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Delivery_Crystal.ITEM_Mission_Delivery_Crystal",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Condensed_Enzymes-Description\", \"Condensed Enzymes Extracted from an Enzyme Geyser\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Condensed_Enzymes-FlavorText\", \"I\\'m sure there is a use for this.\")",
@@ -7297,7 +7387,7 @@
         },
         {
             "Name": "Item_Digested_Enzymes",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Digested_Enzymes-DisplayName\", \"Partially Digested Enymes\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Digested_Enzymes-DisplayName\", \"Partially Digested Enzymes\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Delivery_Crystal.ITEM_Mission_Delivery_Crystal",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Digested_Enzymes-Description\", \"Partially Digested Enzymes taken from the Stomach of Icarus Wildlife.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Digested_Enzymes-FlavorText\", \"Covered in stomach acid.\")",
@@ -7592,7 +7682,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Black_Wolf_Knife.ITEM_Black_Wolf_Knife",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Knife-Description\", \"A knife made from the teeth of an intimidating predator.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Knife-FlavorText\", \"Sharp as ever.\")",
-            "Weight": 1000
+            "Weight": 500
         },
         {
             "Name": "Item_Black_Wolf_Tooth",
@@ -8129,6 +8219,14 @@
             "MaxStack": 20
         },
         {
+            "Name": "Item_Mission_Communicator_T2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communicator_T2-DisplayName\", \"Short Range Radio\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Mission_Communication_Device_T2.ITEM_Mission_Communication_Device_T2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communicator_T2-Description\", \"Interact to Recieve a Mission From \\'SMPL3\\' - Simplified Mission Prospector Liaison V3\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communicator_T2-FlavorText\", \"Replacing UDA agents one mission at a time.\")",
+            "Weight": 10000
+        },
+        {
             "Name": "Item_Saddle_Standard_Bag",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Standard_Bag-DisplayName\", \"Buffalo Pack Harness\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Saddle_Standard_Bag.ITEM_Saddle_Standard_Bag",
@@ -8199,6 +8297,413 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Bear.ITEM_AnimalCarcass_Bear",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Bear_Contaminated-Description\", \"Poor creature seems to be contaminated by some toxin.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Bear_Contaminated-FlavorText\", \"Within the zone of failed terraforming, little can challenge the grizzly variant as an apex predator. Outside the zone, however, is another matter.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Wood_Railing_Gate",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Railing_Gate-DisplayName\", \"Wood Railing Gate\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Railing_Gate.ITEM_Wood_Railing_Gate",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Railing_Gate-Description\", \"A rough, but serviceable wooden railing with a gate.\")",
+            "Weight": 1000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Fortification_Wood_Wall",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Wall-DisplayName\", \"Wood Wall Fortification\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fortification_Wood_Wall.ITEM_Fortification_Wood_Wall",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Wall-Description\", \"A large, strong wood wall fortification.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Wall-FlavorText\", \"Claim your territory through the wonders of construction.\")",
+            "Weight": 2000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Fortification_Wood_Spikes",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Spikes-DisplayName\", \"Wood Spikes Fortification\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fortification_Wood_Spikes.ITEM_Fortification_Wood_Spikes",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Spikes-Description\", \"A large collection of spiked defenses which can be mounted to fortification walls.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Spikes-FlavorText\", \"An extra layer of defense, prevents wildlife from working their way through your walls. \")",
+            "Weight": 2000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Fortification_Wood_Gate",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Gate-DisplayName\", \"Wood Gate Fortification\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fortification_Wood_Gate.ITEM_Fortification_Wood_Gate",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Gate-Description\", \"A large, strong wood gate fortification which can be opened and closed.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Gate-FlavorText\", \"From safety to wilderness, an entryway to the danger of Icarus.\")",
+            "Weight": 2000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Fortification_Wood_Walkway",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Walkway-DisplayName\", \"Wood Walkway Fortification\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fortification_Wood_Walkway.ITEM_Fortification_Wood_Walkway",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Walkway-Description\", \"A walkway and ramp set for the wood fortification walls.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Wood_Walkway-FlavorText\", \"A protected vantage point to survey the nearby area.\")",
+            "Weight": 2000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Carcass_BatDog",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_BatDog-DisplayName\", \"Bat Dog Carcass\")",
+            "Description": "INVTEXT(\"[DNT] Bat Dog Corpse\")",
+            "FlavorText": "INVTEXT(\"[DNT] Bat Dog Corpse\")",
+            "Weight": 8000
+        },
+        {
+            "Name": "Item_Mission_Communication_Blueprint_T2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-DisplayName\", \"Prototype UDA Communication Blueprint\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Bio_Needle.ITEM_Bio_Needle",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-Description\", \"A USB drive with the plans for a new Communication Device\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-FlavorText\", \"Once Downloaded to the suit, there is not need for this item.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Carcass_Needler",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Needler-DisplayName\", \"Needler Carcass\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Needler-Description\", \"[DNT} Needler Carcass\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Needler-FlavorText\", \"[DNT} Needler Carcass\")",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Mission_AudioLog_Prometheus_1",
+            "DisplayName": "INVTEXT(\"[DNT] Damaged Audio Log\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/ITEM_Module_Compass.ITEM_Module_Compass",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_AudioLog_Prometheus_1-Description\", \"A Strange Audio log taken from a prospectors suit.\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_Mission_AudioLog_Prometheus_2",
+            "DisplayName": "INVTEXT(\"[DNT] Damaged Audio Log\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/ITEM_Module_Compass.ITEM_Module_Compass",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_AudioLog_Prometheus_2-Description\", \"A Strange Audio log taken from a prospectors suit.\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_Carcass_Deer_Var",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Deer_Var-DisplayName\", \"Deer Variant Carcass\")",
+            "Description": "INVTEXT(\"[DNT] Deer Variant carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Deer Variant carcass\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Stone_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Throwing_Knife-DisplayName\", \"Stone Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_Stone.ITEM_ThrowingKnife_Stone",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Throwing_Knife-Description\", \"A basic, balanced blade for taking down foes at medium distances.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Throwing_Knife-FlavorText\", \"Icarus\\'s unusually active tectonics provide a ready source of sedimentary rocks, making for easily knapped, sharp, but weak blades.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Bone_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Throwing_Knife-DisplayName\", \"Bone Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife__Bone.ITEM_ThrowingKnife__Bone",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Throwing_Knife-Description\", \"Stronger, lighter and sharper than its stone cousin. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Throwing_Knife-FlavorText\", \"Did any UDA xenobiologist ever foresee that the bones of animals they adapted for life on Icarus would one day be used to fashion rudimentary hunting weapons?\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Metal_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Throwing_Knife-DisplayName\", \"Iron Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_Metal.ITEM_ThrowingKnife_Metal",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Throwing_Knife-Description\", \"A short, clip-point blade for better defense and swifter skinning.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Throwing_Knife-FlavorText\", \"\\'A mind all logic is like a knife all blade. It makes the hand bleed that uses it.\\' -- Rabindranath Tagore\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Titanium_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Throwing_Knife-DisplayName\", \"Titanium Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_Titanium.ITEM_ThrowingKnife_Titanium",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Throwing_Knife-Description\", \"A blade as hard and lightweight as life itself.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Throwing_Knife-FlavorText\", \"Named for the Greek Titans, titanium is harder than steel, corrosion resistant and extremely light. Its only flaw is brittleness, meaning it falls short of its indestructible reputation.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Steel_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Steel_Throwing_Knife-DisplayName\", \"Steel Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_Steel.ITEM_ThrowingKnife_Steel",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Steel_Throwing_Knife-Description\", \"A tempered needlepoint hunting blade.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Steel_Throwing_Knife-FlavorText\", \"Finely balanced knives like this can be thrown accurately with a little practice.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Platinum_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Knife-DisplayName\", \"Platinum Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_Platinum.ITEM_ThrowingKnife_Platinum",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Knife-Description\", \"A precision blade, stronger than steel.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Knife-FlavorText\", \"Platinum\\'s durablity gives an incredibly accurate, lethal cutting edge.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Sandworm_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Throwing_Knife-DisplayName\", \"Sandworm Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_Sandworm.ITEM_ThrowingKnife_Sandworm",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Throwing_Knife-Description\", \"A rare, highly durable blade.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Throwing_Knife-FlavorText\", \"Evolved to resist prolonged sand abrasion, the sandworm\\'s chitin-analogue scales holds an excellent edge.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Caveworm_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Throwing_Knife-DisplayName\", \"Caveworm Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_Caveworm.ITEM_ThrowingKnife_Caveworm",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Throwing_Knife-Description\", \"A rare, highly durable blade.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Throwing_Knife-FlavorText\", \"Evolved to resist prolonged sand abrasion, the worm\\'s chitin-analogue scales holds an excellent edge.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Black_Wolf_Throwing_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Throwing_Knife-DisplayName\", \"Black Wolf Throwing Knife\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_ThrowingKnife_BlackWolf.ITEM_ThrowingKnife_BlackWolf",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Throwing_Knife-Description\", \"A knife made from the teeth of an intimidating predator.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Throwing_Knife-FlavorText\", \"Sharp as ever.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Wood_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Throwing_Spear-DisplayName\", \"Wood Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Wood.ITEM_Javelin_Wood",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Throwing_Spear-Description\", \"Simple to make, easy to break.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Throwing_Spear-FlavorText\", \"An effective defensive weapon, and erratic low range projectile, rapidly surpassed by improved versions.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Bone_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Throwing_Spear-DisplayName\", \"Bone Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Bone.ITEM_Javelin_Bone",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Throwing_Spear-Description\", \"A bone blade improves ranged damage.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bone_Throwing_Spear-FlavorText\", \"As most new arrivals on Icarus realise at some stage, there is a certain elegance to hunting an animal for its bones, in order to craft a more effective weapon to hunt further animals.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Metal_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Throwing_Spear-DisplayName\", \"Iron Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Metal.ITEM_Javelin_Metal",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Throwing_Spear-Description\", \"An iron spearhead, improving defensive power and range.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Throwing_Spear-FlavorText\", \"\\'I throw a spear into the darkness. That is intuition. Then I must send an army into the darkness to find the spear. That is intellect.\\' -- Ingmar Bergman\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Steel_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Steel_Throwing_Spear-DisplayName\", \"Steel Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Steel.ITEM_Javelin_Steel",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Steel_Throwing_Spear-Description\", \"A light, strong traditional spear design that holds its edge.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Steel_Throwing_Spear-FlavorText\", \"The word \\'spear\\' has descended to us through the ages largely unchanged.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Titanium_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Throwing_Spear-DisplayName\", \"Titanium Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Titanium.ITEM_Javelin_Titanium",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Throwing_Spear-Description\", \"A powerful, precise projectile weapon. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Throwing_Spear-FlavorText\", \"Extremely strong and lightweight, the titanium spear is a devastating hunting and protective tool in well-trained hands.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Platinum_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Spear-DisplayName\", \"Platinum Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Platinum.ITEM_Javelin_Platinum",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Spear-Description\", \"Priceless on Earth. A projectile on Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Spear-FlavorText\", \"A midweight, short-shafted ahlspeiss spear that, composition aside, would not have looked out of place in 16th century Prussia.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Carbon_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Throwing_Spear-DisplayName\", \"Carbon Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Carbon.ITEM_Javelin_Carbon",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Throwing_Spear-Description\", \"A light, resilient spear made of layered carbon fiber.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Throwing_Spear-FlavorText\", \"Kills faster, flies further.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Composite_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Composite_Throwing_Spear-DisplayName\", \"Composite Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Composite.ITEM_Javelin_Composite",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Composite_Throwing_Spear-Description\", \"Low weight, high strength, extreme damage.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Composite_Throwing_Spear-FlavorText\", \"Bringing two thousand years of materials technology to a sharp stick, the composite spear is lethal at long range or close quarters.\")",
+            "Weight": 1000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Sandworm_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Throwing_Spear-DisplayName\", \"Sandworm Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Sandworm.ITEM_Javelin_Sandworm",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Throwing_Spear-Description\", \"A spear crafted from an ancient organism\\'s armor.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Throwing_Spear-FlavorText\", \"Group 15 continues to research sandworms, suspecting its subterranean evolution could hold clues to the bioeffects of exotics.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Caveworm_Throwing_Spear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Throwing_Spear-DisplayName\", \"Caveworm Javelin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Caveworm.ITEM_Javelin_Caveworm",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Throwing_Spear-Description\", \"A spear crafted from an ancient organism\\'s armor.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Throwing_Spear-FlavorText\", \"Many factions continue to research these worms, suspecting that subterranean evolution could hold clues to the bioeffects of exotics.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Carcass_Swamp_Quad",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Swamp_Quad-DisplayName\", \"Swamp Quadruped Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "INVTEXT(\"[DNT] Swamp Quadruped carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Swamp Quadruped carcass\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Carcass_SwampBird",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_SwampBird-DisplayName\", \"Swamp Bird Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "INVTEXT(\"[DNT] Swamp Bird carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Swamp Bird carcass\")",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Platinum_Crossbow",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Crossbow-DisplayName\", \"Platinum Crossbow\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Bows/ITEM_Platinum_Crossbow.ITEM_Platinum_Crossbow",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Crossbow-Description\", \"A crossbow that automatically reloads for rapid fire.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Crossbow-FlavorText\", \"It\\'s time for some serious damage.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Titanium_Crossbow",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Crossbow-DisplayName\", \"Titanium Crossbow\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Bows/ITEM_Titanium_Crossbow.ITEM_Titanium_Crossbow",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Crossbow-Description\", \"A powerful weapon to help you tackle whatever Icarus throws at you.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Crossbow-FlavorText\", \"Classier than a gun, more exciting than a bow.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Carcass_Chamois_Var",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Chamois_Var-DisplayName\", \"Chamois Variant Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "INVTEXT(\"[DNT] Chamois variant carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Chamois variant carcass\")",
+            "Weight": 8000
+        },
+        {
+            "Name": "Item_Carcass_BlueBack",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_BlueBack-DisplayName\", \"BlueBack Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "INVTEXT(\"[DNT] BlueBack carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] BlueBack carcass\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Carcass_Roat_Swamp",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Roat_Swamp-DisplayName\", \"Swamp Roat Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Roat.ITEM_AnimalCarcass_Roat",
+            "Description": "INVTEXT(\"[DNT] Swamp roat carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Swamp roat carcass\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Carcass_BlueBack_Lava",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_BlueBack_Lava-DisplayName\", \"BlueBack Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "INVTEXT(\"[DNT] BlueBack carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] BlueBack carcass\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_ProspectorID",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ProspectorID-DisplayName\", \"Prospector Identification\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/ITEM_Module_Generic_2.ITEM_Module_Generic_2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ProspectorID-Description\", \"The Standard ID of a Prospector Issued by the UDA\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_ProspectorID-FlavorText\", \"DO NOT LOSE\")",
+            "Weight": 300
+        },
+        {
+            "Name": "Item_Carcass_PredatorBird",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_PredatorBird-DisplayName\", \"Predator Bird Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "INVTEXT(\"[DNT] Predator Bird Carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Predator Bird Carcass\")",
+            "Weight": 1250
+        },
+        {
+            "Name": "Item_Cooked_Soy_Bean",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Soy_Bean-DisplayName\", \"Crunchy Soy Bean\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Soy_Bean-Description\", \"Filling and healthy.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Soy_Bean-FlavorText\", \"Boosts health and health regeneration.\")",
+            "Weight": 500,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Carcass_Spider",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Spider-DisplayName\", \"Spider Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+            "Description": "INVTEXT(\"[DNT] Spider carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Spider carcass\")",
+            "Weight": 8000
+        },
+        {
+            "Name": "Item_Health_Enhancement_Tonic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Health_Enhancement_Tonic-DisplayName\", \"Health Enhancement Tonic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Health_Enhancement_Tonic.ITEM_Health_Enhancement_Tonic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Health_Enhancement_Tonic-Description\", \"Providing a large amount of health and boosting maximum health and health regen for a short time.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Health_Enhancement_Tonic-FlavorText\", \"When it comes to survival, prospectors on Icarus try everything.\")",
+            "Weight": 250,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Stamina_Enhancement_Tonic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stamina_Enhancement_Tonic-DisplayName\", \"Stamina Enhancement Tonic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Stamina_Enhancement_Tonic.ITEM_Stamina_Enhancement_Tonic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stamina_Enhancement_Tonic-Description\", \"Providing a large amount of stamina and boosting maximum stamina and stamina regen for a short time.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stamina_Enhancement_Tonic-FlavorText\", \"Like the energy drinks of old, sometimes you need a little pick me up.\")",
+            "Weight": 250,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Sustenence_Enhancement_Tonic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sustenence_Enhancement_Tonic-DisplayName\", \"Sustenance Enhancement Tonic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Sustenence_Enhancement_Tonic.ITEM_Sustenence_Enhancement_Tonic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sustenence_Enhancement_Tonic-Description\", \"Providing a large amount of food, water and oxygen, and reducing their consumption for a short time.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sustenence_Enhancement_Tonic-FlavorText\", \"Perfect for the prospector on the go.\")",
+            "Weight": 250,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Strength_Enhancement_Tonic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Strength_Enhancement_Tonic-DisplayName\", \"Strength Enhancement Tonic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Strength_Enhancement_Tonic.ITEM_Strength_Enhancement_Tonic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Strength_Enhancement_Tonic-Description\", \"Provides a large boost to melee damage, throwing speed and physical resistance, for a short time.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Strength_Enhancement_Tonic-FlavorText\", \"For when you want to get up close and personal.\")",
+            "Weight": 250,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Carcass_Snow_Striker",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Snow_Striker-DisplayName\", \"Snow Striker Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Snow_Wolf.ITEM_AnimalCarcass_Snow_Wolf",
+            "Description": "INVTEXT(\"[DNT] Snow Striker Carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Snow Striker Carcass\")",
+            "Weight": 8000
+        },
+        {
+            "Name": "Item_Dynamic_Mission_Beacon",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Dynamic_Mission_Beacon-DisplayName\", \"Prototype Portable Beacon\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Portable_Beacon.ITEM_Portable_Beacon",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dynamic_Mission_Beacon-Description\", \"Displays a map marker when deployed.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dynamic_Mission_Beacon-FlavorText\", \"Lightly mapped and largely unexplored, human markers on the surface of Icarus are few and far between. The beacon offers a BYO solution.\")",
             "Weight": 10000
         }
     ]
