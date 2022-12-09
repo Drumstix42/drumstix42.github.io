@@ -22,9 +22,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.2.27.105033'" readonly></n-input>
+                        <n-input :value="'v1.2.28.105394'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2022/12/02</n-text>
+                    <n-text depth="3">2022/12/09</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
