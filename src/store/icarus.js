@@ -120,9 +120,10 @@ export const useIcarusStore = defineStore('icarus', {
 
         // * recipe data
         async loadRecipeData() {
+            const dateTime = new Date().getTime();
             this.isLoadingRecipes = true;
 
-            const itemTemplateResponse = await fetch('/icarus-game/Data/D_ItemTemplate.json', {
+            const itemTemplateResponse = await fetch(`/icarus-game/Data/D_ItemTemplate.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -130,7 +131,7 @@ export const useIcarusStore = defineStore('icarus', {
             });
             const itemTemplate = await itemTemplateResponse.json();
 
-            const itemStaticResponse = await fetch('/icarus-game/Data/D_ItemsStatic.json', {
+            const itemStaticResponse = await fetch(`/icarus-game/Data/D_ItemsStatic.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -138,7 +139,7 @@ export const useIcarusStore = defineStore('icarus', {
             });
             const itemStatic = await itemStaticResponse.json();
 
-            const itemTableResponse = await fetch('/icarus-game/Data/D_Itemable.json', {
+            const itemTableResponse = await fetch(`/icarus-game/Data/D_Itemable.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -146,7 +147,7 @@ export const useIcarusStore = defineStore('icarus', {
             });
             const itemTable = await itemTableResponse.json();
 
-            const recipeResponse = await fetch(`/icarus-game/Data/D_ProcessorRecipes.json`, {
+            const recipeResponse = await fetch(`/icarus-game/Data/D_ProcessorRecipes.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
