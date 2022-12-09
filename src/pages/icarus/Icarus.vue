@@ -8,8 +8,8 @@
             <ul class="mb-0">
                 <li>
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3314110913457052547" target="_blank"
-                        >Icarus Week 52 Update | Two new Open World mission types + Fortifications</a
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3611354355089820956" target="_blank"
+                        >Icarus Week 53 Update | One Year of Icarus &amp; Data Decentralization</a
                     >
                 </li>
                 <li>Item labels are now mapped from in-game data label text and should be more familiar overall.</li>
@@ -69,7 +69,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20221202,
+    whatsNew: 20221209,
 });
 
 const isAlertVisible = (alertName) => {
