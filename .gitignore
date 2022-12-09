@@ -25,7 +25,3 @@ eslint-report.json
 dist
 dist-ssr
 *.local
-
-# these file names are too long, and broke things, so they were renamed to shorter, de-duplicated names, that still work with the code
-public/icarus-game/ItemIcons/Attachments/ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance.ITEM_ArmorAttachCaveHealthRegen_Pneumonia_Chance.png
-public/icarus-game/ItemIcons/Attachments/ITEM_ArmorAttachStormStaminaRegen_Exposure_Res.ITEM_ArmorAttachStormStaminaRegen_Exposure_Res.png
