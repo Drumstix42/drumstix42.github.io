@@ -8,11 +8,10 @@
             <ul class="mb-0">
                 <li>
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3611354355089820956" target="_blank"
-                        >Icarus Week 53 Update | One Year of Icarus &amp; Data Decentralization</a
-                    >
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3611354355089820956" target="_blank">
+                        Icarus Week 58 Update | New mission - REMNANT: Extraction
+                    </a>
                 </li>
-                <li>Item labels are now mapped from in-game data label text and should be more familiar overall.</li>
             </ul>
         </n-alert>
 
@@ -22,9 +21,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.2.28.105394'" readonly></n-input>
+                        <n-input :value="'v1.2.33.106383'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2022/12/09</n-text>
+                    <n-text depth="3">2023/01/13</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -69,7 +68,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20221209,
+    whatsNew: 20230113,
 });
 
 const isAlertVisible = (alertName) => {
