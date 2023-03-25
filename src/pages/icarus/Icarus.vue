@@ -8,8 +8,8 @@
             <ul class="mb-0">
                 <li>
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3611354355089820956" target="_blank">
-                        Icarus Week 58 Update | New mission - REMNANT: Extraction
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3718323737483112361" target="_blank">
+                        Icarus Week 68 Update
                     </a>
                 </li>
             </ul>
@@ -21,9 +21,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.2.33.106383'" readonly></n-input>
+                        <n-input :value="'v1.2.43.108956'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2023/01/13</n-text>
+                    <n-text depth="3">2023/03/25</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -68,7 +68,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20230113,
+    whatsNew: 20230325,
 });
 
 const isAlertVisible = (alertName) => {

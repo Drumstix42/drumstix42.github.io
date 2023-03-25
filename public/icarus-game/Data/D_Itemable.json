@@ -1065,7 +1065,7 @@
             "Name": "Item_Cooking_Station",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station-DisplayName\", \"Cooking Station\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Cooking_Station.ITEM_Cooking_Station",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station-Description\", \"A food preperation and butchering bench.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station-Description\", \"A food preparation and butchering bench.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station-FlavorText\", \"While it may not deliver high cuisine, the Cooking Station rewards the attentions of an attentive chef with a swifter, more sustaining food supply.\")",
             "Weight": 2000
         },
@@ -1073,7 +1073,7 @@
             "Name": "Item_Cooking_Station_V2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station_V2-DisplayName\", \"Cooking Station\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Cooking_Station_V2.ITEM_Cooking_Station_V2",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station_V2-Description\", \"A food preperation and butchering bench.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station_V2-Description\", \"A food preparation and butchering bench.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooking_Station_V2-FlavorText\", \"While it may not deliver high cuisine, the Cooking Station rewards the attentions of an attentive chef with a swifter, more sustaining food supply.\")",
             "Weight": 2000
         },
@@ -1277,7 +1277,7 @@
             "Name": "Item_Farming_CropPlot_T2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Farming_CropPlot_T2-DisplayName\", \"Wood Crop Plot\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Farming_CropPlot.ITEM_Farming_CropPlot",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Farming_CropPlot_T2-Description\", \"A general-purpose planter bed for your crops Fully-grown crops left too long will eventually wither and only provide spoiled plants..\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Farming_CropPlot_T2-Description\", \"A general-purpose planter bed for your crops. Fully-grown crops left too long will eventually wither and only provide spoiled plants.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Farming_CropPlot_T2-FlavorText\", \"A raised planting bed brings the food to you, slowly.\")",
             "Weight": 2000
         },
@@ -1770,8 +1770,8 @@
             "Name": "Item_Refrigerator",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Refrigerator-DisplayName\", \"Refrigerator\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Refrigerator.ITEM_Refrigerator",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Refrigerator-Description\", \"Preserves food from spoilage when powered.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Refrigerator-FlavorText\", \"The Xigo-designed Skift fridge maintains an optimum four degrees.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Refrigerator-Description\", \"Fully prevents food spoilage but slowly fills up with Ice\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Refrigerator-FlavorText\", \"The Xigo-designed Skift \")",
             "Weight": 20000
         },
         {
@@ -3489,8 +3489,8 @@
             "Name": "Item_Coconut",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Coconut-DisplayName\", \"Young Coconut\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Coconut_Young.ITEM_Coconut_Young",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Coconut-Description\", \"Mostly water, young coconut quench thirst but won\\'t do much for hunger.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Coconut-FlavorText\", \"Like sharks, cocounts often fail to live up to their lethal reputation.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Coconut-Description\", \"Mostly water, young coconuts will quench thirst but won\\'t do much for hunger.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Coconut-FlavorText\", \"Like sharks, coconuts often fail to live up to their lethal reputation.\")",
             "Weight": 200
         },
         {
@@ -4833,7 +4833,7 @@
         },
         {
             "Name": "Item_Meta_Arrow_Set_Shengong",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Shengong-DisplayName\", \"Shengong \\'Wenhe\\' Arrows Bundle\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Shengong-DisplayName\", \"Shengong \\'Wenhe\\' Arrow Bundle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Arrow_Shengong_Set.ITEM_Meta_Arrow_Shengong_Set",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Shengong-Description\", \"25 arrows of decent quality, if unremarkable performance. \\'CONSUME\\' to open bundle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Shengong-FlavorText\", \"Shengong Inc. are a wholly owned subsidary of Sinotai.\")",
@@ -4853,7 +4853,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Meta_Canteen_Shengong.ITEM_Meta_Canteen_Shengong",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Canteen_Shengong-Description\", \"A durable and economic water container.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Canteen_Shengong-FlavorText\", \"Exactly how the Hulu became such an icon of off-world existence is lost in a froth of interplanetary memes.\")",
-            "Weight": 100
+            "Weight": 1000
         },
         {
             "Name": "Item_Meta_Bandage_Shengong",
@@ -4932,7 +4932,7 @@
         },
         {
             "Name": "Item_Meta_Arrow_Set_Printed_Alpha",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Alpha-DisplayName\", \"MXC Venom Arrows Bundle\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Alpha-DisplayName\", \"MXC Venom Arrow Bundle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Arrow_Printed_Set.ITEM_Meta_Arrow_Printed_Set",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Alpha-Description\", \"Five low-cost, metallic 3D printed arrows, spiked with poison refined from Icarus marine life. \\'CONSUME\\' to open bundle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Alpha-FlavorText\", \"If you hit, it\\'s skill, if you miss, it\\'s the rapidly crafted, low quality projectiles.\")",
@@ -4940,7 +4940,7 @@
         },
         {
             "Name": "Item_Meta_Arrow_Set_Printed_Beta",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-DisplayName\", \"MXC Nerve Arrows Bundle\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-DisplayName\", \"MXC Nerve Arrow Bundle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Arrow_Printed_Set.ITEM_Meta_Arrow_Printed_Set",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-Description\", \"Five arrows tipped with a rapid-action nerve agent that slows targets. \\'CONSUME\\' to open bundle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-FlavorText\", \"Additive manufacturing became the production process of choice following much needed advances in micro-recycling, which allowed almost any mettalic compound to be processed, purified and reused as print material.\")",
@@ -4948,7 +4948,7 @@
         },
         {
             "Name": "Item_Meta_Arrow_Set_Printed_Charlie",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Charlie-DisplayName\", \"MXC Flange Arrows Bundle\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Charlie-DisplayName\", \"MXC Flange Arrow Bundle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Arrow_Printed_Set.ITEM_Meta_Arrow_Printed_Set",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Charlie-Description\", \"Five swiftly printed metal polymer arrows with micro-barbed heads, designed to inflict more lethal wounds. \\'CONSUME\\' to open bundle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Charlie-FlavorText\", \"The legality of these projectiles is currently unclear.\")",
@@ -5211,7 +5211,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pickled_Carrot-Description\", \"An acquired taste, boosts stamina.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Pickled_Carrot-FlavorText\", \"Like many other ancient ways, pickling has found a place on Icarus.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 20
         },
         {
             "Name": "Item_Chemistry_Bench",
@@ -6708,7 +6708,7 @@
             "Name": "Item_Meta_Arrow_Set_Larkwell_Tazer",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Larkwell_Tazer-DisplayName\", \"Larkwell Tazer Arrow Bundle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Arrow_Set_Larkwell_Tazer.ITEM_Meta_Arrow_Set_Larkwell_Tazer",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Larkwell_Tazer-Description\", \"A set of arrows that can slow it\\'s target for 4s, dealing 40-120 damage over that time period. The stronger the target, the more likely it is to resist the effects. \\'CONSUME\\' to open bundle.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Larkwell_Tazer-Description\", \"A set of 25 arrows that can slow its target for 4s, dealing 40-120 damage over that time period. The stronger the target, the more likely it is to resist the effects. \\'CONSUME\\' to open bundle.\")",
             "Weight": 500
         },
         {
@@ -7338,6 +7338,42 @@
             "Weight": 1000
         },
         {
+            "Name": "Item_Hyena_Statue_Decoration_Bronze",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hyena_Statue_Decoration_Bronze-DisplayName\", \"Bronze Hyena Statue\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Hyena_Statue_Decoration_Bronze-Description\", \"A trophy worthy of celebration.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Cougar_Statue_Decoration_Bronze",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cougar_Statue_Decoration_Bronze-DisplayName\", \"Bronze Cougar Statue\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cougar_Statue_Decoration_Bronze-Description\", \"A trophy worthy of celebration.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Jaguar_Statue_Decoration_Bronze",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jaguar_Statue_Decoration_Bronze-DisplayName\", \"Bronze Jaguar Statue\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jaguar_Statue_Decoration_Bronze-Description\", \"A trophy worthy of celebration.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_SnowLeopard_Statue_Decoration_Bronze",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SnowLeopard_Statue_Decoration_Bronze-DisplayName\", \"Bronze Snow Leopard Statue\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SnowLeopard_Statue_Decoration_Bronze-Description\", \"A trophy worthy of celebration.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Elephant_Statue_Decoration_Bronze",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Elephant_Statue_Decoration_Bronze-DisplayName\", \"Bronze Elephant Statue\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Elephant_Statue_Decoration_Bronze-Description\", \"A trophy worthy of celebration.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Piranha_Statue_Decoration_Stone",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Piranha_Statue_Decoration_Stone-DisplayName\", \"Stone Piranha Statue\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Piranha_Statue_Decoration_Stone-Description\", \"A trophy worthy of celebration.\")",
+            "Weight": 1000
+        },
+        {
             "Name": "Item_Mission_STYX_D_Research2_Bomb",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_STYX_D_Research2_Bomb-DisplayName\", \"Environmental Monitoring Station\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Monitoring_Station.ITEM_Monitoring_Station",
@@ -7753,7 +7789,7 @@
             "Name": "Item_Attachment_Storm_Resistance_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_1-DisplayName\", \"Storm Visor Attachment\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachStormStaminaRegen_Exposure_Res.ITEM_ArmorAttachStormStaminaRegen_Exposure_Res",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_1-Description\", \"An attachment that improves stamina regenration in storms and exposure resistance. \")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_1-Description\", \"An attachment that improves stamina regeneration in storms and exposure resistance. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_1-FlavorText\", \"Can be equipped to head armor at an Alteration Bench.\")",
             "Weight": 1000
         },
@@ -7761,7 +7797,7 @@
             "Name": "Item_Attachment_Storm_Resistance_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_2-DisplayName\", \"Advanced Storm Visor Attachment\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/ITEM_ArmorAttachStormStaminaRegen_Exposure_Res.ITEM_ArmorAttachStormStaminaRegen_Exposure_Res",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_2-Description\", \"An attachment that greatly improves stamina regenration in storms and exposure resistance. \")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_2-Description\", \"An attachment that greatly improves stamina regeneration in storms and exposure resistance. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Storm_Resistance_2-FlavorText\", \"Can be equipped to head armor at an Alteration Bench.\")",
             "Weight": 1000
         },
@@ -8230,7 +8266,7 @@
             "Name": "Item_Mission_Communicator_T2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communicator_T2-DisplayName\", \"Short Range Radio\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Mission_Communication_Device_T2.ITEM_Mission_Communication_Device_T2",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communicator_T2-Description\", \"Interact to Recieve a Mission From \\'SMPL3\\' - Simplified Mission Prospector Liaison V3\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communicator_T2-Description\", \"Interact to Receive a Mission From \\'SMPL3\\' - Simplified Mission Prospector Liaison V3\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communicator_T2-FlavorText\", \"Replacing UDA agents one mission at a time.\")",
             "Weight": 10000
         },
@@ -8285,7 +8321,7 @@
             "Name": "Item_Mission_Digested_Biomatter_Sample",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Digested_Biomatter_Sample-DisplayName\", \"Digested Biomatter Sample\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Bio_Needle.ITEM_Bio_Needle",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Digested_Biomatter_Sample-Description\", \"A sample taken from a contaiminated bear.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Digested_Biomatter_Sample-Description\", \"A sample taken from a contaminated bear.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Digested_Biomatter_Sample-FlavorText\", \"Its essentially some kind of Acid\")",
             "Weight": 250,
             "MaxStack": 100
@@ -8368,9 +8404,9 @@
         },
         {
             "Name": "Item_Mission_Communication_Blueprint_T2",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-DisplayName\", \"Prototype UDA Communication Blueprint\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-DisplayName\", \"Prototype UDA Communication Upgrade\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Bio_Needle.ITEM_Bio_Needle",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-Description\", \"A USB drive with the plans for a new Communication Device\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-Description\", \"A USB drive with the plans for an Upgraded Communication Device\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-FlavorText\", \"Once Downloaded to the suit, there is not need for this item.\")",
             "Weight": 250
         },
@@ -8749,7 +8785,6 @@
         {
             "Name": "Item_Landmine",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Landmine-DisplayName\", \"Makeshift Landmine\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Landmine-Description\", \"Place to Trigger and Arm, Explodes if fast movement is detected nearby.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Landmine-FlavorText\", \"Dangerous... Very Dangerous....\")",
             "Weight": 1000
@@ -8761,6 +8796,427 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_WoolyZebra-Description\", \"A gregarious, migratory grazer and icon of the savannah.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_WoolyZebra-FlavorText\", \"The exact purpose of zebra stripes remains a mystery.\")",
             "Weight": 10000
+        },
+        {
+            "Name": "Item_Fish_Chunks",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-DisplayName\", \"Fish Chunks\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-Description\", \"Generic Scraps of Fish Flesh. Has very little nutritional value.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-FlavorText\", \"Kind of Gross.\")",
+            "Weight": 50,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Basic_Fishing_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Rod-DisplayName\", \"Basic Fishing Rod\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_FishingRod.ITEM_FishingRod",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Rod-Description\", \"A basic fishing rod.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Rod-FlavorText\", \"Gone Fishin\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Wooden_Fishing_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wooden_Fishing_Rod-DisplayName\", \"Wooden Fishing Rod\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Refined_Wood_Fishing_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Refined_Wood_Fishing_Rod-DisplayName\", \"Refined Wood Fishing Rod\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Basic_Fishing_Trap",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Trap-DisplayName\", \"Basic Fishing Trap\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Basic_Fishing_Trap.ITEM_Basic_Fishing_Trap",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Trap-Description\", \"A simple trap thaat can catch Basic Low Quality Fish\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Trap-FlavorText\", \"Set and forget.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Advanced_Fishing_Trap",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Fishing_Trap-DisplayName\", \"Advanced Fishing Trap\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Advanced_Fishing_Trap.ITEM_Advanced_Fishing_Trap",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Fishing_Trap-Description\", \"An advanced trap that can catch all types of fish.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Fishing_Trap-FlavorText\", \"True ingenuity.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Fishing_Bench",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fishing_Bench-DisplayName\", \"Basic Fishing Bench\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fishing_Bench.ITEM_Fishing_Bench",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fishing_Bench-Description\", \"A place to craft Rods and Lures and to fillet Fish that you\\'ve caught.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fishing_Bench-FlavorText\", \"The stench of this bench...\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Fish_Wall_Mount",
+            "DisplayName": "INVTEXT(\"[DNT] Fish Trophy Mount\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Wall_Mount-Description\", \"You may display your favourite catch here for all to see.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Wall_Mount-FlavorText\", \"If only it could sing.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Aquarium",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Aquarium-DisplayName\", \"Aquarium\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Aquarium.ITEM_Aquarium",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Aquarium-Description\", \"A handy fish tank for keeping your favourite finned friends around, must be connected to both power and water.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Aquarium-FlavorText\", \"Don\\'t tap on the glass.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Advanced_Aquarium",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Aquarium-DisplayName\", \"Advanced Aquarium\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Advanced_Aquarium.ITEM_Advanced_Aquarium",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Aquarium-Description\", \"A very fancy fish tank for keeping your favourite finned friends around, must be connected to both power and water.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Aquarium-FlavorText\", \"I repeat, do NOT tap on the glass.\")",
+            "Weight": 2500
+        },
+        {
+            "Name": "Item_Saltwater_Fish_Fillet",
+            "DisplayName": "INVTEXT(\"[DNT] Saltwater Fish Fillet\")",
+            "Description": "INVTEXT(\"[DNT] Cooking Ingrediant\")",
+            "Weight": 250,
+            "MaxStack": 25
+        },
+        {
+            "Name": "Item_Freshwater_Fish_Fillet",
+            "DisplayName": "INVTEXT(\"[DNT] Freshwater Fish Fillet\")",
+            "Description": "INVTEXT(\"[DNT] Cooking Ingredient\")",
+            "Weight": 250,
+            "MaxStack": 25
+        },
+        {
+            "Name": "Item_Fiber_Fishing_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Fibre Fishing Lure\")",
+            "Description": "INVTEXT(\"[DNT] Attaches to Fishing Rod to catch better Fish\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Thumper",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Thumper-DisplayName\", \"Prototype Thumper\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Thumper.ITEM_Thumper",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Thumper-Description\", \"Deploy and activate to unearth mineable ores. Replenishes mineable rocks in the surrounding area. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Thumper-FlavorText\", \"Sure hope this doesn\\'t attract anything big...\")",
+            "Weight": 90000
+        },
+        {
+            "Name": "Item_Salt",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Salt-DisplayName\", \"Salt\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_SaltBag.ITEM_SaltBag",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Salt-Description\", \"A small pile of Salt, can be used on a salting station to preserve food.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Salt-FlavorText\", \"An essential mineral for adding flavour and preserving food.\")",
+            "Weight": 10,
+            "MaxStack": 500
+        },
+        {
+            "Name": "Item_Salting_Station",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Salting_Station-DisplayName\", \"Salting Station\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Salting_Station.ITEM_Salting_Station",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Salting_Station-Description\", \"Can be used to preserve food, using salt.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Salting_Station-FlavorText\", \"Simple but effective\")",
+            "Weight": 20000
+        },
+        {
+            "Name": "Item_Deep_Freeze",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Deep_Freeze-DisplayName\", \"Deep Freeze\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Deep_Freeze.ITEM_Deep_Freeze",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Deep_Freeze-Description\", \"A freezer that preserves food but amasses ice very slowly and uses a fairly large amount of power.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Deep_Freeze-FlavorText\", \"Energy efficiency is important on EVERY planet.\")",
+            "Weight": 25000
+        },
+        {
+            "Name": "Item_Fish_01",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_01-DisplayName\", \"Spotted Snapper\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_01-Description\", \"A common freshwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_01-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_02",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_02-DisplayName\", \"Ember Jack\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_02-Description\", \"A common freshwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_02-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_03",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_03-DisplayName\", \"Oceanic Barracuda\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_03-Description\", \"A common saltwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_03-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_04",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_04-DisplayName\", \"Coral Piranha\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_04-Description\", \"A common saltwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_04-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_05",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_05-DisplayName\", \"Sea Darter\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_05-Description\", \"An uncommon saltwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_05-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_06",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_06-DisplayName\", \"Titan Triggerfish\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_06-Description\", \"An uncommon saltwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_06-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_07",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_07-DisplayName\", \"Pearl Perch\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_07-Description\", \"An uncommon freshwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_07-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_08",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_08-DisplayName\", \"Neon Tetra\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_08-Description\", \"An uncommon freshwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_08-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_09",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_09-DisplayName\", \"Sunset Trout\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_09-Description\", \"An uncommon freshwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_09-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_10",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_10-DisplayName\", \"Azure Diano\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_10-Description\", \"A rare freshwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_10-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_11",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_11-DisplayName\", \"Banded Dory\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_11-Description\", \"A rare saltwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_11-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_12",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_12-DisplayName\", \"Crimson Wrasse\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_12-Description\", \"An uncommon saltwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_12-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_13",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_13-DisplayName\", \"Emerald Dorado\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_13-Description\", \"A rare saltwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_13-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_14",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_14-DisplayName\", \"Black Diamond Discus\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_14-Description\", \"A rare freshwater fish. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_14-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_15",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_15-DisplayName\", \"Ghostly Tang\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_15-Description\", \"An extremely rare specimen found only in the Styx Region. Native to Icarus. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_15-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fish_16",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_16-DisplayName\", \"Electric Wraith\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_16-Description\", \"An extremely rare specimen found only in the Olympus Region. Native to Icarus. Can be filleted at a Fishing Bench.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_16-FlavorText\", \"You caught this, with a rod or a trap.\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Layered_Plating",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Layered_Plating-DisplayName\", \"Layered Plating\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Layered_Plating.ITEM_Layered_Plating",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Layered_Plating-Description\", \"Layered metal plates for protection.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Layered_Plating-FlavorText\", \"Simple enough to make on the surface, strong enough to protect from harsh weather.\")",
+            "Weight": 90000
+        },
+        {
+            "Name": "Item_Wood_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Wooden Lure \")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Refined_Wood_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Refined Wooden Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Bone_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Bone Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Iron_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Iron Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Advanced_Iron_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Advanced Iron Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Reed_Flower_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Reed Flower Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Cured_Leather_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Cured Leather Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Gold_Ore_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Gold Ore Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Gorse_Flower_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Gorse Flower Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Dogtags_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Dogtags Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Rubber_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Rubber Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Wolf_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Wolf Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Black_Wolf_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Black Wolf Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Scorpian_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Scorpion Tail Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Fiber_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Fiber Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Feather_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Feather Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Bark_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Bark Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Yeast_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Yeast Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Blue_Reed_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Blue Reed Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Rotten_Meat_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Rotten Meat Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Poison_Sack_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] Poison Sack Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_White_Jelly_Lure",
+            "DisplayName": "INVTEXT(\"[DNT] White Jelly Lure\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Gold_Wire",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Wire-DisplayName\", \"Gold Wire\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Wire-Description\", \"This wire can be used in Electrical Circuits\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Wire-FlavorText\", \"This sparks joy.\")",
+            "Weight": 25,
+            "MaxStack": 200
+        },
+        {
+            "Name": "Item_Copper_Wire",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Copper_Wire-DisplayName\", \"Copper Wire\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Copper_Wire-Description\", \"This wire can be used in Electrical Circuits\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Copper_Wire-FlavorText\", \"This sparks joy.\")",
+            "Weight": 25,
+            "MaxStack": 200
+        },
+        {
+            "Name": "Item_Rhubarb",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Rhubarb-DisplayName\", \"Rhubarb\")",
+            "Description": "INVTEXT(\"[DNT] \")",
+            "FlavorText": "INVTEXT(\"[DNT] \")",
+            "Weight": 100,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Kumara",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kumara-DisplayName\", \"Kumara\")",
+            "Description": "INVTEXT(\"[DNT] \")",
+            "FlavorText": "INVTEXT(\"[DNT] \")",
+            "Weight": 100,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Avocado",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Avocado-DisplayName\", \"Avocado\")",
+            "Description": "INVTEXT(\"[DNT] \")",
+            "FlavorText": "INVTEXT(\"[DNT] \")",
+            "Weight": 100,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Strawberry",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Strawberry-DisplayName\", \"Strawberry\")",
+            "Description": "INVTEXT(\"[DNT] \")",
+            "FlavorText": "INVTEXT(\"[DNT] \")",
+            "Weight": 100,
+            "MaxStack": 100
         }
     ]
 }
