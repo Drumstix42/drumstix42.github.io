@@ -5,13 +5,21 @@
         </n-alert>
 
         <n-alert v-if="showWhatsNewAlert" class="m-2 mb-3" title="What's New?" type="success" closable @after-leave="dismissAlert('whatsNew')">
-            <ul class="mb-0">
+            <ul class="mb-0 list-none">
                 <li>
                     Support for
                     <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/5358762517222665918" target="_blank">
                         Icarus Week 72 Update
                     </a>
                 </li>
+                <li>
+                    🔄 All your Tabs and Toggle options now persist between sessions. Data saves to
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank" class="text-primary"
+                        >localStorage</a
+                    >.
+                </li>
+                <li>🔍 Fuzzy search added to Item Search list. It should be a little easier to find items.</li>
+                <li>🔨 "Stack" count displays on icons for Items which are crafted in bulk (<em>e.g. x100 Steel Screw</em>)</li>
             </ul>
         </n-alert>
 
@@ -29,19 +37,19 @@
             <tabs-view class="tab-view flex-1"></tabs-view>
         </div>
 
-        <n-alert class="m-2 mt-3 mb-4" title="Calculator Todo List" type="default" closable>
+        <n-alert class="m-2 mt-3 mb-4" title="Developer Todo List" type="default" closable>
             <template #icon>
                 <n-icon size="20">
                     <Hammer></Hammer>
                 </n-icon>
             </template>
             <ul>
-                <li>Save tab data in localStorage to support session restoration</li>
-                <li>Show stack size on icons that normally produce more than 1 item</li>
+                <li class="line-through">Save tab data in localStorage to support session restoration</li>
+                <li class="line-through">Show stack size on icons that normally produce more than 1 item</li>
+                <li class="line-through">Improve item search matching (fuzzy search)</li>
+                <li>Add way to "check" off items (mark as done)</li>
                 <li>Implement talent options logic to impact component output calculation</li>
                 <li>Indicate which items belong to each Tier (not specified in game data export directly)</li>
-                <li>Improve item search matching (fuzzy search)</li>
-                <li>Add way to "check" off items (mark as done)</li>
             </ul>
         </n-alert>
 
@@ -68,7 +76,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20230325,
+    whatsNew: 20230421,
 });
 
 const isAlertVisible = (alertName) => {
