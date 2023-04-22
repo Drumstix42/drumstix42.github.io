@@ -9,7 +9,7 @@
             </div>
         </div>
         <n-spin :show="isLoadingRecipes">
-            <n-card class="overflow-hidden">
+            <n-card class="overflow-hidden" content-style="padding: 1rem;">
                 <!-- {{ activeTabId }} - {{ activeTab?.id }} -->
                 <n-tabs ref="tabsInstRef" v-model:value="activeTabId" type="bar" :addable="addable" :closable="closable" tab-style="">
                     <!-- `name` acts as ID here -->

@@ -17,40 +17,46 @@
 
             <transition-group x-appear name="list" tag="div">
                 <div v-for="item in tab.items" class="recipe-item flex align-items-center" :key="item.id">
-                    <n-input-number
-                        class="input-quantity flex-shrink-0"
-                        v-model:value="item.quantity"
-                        placeholder="Quantity"
-                        :min="0"
-                        :max="100000"
-                        :step="recipeData[item.id]?.outputQuantity ?? 1"
-                        :validator="validateQuantity"
-                        :on-update-value="onQuantityChange(item)"
-                    />
-                    <div class="relative flex align-items-center">
+                    <div class="relative flex align-items-center mr-1">
                         <n-image
                             class="icon"
-                            width="32"
+                            width="45"
                             :src="`/icarus-game/ItemIcons/${recipeData[item.id]?.iconPath}.png`"
                             fallback-src="/icarus-game/Images/question-mark.png"
-                            :preview-disabled="true"
+                            :preview-disabled="false"
                         />
                         <div v-if="recipeData[item.id]?.outputQuantity > 1" class="item-counter">x{{ recipeData[item.id].outputQuantity }}</div>
                     </div>
-                    <div class="flex-shrink label-wrap">
-                        <div class="label text-overflow-ellipsis">{{ recipeData[item.id].label }}</div>
+                    <div class="flex-grow-1">
+                        <div class="flex align-items-center pb-1">
+                            <div class="flex-shrink">
+                                <div class="label text-overflow-ellipsis">{{ recipeData[item.id].label }}</div>
+                            </div>
+                        </div>
+                        <div class="flex align-items-center flex-grow-1">
+                            <n-input-number
+                                class="input-quantity flex-shrink-0"
+                                v-model:value="item.quantity"
+                                placeholder="Quantity"
+                                :min="0"
+                                :max="100000"
+                                :step="recipeData[item.id]?.outputQuantity ?? 1"
+                                :validator="validateQuantity"
+                                :on-update-value="onQuantityChange(item)"
+                            />
+                            <component-source-picker :component-id="item.id" @change="triggerCalc()"></component-source-picker>
+                            <n-tooltip trigger="hover">
+                                <template #trigger>
+                                    <n-button class="hover-button ml-auto" secondary type="error" size="small" @click="removeItem(item)">
+                                        <n-icon size="13">
+                                            <Times></Times>
+                                        </n-icon>
+                                    </n-button>
+                                </template>
+                                Remove from list
+                            </n-tooltip>
+                        </div>
                     </div>
-                    <component-source-picker :component-id="item.id" @change="triggerCalc()"></component-source-picker>
-                    <n-tooltip trigger="hover">
-                        <template #trigger>
-                            <n-button class="hover-button ml-auto" secondary type="error" size="small" @click="removeItem(item)">
-                                <n-icon size="13">
-                                    <Times></Times>
-                                </n-icon>
-                            </n-button>
-                        </template>
-                        Remove from list
-                    </n-tooltip>
                 </div>
             </transition-group>
 
@@ -78,7 +84,7 @@
                 <h3>Crafting Stations</h3>
             </div>
             <div class="">
-                <div v-for="componentName in requiredCraftingStations" class="recipe-item pl-0 flex align-items-center">
+                <div v-for="componentName in requiredCraftingStations" class="recipe-item stations pl-0 flex align-items-center">
                     <div class="flex align-items-center">
                         <n-image
                             class="icon"
@@ -264,15 +270,20 @@ export default {
 
 <style scoped lang="scss">
 .recipe-item {
-    min-height: 40px;
-    padding: 0.1rem 0.3rem;
+    min-height: 60px;
+    padding: 0.5rem 0.3rem;
+
+    &.stations {
+        min-height: 40px;
+    }
 
     .input-quantity {
-        width: 8rem;
+        width: 5.5rem;
+        margin-right: 0.5rem;
     }
 
     .icon {
-        margin: 0 0.5rem;
+        margin: 0 0.5rem 0 0;
     }
 
     .label-wrap {
