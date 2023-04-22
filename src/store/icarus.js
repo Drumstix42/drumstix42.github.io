@@ -38,7 +38,7 @@ export const useIcarusStore = defineStore('icarus', {
             {
                 includeSubComponents: false,
                 includeStationComponents: false,
-                searchFuzzyMatch: false,
+                searchFuzzyMatch: true,
             },
             localStorage,
             { mergeDefaults: true }
