@@ -5,21 +5,21 @@
         </n-alert>
 
         <n-alert v-if="showWhatsNewAlert" class="m-2 mb-3" title="What's New?" type="success" closable @after-leave="dismissAlert('whatsNew')">
-            <ul class="mb-0 list-none">
-                <li>
+            <ul class="mb-0 pl-0 list-none">
+                <li class="mb-1">
                     Support for
                     <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/5358762517222665918" target="_blank">
                         Icarus Week 72 Update
                     </a>
                 </li>
-                <li>
+                <li class="mb-1">
                     🔄 All your Tabs and Toggle options now persist between sessions. Data saves to
                     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank" class="text-primary"
                         >localStorage</a
                     >.
                 </li>
-                <li>🔍 Fuzzy search added to Item Search list. It should be a little easier to find items.</li>
-                <li>🔨 "Stack" count displays on icons for Items which are crafted in bulk (<em>e.g. x100 Steel Screw</em>)</li>
+                <li class="mb-1">🔍 Fuzzy search added to Item Search list. It should be a little easier to find items.</li>
+                <li class="mb-1">🔨 "Stack" count displays on icons for Items which are crafted in bulk (<em>e.g. x100 Steel Screw</em>)</li>
             </ul>
         </n-alert>
 
