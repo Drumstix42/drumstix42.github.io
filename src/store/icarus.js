@@ -4,7 +4,13 @@ import { useStorage } from '@vueuse/core';
 import { useFuse } from '@vueuse/integrations/useFuse';
 
 import { LOCAL_STORAGE_PREFIX } from '@/constants/common';
-import { processItemStaticData, processItemTableData, processItemTemplateData, processRecipeData } from '@/utility/icarusData';
+import {
+    generateHighlightedText,
+    processItemStaticData,
+    processItemTableData,
+    processItemTemplateData,
+    processRecipeData,
+} from '@/utility/icarusData';
 
 // utility methods
 const generateTabId = () => Date.now();
@@ -80,14 +86,13 @@ export const useIcarusStore = defineStore('icarus', {
                     matchAllWhenSearchEmpty: true,
                 };
                 const { results } = useFuse(state.recipeSearch, this.sortedRecipeOptions, searchOptions);
-                // map { item, refIndex } to an array of items
-                console.log({ results: results.value });
-                return results.value.map((result) => result.item);
+                console.log({ searchResults: results.value });
 
-                /* return this.sortedRecipeOptions.filter((item) => {
-                    const label = item.label.toLowerCase();
-                    return label.includes(searchLabel);
-                }); */
+                // map { item, refIndex } to an array of items
+                return results.value.map((result) => ({
+                    ...result.item,
+                    highlightedLabel: result.matches ? generateHighlightedText(result.item.label, result.matches?.[0]?.indices) : result.item.label,
+                }));
             }
             return this.sortedRecipeOptions;
         },

@@ -247,6 +247,24 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
     return postProcessData(recipeData);
 }
 
+export function generateHighlightedText(inputText, regions = []) {
+    let content = '';
+    let nextNonHighlightedRegionStartingIndex = 0;
+
+    regions.forEach((region) => {
+        const lastRegionNextIndex = region[1] + 1;
+        const nonHighlightedRegion = inputText.substring(nextNonHighlightedRegionStartingIndex, region[0]);
+        const highlightedRegion = inputText.substring(region[0], lastRegionNextIndex);
+        content += `${nonHighlightedRegion}<span class="highlight-result">${highlightedRegion}</span>`;
+
+        nextNonHighlightedRegionStartingIndex = lastRegionNextIndex;
+    });
+
+    content += inputText.substring(nextNonHighlightedRegionStartingIndex);
+
+    return content;
+}
+
 function postProcessData(recipeData = {}) {
     Object.keys(recipeData).forEach((id) => {
         const item = recipeData[id];

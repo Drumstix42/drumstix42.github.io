@@ -41,6 +41,11 @@ body {
     background-color: rgba(24, 24, 28, 0.5);
 }
 
+.highlight-result {
+    color: #70c0e8;
+    font-weight: bold;
+}
+
 // * Multiselect
 .multiselect-dropdown {
     max-height: var(--ms-max-height) !important;

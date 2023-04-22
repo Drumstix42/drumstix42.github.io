@@ -24,13 +24,14 @@
                                 :src="`/icarus-game/ItemIcons/${item.iconPath}.png`"
                                 fallback-src="/icarus-game/Images/question-mark.png"
                                 :preview-disabled="true"
-                            >
-                                <template #default> test </template>
-                            </n-image>
+                            />
                             <div v-if="recipeData[item.id]?.outputQuantity > 1" class="item-counter">x{{ recipeData[item.id].outputQuantity }}</div>
                         </div>
                         <div class="flex-shrink" style="min-width: 0">
-                            <div class="label text-overflow-ellipsis" v-bind:item-id="item.id">{{ item.label }}</div>
+                            <div class="label text-overflow-ellipsis" v-bind:item-id="item.id">
+                                <span v-if="item.highlightedLabel" v-html="item.highlightedLabel"></span>
+                                <span v-else>{{ item.label }}</span>
+                            </div>
                         </div>
                         <n-tooltip trigger="hover">
                             <template #trigger>
