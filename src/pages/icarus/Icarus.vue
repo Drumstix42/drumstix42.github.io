@@ -8,8 +8,8 @@
             <ul class="mb-0">
                 <li>
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3718323737483112361" target="_blank">
-                        Icarus Week 68 Update
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/5358762517222665918" target="_blank">
+                        Icarus Week 72 Update
                     </a>
                 </li>
             </ul>
@@ -21,9 +21,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.2.43.108956'" readonly></n-input>
+                        <n-input :value="'v1.2.47.109887'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2023/03/25</n-text>
+                    <n-text depth="3">2023/04/21</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -40,7 +40,7 @@
                 <li>Show stack size on icons that normally produce more than 1 item</li>
                 <li>Implement talent options logic to impact component output calculation</li>
                 <li>Indicate which items belong to each Tier (not specified in game data export directly)</li>
-                <li>Improve item search matching (scrubby search)</li>
+                <li>Improve item search matching (fuzzy search)</li>
                 <li>Add way to "check" off items (mark as done)</li>
             </ul>
         </n-alert>

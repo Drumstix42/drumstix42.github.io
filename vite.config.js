@@ -1,21 +1,17 @@
 import vue from '@vitejs/plugin-vue';
-/* import mpa from 'vite-plugin-mpa'; */
 import { defineConfig } from 'vite';
+import alias from '@rollup/plugin-alias';
 import { resolve } from 'path';
 
 const outDir = resolve(__dirname, 'dist');
+const projectRootDir = resolve(__dirname);
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [
-        vue(),
-        /* mpa({
-            open: '/',
-        }), */
-    ],
+    plugins: [vue(), alias()],
     resolve: {
         alias: {
-            '@': resolve(__dirname, './src'),
+            '@': resolve(projectRootDir, 'src'),
         },
     },
     build: {

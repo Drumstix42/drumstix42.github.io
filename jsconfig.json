@@ -8,7 +8,8 @@
         "paths": {
             "@/*": ["./src/*"],
             "~/*": ["./node_modules/*"]
-        }
+        },
+        "types": ["naive-ui/volar"]
     },
     "include": ["src/**/*"],
     "exclude": ["dist", "node_modules"]

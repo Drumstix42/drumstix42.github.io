@@ -1,7 +1,15 @@
 <template>
     <div>
-        <div class="mb-3">
+        <div class="mb-3 flex align-items-center">
             <n-input type="text" v-model:value="searchValue" placeholder="Search..." clearable @input="onSearch" />
+            <div class="flex-shrink-0 ml-3">
+                <n-tooltip trigger="hover" placement="right">
+                    <template #trigger>
+                        <n-checkbox v-model:checked="settings.searchFuzzyMatch">Fuzzy search</n-checkbox>
+                    </template>
+                    Allows partial text matches, sorted by match quality
+                </n-tooltip>
+            </div>
         </div>
         <n-spin :show="isLoadingRecipes">
             <n-card class="scroll-wrap" content-style="padding: 0;">
@@ -9,13 +17,18 @@
 
                 <RecycleScroller class="scroller" :items="filteredRecipeOptions" :item-size="40" key-field="id" v-slot="{ index, item }">
                     <div class="recipe-item flex align-items-center" @click="addItem(item.id)">
-                        <n-image
-                            class="icon"
-                            width="32"
-                            :src="`/icarus-game/ItemIcons/${item.iconPath}.png`"
-                            fallback-src="/icarus-game/Images/question-mark.png"
-                            :preview-disabled="true"
-                        />
+                        <div class="relative flex align-items-center">
+                            <n-image
+                                class="icon"
+                                width="32"
+                                :src="`/icarus-game/ItemIcons/${item.iconPath}.png`"
+                                fallback-src="/icarus-game/Images/question-mark.png"
+                                :preview-disabled="true"
+                            >
+                                <template #default> test </template>
+                            </n-image>
+                            <div v-if="recipeData[item.id]?.outputQuantity > 1" class="item-counter">x{{ recipeData[item.id].outputQuantity }}</div>
+                        </div>
                         <div class="flex-shrink" style="min-width: 0">
                             <div class="label text-overflow-ellipsis" v-bind:item-id="item.id">{{ item.label }}</div>
                         </div>
@@ -56,13 +69,13 @@ export default {
         };
     },
     computed: {
-        ...mapState(useIcarusStore, ['isLoadingRecipes', 'filteredRecipeOptions']),
+        ...mapState(useIcarusStore, ['recipeData', 'isLoadingRecipes', 'filteredRecipeOptions', 'settings']),
     },
     methods: {
         ...mapActions(useIcarusStore, ['addItem']),
         onSearch: debounce((value) => {
             icarusStore.recipeSearch = value;
-        }, 100),
+        }, 250),
     },
 };
 </script>

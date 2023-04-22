@@ -5,7 +5,7 @@
             <div class="flex align-items-center">
                 <span class="flex-shrink-0 mr-3">List Name:</span>
                 <!-- <input v-model="tab.title" /> -->
-                <n-input type="text" v-model:value="tab.title" placeholder="Name" />
+                <n-input type="text" v-model:value.lazy="tab.title" placeholder="Name" @update:value="onTitleChanged" />
             </div>
         </div>
 
@@ -39,7 +39,7 @@ export default {
             required: true,
         },
     },
-    emits: ['removeTab'],
+    emits: ['onTitleChanged', 'removeTab'],
     data() {
         return {};
     },
@@ -47,7 +47,9 @@ export default {
         ...mapState(useIcarusStore, ['tabs', 'tabCount']),
     },
     methods: {
-        //...mapActions(useIcarusStore, ['removeTab']),
+        onTitleChanged() {
+            this.$emit('updateTab', { tabId: this.tab.id, title: this.tab.title });
+        },
         removeTab() {
             this.$emit('removeTab', { tabId: this.tab.id });
         },

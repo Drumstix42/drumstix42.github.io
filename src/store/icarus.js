@@ -1,5 +1,9 @@
 import { reactive } from 'vue';
 import { defineStore } from 'pinia';
+import { useStorage } from '@vueuse/core';
+import { useFuse } from '@vueuse/integrations/useFuse';
+
+import { LOCAL_STORAGE_PREFIX } from '@/constants/common';
 import { processItemStaticData, processItemTableData, processItemTemplateData, processRecipeData } from '@/utility/icarusData';
 
 // utility methods
@@ -14,13 +18,25 @@ const findTabIndex = (id, tabs) => tabs.findIndex((tab) => tab.id === id);
 
 // default state
 const defaultTab = generateNewTab();
-const defaultTabId = defaultTab.id;
+const tabData = useStorage(`${LOCAL_STORAGE_PREFIX}/tabs`, [defaultTab]);
+const defaultTabId = tabData.value[0].id ?? defaultTab.id;
+//console.log({defaultTabId, defaultTab, tabData});
 
 // * data store
 export const useIcarusStore = defineStore('icarus', {
     state: () => ({
         activeTabId: defaultTabId,
-        tabs: [defaultTab],
+        tabs: tabData,
+        settings: useStorage(
+            `${LOCAL_STORAGE_PREFIX}/settings`,
+            {
+                includeSubComponents: false,
+                includeStationComponents: false,
+                searchFuzzyMatch: false,
+            },
+            localStorage,
+            { mergeDefaults: true }
+        ),
 
         itemTemplateData: {},
         itemStaticData: {},
@@ -37,17 +53,41 @@ export const useIcarusStore = defineStore('icarus', {
         tabCount() {
             return this.tabs.length;
         },
+        includeSubComponents(state) {
+            return state.settings.includeSubComponents;
+        },
+        includeStationComponents(state) {
+            return state.settings.includeStationComponents;
+        },
         sortedRecipeOptions(state) {
             return state.recipeOptions.sort((a, b) => a.label.localeCompare(b.label));
         },
         filteredRecipeOptions(state) {
             if (state.recipeSearch) {
-                const searchLabel = state.recipeSearch.toLowerCase();
+                //const searchLabel = state.recipeSearch.toLowerCase();
 
-                return this.sortedRecipeOptions.filter((item) => {
+                const searchOptions = {
+                    fuseOptions: {
+                        keys: ['label'],
+                        isCaseSensitive: false,
+                        location: 0,
+                        threshold: state.settings.searchFuzzyMatch ? undefined : 0,
+                        distance: 100,
+                        includeScore: true,
+                        includeMatches: true,
+                    },
+                    resultLimit: undefined,
+                    matchAllWhenSearchEmpty: true,
+                };
+                const { results } = useFuse(state.recipeSearch, this.sortedRecipeOptions, searchOptions);
+                // map { item, refIndex } to an array of items
+                console.log({ results: results.value });
+                return results.value.map((result) => result.item);
+
+                /* return this.sortedRecipeOptions.filter((item) => {
                     const label = item.label.toLowerCase();
                     return label.includes(searchLabel);
-                });
+                }); */
             }
             return this.sortedRecipeOptions;
         },
@@ -116,6 +156,12 @@ export const useIcarusStore = defineStore('icarus', {
             } else {
                 console.error(`Could not find tab with id ${this.activeTabId}`, this.tabs);
             }
+        },
+        setIncludeSubComponents(value) {
+            this.settings.includeSubComponents = value;
+        },
+        setIncludeStationComponents(value) {
+            this.settings.includeStationComponents = value;
         },
 
         // * recipe data

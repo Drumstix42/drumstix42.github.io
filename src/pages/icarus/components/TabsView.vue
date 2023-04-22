@@ -8,25 +8,20 @@
                 </n-button>
             </div>
         </div>
-        <n-card class="overflow-hidden">
-            <!-- {{ activeTabId }} - {{ activeTab?.id }} -->
-            <n-tabs
-                ref="tabsInstRef"
-                v-model:value="activeTabId"
-                type="bar"
-                :addable="addable"
-                :closable="closable"
-                tab-style=""
-            >
-                <!-- `name` acts as ID here -->
-                <n-tab-pane v-for="tab in tabs" :tab="tab.title" :name="tab.id" :key="tab.id">
-                    <manage-tab :tab="tab" @remove-tab="removeTab"></manage-tab>
-                    <crafting-calculator :tab="tab"></crafting-calculator>
-                </n-tab-pane>
-                <!-- <template #prefix>Prefix</template>
-                <template #suffix>Suffix</template> -->
-            </n-tabs>
-        </n-card>
+        <n-spin :show="isLoadingRecipes">
+            <n-card class="overflow-hidden">
+                <!-- {{ activeTabId }} - {{ activeTab?.id }} -->
+                <n-tabs ref="tabsInstRef" v-model:value="activeTabId" type="bar" :addable="addable" :closable="closable" tab-style="">
+                    <!-- `name` acts as ID here -->
+                    <n-tab-pane v-for="tab in tabs" :tab="tab.title" :name="tab.id" :key="tab.id">
+                        <manage-tab :tab="tab" @update-tab="syncTabBarPosition" @remove-tab="removeTab"></manage-tab>
+                        <crafting-calculator :tab="tab"></crafting-calculator>
+                    </n-tab-pane>
+                    <!-- <template #prefix>Prefix</template>
+                    <template #suffix>Suffix</template> -->
+                </n-tabs>
+            </n-card>
+        </n-spin>
     </div>
 </template>
 
@@ -62,7 +57,7 @@ export default {
         },
     },
     computed: {
-        ...mapState(useIcarusStore, ['tabs', 'tabCount', 'activeTab']),
+        ...mapState(useIcarusStore, ['tabs', 'tabCount', 'activeTab', 'isLoadingRecipes']),
     },
     methods: {
         ...mapActions(useIcarusStore, ['setActiveTab']),
@@ -81,11 +76,14 @@ export default {
         syncSelectedTab() {
             // update component from store
             this.activeTabId = icarusStore.activeTabId;
+            this.syncTabBarPosition();
+        },
+        syncTabBarPosition() {
             // fix tab underline position (recommended approach from library docs)
             this.$nextTick(() => {
                 this.$refs.tabsInstRef?.syncBarPosition();
             });
-        },
+        }
     },
 };
 </script>

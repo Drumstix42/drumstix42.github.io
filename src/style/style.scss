@@ -30,6 +30,17 @@ body {
     box-shadow: inset -10px 0 8px -8px rgba(200, 200, 200, 0.12);
 }
 
+.item-counter {
+    position: absolute;
+    line-height: 1;
+    bottom: -3px;
+    right: 0.5rem;
+    font-size: 0.7rem;
+    text-shadow: 0 0 3px #000000;
+    //opacity: 0.8;
+    background-color: rgba(24, 24, 28, 0.5);
+}
+
 // * Multiselect
 .multiselect-dropdown {
     max-height: var(--ms-max-height) !important;

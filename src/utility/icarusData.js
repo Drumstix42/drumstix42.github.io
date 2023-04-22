@@ -60,8 +60,9 @@ export const itemLabelMap = Object.freeze({
     Wood_Wall_CarpentryBench: 'Wood Wall (Carpentry Bench)', */
     Steel_Bloom: 'Steel Bloom (Ore)',
     Steel_Bloom2: 'Steel Bloom (Ingot)',
-    /* Spoiled_Meat: 'Spoiled Meat',
-    Jerrycan: 'Biofuel Can',
+    Spoiled_Meat: 'Spoiled Meat',
+    Spoiled_Plants: 'Spoiled Plants',
+    /* Jerrycan: 'Biofuel Can',
     Platinum_Weave: 'Platinum Weave',
     Platinum_Wave: 'Platinum Weave', */
     Biofuel1: 'Biofuel (Raw Meat)',
@@ -69,6 +70,9 @@ export const itemLabelMap = Object.freeze({
     Biofuel3: 'Biofuel (Stick)',
     Biofuel4: 'Biofuel (Wood)',
     Biofuel5: 'Biofuel (Cooked Meat)',
+    Ammo_Pistol_Round: 'Pistol Round',
+    Ammo_Rifle_Round: 'Rifle Round',
+    Ammo_Shell_Buckshot: 'Shotgun Buckshot Shell',
     Bulk_Rifle_Round: 'Rifle Round (Bulk, Talent)',
     Bulk_Pistol_Round: 'Pistol Round (Bulk, Talent)',
     Shotgun_Shell_Buckshot: 'Shotgun Buckshot Shell',

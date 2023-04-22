@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-if="tab.items.length > 0">
+        <div v-if="!isLoadingRecipes && tab.items.length > 0">
             <div class="flex align-items-center">
                 <h3>Items</h3>
                 <n-tooltip trigger="hover">
@@ -27,13 +27,16 @@
                         :validator="validateQuantity"
                         :on-update-value="onQuantityChange(item)"
                     />
-                    <n-image
-                        class="icon"
-                        width="32"
-                        :src="`/icarus-game/ItemIcons/${recipeData[item.id]?.iconPath}.png`"
-                        fallback-src="/icarus-game/Images/question-mark.png"
-                        :preview-disabled="false"
-                    />
+                    <div class="relative flex align-items-center">
+                        <n-image
+                            class="icon"
+                            width="32"
+                            :src="`/icarus-game/ItemIcons/${recipeData[item.id]?.iconPath}.png`"
+                            fallback-src="/icarus-game/Images/question-mark.png"
+                            :preview-disabled="true"
+                        />
+                        <div v-if="recipeData[item.id]?.outputQuantity > 1" class="item-counter">x{{ recipeData[item.id].outputQuantity }}</div>
+                    </div>
                     <div class="flex-shrink label-wrap">
                         <div class="label text-overflow-ellipsis">{{ recipeData[item.id].label }}</div>
                     </div>
@@ -56,11 +59,11 @@
             </div>
             <div class="p-1">
                 <div class="flex align-items-center mb-1">
-                    <n-switch class="mr-2" v-model:value="includeSubComponents" size="small" />
+                    <n-switch class="mr-2" v-model:value="settings.includeSubComponents" size="small" />
                     <span>Include sub-components</span>
                 </div>
                 <div class="flex align-items-center mb-3 ml-3">
-                    <n-switch class="mr-2" v-model:value="includeCraftingStations" size="small" />
+                    <n-switch class="mr-2" v-model:value="settings.includeStationComponents" size="small" />
                     <span>Include station components</span>
                 </div>
                 <div>
@@ -99,7 +102,7 @@
 
 <script>
 import { debounce } from 'debounce';
-import { mapState } from 'pinia';
+import { mapActions, mapGetters, mapState } from 'pinia';
 import { SortAlphaDown, Times } from '@vicons/fa';
 
 import ComponentSourcePicker from './ComponentSourcePicker.vue';
@@ -125,28 +128,28 @@ export default {
             requiredItemData: {},
             requiredCraftingStations: [],
             requiredComponents: [],
-            includeSubComponents: false,
-            includeCraftingStations: false,
         };
     },
     watch: {
         includeSubComponents(newValue) {
             if (!newValue) {
-                this.includeCraftingStations = false;
+                this.setIncludeStationComponents(false);
             }
             this.triggerCalc();
         },
-        includeCraftingStations(newValue) {
+        includeStationComponents(newValue) {
             if (newValue) {
-                this.includeSubComponents = true;
+                this.setIncludeSubComponents(true);
             }
             this.triggerCalc();
         },
     },
     computed: {
-        ...mapState(useIcarusStore, ['recipeData', 'itemTableData']),
+        ...mapState(useIcarusStore, ['recipeData', 'itemTableData', 'isLoadingRecipes', 'settings']),
+        ...mapGetters(useIcarusStore, ['includeSubComponents', 'includeStationComponents']),
     },
     methods: {
+        ...mapActions(useIcarusStore, ['setIncludeSubComponents', 'setIncludeStationComponents']),
         sortInputs() {
             this.tab.items.sort((a, b) => {
                 const aLabel = this.recipeData[a.id].label;
@@ -182,7 +185,7 @@ export default {
             const selectedItems = this.tab.items || [];
             const recipeData = this.recipeData;
             const includeSubComponents = this.includeSubComponents;
-            const includeCraftingStations = this.includeCraftingStations;
+            const includeStationComponents = this.includeStationComponents;
 
             const requiredItemData = {};
             const requiredCraftingStations = new Set([]);
@@ -224,7 +227,7 @@ export default {
             sumInputsForItems(selectedItems, requiredItemData);
             populateCraftingStations();
 
-            if (includeCraftingStations) {
+            if (includeStationComponents) {
                 sumInputsForItems(
                     [...requiredCraftingStations].map((station) => ({ id: station })),
                     requiredItemData
