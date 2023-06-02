@@ -8,8 +8,8 @@
             <ul class="mb-0 pl-0 list-none">
                 <li class="mb-1">
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/5358762517222665918" target="_blank">
-                        Icarus Week 72 Update
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3721708329648789343" target="_blank">
+                        Icarus Week 78 Update (Galileo)
                     </a>
                 </li>
                 <li class="mb-1">
@@ -29,9 +29,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.2.47.109887'" readonly></n-input>
+                        <n-input :value="'v1.3.0.111847'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2023/04/21</n-text>
+                    <n-text depth="3">2023/06/02</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -76,7 +76,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20230421,
+    whatsNew: 20230602,
 });
 
 const isAlertVisible = (alertName) => {
