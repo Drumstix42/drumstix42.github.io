@@ -6,6 +6,7 @@
             "DataTableName": "D_ItemsStatic"
         },
         "ItemDynamicData": [],
+        "ItemCustomStats": [],
         "CustomProperties": {
             "StaticWorldStats": [],
             "StaticWorldHeldStats": [],
@@ -413,13 +414,7 @@
             "Name": "Lantern",
             "ItemStaticData": {
                 "RowName": "Lantern"
-            },
-            "ItemDynamicData": [
-                {
-                    "PropertyType": "Fillable_Type",
-                    "Value": 3
-                }
-            ]
+            }
         },
         {
             "Name": "Rifle_Hunting",
@@ -1502,7 +1497,7 @@
         {
             "Name": "Dev_Bug_Tool",
             "ItemStaticData": {
-                "RowName": "DEV_Bug_Tool"
+                "RowName": "Dev_Bug_Tool"
             }
         },
         {
@@ -1998,7 +1993,7 @@
         {
             "Name": "Dev_Pyromancy_Flame",
             "ItemStaticData": {
-                "RowName": "DEV_Pyromancy_Flame"
+                "RowName": "Dev_Pyromancy_Flame"
             }
         },
         {
@@ -2188,9 +2183,69 @@
             }
         },
         {
+            "Name": "Rug_AlphaWolf",
+            "ItemStaticData": {
+                "RowName": "Rug_AlphaWolf"
+            }
+        },
+        {
+            "Name": "Rug_Bear",
+            "ItemStaticData": {
+                "RowName": "Rug_Bear"
+            }
+        },
+        {
+            "Name": "Rug_Buffalo",
+            "ItemStaticData": {
+                "RowName": "Rug_Buffalo"
+            }
+        },
+        {
+            "Name": "Rug_Conifer_Wolf",
+            "ItemStaticData": {
+                "RowName": "Rug_Conifer_Wolf"
+            }
+        },
+        {
+            "Name": "Rug_Cougar",
+            "ItemStaticData": {
+                "RowName": "Rug_Cougar"
+            }
+        },
+        {
             "Name": "Rug_Deer",
             "ItemStaticData": {
                 "RowName": "Rug_Deer"
+            }
+        },
+        {
+            "Name": "Rug_Desert_Wolf",
+            "ItemStaticData": {
+                "RowName": "Rug_Desert_Wolf"
+            }
+        },
+        {
+            "Name": "Rug_Jaguar",
+            "ItemStaticData": {
+                "RowName": "Rug_Jaguar"
+            }
+        },
+        {
+            "Name": "Rug_PolarBear",
+            "ItemStaticData": {
+                "RowName": "Rug_PolarBear"
+            }
+        },
+        {
+            "Name": "Rug_Snow_Wolf",
+            "ItemStaticData": {
+                "RowName": "Rug_Snow_Wolf"
+            }
+        },
+        {
+            "Name": "Rug_SnowLeopard",
+            "ItemStaticData": {
+                "RowName": "Rug_SnowLeopard"
             }
         },
         {
@@ -2550,7 +2605,7 @@
         {
             "Name": "Waterbomb",
             "ItemStaticData": {
-                "RowName": "WaterBomb"
+                "RowName": "Waterbomb"
             }
         },
         {
@@ -2754,7 +2809,7 @@
         {
             "Name": "Firepit",
             "ItemStaticData": {
-                "RowName": "FirePit"
+                "RowName": "Firepit"
             }
         },
         {
@@ -3546,7 +3601,7 @@
         {
             "Name": "Waterwheel_Generator",
             "ItemStaticData": {
-                "RowName": "WaterWheel_Generator"
+                "RowName": "Waterwheel_Generator"
             }
         },
         {
@@ -4206,13 +4261,13 @@
         {
             "Name": "AlphaWolf_Head",
             "ItemStaticData": {
-                "RowName": "Alphawolf_Head"
+                "RowName": "AlphaWolf_Head"
             }
         },
         {
             "Name": "AlphaWolf_Trophy",
             "ItemStaticData": {
-                "RowName": "Alphawolf_Trophy"
+                "RowName": "AlphaWolf_Trophy"
             }
         },
         {
@@ -4258,45 +4313,9 @@
             }
         },
         {
-            "Name": "Meta_Arrow_Inaris_Bravo",
-            "ItemStaticData": {
-                "RowName": "Meta_Arrow_Inaris_Bravo"
-            }
-        },
-        {
-            "Name": "Meta_Arrow_Inaris_Charlie",
-            "ItemStaticData": {
-                "RowName": "Meta_Arrow_Inaris_Charlie"
-            }
-        },
-        {
-            "Name": "Meta_Arrow_Inaris_Delta",
-            "ItemStaticData": {
-                "RowName": "Meta_Arrow_Inaris_Delta"
-            }
-        },
-        {
             "Name": "Meta_Axe_Inaris_Alpha",
             "ItemStaticData": {
                 "RowName": "Meta_Axe_Inaris_Alpha"
-            }
-        },
-        {
-            "Name": "Meta_Axe_Inaris_Bravo",
-            "ItemStaticData": {
-                "RowName": "Meta_Axe_Inaris_Bravo"
-            }
-        },
-        {
-            "Name": "Meta_Axe_Inaris_Charlie",
-            "ItemStaticData": {
-                "RowName": "Meta_Axe_Inaris_Charlie"
-            }
-        },
-        {
-            "Name": "Meta_Axe_Inaris_Delta",
-            "ItemStaticData": {
-                "RowName": "Meta_Axe_Inaris_Delta"
             }
         },
         {
@@ -4306,69 +4325,15 @@
             }
         },
         {
-            "Name": "Meta_Knife_Inaris_Bravo",
-            "ItemStaticData": {
-                "RowName": "Meta_Knife_Inaris_Bravo"
-            }
-        },
-        {
-            "Name": "Meta_Knife_Inaris_Charlie",
-            "ItemStaticData": {
-                "RowName": "Meta_Knife_Inaris_Charlie"
-            }
-        },
-        {
-            "Name": "Meta_Knife_Inaris_Delta",
-            "ItemStaticData": {
-                "RowName": "Meta_Knife_Inaris_Delta"
-            }
-        },
-        {
             "Name": "Meta_Pickaxe_Inaris_Alpha",
             "ItemStaticData": {
                 "RowName": "Meta_Pickaxe_Inaris_Alpha"
             }
         },
         {
-            "Name": "Meta_Pickaxe_Inaris_Bravo",
-            "ItemStaticData": {
-                "RowName": "Meta_Pickaxe_Inaris_Bravo"
-            }
-        },
-        {
-            "Name": "Meta_Pickaxe_Inaris_Charlie",
-            "ItemStaticData": {
-                "RowName": "Meta_Pickaxe_Inaris_Charlie"
-            }
-        },
-        {
-            "Name": "Meta_Pickaxe_Inaris_Delta",
-            "ItemStaticData": {
-                "RowName": "Meta_Pickaxe_Inaris_Delta"
-            }
-        },
-        {
             "Name": "Meta_Spear_Inaris_Alpha",
             "ItemStaticData": {
                 "RowName": "Meta_Spear_Inaris_Alpha"
-            }
-        },
-        {
-            "Name": "Meta_Spear_Inaris_Bravo",
-            "ItemStaticData": {
-                "RowName": "Meta_Spear_Inaris_Bravo"
-            }
-        },
-        {
-            "Name": "Meta_Spear_Inaris_Charlie",
-            "ItemStaticData": {
-                "RowName": "Meta_Spear_Inaris_Charlie"
-            }
-        },
-        {
-            "Name": "Meta_Spear_Inaris_Delta",
-            "ItemStaticData": {
-                "RowName": "Meta_Spear_Inaris_Delta"
             }
         },
         {
@@ -4482,108 +4447,180 @@
         {
             "Name": "Corn_Pack",
             "ItemStaticData": {
-                "RowName": "Corn"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 1
                 }
             ]
         },
         {
             "Name": "Pumpkin_Pack",
             "ItemStaticData": {
-                "RowName": "Pumpkin"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 7
                 }
             ]
         },
         {
             "Name": "Squash_Pack",
             "ItemStaticData": {
-                "RowName": "Squash"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 9
                 }
             ]
         },
         {
             "Name": "Carrot_Pack",
             "ItemStaticData": {
-                "RowName": "Carrot"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 15
                 }
             ]
         },
         {
             "Name": "Mushroom_Pack",
             "ItemStaticData": {
-                "RowName": "Mushroom"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 16
                 }
             ]
         },
         {
             "Name": "Berry_Pack",
             "ItemStaticData": {
-                "RowName": "Berry"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 6
                 }
             ]
         },
         {
             "Name": "Wheat_Pack",
             "ItemStaticData": {
-                "RowName": "Wheat"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 2
                 }
             ]
         },
         {
             "Name": "Watermelon_Pack",
             "ItemStaticData": {
-                "RowName": "Watermelon"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
                 }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 10
+                }
             ]
         },
         {
             "Name": "Bean_Pack",
             "ItemStaticData": {
-                "RowName": "Bean"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 8
                 }
             ]
         },
@@ -4680,19 +4717,19 @@
         {
             "Name": "Fatty_TBone",
             "ItemStaticData": {
-                "RowName": "Fatty_Tbone"
+                "RowName": "Fatty_TBone"
             }
         },
         {
             "Name": "Fatty_TBone_Cooked",
             "ItemStaticData": {
-                "RowName": "Fatty_Tbone_Cooked"
+                "RowName": "Fatty_TBone_Cooked"
             }
         },
         {
             "Name": "Fatty_TBone_Dried",
             "ItemStaticData": {
-                "RowName": "Fatty_Tbone_Dried"
+                "RowName": "Fatty_TBone_Dried"
             }
         },
         {
@@ -5880,18 +5917,6 @@
             }
         },
         {
-            "Name": "Meta_Crossbow_Inaris_C",
-            "ItemStaticData": {
-                "RowName": "Meta_Crossbow_Inaris_C"
-            }
-        },
-        {
-            "Name": "Meta_Crossbow_Inaris_D",
-            "ItemStaticData": {
-                "RowName": "Meta_Crossbow_Inaris_D"
-            }
-        },
-        {
             "Name": "Tool_Attachment_Electroshock",
             "ItemStaticData": {
                 "RowName": "Tool_Attachment_Electroshock"
@@ -6312,6 +6337,157 @@
             }
         },
         {
+            "Name": "Clay",
+            "ItemStaticData": {
+                "RowName": "Clay"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria",
+            "ItemStaticData": {
+                "RowName": "Scoria"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Super_Cooled_Ice",
+            "ItemStaticData": {
+                "RowName": "Super_Cooled_Ice"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian",
+            "ItemStaticData": {
+                "RowName": "Obsidian"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Tomato",
+            "ItemStaticData": {
+                "RowName": "Tomato"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Potato",
+            "ItemStaticData": {
+                "RowName": "Potato"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Shaped_Obsidian",
+            "ItemStaticData": {
+                "RowName": "Shaped_Obsidian"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Ice_Borer",
+            "ItemStaticData": {
+                "RowName": "Ice_Borer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Exotic_Red",
+            "ItemStaticData": {
+                "RowName": "Exotic_Red"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Exotic_Red_Raw",
+            "ItemStaticData": {
+                "RowName": "Exotic_Red_Raw"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Exotic_Processor",
+            "ItemStaticData": {
+                "RowName": "Exotic_Processor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Red_Exotic_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 25
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
             "Name": "Shield_Wooden",
             "ItemStaticData": {
                 "RowName": "Wooden_Shield"
@@ -6324,9 +6500,163 @@
             }
         },
         {
+            "Name": "Clay_Brick_Floor",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Floor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Wall",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Wall"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Wall_Angle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Ramp",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Ramp"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Beam",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Beam"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Roof_Corner"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Roof_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Roof_Half_Pitch"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Halfpiece"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Window",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Window"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Door",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Door"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Clay_Brick_Railing",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_Railing"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Metal_Sledgehammer",
+            "ItemStaticData": {
+                "RowName": "Metal_Sledgehammer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
             "Name": "Mission_Communication_Device_T2",
             "ItemStaticData": {
                 "RowName": "Mission_Communication_Device_T2"
+            }
+        },
+        {
+            "Name": "Mission_Communication_Device_T3",
+            "ItemStaticData": {
+                "RowName": "Mission_Communication_Device_T3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Mission_Communication_Device_T4",
+            "ItemStaticData": {
+                "RowName": "Mission_Communication_Device_T4"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
             }
         },
         {
@@ -6411,6 +6741,17 @@
             "Name": "Exotic_Delivery_Interface",
             "ItemStaticData": {
                 "RowName": "Exotic_Delivery_Interface"
+            }
+        },
+        {
+            "Name": "Mission_Communication_Blueprint",
+            "ItemStaticData": {
+                "RowName": "Mission_Communication_Blueprint_T2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
             }
         },
         {
@@ -6669,6 +7010,17 @@
             "Name": "Landmine",
             "ItemStaticData": {
                 "RowName": "Landmine"
+            }
+        },
+        {
+            "Name": "Exotic_Harvester",
+            "ItemStaticData": {
+                "RowName": "Exotic_Harvester"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
             }
         },
         {
@@ -7466,9 +7818,207 @@
             }
         },
         {
+            "Name": "Fish_15_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_15_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_15_Var3",
+            "ItemStaticData": {
+                "RowName": "Fish_15_Var3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_15_Var4",
+            "ItemStaticData": {
+                "RowName": "Fish_15_Var4"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
             "Name": "Fish_16",
             "ItemStaticData": {
                 "RowName": "Fish_16"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_16_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var3",
+            "ItemStaticData": {
+                "RowName": "Fish_16_Var3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var4",
+            "ItemStaticData": {
+                "RowName": "Fish_16_Var4"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_17",
+            "ItemStaticData": {
+                "RowName": "Fish_17"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_17_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_17_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_17_Var3",
+            "ItemStaticData": {
+                "RowName": "Fish_17_Var3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_17_Var4",
+            "ItemStaticData": {
+                "RowName": "Fish_17_Var4"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_18",
+            "ItemStaticData": {
+                "RowName": "Fish_18"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_18_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_18_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_18_Var3",
+            "ItemStaticData": {
+                "RowName": "Fish_18_Var3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_18_Var4",
+            "ItemStaticData": {
+                "RowName": "Fish_18_Var4"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_19",
+            "ItemStaticData": {
+                "RowName": "Fish_19"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_19_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_19_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_19_Var3",
+            "ItemStaticData": {
+                "RowName": "Fish_19_Var3"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_19_Var4",
+            "ItemStaticData": {
+                "RowName": "Fish_19_Var4"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -7640,6 +8190,17 @@
             "Name": "Fiber_Lure",
             "ItemStaticData": {
                 "RowName": "Fiber_Lure"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Feather_Lure",
+            "ItemStaticData": {
+                "RowName": "Feather_Lure"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -8268,48 +8829,80 @@
         {
             "Name": "Avocado_Pack",
             "ItemStaticData": {
-                "RowName": "Avocado"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 19
                 }
             ]
         },
         {
             "Name": "Rhubarb_Pack",
             "ItemStaticData": {
-                "RowName": "Rhubarb"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 17
                 }
             ]
         },
         {
             "Name": "Kumara_Pack",
             "ItemStaticData": {
-                "RowName": "Kumara"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
                 }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 18
+                }
             ]
         },
         {
             "Name": "Strawberry_Pack",
             "ItemStaticData": {
-                "RowName": "Strawberry"
+                "RowName": "Seed"
             },
             "ItemDynamicData": [
                 {
                     "PropertyType": "ItemableStack",
                     "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 20
                 }
             ]
         },
@@ -8365,12 +8958,6 @@
             "Name": "Meta_Fishfinder",
             "ItemStaticData": {
                 "RowName": "Meta_Fishfinder"
-            }
-        },
-        {
-            "Name": "Envirosuit_Larkwell",
-            "ItemStaticData": {
-                "RowName": "Envirosuit_Larkwell"
             }
         },
         {
@@ -8475,6 +9062,2332 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Titanium_Plate",
+            "ItemStaticData": {
+                "RowName": "Titanium_Plate"
+            }
+        },
+        {
+            "Name": "Platinum_Sheath",
+            "ItemStaticData": {
+                "RowName": "Platinum_Shealth"
+            }
+        },
+        {
+            "Name": "AI_Target_Dummy",
+            "ItemStaticData": {
+                "RowName": "AI_Target_Dummy"
+            }
+        },
+        {
+            "Name": "Obsidian_Axe",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Axe"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Pickaxe"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Knife",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Knife"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Spear",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Spear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Sickle",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Sickle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Sledgehammer",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Sledgehammer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Pistol_Round_Obsidian",
+            "ItemStaticData": {
+                "RowName": "Ammo_Pistol_Round_Obsidian"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Rifle_Round_Obsidian",
+            "ItemStaticData": {
+                "RowName": "Ammo_Rifle_Round_Obsidian"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Bolt",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Bolt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Arrow",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Arrow"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Throwing_Knife",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Throwing_Knife"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Throwing_Spear",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Throwing_Spear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Bone_Head",
+            "ItemStaticData": {
+                "RowName": "Bone_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Bone_Chest",
+            "ItemStaticData": {
+                "RowName": "Bone_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Bone_Feet",
+            "ItemStaticData": {
+                "RowName": "Bone_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Bone_Arms",
+            "ItemStaticData": {
+                "RowName": "Bone_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Bone_Legs",
+            "ItemStaticData": {
+                "RowName": "Bone_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Ingot",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Ingot"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Axe",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Axe"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Pickaxe"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Knife",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Knife"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Spear",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Spear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Sickle",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Sickle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Sledgehammer",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Sledgehammer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Pistol_Round_Cold_Steel",
+            "ItemStaticData": {
+                "RowName": "Ammo_Pistol_Round_Cold_Steel"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Rifle_Round_Cold_Steel",
+            "ItemStaticData": {
+                "RowName": "Ammo_Rifle_Round_Cold_Steel"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Bolt",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Bolt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Arrow",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Arrow"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Throwing_Knife",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Throwing_Knife"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Cold_Steel_Throwing_Spear",
+            "ItemStaticData": {
+                "RowName": "Cold_Steel_Throwing_Spear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Raw_Iron_Wood",
+            "ItemStaticData": {
+                "RowName": "Raw_Iron_Wood"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Refined_Iron_Wood",
+            "ItemStaticData": {
+                "RowName": "Refined_Iron_Wood"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Axe",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Axe"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Pickaxe"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Knife",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Knife"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Spear",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Spear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Sickle",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Sickle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Sledgehammer",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Sledgehammer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Pistol_Round_Iron_Wood",
+            "ItemStaticData": {
+                "RowName": "Ammo_Pistol_Round_Iron_Wood"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Rifle_Round_Iron_Wood",
+            "ItemStaticData": {
+                "RowName": "Ammo_Rifle_Round_Iron_Wood"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Bolt",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Bolt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Arrow",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Arrow"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Throwing_Knife",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Throwing_Knife"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Iron_Wood_Throwing_Spear",
+            "ItemStaticData": {
+                "RowName": "Iron_Wood_Throwing_Spear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Frozen_Ore",
+            "ItemStaticData": {
+                "RowName": "Frozen_Ore"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Infected_Bark",
+            "ItemStaticData": {
+                "RowName": "Infected_Bark"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Acidic_Glands",
+            "ItemStaticData": {
+                "RowName": "Acidic_Glands"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Iron",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Iron"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Gold",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Gold"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Copper",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Copper"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Silicon",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Silicon"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Coal",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Coal"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Sulfur",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Sulfur"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Bauxite",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Bauxite"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Oxite",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Oxite"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Titanium",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Titanium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Platinium",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Platinum"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Obsidian",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Obsidian"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Scoria",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Scoria"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Clay",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Clay"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Purple_Exotic",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Purple_Exotic"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Red_Exotic",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Red_Exotic"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Head",
+            "ItemStaticData": {
+                "RowName": "Heavy_Obsidian_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Arms",
+            "ItemStaticData": {
+                "RowName": "Heavy_Obsidian_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Chest",
+            "ItemStaticData": {
+                "RowName": "Heavy_Obsidian_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Legs",
+            "ItemStaticData": {
+                "RowName": "Heavy_Obsidian_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Heavy_Obsidian_Feet",
+            "ItemStaticData": {
+                "RowName": "Heavy_Obsidian_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Head",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Arms",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Chest",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Legs",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Obsidian_Feet",
+            "ItemStaticData": {
+                "RowName": "Obsidian_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Frame",
+            "ItemStaticData": {
+                "RowName": "Scoria_Frame"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Wall",
+            "ItemStaticData": {
+                "RowName": "Scoria_Wall"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Floor",
+            "ItemStaticData": {
+                "RowName": "Scoria_Floor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Ramp",
+            "ItemStaticData": {
+                "RowName": "Scoria_Ramp"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Scoria_Wall_Angle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Beam",
+            "ItemStaticData": {
+                "RowName": "Scoria_Beam"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Scoria_Roof_Corner"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Scoria_Half_Pitch"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Scoria_Halfpiece"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Floor",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Floor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Wall",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Wall"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Wall_Angle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Ramp",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Ramp"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Beam",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Beam"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Roof_Corner"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Roof_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Roof_Half_Pitch"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Scoria_Brick_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Scoria_Brick_Halfpiece"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "AlienFossil_Pottery",
+            "ItemStaticData": {
+                "RowName": "AlienFossil_Pottery"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "AlienFossil_Conch",
+            "ItemStaticData": {
+                "RowName": "AlienFossil_Conch"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Axe_Shengong_Echo",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Shengong_Echo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Shengong_Echo",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Shengong_Echo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Knife_Shengong_Echo",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Shengong_Echo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Spear_Shengong_Echo",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Shengong_Echo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bow_Shengong_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Bow_Shengong_Delta"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bow_Shengong_Echo",
+            "ItemStaticData": {
+                "RowName": "Meta_Bow_Shengong_Echo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Bravo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Set_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Set_Bravo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Bravo_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Bravo"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Charlie"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Set_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Set_Charlie"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Charlie_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Charlie"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Delta"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Set_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Set_Delta"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Delta_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Delta"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Knife_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Inaris_Bravo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Knife_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Inaris_Charlie"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Knife_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Inaris_Delta"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Axe_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Inaris_Bravo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Axe_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Inaris_Charlie"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Axe_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Inaris_Delta"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Inaris_Bravo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Inaris_Charlie"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Inaris_Delta"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Spear_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Inaris_Bravo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Spear_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Inaris_Charlie"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Spear_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Inaris_Delta"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Crossbow_Inaris_C",
+            "ItemStaticData": {
+                "RowName": "Meta_Crossbow_Inaris_C"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Crossbow_Inaris_D",
+            "ItemStaticData": {
+                "RowName": "Meta_Crossbow_Inaris_D"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Envirosuit_Larkwell_Alpha",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Larkwell_Alpha"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Envirosuit_Larkwell_Bravo",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Larkwell_Bravo"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Set_Larkwell_Electroshock",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Set_Larkwell_Electroshock"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Set_Larkwell_Explosive",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Set_Larkwell_Explosive"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Set_Larkwell_Piercing",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Set_Larkwell_Piercing"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Larkwell_Electroshock_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Larkwell_Electroshock"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Larkwell_Explosive_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Larkwell_Explosive"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Larkwell_Piercing_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Larkwell_Piercing"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Temperature",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Temperature"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Caving",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Caving"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Extremes",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Extremes"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Fishing",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Fishing"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Wounds",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Wounds"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Taming",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Taming"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Heated_Canteen_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Heated_Canteen_Larkwell"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Oxygen_Tank_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Oxygen_Tank_Larkwell"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Creature_Scanner",
+            "ItemStaticData": {
+                "RowName": "Meta_Creature_Scanner"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Mission_Tomato",
+            "ItemStaticData": {
+                "RowName": "Mission_Tomato"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Mission_Prototype_Printed_Crate",
+            "ItemStaticData": {
+                "RowName": "Mission_Prototype_Printed_Crate"
+            }
+        },
+        {
+            "Name": "Claybrick_Trapdoor",
+            "ItemStaticData": {
+                "RowName": "Clay_Brick_TrapDoor"
+            }
+        },
+        {
+            "Name": "Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            }
+        },
+        {
+            "Name": "Corn_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 1
+                }
+            ]
+        },
+        {
+            "Name": "Wheat_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Reed_Flower_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 3
+                }
+            ]
+        },
+        {
+            "Name": "Yeast_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 4
+                }
+            ]
+        },
+        {
+            "Name": "Lily_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Berry_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 6
+                }
+            ]
+        },
+        {
+            "Name": "Pumpkin_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 7
+                }
+            ]
+        },
+        {
+            "Name": "Soybean_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 8
+                }
+            ]
+        },
+        {
+            "Name": "Squash_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 9
+                }
+            ]
+        },
+        {
+            "Name": "Watermelon_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 10
+                }
+            ]
+        },
+        {
+            "Name": "Cocoa_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 11
+                }
+            ]
+        },
+        {
+            "Name": "Coffee_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 12
+                }
+            ]
+        },
+        {
+            "Name": "Green_Tea_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 13
+                }
+            ]
+        },
+        {
+            "Name": "Wild_Tea_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 14
+                }
+            ]
+        },
+        {
+            "Name": "Carrot_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 15
+                }
+            ]
+        },
+        {
+            "Name": "Mushroom_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 16
+                }
+            ]
+        },
+        {
+            "Name": "Tomato_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 23
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Potato_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 24
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Rhubarb_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 17
+                }
+            ]
+        },
+        {
+            "Name": "Kumara_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 18
+                }
+            ]
+        },
+        {
+            "Name": "Avocado_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 19
+                }
+            ]
+        },
+        {
+            "Name": "Strawberry_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 20
+                }
+            ]
+        },
+        {
+            "Name": "Fiber_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 21
+                }
+            ]
+        },
+        {
+            "Name": "Farming_CropPlot_T2_v2",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot_T2_v2"
+            }
+        },
+        {
+            "Name": "Farming_CropPlot_T3_v2",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot_T3_v2"
+            }
+        },
+        {
+            "Name": "Farming_CropPlot_T4_v2",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot_T4_v2"
+            }
+        },
+        {
+            "Name": "Farming_CropPlot_Workshop",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot_Workshop"
+            }
+        },
+        {
+            "Name": "Stone_Shovel",
+            "ItemStaticData": {
+                "RowName": "Stone_Shovel"
+            }
+        },
+        {
+            "Name": "Seed_Bread",
+            "ItemStaticData": {
+                "RowName": "Food_Seed_Bread"
+            }
+        },
+        {
+            "Name": "Seed_Cracker",
+            "ItemStaticData": {
+                "RowName": "Food_Seed_Cracker"
+            }
+        },
+        {
+            "Name": "Berry_Bar",
+            "ItemStaticData": {
+                "RowName": "Food_Berry_Bar"
+            }
+        },
+        {
+            "Name": "Animal_Feed",
+            "ItemStaticData": {
+                "RowName": "Food_Animal_Feed"
+            }
+        },
+        {
+            "Name": "Seed_Oil",
+            "ItemStaticData": {
+                "RowName": "Seed_Oil"
+            }
+        },
+        {
+            "Name": "Watering_Can",
+            "ItemStaticData": {
+                "RowName": "Watering_Can"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Watering_Can_Full",
+            "ItemStaticData": {
+                "RowName": "Watering_Can"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 5000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Anvil_Bench_T3",
+            "ItemStaticData": {
+                "RowName": "Anvil_Bench_T3"
+            }
+        },
+        {
+            "Name": "Anvil_Bench_T4",
+            "ItemStaticData": {
+                "RowName": "Anvil_Bench_T4"
+            }
+        },
+        {
+            "Name": "Masonry_Bench_T3",
+            "ItemStaticData": {
+                "RowName": "Masonry_Bench_T3"
+            }
+        },
+        {
+            "Name": "Meta_Reed_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Reed_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Yeast_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Yeast_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Lily_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Lily_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Cocao_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Cocao_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Coffee_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Coffee_Seed"
+            }
+        },
+        {
+            "Name": "Meta_GreenTea_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_GreenTea_Seed"
+            }
+        },
+        {
+            "Name": "Meta_WildTea_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_WildTea_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Fiber_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Fiber_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Tomato_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Tomato_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Potato_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Potato_Seed"
+            }
+        },
+        {
+            "Name": "Reed_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 3
+                }
+            ]
+        },
+        {
+            "Name": "Yeast_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 4
+                }
+            ]
+        },
+        {
+            "Name": "Lily_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Cocoa_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 11
+                }
+            ]
+        },
+        {
+            "Name": "Coffee_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 12
+                }
+            ]
+        },
+        {
+            "Name": "Green_Tea_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 13
+                }
+            ]
+        },
+        {
+            "Name": "Wild_Tea_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 14
+                }
+            ]
+        },
+        {
+            "Name": "Fiber_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 21
+                }
+            ]
+        },
+        {
+            "Name": "Tomato_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 23
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Potato_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 24
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Unknown_Ore",
+            "ItemStaticData": {
+                "RowName": "Unknown_Ore"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
                 }
             }
         }

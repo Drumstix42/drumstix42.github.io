@@ -8,8 +8,8 @@
             <ul class="mb-0 pl-0 list-none">
                 <li class="mb-1">
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3721708329648789343" target="_blank">
-                        Icarus Week 78 Update (Galileo)
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/3690191375751954624" target="_blank">
+                        Icarus Week 91 Update
                     </a>
                 </li>
                 <li class="mb-1">
@@ -29,9 +29,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v1.3.0.111847'" readonly></n-input>
+                        <n-input :value="'v2.0.1.115492'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2023/06/02</n-text>
+                    <n-text depth="3">2023/09/01</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
