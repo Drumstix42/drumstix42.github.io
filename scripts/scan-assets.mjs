@@ -1,4 +1,19 @@
-import { readdir, readFile, stat, copyFile, rm } from 'node:fs/promises';
+/**
+ * This script is inteneded to be used via yarn script command: 'update-game-assets'.
+ *  
+ * It's usage would be from within yarn:
+ *   yarn update-game-assets C:\path\to\Ue4Export\export
+ * 
+ * This script will attempt to update all of the web app assets related to the game from what was extracted with the
+ * `UE4ExportFiles` directory.  So this game expects you to have followed the export instructions in the readme, as
+ * well as, execute the export.bat.
+ * 
+ * This script will attempt to prune any extra assets as well as find all new ones, and assets that changed.  It uses the json
+ * file to figure out what assets are suppose to be in the game assets folder from this app.
+ * 
+ * @module
+ */
+import { readdir, readFile, stat, copyFile, rm, realpath, chmod } from 'node:fs/promises';
 import * as path from 'node:path';
 /**
  * An Item row is 1 row within one of the D_Item*.json files extracted from the data.pak file.
@@ -31,6 +46,9 @@ import * as path from 'node:path';
  * @property {string|undefined} pathWebRelative
  * @property {boolean|undefined} inItemableFiles
  */
+
+const ITEM_ICONS_UE4_EXPORT_DIR = path.join("Icarus", "Content", "Assets", "2DArt", "UI", "Items", "Item_Icons");
+
 /**
  * Since the stat fs function throws, but we really just want to know if the file exist or not,
  * this wraps around the stat file and just return undefined when the stat operation fail.
@@ -82,13 +100,13 @@ async function* walk(startDir) {
 /**
  * Parse out meta information about the asset file, that can be used to determine if the asset needs to be updated or not.
  *  
- * @param {import('node:fs').PathLike} fullPathName the fullPath to the asset
- * @param {import('node:fs').PathLike} extractedAssetsDir the directory where the assets were extracted from the game (prior to copying to the webapp)
+ * @param {import('node:fs').PathLike} fullPathName the fullPath to the asset (within the webapp)
+ * @param {import('node:fs').PathLike} extractedUeExportDir the directory where the assets were extracted from the game with UeExport (prior to copying to the webapp)
  * @param {boolean} webLocExist if the asset exist already in the webapp asset folder
  *
  * @returns {Promise<ParsedAsset>} a parsed out metadata for the given asset.
  */
-async function pathLogic(fullPathName, extractedAssetsDir, webLocExist) {
+async function pathLogic(fullPathName, extractedUeExportDir, webLocExist) {
     /**
      * @type {string[]}
      */
@@ -103,8 +121,8 @@ async function pathLogic(fullPathName, extractedAssetsDir, webLocExist) {
     const parsedPath = path.parse(fullPathName);
     const parsedPathNameSplit = parsedPath.name.split('.');
     const hasDuplicatedName = parsedPathNameSplit.length === 2 && parsedPathNameSplit[0] === parsedPathNameSplit[1];
-    const uaAssetName = hasDuplicatedName ? `${parsedPathNameSplit[0]}.png` : parsedPath.base;
-    const uaAssetPath = path.join(extractedAssetsDir, ...categories, uaAssetName);
+    const uaAssetName = parsedPath.base;
+    const uaAssetPath = path.join(extractedUeExportDir, ITEM_ICONS_UE4_EXPORT_DIR, ...categories, uaAssetName);
     const uaAssetPathExist = !!(await statOrUndefined(uaAssetPath));
     return {
         categories,
@@ -135,10 +153,10 @@ async function parseItemablesFile(baseWebLoc) {
  * This generator iterates over each item in D_Itemable.json and outputs a parse structure for the asset.
  * 
  * @param {*} baseWebLoc 
- * @param {*} extractedAssetsDir 
+ * @param {*} extractedUeExportDir 
  * @param {Itemables} itemables
  */
-async function * parseIcarusAssetsFromDataFile(baseWebLoc, extractedAssetsDir, itemables) {
+async function * parseIcarusAssetsFromDataFile(baseWebLoc, extractedUeExportDir, itemables) {
     const baseWebItemIconsFolder = path.join(baseWebLoc, 'ItemIcons');
 
     // Example Icon path: /Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Fibre.ITEM_Fibre
@@ -155,7 +173,7 @@ async function * parseIcarusAssetsFromDataFile(baseWebLoc, extractedAssetsDir, i
         splitted.splice(0, itemsIconIdx + 1);
         const webPathName = `${path.join(baseWebItemIconsFolder, ...splitted)}.png`;
 
-        yield await pathLogic(webPathName, extractedAssetsDir, !!statOrUndefined(webPathName));
+        yield await pathLogic(webPathName, extractedUeExportDir, !!statOrUndefined(webPathName));
     }
 }
 /**
@@ -163,12 +181,12 @@ async function * parseIcarusAssetsFromDataFile(baseWebLoc, extractedAssetsDir, i
  * This way we can clean up the Icons.
  * 
  * @param {import('node:fs').PathLike} baseWebLoc The path to the public folder containing the web assets
- * @param {import('node:fs').PathLike} extractedAssetsDir the path to the extracted assets from the game.
+ * @param {import('node:fs').PathLike} extractedUeExportDir the path to the extracted assets from the game.
  * @param {Itemables} itemables the parsed Data itemables JSON file.
  *
  * @returns {AsyncGenerator<[ParsedAsset, import('node:fs').Stats]>} iterates over each orphaned asset with its file stat object.
  */
-async function * findOrphanedAssets(baseWebLoc, extractedAssetsDir, itemables) {
+async function * findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables) {
     const baseWebItemIconsFolder = path.join(baseWebLoc, 'ItemIcons');
     function makeRelative(iconPath, pathName) {
         /**
@@ -189,7 +207,7 @@ async function * findOrphanedAssets(baseWebLoc, extractedAssetsDir, itemables) {
     const webRelativeItems = new Set(itemables.Rows.map(row => row.Icon).filter(icon => !!icon).map(i => makeRelative(i, 'Item_Icons')).filter(s => !!s));
 
     for await (const [iconPath, iconStat] of walk(baseWebItemIconsFolder)) {
-        const parsedPath = await pathLogic(iconPath, extractedAssetsDir, !!iconStat);
+        const parsedPath = await pathLogic(iconPath, extractedUeExportDir, !!iconStat);
         const pathWebRelative = makeRelative(parsedPath.fullPathName, 'ItemIcons');
         parsedPath.pathWebRelative = pathWebRelative;
         parsedPath.inItemableFiles = webRelativeItems.has(pathWebRelative);
@@ -212,15 +230,16 @@ const sourceDataFiles = {
 /**
  * Copies the source Data Files (JSON) from the game into the web app public assets directory
  * @param {import('node:fs').PathLike} webPublicData the web app public asset directory
- * @param {import('node:fs').PathLike} extractedDataDir the game's asset folder
+ * @param {import('node:fs').PathLike} extractedUeExportDir the game's asset folder
  */
-async function updateSourceDataFile(webPublicData, extractedDataDir) {
+async function updateSourceDataFile(webPublicData, extractedUeExportDir) {
     for (const [sourceFileName, dataFilePath] of Object.entries(sourceDataFiles)) {
         const webFilePath = path.join(webPublicData, sourceFileName);
-        const extractFilePath = path.join(extractedDataDir, dataFilePath);
+        const extractFilePath = path.join(extractedUeExportDir, dataFilePath);
 
         try {
             await copyFile(extractFilePath, webFilePath);
+            await chmod(webFilePath, 0o644);
             console.log(`${extractFilePath} => ${webFilePath} copied successfully.`);
         } catch (e) {
             console.warn(`ERROR: ${extractFilePath} => ${webFilePath} failed to copy`, e.message);
@@ -232,20 +251,21 @@ async function updateSourceDataFile(webPublicData, extractedDataDir) {
  * Update all of the web app assets with the assets extracted from the game.
  * 
  * @param {import('node:fs').PathLike} baseWebLoc the web app public asset directory
- * @param {import('node:fs').PathLike} extractedAssetsDir the base directory of the extracted assets from the game
+ * @param {import('node:fs').PathLike} extractedUeExportDir the base directory of the extracted assets from the game
  */
-async function updateGameAssets(baseWebLoc, extractedAssetsDir) {
+async function updateGameAssets(baseWebLoc, extractedUeExportDir) {
     const itemables = await parseItemablesFile(baseWebLoc);
 
     const missingAssets = [];
     async function gather() {
-        for await (const assetInfo of parseIcarusAssetsFromDataFile(baseWebLoc, extractedAssetsDir, itemables)) {
+        for await (const assetInfo of parseIcarusAssetsFromDataFile(baseWebLoc, extractedUeExportDir, itemables)) {
             if (!assetInfo.uaAssetPathExist) {
                 missingAssets.push(assetInfo);
                 continue;
             }
             try {
                 await copyFile(assetInfo.uaAssetPath, assetInfo.fullPathName);
+                await chmod(assetInfo.fullPathName, 0o644);
                 console.log(`${assetInfo.uaAssetPath} => ${assetInfo.fullPathName} ${assetInfo.webLocExist ? 'replaced' : 'created'} successfully.`);
             } catch (e) {
                 console.warn(`ERROR: ${assetInfo.uaAssetPath} => ${assetInfo.fullPathName} failed to copy`, e.message);
@@ -254,7 +274,7 @@ async function updateGameAssets(baseWebLoc, extractedAssetsDir) {
     }
     await gather();
     if (missingAssets.length) {
-        console.log('Can not find these assets in the extracted assets directory\n', missingAssets.join('\n'));
+        console.log('Can not find these assets in the extracted assets directory\n', missingAssets.map(a => JSON.stringify(a)).join('\n'));
     }
     let logger = (...args) => {
         console.log('Orphaned Assets');
@@ -263,7 +283,7 @@ async function updateGameAssets(baseWebLoc, extractedAssetsDir) {
         console.log(...args);
         logger = console.log;
     }
-    for await (const orphanedAsset of findOrphanedAssets(baseWebLoc, extractedAssetsDir, itemables)) {
+    for await (const orphanedAsset of findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables)) {
         logger(orphanedAsset[0].name);
         await rm(orphanedAsset[0].fullPathName, { force: true });
     }
@@ -273,24 +293,28 @@ async function updateGameAssets(baseWebLoc, extractedAssetsDir) {
  * Main entry point of the script.  This script is expected to be ran from the scripts folder.
  */
 async function main() {
-    const baseWebLoc = '../public/icarus-game';
+    const baseWebLoc = path.join('public', 'icarus-game');
     if (!statOrUndefined(baseWebLoc)) {
         console.error('ERROR: Unable to find public/icarus-game');
         process.exit(1);
     }
 
-    if (process.argv.length < 4) {
-        console.error(`USAGE: ${process.argv[0]} ${process.argv[1]} extractedAssetsDir extractedDataDir`);
+    if (process.argv.length < 3) {
+        console.error(`USAGE: ${process.argv[0]} ${process.argv[1]} Ue4ExportDir`);
         process.exit(1);
     }
-    const extractedAssetsDir = process.argv[2];
-    const extractedDataDir = process.argv[3];
+    const extractedUeExportDir = await realpath(process.argv[2]);
+    console.log('Export dir: ', extractedUeExportDir);
+    if (!statOrUndefined(extractedUeExportDir)) {
+        console.error('ERROR: Unable to find export directory.');
+        process.exit(1);
+    }
 
     console.log('Updating web app game data');
-    await updateSourceDataFile(path.join(baseWebLoc, 'Data'), extractedDataDir);
+    await updateSourceDataFile(path.join(baseWebLoc, 'Data'), extractedUeExportDir);
 
     console.log('Updating web game assets');
-    updateGameAssets(baseWebLoc, extractedAssetsDir);
+    updateGameAssets(baseWebLoc, extractedUeExportDir);
 }
 
 await main();

@@ -20,6 +20,9 @@ yarn dev
 - Execute `export.bat` from within the `UeExport` directory.
 - This will produce both the json data files, as well as the image assets.
 
+### Updating Via script
+You can Update the web app's game assets via running the yarn script: `yarn update-game-assets <path/to/Ue4ExportDir/export>` produced by the `export.bat` file in the step above.
+
 ### Updating Data files
 Once you have extracted the JSON data files, you will need to copy them over from the game directory folder(s) matching the table mapping shown below. 
 
