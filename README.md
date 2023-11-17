@@ -13,26 +13,26 @@ yarn install
 yarn dev
 ```
 ## Updating Project files
-### Extracting Data files
-- Using the [Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software) or [DRGPacker2](https://drive.google.com/file/d/1f8J_2A0GgDIAU6Ekq7Ef6GELnpHpK8wT/view) extract `%STEAMFOLDER%\steamapps\common\Icarus\Icarus\Content\Data\data.pak`.
-    - For more information on DRGPacker, join the **Linkarus - ICARUS modding** Discord, and see the list of mod tools in this channel: https://discord.com/channels/936621749733302292/936699865730281482
+### Extracting game files
+- Download [Ue4Export](https://github.com/CrystalFerrai/Ue4Export/releases) tool
+- Copy the `scripts/Ue4ExportFiles/*` files into the directory which you extracted the `Ue4Export` tool (Sibling of Ue4Export.exe).
+- Adjust the `export.bat` file to point to your game directory.
+- Execute `export.bat` from within the `UeExport` directory.
+- This will produce both the json data files, as well as the image assets.
+
+### Updating Via script
+You can Update the web app's game assets via running the yarn script: `yarn update-game-assets <path/to/Ue4ExportDir/export>` produced by the `export.bat` file in the step above.
+
 ### Updating Data files
 Once you have extracted the JSON data files, you will need to copy them over from the game directory folder(s) matching the table mapping shown below. 
 
 JSON files for the Web App are located in: [public/icarus-game/Data](./public/icarus-game/Data) and are used to calculate recipes on initial page load.
-| Web File                | Icarus Data File                                     |
+| Web File                | Icarus Data Export location                          |
 |-------------------------|------------------------------------------------------|
-| D_ItemsStatic.json      | `%MODMANAGER%\data\Items\D_ItemsStatic.json`         |
-| D_Itemable.json         | `%MODMANAGER%\data\Traits\D_Itemable.json`           |
-| D_ItemTemplate.json     | `%MODMANAGER%\data\Items\D_ItemTemplate.json`        |
-| D_ProcessorRecipes.json | `%MODMANAGER%\data\Crafting\D_ProcessorRecipes.json` |
-
-### Extracting Item Icons
-- Download [Ue4Export](https://github.com/CrystalFerrai/Ue4Export/releases) tool
-- Adjust the `export.bat` file to point to your game directory
-- Adjust `assetlist.txt` so that `[Texture]` section only includes `Icarus/Content/Assets/2DArt/*`
-    - you can simply prefix each line with a `#` to comment out the line *(unless you want to export other assets)*
-- Adjust `assetlist_data.txt` and comment out everything *(unless you want to export other assets)*
+| D_ItemsStatic.json      | `%UE4ExportFolder%\Items\D_ItemsStatic.json`         |
+| D_ItemTemplate.json     | `%UE4ExportFolder%\Items\D_ItemTemplate.json`        |
+| D_Itemable.json         | `%UE4ExportFolder%\Traits\D_Itemable.json`           |
+| D_ProcessorRecipes.json | `%UE4ExportFolder%\Crafting\D_ProcessorRecipes.json` |
 
 ### Updating Item Icons
 The Web App base directory is `public\icarus-game\ItemIcons`, and the extracted data is `export\Icarus\Content\Assets\2DArt\UI\Items\Item_Icons`. You can simply copy all images and folders over to update them.
