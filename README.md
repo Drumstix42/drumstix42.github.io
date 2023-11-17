@@ -13,7 +13,7 @@ yarn install
 yarn dev
 ```
 ## Updating Project files
-### Extracting Item Icons
+### Extracting game files
 - Download [Ue4Export](https://github.com/CrystalFerrai/Ue4Export/releases) tool
 - Copy the `scripts/Ue4ExportFiles/*` files into the directory which you extracted the `Ue4Export` tool (Sibling of Ue4Export.exe).
 - Adjust the `export.bat` file to point to your game directory.
