@@ -6011,7 +6011,7 @@
                 "RowName": "Electric_Furnace"
             },
             "Audio": {
-                "RowName": "MetalDeployable"
+                "RowName": "MetalDeployable_Dense"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -6119,7 +6119,7 @@
                 "RowName": "Electric_Furnace"
             },
             "Audio": {
-                "RowName": "MetalDeployable"
+                "RowName": "MetalDeployable_Dense"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -14646,7 +14646,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -15860,7 +15860,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -24040,7 +24040,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -25993,8 +25993,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26055,8 +26065,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26117,8 +26137,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26179,8 +26209,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26241,8 +26281,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26303,8 +26353,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26365,8 +26425,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26427,8 +26497,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26489,8 +26569,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26551,8 +26641,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26613,8 +26713,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26675,8 +26785,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -26737,8 +26857,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Rug"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -29391,7 +29521,7 @@
                 "RowName": "Place"
             },
             "Deployable": {
-                "RowName": "Clay_Brick_Trapdoor"
+                "RowName": "Clay_Brick_TrapDoor"
             },
             "Durable": {
                 "RowName": "Deployable_1000"
@@ -30477,7 +30607,7 @@
                 "RowName": "Generic_Consumable"
             },
             "Consumable": {
-                "RowName": "Corn"
+                "RowName": "Raw_Food"
             },
             "Usable": {
                 "RowName": "Consume_Stack_Food"
@@ -51843,7 +51973,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -51939,7 +52069,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -55769,7 +55899,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
                 "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -25
@@ -59529,7 +59659,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Tendon"
             },
             "CraftingExperience": 40,
             "Manual_Tags": {
@@ -59578,7 +59708,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "Tendon"
             },
             "CraftingExperience": 40,
             "Manual_Tags": {
@@ -63568,6 +63698,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -63575,6 +63708,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -63661,6 +63797,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -63671,6 +63810,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -63760,6 +63902,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -63770,6 +63915,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -63856,6 +64004,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -63863,6 +64014,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -63946,6 +64100,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -63953,6 +64110,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64033,6 +64193,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64040,6 +64203,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64120,6 +64286,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64127,6 +64296,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64207,6 +64379,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64214,6 +64389,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64294,6 +64472,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64301,6 +64482,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64387,6 +64571,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64397,6 +64584,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64480,6 +64670,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64487,6 +64680,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64567,6 +64763,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64574,6 +64773,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64654,6 +64856,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64661,6 +64866,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64741,6 +64949,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64748,6 +64959,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64828,6 +65042,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64835,6 +65052,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -64921,6 +65141,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -64931,6 +65154,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -65020,6 +65246,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -65030,6 +65259,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -65111,6 +65343,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -65118,6 +65353,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -65189,6 +65427,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -65196,6 +65440,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -65276,6 +65526,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     }
                 ]
             },
@@ -65286,6 +65539,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Rustic"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -67686,10 +67942,20 @@
                 "RowName": "Flammable_Deployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "SmallWoodDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -67765,8 +68031,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -67839,8 +68115,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -67913,8 +68199,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -67987,8 +68283,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -68061,8 +68367,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -68135,8 +68451,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -68209,8 +68535,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -68283,8 +68619,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -68357,8 +68703,18 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -94784,10 +95140,20 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "SmallWoodDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -94858,10 +95224,20 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "SmallWoodDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -94932,10 +95308,20 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "SmallWoodDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -95008,8 +95394,18 @@
             "Audio": {
                 "RowName": "Default"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -95082,8 +95478,18 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -95156,8 +95562,18 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -95230,8 +95646,18 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -95304,8 +95730,18 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -95378,8 +95814,18 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -95452,8 +95898,18 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -96194,7 +96650,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -96274,7 +96730,7 @@
                 "RowName": "Flammable_Building_Wood"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "WoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -96376,7 +96832,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "WoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -96478,7 +96934,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -96667,7 +97123,7 @@
                 "RowName": "Flammable_Building_Wood"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -96766,7 +97222,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "SmallWoodDeployable"
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -96846,7 +97302,7 @@
                 "RowName": "Flammable_Building_Wood"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -97132,7 +97588,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "SmallWoodDeployable"
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -97212,7 +97668,7 @@
                 "RowName": "Worklamp"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -97517,7 +97973,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -98503,7 +98959,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "Vase"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -98746,7 +99202,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "Vase"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -98989,7 +99445,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "Vase"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -99070,7 +99526,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "Vase"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -99151,7 +99607,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "Vase"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -99232,7 +99688,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "Vase"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -99313,7 +99769,7 @@
                 "RowName": "LightDeployable"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "Vase"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -101429,6 +101885,9 @@
             "Weight": {
                 "RowName": "LightDeployable"
             },
+            "Audio": {
+                "RowName": "SmallWoodDeployable"
+            },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
@@ -101736,6 +102195,9 @@
             },
             "Weight": {
                 "RowName": "LightDeployable"
+            },
+            "Audio": {
+                "RowName": "SmallWoodDeployable"
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -113104,7 +113566,7 @@
                 "RowName": "Generic"
             },
             "Ballistic": {
-                "RowName": "RockDog_Spit"
+                "RowName": "Rockdog_Spit"
             },
             "Decayable": {
                 "RowName": "Decay_02_Minutes"
@@ -114578,7 +115040,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -114653,7 +115115,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -114728,7 +115190,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "WoodDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -114812,7 +115274,7 @@
                 "RowName": "Worklamp"
             },
             "Audio": {
-                "RowName": "GenericDeployable"
+                "RowName": "SmallWoodDeployable"
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -117681,7 +118143,7 @@
                 "RowName": "Mesh_Generic_Head"
             },
             "Itemable": {
-                "RowName": "Item_Carcass_Rabbit_Variant"
+                "RowName": "Item_Pygmy_Lop_Head"
             },
             "Interactable": {
                 "RowName": "Item"
@@ -120195,7 +120657,7 @@
                 "RowName": "Place"
             },
             "Deployable": {
-                "RowName": "Scorpion_Trophy"
+                "RowName": "Arctic_Scorpion_Trophy"
             },
             "Durable": {
                 "RowName": "Deployable_250"
@@ -121480,6 +121942,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -121487,6 +121952,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -121561,6 +122029,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -121568,6 +122039,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -121642,6 +122116,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -121649,6 +122126,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -121723,6 +122203,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -121730,6 +122213,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -121804,6 +122290,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -121811,6 +122300,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -121885,6 +122377,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -121892,6 +122387,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -121966,6 +122464,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -121973,6 +122474,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122047,6 +122551,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122054,6 +122561,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122092,7 +122602,7 @@
                 "RowName": "Item_Metal_DisplayCabinet"
             },
             "Interactable": {
-                "RowName": "Deployable_NoInteract"
+                "RowName": "Deployable"
             },
             "Focusable": {
                 "RowName": "Focusable_1H"
@@ -122112,6 +122622,9 @@
             "Durable": {
                 "RowName": "Deployable_750"
             },
+            "Inventory": {
+                "RowName": "Rustic_Decoration_Storage"
+            },
             "Experience": {
                 "RowName": "CraftedItem"
             },
@@ -122128,6 +122641,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122135,6 +122651,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122159,6 +122678,9 @@
                     },
                     {
                         "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
                     }
                 ],
                 "ParentTags": []
@@ -122212,6 +122734,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122219,6 +122744,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122260,7 +122788,7 @@
                 "RowName": "Item_Metal_Candles"
             },
             "Interactable": {
-                "RowName": "Deployable_NoInteract"
+                "RowName": "Floor_Torch"
             },
             "Focusable": {
                 "RowName": "Focusable_1H"
@@ -122280,11 +122808,17 @@
             "Durable": {
                 "RowName": "Deployable_750"
             },
+            "Inventory": {
+                "RowName": "Fuel_AnimalFat"
+            },
             "Experience": {
                 "RowName": "CraftedItem"
             },
             "Decayable": {
                 "RowName": "Decay_General"
+            },
+            "Generator": {
+                "RowName": "Candle_Generator"
             },
             "Weight": {
                 "RowName": "MediumDeployable"
@@ -122296,6 +122830,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122303,6 +122840,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122327,6 +122867,9 @@
                     },
                     {
                         "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
                     }
                 ],
                 "ParentTags": []
@@ -122380,6 +122923,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122387,6 +122933,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122464,6 +123013,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122471,6 +123023,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122548,6 +123103,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122555,6 +123116,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122635,6 +123202,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122642,6 +123212,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122719,6 +123292,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122726,6 +123302,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122782,7 +123361,7 @@
                 "RowName": "Place"
             },
             "Deployable": {
-                "RowName": "Metal_CoffeeTable"
+                "RowName": "Metal_Coffeetable"
             },
             "Durable": {
                 "RowName": "Deployable_750"
@@ -122803,6 +123382,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122810,6 +123392,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -122845,7 +123430,7 @@
                 "RowName": "Mesh_Industrial_Decoration"
             },
             "Itemable": {
-                "RowName": "Item_Rustic_Bed"
+                "RowName": "Item_Metal_Bed"
             },
             "Interactable": {
                 "RowName": "Bed"
@@ -122885,6 +123470,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     }
                 ]
             },
@@ -122892,6 +123480,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125131,6 +125722,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125138,6 +125732,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125173,7 +125770,7 @@
                 "RowName": "Mesh_Brutalist_Decoration"
             },
             "Itemable": {
-                "RowName": "Item_Brutalist_Table_10"
+                "RowName": "Item_Brutalist_Table_6"
             },
             "Interactable": {
                 "RowName": "Deployable_NoInteract"
@@ -125212,6 +125809,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125219,6 +125819,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125254,7 +125857,7 @@
                 "RowName": "Mesh_Brutalist_Decoration"
             },
             "Itemable": {
-                "RowName": "Item_Brutalist_Table_6"
+                "RowName": "Item_Brutalist_Table_10"
             },
             "Interactable": {
                 "RowName": "Deployable_NoInteract"
@@ -125293,6 +125896,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125300,6 +125906,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125374,6 +125983,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125381,6 +125993,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125455,6 +126070,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125462,6 +126080,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125536,6 +126157,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125543,6 +126167,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125617,6 +126244,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125624,6 +126254,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125698,6 +126331,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125705,6 +126341,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125779,6 +126418,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125786,6 +126428,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125869,6 +126514,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125879,6 +126527,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -125965,6 +126616,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -125975,6 +126629,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126016,7 +126673,7 @@
                 "RowName": "Item_Brutalist_Candle"
             },
             "Interactable": {
-                "RowName": "Deployable_NoInteract"
+                "RowName": "Floor_Torch"
             },
             "Focusable": {
                 "RowName": "Focusable_1H"
@@ -126036,11 +126693,17 @@
             "Durable": {
                 "RowName": "Deployable_1000"
             },
+            "Inventory": {
+                "RowName": "Fuel_AnimalFat"
+            },
             "Experience": {
                 "RowName": "CraftedItem"
             },
             "Decayable": {
                 "RowName": "Decay_General"
+            },
+            "Generator": {
+                "RowName": "Candle_Generator"
             },
             "Weight": {
                 "RowName": "MediumDeployable"
@@ -126052,6 +126715,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126059,6 +126725,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126083,6 +126752,9 @@
                     },
                     {
                         "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
                     }
                 ],
                 "ParentTags": []
@@ -126136,6 +126808,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126143,6 +126818,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126220,6 +126898,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126227,6 +126908,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126304,6 +126988,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126311,6 +127001,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126389,6 +127085,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126396,6 +127095,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126473,6 +127175,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126480,6 +127185,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126557,6 +127265,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126564,6 +127275,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126641,6 +127355,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     }
                 ]
             },
@@ -126648,6 +127365,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -126851,7 +127571,7 @@
                 "RowName": "Place"
             },
             "Deployable": {
-                "RowName": "Komodo_Trophy"
+                "RowName": "Tusker_Trophy"
             },
             "Durable": {
                 "RowName": "Deployable_250"
@@ -127001,6 +127721,2428 @@
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
                 }
+            }
+        },
+        {
+            "Name": "Gold_Bed",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Bed"
+            },
+            "Interactable": {
+                "RowName": "Bed"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Bed"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "LightDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseSleepQuality_%\")": 165,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 1000
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Bookshelf",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Bookshelf"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Bookshelf"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Inventory": {
+                "RowName": "Rustic_Decoration_Storage"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Candle",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Candle"
+            },
+            "Interactable": {
+                "RowName": "Floor_Torch"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Candle"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Inventory": {
+                "RowName": "Fuel_AnimalFat"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Generator": {
+                "RowName": "Candle_Generator"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Standing_Lamp",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Standing_Lamp"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Standing_Lamp"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Energy": {
+                "RowName": "Worklamp"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Energy"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Dining_Chair",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Dining_Chair"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Dining_Chair"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Table_6Seater",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Table_6Seater"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Table_6Seater"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Table_10Seater",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Table_10Seater"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Table_10Seater"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Table_Round",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Table_Round"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Table_Round"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Dresser",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Dresser"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Dresser"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Inventory": {
+                "RowName": "Rustic_Decoration_Storage"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Living_Chair",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Living_Chair"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Living_Chair"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Living_Chair2",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Living_Chair2"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Living_Chair2"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Living_Chair3",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Living_Chair3"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Living_Chair3"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Sitting_Bench",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Sitting_Bench"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Sitting_Bench"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Shelf_Wall",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Shelf_Wall"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Shelf_Wall"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Wardrobe",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Wardrobe"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Wardrobe"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Inventory": {
+                "RowName": "Storage_Metal_Crate_Medium"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Vault",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Vault"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Vault"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Inventory": {
+                "RowName": "Storage_Metal_Crate_Medium"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Safe",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Safe"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Safe"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Inventory": {
+                "RowName": "Storage_Metal_Crate_Medium"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Fireplace",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Fireplace"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Fireplace"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Inventory": {
+                "RowName": "Inventory_Fireplace"
+            },
+            "Processing": {
+                "RowName": "Fireplace"
+            },
+            "Thermal": {
+                "RowName": "Fireplace"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Generator": {
+                "RowName": "Basic_Energy_Generator"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Audio": {
+                "RowName": "StoneDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    },
+                    {
+                        "TagName": "Traits.Processing"
+                    },
+                    {
+                        "TagName": "Traits.Thermal"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Fireplace_Ext",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Fireplace_Ext"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Fireplace_Ext"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Fireplace_Cap",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Fireplace_Cap"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Fireplace_Cap"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Chandelier",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Chandelier"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Chandelier"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Floatable": {
+                "RowName": "Items"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Flammable": {
+                "RowName": "Flammable_Building_Wood"
+            },
+            "Weight": {
+                "RowName": "LightDeployable"
+            },
+            "Energy": {
+                "RowName": "Worklamp"
+            },
+            "Audio": {
+                "RowName": "Vase"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Floatable"
+                    },
+                    {
+                        "TagName": "Traits.Flammable"
+                    },
+                    {
+                        "TagName": "Traits.Energy"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Wall_Light",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Wall_Light"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Wall_Light"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Energy": {
+                "RowName": "Worklamp"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Energy"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Wall_Sign",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Wall_Sign"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Wall_Sign"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Partition",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Partition"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Partition"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Flammable": {
+                "RowName": "Flammable_Deployable"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Flammable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Rug",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Rug"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Rug"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Weight": {
+                "RowName": "LightDeployable"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Item.Rug"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Vase",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Vase"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Vase"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Flammable": {
+                "RowName": "Flammable_Deployable"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "Vase"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Flammable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Gold_Nightstand",
+            "Meshable": {
+                "RowName": "Mesh_Gold_Decoration"
+            },
+            "Itemable": {
+                "RowName": "Item_Gold_Nightstand"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Gold_Nightstand"
+            },
+            "Durable": {
+                "RowName": "Deployable_1000"
+            },
+            "Inventory": {
+                "RowName": "Rustic_Decoration_Storage"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
             }
         }
     ]
