@@ -15,6 +15,7 @@ yarn dev
 ## Updating Project files
 ### Extracting game files
 - Download [Ue4Export](https://github.com/CrystalFerrai/Ue4Export/releases) tool
+    - Ensure you have [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) installed
 - Copy the `scripts/Ue4ExportFiles/*` files into the directory which you extracted the `Ue4Export` tool (Sibling of Ue4Export.exe).
 - Adjust the `export.bat` file to point to your game directory.
 - Execute `export.bat` from within the `UeExport` directory.
@@ -37,7 +38,7 @@ JSON files for the Web App are located in: [public/icarus-game/Data](./public/ic
 ### Updating Item Icons
 The Web App base directory is `public\icarus-game\ItemIcons`, and the extracted data is `export\Icarus\Content\Assets\2DArt\UI\Items\Item_Icons`. You can simply copy all images and folders over to update them.
 
-**NOTE:** The `.gitignore` file handles known image filenames which were/are too long. Simply removing the duplicated text in the file name, and manually setting them was enough to fix the issue, as the code is setup to handle partial matches as-is.
+**NOTE:** The `.gitignore` file handles known image filenames which were/are too long. Simply removing the duplicated text in the file name, and manually setting them was enough to fix the issue, as the code is setup to handle partial matches as-is. (More recent versions of the game seem to have fixed the duplicate naming convention, so this might not apply anymore!)
 
 ### Updating the Web App
 

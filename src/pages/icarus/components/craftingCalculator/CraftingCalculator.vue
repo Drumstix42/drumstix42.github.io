@@ -107,7 +107,7 @@
 </template>
 
 <script>
-import { debounce } from 'debounce';
+import debounce from 'debounce';
 import { mapActions, mapGetters, mapState } from 'pinia';
 import { SortAlphaDown, Times } from '@vicons/fa';
 

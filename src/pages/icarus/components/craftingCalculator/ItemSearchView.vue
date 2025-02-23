@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import { debounce } from 'debounce';
+import debounce from 'debounce';
 import { mapActions, mapState } from 'pinia';
 import { Plus } from '@vicons/fa';
 

@@ -171,13 +171,13 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
 
     // map Array to Object so we can cross reference as needed
     rows.forEach((recipe) => {
-        recipeDataByName[recipe.name] = recipe;
+        recipeDataByName[recipe.Name] = recipe;
     });
 
     const recipeData = {};
 
     rows.forEach((recipe) => {
-        const maxFilePathLength = 100;
+        //const maxFilePathLength = 100;
         const id = recipe.Name;
 
         if (itemIgnoreMap[id]) {
@@ -188,14 +188,14 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
 
         const itemTemplateId = id;
         const outputFallbackId = () => {
-            /* if (id === 'Attachment_Cave_Resistance_2') {
+            /* if (id === 'Ammo_EDS_MissionModified') {
                 debugger;
             } */
             const outputName = recipe.Outputs[0]?.Element.RowName;
             if (
                 recipe.Outputs.length === 1 &&
                 outputName &&
-                (outputName?.includes(itemTemplateId) || recipe.Requirement || !recipeDataByName[outputName])
+                (outputName?.includes(itemTemplateId) || recipe.Requirement || recipe.SessionRequirement || !recipeDataByName[outputName])
             ) {
                 return outputName;
             }
@@ -206,13 +206,28 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
             itemTemplateData[itemTemplateId] ?? itemTemplateData[recipe.Requirement?.RowName] ?? itemTemplateData[outputFallbackId()];
         const itemStaticRecord = itemStaticData[itemTemplateRecord?.itemStaticId] ?? itemStaticData[inputFallbackId];
 
-        const iconPath = recipe.ResourceOutputs?.length > 0 ? '' : itemTableData[itemStaticRecord?.itemTableId]?.icon;
-        const iconPathFallback = iconPath.length > maxFilePathLength ? iconPath.split('/')[0] + '/' + iconPath.split('.')[1] : '';
+        if (!itemStaticRecord) {
+            console.warn('Missing itemStaticRecord for', {
+                id,
+                inputFallbackId,
+                itemTemplateId,
+                itemTemplateRecord,
+                itemStaticRecord,
+                recipe,
+                recipeDataByName,
+            });
+        }
+
+        const iconPath = recipe.ResourceOutputs?.length > 0 ? '' : itemTableData[itemStaticRecord?.itemTableId]?.icon ?? '';
+
+        // since the PNG files are now deduplicated, but the code references are not
+        // we can just take the first part of the file name, e.g. `"Weapons/Guns/T_ITEM_Pistol_T4.T_ITEM_Pistol_T4"` => `"Weapons/Guns/T_ITEM_Pistol_T4"`
+        const iconPathDedupe = iconPath?.length > 0 && iconPath.includes('.') ? iconPath.split('.')[0] : '';
 
         recipeData[id] = {
             id: id,
             label: getItemLabel(id, { displayName: itemTableData[itemStaticRecord?.itemTableId]?.displayName }),
-            iconPath: iconPath.length > maxFilePathLength ? iconPathFallback : iconPath,
+            iconPath: iconPathDedupe ?? iconPath ?? '',
 
             inputs: [],
             sources: [],
