@@ -1,2 +1,4 @@
 [Text]
-#*
+Items/*
+Traits/*
+Crafting/*
