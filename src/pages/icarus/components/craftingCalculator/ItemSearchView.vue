@@ -21,8 +21,8 @@
                             <n-image
                                 class="icon"
                                 width="32"
-                                :src="`/icarus-game/ItemIcons/${item.iconPath}.png`"
-                                fallback-src="/icarus-game/Images/question-mark.png"
+                                :src="`${gameAssetsUrl}/ItemIcons/${item.iconPath}.png`"
+                                :fallback-src="`${gameAssetsUrl}/Images/question-mark.png`"
                                 :preview-disabled="true"
                             />
                             <div v-if="recipeData[item.id]?.outputQuantity > 1" class="item-counter">x{{ recipeData[item.id].outputQuantity }}</div>
@@ -56,6 +56,7 @@ import { mapActions, mapState } from 'pinia';
 import { Plus } from '@vicons/fa';
 
 import { useIcarusStore } from '@/store/icarus';
+import { GAME_ASSETS_URL } from '@/constants/common';
 const icarusStore = useIcarusStore();
 
 export default {
@@ -67,6 +68,7 @@ export default {
     data() {
         return {
             searchValue: null,
+            gameAssetsUrl: GAME_ASSETS_URL,
         };
     },
     computed: {

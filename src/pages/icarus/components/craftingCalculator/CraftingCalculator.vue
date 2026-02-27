@@ -21,8 +21,8 @@
                         <n-image
                             class="icon"
                             width="45"
-                            :src="`/icarus-game/ItemIcons/${recipeData[item.id]?.iconPath}.png`"
-                            fallback-src="/icarus-game/Images/question-mark.png"
+                            :src="`${gameAssetsUrl}/ItemIcons/${recipeData[item.id]?.iconPath}.png`"
+                            :fallback-src="`${gameAssetsUrl}/Images/question-mark.png`"
                             :preview-disabled="false"
                         />
                         <div v-if="recipeData[item.id]?.outputQuantity > 1" class="item-counter">x{{ recipeData[item.id].outputQuantity }}</div>
@@ -89,8 +89,8 @@
                         <n-image
                             class="icon"
                             width="32"
-                            :src="`/icarus-game/ItemIcons/${recipeData[componentName]?.iconPath}.png`"
-                            fallback-src="/icarus-game/Images/question-mark.png"
+                            :src="`${gameAssetsUrl}/ItemIcons/${recipeData[componentName]?.iconPath}.png`"
+                            :fallback-src="`${gameAssetsUrl}/Images/question-mark.png`"
                             :preview-disabled="false"
                         />
                         <div class="label">{{ recipeData[componentName]?.label ?? itemLabelMap[componentName] ?? componentName }}</div>
@@ -114,6 +114,7 @@ import { SortAlphaDown, Times } from '@vicons/fa';
 import ComponentSourcePicker from './ComponentSourcePicker.vue';
 import { useIcarusStore } from '@/store/icarus';
 import { itemLabelMap } from '@/utility/icarusData';
+import { GAME_ASSETS_URL } from '@/constants/common';
 
 export default {
     name: 'CraftingToolCalculator',
@@ -131,6 +132,7 @@ export default {
     data() {
         return {
             itemLabelMap: itemLabelMap,
+            gameAssetsUrl: GAME_ASSETS_URL,
             requiredItemData: {},
             requiredCraftingStations: [],
             requiredComponents: [],
