@@ -1,22 +1,26 @@
 <template>
     <div class="icarus-wrap p-2 pt-3">
         <n-alert v-if="showWelcomeAlert" class="m-2 mb-3" title="Crafting Calculator" type="info" closable @after-leave="dismissAlert('welcome')">
-            Search and add items from the list below to add them to your to-do list, which will calculate your item requirements.
-        </n-alert>
-
-        <n-alert v-if="showWhatsNewAlert" class="m-2 mb-3" title="What's New?" type="success" closable @after-leave="dismissAlert('whatsNew')">
             <ul class="mb-0 pl-0 list-none">
                 <li class="mb-1">
-                    Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/545601771364417885" target="_blank">
-                        Icarus Week 168 Update
-                    </a>
+                    Search items from the list below and add them to your to-do list(s), which will calculate your item requirements.
                 </li>
                 <li class="mb-1">
                     🔄 All your Tabs and Toggle options now persist between sessions. Data saves to
                     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank" class="text-primary"
                         >localStorage</a
                     >.
+                </li>
+            </ul>
+        </n-alert>
+
+        <n-alert v-if="showWhatsNewAlert" class="m-2 mb-3" title="What's New?" type="success" closable @after-leave="dismissAlert('whatsNew')">
+            <ul class="mb-0 pl-0 list-none">
+                <li class="mb-1">
+                    Support for
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/528746250052308012" target="_blank">
+                        Icarus Week 221 Update
+                    </a>
                 </li>
                 <!-- <li class="mb-1">🔍 Fuzzy search added to Item Search list. It should be a little easier to find items.</li>
                 <li class="mb-1">🔨 "Stack" count displays on icons for Items which are crafted in bulk (<em>e.g. x100 Steel Screw</em>)</li> -->
@@ -29,9 +33,9 @@
                 <div class="m-2 text-200 flex align-items-center">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="game-version">
-                        <n-input :value="'v2.2.43.133489'" readonly></n-input>
+                        <n-input :value="'v2.4.1.149282-rel-Homestead'" readonly></n-input>
                     </div>
-                    <n-text depth="3">2025/02/20</n-text>
+                    <n-text depth="3">📅 2026-02-27</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
@@ -76,7 +80,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20231027,
+    whatsNew: 20260227,
 });
 
 const isAlertVisible = (alertName) => {
