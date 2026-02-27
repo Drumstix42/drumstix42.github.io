@@ -1,23 +1,23 @@
 /**
  * This script is inteneded to be used via yarn script command: 'update-game-assets'.
- *  
+ *
  * It's usage would be from within yarn:
  *   yarn update-game-assets C:\path\to\Ue4Export\export
- * 
+ *
  * This script will attempt to update all of the web app assets related to the game from what was extracted with the
  * `UE4ExportFiles` directory.  So this game expects you to have followed the export instructions in the readme, as
  * well as, execute the export.bat.
- * 
+ *
  * This script will attempt to prune any extra assets as well as find all new ones, and assets that changed.  It uses the json
  * file to figure out what assets are suppose to be in the game assets folder from this app.
- * 
+ *
  * @module
  */
 import { readdir, readFile, stat, copyFile, rm, realpath, chmod } from 'node:fs/promises';
 import * as path from 'node:path';
 /**
  * An Item row is 1 row within one of the D_Item*.json files extracted from the data.pak file.
- * 
+ *
  * @typedef ItemRow
  * @type {object}
  * @property {string} Name
@@ -31,7 +31,7 @@ import * as path from 'node:path';
  */
 /**
  * ParsedAsset represents the meta information about the parsing and extraction of each of the assets.
- * 
+ *
  * @typedef ParsedAsset
  * @type {object}
  * @property {string[]} categories,
@@ -47,18 +47,18 @@ import * as path from 'node:path';
  * @property {boolean|undefined} inItemableFiles
  */
 
-const ITEM_ICONS_UE4_EXPORT_DIR = path.join("Icarus", "Content", "Assets", "2DArt", "UI", "Items", "Item_Icons");
+const ITEM_ICONS_UE4_EXPORT_DIR = path.join('Icarus', 'Content', 'Assets', '2DArt', 'UI', 'Items', 'Item_Icons');
 
 /**
  * Since the stat fs function throws, but we really just want to know if the file exist or not,
  * this wraps around the stat file and just return undefined when the stat operation fail.
  *
- * @param {import('node:fs').PathLike} pathLike 
- * @returns 
+ * @param {import('node:fs').PathLike} pathLike
+ * @returns
  */
 async function statOrUndefined(pathLike) {
     try {
-        return await stat(pathLike)
+        return await stat(pathLike);
     } catch {
         return undefined;
     }
@@ -67,7 +67,7 @@ async function statOrUndefined(pathLike) {
 /**
  * Executes {@link statOrUndefined} for each item in items, assuming a base directory of the given baseName.
  * Will return the pair of the full name generated from baseName/item for each item with its  'stat' object (or undefined).
- * 
+ *
  * @param {import('node:fs').PathLike[]} items the file items to stat
  * @param {import('node:fs').PathLike} baseName the base directory of the files to stat
  * @returns {AsyncGenerator<[import('node:fs').PathLike, import('node:fs').Stats]>}
@@ -89,7 +89,7 @@ async function* walk(startDir) {
     for await (const [item, itemStat] of statFileLikeItems(items, startDir)) {
         if (itemStat) {
             if (itemStat.isDirectory()) {
-                yield * await walk(item);
+                yield* await walk(item);
             } else {
                 yield [item, itemStat];
             }
@@ -99,7 +99,7 @@ async function* walk(startDir) {
 
 /**
  * Parse out meta information about the asset file, that can be used to determine if the asset needs to be updated or not.
- *  
+ *
  * @param {import('node:fs').PathLike} fullPathName the fullPath to the asset (within the webapp)
  * @param {import('node:fs').PathLike} extractedUeExportDir the directory where the assets were extracted from the game with UeExport (prior to copying to the webapp)
  * @param {boolean} webLocExist if the asset exist already in the webapp asset folder
@@ -133,30 +133,30 @@ async function pathLogic(fullPathName, extractedUeExportDir, webLocExist) {
         uaAssetName,
         uaAssetPath,
         uaAssetPathExist,
-        fullPathName
-    }
+        fullPathName,
+    };
 }
 
-/** 
+/**
  * parse out the Itemables file from the extracted data into an Javascript Object
  * This assumes the JSON was encoded in UTF-8.
- * 
+ *
  * @param {import('node:fs').PathLike} baseWebLoc the base directory of the web app assets (Data/D_Itemable.json exists under it)
  * @returns {Promise<Itemables>} Promise to the parsed Itemable Json.
  */
 async function parseItemablesFile(baseWebLoc) {
     const itemableJsonFileName = path.join(baseWebLoc, 'Data', 'D_Itemable.json');
-     return JSON.parse(await readFile(itemableJsonFileName, { encoding: 'utf-8' }));
+    return JSON.parse(await readFile(itemableJsonFileName, { encoding: 'utf-8' }));
 }
 
 /**
  * This generator iterates over each item in D_Itemable.json and outputs a parse structure for the asset.
- * 
- * @param {*} baseWebLoc 
- * @param {*} extractedUeExportDir 
+ *
+ * @param {*} baseWebLoc
+ * @param {*} extractedUeExportDir
  * @param {Itemables} itemables
  */
-async function * parseIcarusAssetsFromDataFile(baseWebLoc, extractedUeExportDir, itemables) {
+async function* parseIcarusAssetsFromDataFile(baseWebLoc, extractedUeExportDir, itemables) {
     const baseWebItemIconsFolder = path.join(baseWebLoc, 'ItemIcons');
 
     // Example Icon path: /Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Fibre.ITEM_Fibre
@@ -179,14 +179,14 @@ async function * parseIcarusAssetsFromDataFile(baseWebLoc, extractedUeExportDir,
 /**
  * This looks for assets that is under the web assets folder, that is no longer reference in the Data Json files.
  * This way we can clean up the Icons.
- * 
+ *
  * @param {import('node:fs').PathLike} baseWebLoc The path to the public folder containing the web assets
  * @param {import('node:fs').PathLike} extractedUeExportDir the path to the extracted assets from the game.
  * @param {Itemables} itemables the parsed Data itemables JSON file.
  *
  * @returns {AsyncGenerator<[ParsedAsset, import('node:fs').Stats]>} iterates over each orphaned asset with its file stat object.
  */
-async function * findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables) {
+async function* findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables) {
     const baseWebItemIconsFolder = path.join(baseWebLoc, 'ItemIcons');
     function makeRelative(iconPath, pathName) {
         /**
@@ -204,7 +204,12 @@ async function * findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables)
         }
         return str;
     }
-    const webRelativeItems = new Set(itemables.Rows.map(row => row.Icon).filter(icon => !!icon).map(i => makeRelative(i, 'Item_Icons')).filter(s => !!s));
+    const webRelativeItems = new Set(
+        itemables.Rows.map((row) => row.Icon)
+            .filter((icon) => !!icon)
+            .map((i) => makeRelative(i, 'Item_Icons'))
+            .filter((s) => !!s)
+    );
 
     for await (const [iconPath, iconStat] of walk(baseWebItemIconsFolder)) {
         const parsedPath = await pathLogic(iconPath, extractedUeExportDir, !!iconStat);
@@ -249,7 +254,7 @@ async function updateSourceDataFile(webPublicData, extractedUeExportDir) {
 
 /**
  * Update all of the web app assets with the assets extracted from the game.
- * 
+ *
  * @param {import('node:fs').PathLike} baseWebLoc the web app public asset directory
  * @param {import('node:fs').PathLike} extractedUeExportDir the base directory of the extracted assets from the game
  */
@@ -274,15 +279,17 @@ async function updateGameAssets(baseWebLoc, extractedUeExportDir) {
     }
     await gather();
     if (missingAssets.length) {
-        console.log('Can not find these assets in the extracted assets directory\n', missingAssets.map(a => JSON.stringify(a)).join('\n'));
+        console.log('Can not find these assets in the extracted assets directory\n', missingAssets.map((a) => JSON.stringify(a)).join('\n'));
     }
     let logger = (...args) => {
         console.log('Orphaned Assets');
-        console.log('****** These are assets in the web IconItems folder, that either does not exist in the extracted assets folder,\n',
-                    'or does not get referenced in the D_Itemable.json file.');
+        console.log(
+            '****** These are assets in the web IconItems folder, that either does not exist in the extracted assets folder,\n',
+            'or does not get referenced in the D_Itemable.json file.'
+        );
         console.log(...args);
         logger = console.log;
-    }
+    };
     for await (const orphanedAsset of findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables)) {
         logger(orphanedAsset[0].name);
         await rm(orphanedAsset[0].fullPathName, { force: true });
@@ -318,5 +325,3 @@ async function main() {
 }
 
 await main();
-
-
