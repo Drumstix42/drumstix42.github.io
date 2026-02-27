@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 import { useStorage } from '@vueuse/core';
 import { useFuse } from '@vueuse/integrations/useFuse';
 
-import { LOCAL_STORAGE_PREFIX, GAME_ASSETS_URL } from '@/constants/common';
+import { LOCAL_STORAGE_PREFIX } from '@/constants/common';
 import {
     generateHighlightedText,
     processItemStaticData,
@@ -174,7 +174,7 @@ export const useIcarusStore = defineStore('icarus', {
             const dateTime = new Date().getTime();
             this.isLoadingRecipes = true;
 
-            const itemTemplateResponse = await fetch(`${GAME_ASSETS_URL}/Data/D_ItemTemplate.json?v=${dateTime}`, {
+            const itemTemplateResponse = await fetch(`/icarus-game/Data/D_ItemTemplate.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -182,7 +182,7 @@ export const useIcarusStore = defineStore('icarus', {
             });
             const itemTemplate = await itemTemplateResponse.json();
 
-            const itemStaticResponse = await fetch(`${GAME_ASSETS_URL}/Data/D_ItemsStatic.json?v=${dateTime}`, {
+            const itemStaticResponse = await fetch(`/icarus-game/Data/D_ItemsStatic.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -190,7 +190,7 @@ export const useIcarusStore = defineStore('icarus', {
             });
             const itemStatic = await itemStaticResponse.json();
 
-            const itemTableResponse = await fetch(`${GAME_ASSETS_URL}/Data/D_Itemable.json?v=${dateTime}`, {
+            const itemTableResponse = await fetch(`/icarus-game/Data/D_Itemable.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -198,7 +198,7 @@ export const useIcarusStore = defineStore('icarus', {
             });
             const itemTable = await itemTableResponse.json();
 
-            const recipeResponse = await fetch(`${GAME_ASSETS_URL}/Data/D_ProcessorRecipes.json?v=${dateTime}`, {
+            const recipeResponse = await fetch(`/icarus-game/Data/D_ProcessorRecipes.json?v=${dateTime}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

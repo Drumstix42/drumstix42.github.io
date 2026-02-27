@@ -7,7 +7,7 @@
         "build": "vite build",
         "preview": "vite preview",
         "deploy": "gh-pages -d dist",
-        "clean-dist-assets": "node -e \"require('fs').rmSync('dist/icarus-game', {recursive: true, force: true})\"",
+        "clean-dist-assets": "node -e \"require('fs').rmSync('dist/icarus-game/ItemIcons', {recursive: true, force: true}); require('fs').rmSync('dist/.git', {recursive: true, force: true})\"",
         "update-game-assets": "node ./scripts/scan-assets.mjs",
         "gh": "yarn build && yarn clean-dist-assets && yarn deploy"
     },
