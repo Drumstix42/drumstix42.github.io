@@ -171,6 +171,12 @@ async function* parseIcarusAssetsFromDataFile(baseWebLoc, extractedUeExportDir, 
         }
         // make it relative to Item_Icons
         splitted.splice(0, itemsIconIdx + 1);
+        // Strip UE4 object reference suffix from filename (e.g. AssetName.ObjectName → AssetName)
+        const lastIdx = splitted.length - 1;
+        const dotIdx = splitted[lastIdx].lastIndexOf('.');
+        if (dotIdx >= 0) {
+            splitted[lastIdx] = splitted[lastIdx].substring(0, dotIdx);
+        }
         const webPathName = `${path.join(baseWebItemIconsFolder, ...splitted)}.png`;
 
         yield await pathLogic(webPathName, extractedUeExportDir, !!statOrUndefined(webPathName));
@@ -192,7 +198,7 @@ async function* findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables) 
         /**
          * @type {string[]}
          */
-        const splitted = iconPath.split('/');
+        const splitted = iconPath.replaceAll(path.sep, '/').split('/');
         const itemsIconIdx = splitted.indexOf(pathName);
         if (itemsIconIdx < 0) {
             return undefined;
@@ -201,6 +207,11 @@ async function* findOrphanedAssets(baseWebLoc, extractedUeExportDir, itemables) 
         const str = splitted.join(path.sep);
         if (str.endsWith('.png')) {
             return str.substring(0, str.length - '.png'.length);
+        }
+        // Strip UE4 object reference suffix (e.g. AssetName.ObjectName → AssetName)
+        const extIdx = str.lastIndexOf('.');
+        if (extIdx >= 0) {
+            return str.substring(0, extIdx);
         }
         return str;
     }
