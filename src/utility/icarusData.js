@@ -86,7 +86,7 @@ const cleanItemDefaultLabel = (itemId) => {
 
 const getItemLabel = (itemId, { displayName } = {}) => {
     const label = itemLabelMap[itemId];
-    return label ? label : displayName ?? cleanItemDefaultLabel(itemId);
+    return label ? label : (displayName ?? cleanItemDefaultLabel(itemId));
 };
 
 const postProcessByItem = Object.freeze({
@@ -174,6 +174,9 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
         recipeDataByName[recipe.Name] = recipe;
     });
 
+    // case-insensitive fallback map for itemStaticData (game data exports have inconsistent casing)
+    const itemStaticDataNorm = Object.fromEntries(Object.entries(itemStaticData).map(([k, v]) => [k.toLowerCase(), v]));
+
     const recipeData = {};
 
     rows.forEach((recipe) => {
@@ -204,7 +207,10 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
         const inputFallbackId = recipe.Inputs[0]?.Element.RowName;
         const itemTemplateRecord =
             itemTemplateData[itemTemplateId] ?? itemTemplateData[recipe.Requirement?.RowName] ?? itemTemplateData[outputFallbackId()];
-        const itemStaticRecord = itemStaticData[itemTemplateRecord?.itemStaticId] ?? itemStaticData[inputFallbackId];
+        const itemStaticRecord =
+            itemStaticData[itemTemplateRecord?.itemStaticId] ??
+            itemStaticDataNorm[itemTemplateRecord?.itemStaticId?.toLowerCase()] ??
+            itemStaticData[inputFallbackId];
 
         if (!itemStaticRecord) {
             console.warn('Missing itemStaticRecord for', {
@@ -218,7 +224,7 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
             });
         }
 
-        const iconPath = recipe.ResourceOutputs?.length > 0 ? '' : itemTableData[itemStaticRecord?.itemTableId]?.icon ?? '';
+        const iconPath = recipe.ResourceOutputs?.length > 0 ? '' : (itemTableData[itemStaticRecord?.itemTableId]?.icon ?? '');
 
         // since the PNG files are now deduplicated, but the code references are not
         // we can just take the first part of the file name, e.g. `"Weapons/Guns/T_ITEM_Pistol_T4.T_ITEM_Pistol_T4"` => `"Weapons/Guns/T_ITEM_Pistol_T4"`
