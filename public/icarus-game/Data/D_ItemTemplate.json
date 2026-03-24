@@ -3016,12 +3016,6 @@
             }
         },
         {
-            "Name": "Wood_Build_HalfNormal",
-            "ItemStaticData": {
-                "RowName": "Wood_Build_HalfNormal"
-            }
-        },
-        {
             "Name": "Sandworm_Knife",
             "ItemStaticData": {
                 "RowName": "Sandworm_Knife"
@@ -5592,6 +5586,28 @@
             }
         },
         {
+            "Name": "Axe_Attachment_Felling_Yield_1",
+            "ItemStaticData": {
+                "RowName": "Axe_Attachment_Felling_Yield_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Axe_Attachment_Felling_Yield_2",
+            "ItemStaticData": {
+                "RowName": "Axe_Attachment_Felling_Yield_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Pickaxe_Attachment_Gold_Yield_1",
             "ItemStaticData": {
                 "RowName": "Pickaxe_Attachment_Gold_Yield_1"
@@ -5847,6 +5863,17 @@
             "Name": "Body_Attachment_Stomach_Capacity",
             "ItemStaticData": {
                 "RowName": "Body_Attachment_Stomach_Capacity"
+            }
+        },
+        {
+            "Name": "Chest_Attachment_StomachCapacity_2",
+            "ItemStaticData": {
+                "RowName": "Chest_Attachment_StomachCapacity_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -13054,6 +13081,127 @@
             }
         },
         {
+            "Name": "Limestone_Floor",
+            "ItemStaticData": {
+                "RowName": "Limestone_Floor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Frame",
+            "ItemStaticData": {
+                "RowName": "Limestone_Frame"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Wall",
+            "ItemStaticData": {
+                "RowName": "Limestone_Wall"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Limestone_Wall_Angle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Ramp",
+            "ItemStaticData": {
+                "RowName": "Limestone_Ramp"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Beam",
+            "ItemStaticData": {
+                "RowName": "Limestone_Beam"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Limestone_Roof_Corner"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Limestone_Half_Pitch"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Limestone_Halfpiece"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone",
+            "ItemStaticData": {
+                "RowName": "Limestone"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Crushed_Limestone",
+            "ItemStaticData": {
+                "RowName": "Crushed_Limestone"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Glass_Jar_Honey",
             "ItemStaticData": {
                 "RowName": "Glass_Jar_Honey"
@@ -13314,6 +13462,28 @@
             "Name": "Scoria_Advanced_Beam_Set",
             "ItemStaticData": {
                 "RowName": "Scoria_Advanced_Beam_Set"
+            }
+        },
+        {
+            "Name": "Landing_Pad_Player",
+            "ItemStaticData": {
+                "RowName": "Landing_Pad_Player"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Advanced_Exotic_Delivery_Interface",
+            "ItemStaticData": {
+                "RowName": "Advanced_Exotic_Delivery_Interface"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -15977,6 +16147,138 @@
             }
         },
         {
+            "Name": "Meta_Module_Food",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Food"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Oxygen",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Oxygen"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Water",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Water"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_TamedDamage",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_TamedDamage"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Melee",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Melee"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_HeatResist",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_HeatResist"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_ColdResist",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_ColdResist"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_ExposureResist",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_ExposureResist"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_ItemWear",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_ItemWear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Night",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Night"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Highlight",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Highlight"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_StaminaRegen",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_StaminaRegen"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Mini_Hippo_Trophy",
             "ItemStaticData": {
                 "RowName": "Mini_Hippo_Trophy"
@@ -16034,6 +16336,132 @@
             "Name": "Sandworm_Halfpiece",
             "ItemStaticData": {
                 "RowName": "Sandworm_Halfpiece"
+            }
+        },
+        {
+            "Name": "Manufacturer",
+            "ItemStaticData": {
+                "RowName": "Manufacturer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Oil_Barrel",
+            "ItemStaticData": {
+                "RowName": "Oil_Barrel"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 8
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Oil_Barrel_Full",
+            "ItemStaticData": {
+                "RowName": "Oil_Barrel"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 8
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 150000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "SplineTool_Crude_Oil",
+            "ItemStaticData": {
+                "RowName": "SplineTool_Crude_Oil"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pump_Jack",
+            "ItemStaticData": {
+                "RowName": "Pump_Jack"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Crude_Oil_Refiner",
+            "ItemStaticData": {
+                "RowName": "Crude_Oil_Refiner"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Natural_Oil_Refiner",
+            "ItemStaticData": {
+                "RowName": "Natural_Oil_Refiner"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Polymerizer",
+            "ItemStaticData": {
+                "RowName": "Polymerizer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Organic_Extractor",
+            "ItemStaticData": {
+                "RowName": "Organic_Extractor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Crude_Oil_Power_Generator",
+            "ItemStaticData": {
+                "RowName": "Oil_Power_Generator"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -16530,6 +16958,72 @@
             "Name": "Any_Water_Container",
             "ItemStaticData": {
                 "RowName": "Any_Water_Container"
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_ClayYield_1",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_ClayYield_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_ClayYield_2",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_ClayYield_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_ScoriaYield_1",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_ScoriaYield_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_ScoriaYield_2",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_ScoriaYield_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_ObsidianYield_1",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_ObsidianYield_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_ObsidianYield_2",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_ObsidianYield_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -17499,6 +17993,48 @@
             "Name": "MakeshiftRadio",
             "ItemStaticData": {
                 "RowName": "MakeshiftRadio"
+            }
+        },
+        {
+            "Name": "Jackhammer",
+            "ItemStaticData": {
+                "RowName": "Jackhammer"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 8
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 2000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Chainsaw",
+            "ItemStaticData": {
+                "RowName": "Chainsaw"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 8
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 2000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -19107,6 +19643,61 @@
             }
         },
         {
+            "Name": "MinerArmor_Head",
+            "ItemStaticData": {
+                "RowName": "MinerArmor_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "MinerArmor_Chest",
+            "ItemStaticData": {
+                "RowName": "MinerArmor_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "MinerArmor_Arms",
+            "ItemStaticData": {
+                "RowName": "MinerArmor_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "MinerArmor_Legs",
+            "ItemStaticData": {
+                "RowName": "MinerArmor_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "MinerArmor_Feet",
+            "ItemStaticData": {
+                "RowName": "MinerArmor_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Thumper_Mini",
             "ItemStaticData": {
                 "RowName": "Thumper_Mini"
@@ -19440,6 +20031,567 @@
             }
         },
         {
+            "Name": "Plastics",
+            "ItemStaticData": {
+                "RowName": "Plastics"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Synthetics",
+            "ItemStaticData": {
+                "RowName": "Synthetics"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Compounds",
+            "ItemStaticData": {
+                "RowName": "Compounds"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Raw",
+            "ItemStaticData": {
+                "RowName": "Uranium_Raw"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Exotic_Uranium_Collector",
+            "ItemStaticData": {
+                "RowName": "Exotic_Uranium_Collector"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Rod",
+            "ItemStaticData": {
+                "RowName": "Uranium_Rod"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Inert",
+            "ItemStaticData": {
+                "RowName": "Uranium_Inert"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Converter",
+            "ItemStaticData": {
+                "RowName": "Uranium_Converter"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Onion",
+            "ItemStaticData": {
+                "RowName": "Onion"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Onion_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 32
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Onion_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Onion_Seed"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Onion_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 32
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Cooked_Onion",
+            "ItemStaticData": {
+                "RowName": "Cooked_Onion"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Caramelized_Onions",
+            "ItemStaticData": {
+                "RowName": "Caramelized_Onions"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "French_Onion_Soup",
+            "ItemStaticData": {
+                "RowName": "French_Onion_Soup"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Onion_Rings",
+            "ItemStaticData": {
+                "RowName": "Onion_Rings"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Onion_Souffle",
+            "ItemStaticData": {
+                "RowName": "Onion_Souffle"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Agave",
+            "ItemStaticData": {
+                "RowName": "Agave"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Agave_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 33
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Agave_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Agave_Seed"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Agave_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 33
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Cooked_Agave",
+            "ItemStaticData": {
+                "RowName": "Cooked_Agave"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Agave_Syrup",
+            "ItemStaticData": {
+                "RowName": "Agave_Syrup"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tequila",
+            "ItemStaticData": {
+                "RowName": "Tequila"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glazed_Carrots",
+            "ItemStaticData": {
+                "RowName": "Glazed_Carrots"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pumpkin_Pie",
+            "ItemStaticData": {
+                "RowName": "Pumpkin_Pie"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "PricklyPear",
+            "ItemStaticData": {
+                "RowName": "PricklyPear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "PricklyPear_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 34
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_PricklyPear_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_PricklyPear_Seed"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "PricklyPear_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 34
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Cooked_PricklyPear",
+            "ItemStaticData": {
+                "RowName": "Cooked_PricklyPear"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "PricklyPear_Margarita",
+            "ItemStaticData": {
+                "RowName": "PricklyPear_Margarita"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "PricklyPear_Jelly",
+            "ItemStaticData": {
+                "RowName": "PricklyPear_Jelly"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "PricklyPear_Muffins",
+            "ItemStaticData": {
+                "RowName": "PricklyPear_Muffins"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Garlic",
+            "ItemStaticData": {
+                "RowName": "Garlic"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Garlic_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 35
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Garlic_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Garlic_Seed"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Garlic_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 35
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Cooked_Garlic",
+            "ItemStaticData": {
+                "RowName": "Cooked_Garlic"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Garlic_Butter",
+            "ItemStaticData": {
+                "RowName": "Garlic_Butter"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Garlic_Bread",
+            "ItemStaticData": {
+                "RowName": "Garlic_Bread"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Garlic_Pizza",
+            "ItemStaticData": {
+                "RowName": "Garlic_Pizza"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Smoked_Garlic",
+            "ItemStaticData": {
+                "RowName": "Smoked_Garlic"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Truffle",
             "ItemStaticData": {
                 "RowName": "Truffle"
@@ -19460,9 +20612,67 @@
             ]
         },
         {
+            "Name": "Meta_Truffle_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Truffle_Seed"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Truffle_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 31
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Cooked_Truffle",
             "ItemStaticData": {
                 "RowName": "Cooked_Truffle"
+            }
+        },
+        {
+            "Name": "Vodka",
+            "ItemStaticData": {
+                "RowName": "Vodka"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Truffle_Vodka",
+            "ItemStaticData": {
+                "RowName": "Truffle_Vodka"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -19475,6 +20685,917 @@
             "Name": "Truffle_Pasta",
             "ItemStaticData": {
                 "RowName": "Truffle_Pasta"
+            }
+        },
+        {
+            "Name": "Truffle_Fries",
+            "ItemStaticData": {
+                "RowName": "Truffle_Fries"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Banana_Bread",
+            "ItemStaticData": {
+                "RowName": "Banana_Bread"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Concrete_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "Concrete_Diagonal_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Concrete_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "Concrete_Curved_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Concrete_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "Concrete_Diagonal_Curved_Wall_Angles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Concrete_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "Concrete_Roof_CurvedAngles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Concrete_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "Concrete_Wall_Curved"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Concrete_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "Concrete_Advanced_Beam_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "Glass_Diagonal_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "Glass_Curved_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "Glass_Diagonal_Curved_Wall_Angles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "Glass_Roof_CurvedAngles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "Glass_Wall_Curved"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "Glass_Advanced_Beam_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Diagonal_Set_Tempered",
+            "ItemStaticData": {
+                "RowName": "Glass_Diagonal_Set_Tempered"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Curved_Set_Tempered",
+            "ItemStaticData": {
+                "RowName": "Glass_Curved_Set_Tempered"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Diagonal_Curved_Wall_Angles_Tempered",
+            "ItemStaticData": {
+                "RowName": "Glass_Diagonal_Curved_Wall_Angles_Tempered"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Roof_CurvedAngles_Tempered",
+            "ItemStaticData": {
+                "RowName": "Glass_Roof_CurvedAngles_Tempered"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Wall_Curved_Tempered",
+            "ItemStaticData": {
+                "RowName": "Glass_Wall_Curved_Tempered"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Glass_Advanced_Beam_Set_Tempered",
+            "ItemStaticData": {
+                "RowName": "Glass_Advanced_Beam_Set_Tempered"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Ore",
+            "ItemStaticData": {
+                "RowName": "Lithium_Ore"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Refined",
+            "ItemStaticData": {
+                "RowName": "Lithium_Refined"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ruby_Ore",
+            "ItemStaticData": {
+                "RowName": "Ruby_Ore"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ruby_Shaped",
+            "ItemStaticData": {
+                "RowName": "Ruby_Shaped"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Cobalt_Ore",
+            "ItemStaticData": {
+                "RowName": "Cobalt_Ore"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Cobalt_Ingot",
+            "ItemStaticData": {
+                "RowName": "Cobalt_Ingot"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Lithium",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Lithium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Ruby",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Ruby"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Cobalt",
+            "ItemStaticData": {
+                "RowName": "Pyritic_Crust_Cobalt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Axe",
+            "ItemStaticData": {
+                "RowName": "Lithium_Axe"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Lithium_Pickaxe"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Knife",
+            "ItemStaticData": {
+                "RowName": "Lithium_Knife"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Spear",
+            "ItemStaticData": {
+                "RowName": "Lithium_Spear"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Sickle",
+            "ItemStaticData": {
+                "RowName": "Lithium_Sickle"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "MaxDynamicItemProperties",
+                    "Value": 0
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Sledgehammer",
+            "ItemStaticData": {
+                "RowName": "Lithium_Sledgehammer"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Throwing_Knife",
+            "ItemStaticData": {
+                "RowName": "Lithium_Throwing_Knife"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "MaxDynamicItemProperties",
+                    "Value": 0
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Throwing_Spear",
+            "ItemStaticData": {
+                "RowName": "Lithium_Throwing_Spear"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "MaxDynamicItemProperties",
+                    "Value": 0
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Bow",
+            "ItemStaticData": {
+                "RowName": "Lithium_Bow"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "MaxDynamicItemProperties",
+                    "Value": 0
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Crossbow",
+            "ItemStaticData": {
+                "RowName": "Lithium_Crossbow"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "MaxDynamicItemProperties",
+                    "Value": 0
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Shield",
+            "ItemStaticData": {
+                "RowName": "Lithium_Shield"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mining_Laser",
+            "ItemStaticData": {
+                "RowName": "Mining_Laser"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Radiation_Tracker",
+            "ItemStaticData": {
+                "RowName": "Radiation_Tracker"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Generator",
+            "ItemStaticData": {
+                "RowName": "Uranium_Generator"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ClayBrick_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "ClayBrick_Diagonal_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ClayBrick_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "ClayBrick_Curved_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ClayBrick_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "ClayBrick_Diagonal_Curved_Wall_Angles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ClayBrick_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "ClayBrick_Roof_CurvedAngles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ClayBrick_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "ClayBrick_Wall_Curved"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ClayBrick_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "ClayBrick_Advanced_Beam_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "ScoriaBrick_Diagonal_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "ScoriaBrick_Curved_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "ScoriaBrick_Diagonal_Curved_Wall_Angles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "ScoriaBrick_Wall_Curved"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "ScoriaBrick_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "ScoriaBrick_Advanced_Beam_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "StoneBrick_Diagonal_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "StoneBrick_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "StoneBrick_Curved_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "StoneBrick_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "StoneBrick_Diagonal_Curved_Wall_Angles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "StoneBrick_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "StoneBrick_Roof_CurvedAngles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "StoneBrick_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "StoneBrick_Wall_Curved"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "StoneBrick_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "StoneBrick_Advanced_Beam_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hazmat_Head",
+            "ItemStaticData": {
+                "RowName": "Hazmat_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hazmat_Chest",
+            "ItemStaticData": {
+                "RowName": "Hazmat_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hazmat_Arms",
+            "ItemStaticData": {
+                "RowName": "Hazmat_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hazmat_Legs",
+            "ItemStaticData": {
+                "RowName": "Hazmat_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hazmat_Feet",
+            "ItemStaticData": {
+                "RowName": "Hazmat_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Radiation_Protection_Armor_Head",
+            "ItemStaticData": {
+                "RowName": "Radiation_Protection_Armor_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Radiation_Protection_Armor_Chest",
+            "ItemStaticData": {
+                "RowName": "Radiation_Protection_Armor_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Radiation_Protection_Armor_Arms",
+            "ItemStaticData": {
+                "RowName": "Radiation_Protection_Armor_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Radiation_Protection_Armor_Legs",
+            "ItemStaticData": {
+                "RowName": "Radiation_Protection_Armor_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Radiation_Protection_Armor_Feet",
+            "ItemStaticData": {
+                "RowName": "Radiation_Protection_Armor_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -19529,6 +21650,145 @@
             }
         },
         {
+            "Name": "AntiRadiation_Transfusion",
+            "ItemStaticData": {
+                "RowName": "AntiRadiation_Transfusion"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "AntiRadiation_Injection",
+            "ItemStaticData": {
+                "RowName": "AntiRadiation_Injection"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Radioactive_Waste",
+            "ItemStaticData": {
+                "RowName": "Radioactive_Waste"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tesla_Coil",
+            "ItemStaticData": {
+                "RowName": "Tesla_Coil"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Turret_Flamethrower",
+            "ItemStaticData": {
+                "RowName": "Turret_Flamethrower"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_Makeshift_Beacon",
+            "ItemStaticData": {
+                "RowName": "Mission_Makeshift_Beacon"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Towers_Map",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note_NoDeploy"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 34
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_TPS_Communication_Tower",
+            "ItemStaticData": {
+                "RowName": "Mission_TPS_Communication_Tower"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Charging_Device_Wall",
+            "ItemStaticData": {
+                "RowName": "Charging_Device_Wall"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Nailgun",
+            "ItemStaticData": {
+                "RowName": "Nailgun"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Module_Radiation",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Radiation"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Hay_Bale",
             "ItemStaticData": {
                 "RowName": "Hay_Bale"
@@ -19536,6 +21796,434 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY2_Swamp_Map",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note_NoDeploy"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 35
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY2_Epsilon",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 36
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY2_Delta",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 37
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY2_Laptop",
+            "ItemStaticData": {
+                "RowName": "Collectable_Laptop"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 38
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tool_Attachment_Durability_1",
+            "ItemStaticData": {
+                "RowName": "Tool_Attachment_Durability_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tool_Attachment_Durability_2",
+            "ItemStaticData": {
+                "RowName": "Tool_Attachment_Durability_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tool_Attachment_StaminaCost_1",
+            "ItemStaticData": {
+                "RowName": "Tool_Attachment_StaminaCost_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tool_Attachment_StaminaCost_2",
+            "ItemStaticData": {
+                "RowName": "Tool_Attachment_StaminaCost_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Knife_Attachment_VestigeChance_1",
+            "ItemStaticData": {
+                "RowName": "Knife_Attachment_VestigeChance_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Knife_Attachment_VestigeChance_2",
+            "ItemStaticData": {
+                "RowName": "Knife_Attachment_VestigeChance_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pickaxe_Attachment_MiningRadius_1",
+            "ItemStaticData": {
+                "RowName": "Pickaxe_Attachment_MiningRadius_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pickaxe_Attachment_MiningRadius_2",
+            "ItemStaticData": {
+                "RowName": "Pickaxe_Attachment_MiningRadius_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pickaxe_Attachment_BauxiteYield_1",
+            "ItemStaticData": {
+                "RowName": "Pickaxe_Attachment_BauxiteYield_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pickaxe_Attachment_BauxiteYield_2",
+            "ItemStaticData": {
+                "RowName": "Pickaxe_Attachment_BauxiteYield_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Axe_Attachment_FellingDamage_1",
+            "ItemStaticData": {
+                "RowName": "Axe_Attachment_FellingDamage_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Axe_Attachment_FellingDamage_2",
+            "ItemStaticData": {
+                "RowName": "Axe_Attachment_FellingDamage_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_Slow_1",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_Slow_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sledgehammer_Attachment_Slow_2",
+            "ItemStaticData": {
+                "RowName": "Sledgehammer_Attachment_Slow_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Armor_Attachment_Comfort_1",
+            "ItemStaticData": {
+                "RowName": "Armor_Attachment_Comfort_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Armor_Attachment_Comfort_2",
+            "ItemStaticData": {
+                "RowName": "Armor_Attachment_Comfort_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Arms_Attachment_FistDamage_1",
+            "ItemStaticData": {
+                "RowName": "Arms_Attachment_FistDamage_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Arms_Attachment_FistDamage_2",
+            "ItemStaticData": {
+                "RowName": "Arms_Attachment_FistDamage_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Arms_Attachment_ThrowAccuracy_1",
+            "ItemStaticData": {
+                "RowName": "Arms_Attachment_ThrowAccuracy_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Arms_Attachment_ThrowAccuracy_2",
+            "ItemStaticData": {
+                "RowName": "Arms_Attachment_ThrowAccuracy_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Legs_Attachment_Jump_1",
+            "ItemStaticData": {
+                "RowName": "Legs_Attachment_Jump_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Legs_Attachment_Jump_2",
+            "ItemStaticData": {
+                "RowName": "Legs_Attachment_Jump_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Chest_Attachment_Oxygen_1",
+            "ItemStaticData": {
+                "RowName": "Chest_Attachment_Oxygen_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Chest_Attachment_Oxygen_2",
+            "ItemStaticData": {
+                "RowName": "Chest_Attachment_Oxygen_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Guns_Attachment_Damage_1",
+            "ItemStaticData": {
+                "RowName": "Guns_Attachment_Damage_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Guns_Attachment_Damage_2",
+            "ItemStaticData": {
+                "RowName": "Guns_Attachment_Damage_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Guns_Attachment_ExtendedAmmo_1",
+            "ItemStaticData": {
+                "RowName": "Guns_Attachment_ExtendedAmmo_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Guns_Attachment_ExtendedAmmo_2",
+            "ItemStaticData": {
+                "RowName": "Guns_Attachment_ExtendedAmmo_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pistol_Attachment_Accuracy_1",
+            "ItemStaticData": {
+                "RowName": "Pistol_Attachment_Accuracy_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Pistol_Attachment_Accuracy_2",
+            "ItemStaticData": {
+                "RowName": "Pistol_Attachment_Accuracy_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Rifle_Attachment_Accuracy_1",
+            "ItemStaticData": {
+                "RowName": "Rifle_Attachment_Accuracy_1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Rifle_Attachment_Accuracy_2",
+            "ItemStaticData": {
+                "RowName": "Rifle_Attachment_Accuracy_2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
                 }
             }
         },
@@ -19946,6 +22634,646 @@
             ]
         },
         {
+            "Name": "Mission_ELY3_Terraforming",
+            "ItemStaticData": {
+                "RowName": "Collectable_Logbook"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 39
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Experiments",
+            "ItemStaticData": {
+                "RowName": "Collectable_Logbook"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 40
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Laser",
+            "ItemStaticData": {
+                "RowName": "Collectable_Logbook"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 41
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_AccessCard",
+            "ItemStaticData": {
+                "RowName": "Mission_ELY3_AccessCard"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Laser_Tripwire_Enemy",
+            "ItemStaticData": {
+                "RowName": "Laser_Tripwire_Enemy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Orka_Arctic_Head",
+            "ItemStaticData": {
+                "RowName": "Orka_Arctic_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Orka_Arctic_Trophy",
+            "ItemStaticData": {
+                "RowName": "Orka_Arctic_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Thumper_Sandworm",
+            "ItemStaticData": {
+                "RowName": "Thumper_Sandworm"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Pistol_Round_Uranium",
+            "ItemStaticData": {
+                "RowName": "Ammo_Pistol_Round_Uranium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Pistol_Round_Lithium",
+            "ItemStaticData": {
+                "RowName": "Ammo_Pistol_Round_Lithium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Shell_Lithium",
+            "ItemStaticData": {
+                "RowName": "Ammo_Shell_Lithium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Shell_Uranium",
+            "ItemStaticData": {
+                "RowName": "Ammo_Shell_Uranium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Rifle_Round_Lithium",
+            "ItemStaticData": {
+                "RowName": "Ammo_Rifle_Round_Lithium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_Rifle_Round_Uranium",
+            "ItemStaticData": {
+                "RowName": "Ammo_Rifle_Round_Uranium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_AssaultRifle_Round_Uranium",
+            "ItemStaticData": {
+                "RowName": "Ammo_AssaultRifle_Round_Uranium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ammo_AssaultRifle_Round_Lithium",
+            "ItemStaticData": {
+                "RowName": "Ammo_AssaultRifle_Round_Lithium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "EdenStation_OEI",
+            "ItemStaticData": {
+                "RowName": "EdenStation_OEI"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Saddle_QuickTamer",
+            "ItemStaticData": {
+                "RowName": "Saddle_QuickTamer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flare_Gun",
+            "ItemStaticData": {
+                "RowName": "Flare_Gun"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flare_Yellow",
+            "ItemStaticData": {
+                "RowName": "Flare_Yellow"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flare_Green",
+            "ItemStaticData": {
+                "RowName": "Flare_Green"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flare_Red",
+            "ItemStaticData": {
+                "RowName": "Flare_Red"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flare_Blue",
+            "ItemStaticData": {
+                "RowName": "Flare_Blue"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Yeti_Head",
+            "ItemStaticData": {
+                "RowName": "Yeti_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Yeti_Trophy",
+            "ItemStaticData": {
+                "RowName": "Yeti_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Synthetic_Armor_Head",
+            "ItemStaticData": {
+                "RowName": "Synthetic_Armor_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Synthetic_Armor_Chest",
+            "ItemStaticData": {
+                "RowName": "Synthetic_Armor_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Synthetic_Armor_Arms",
+            "ItemStaticData": {
+                "RowName": "Synthetic_Armor_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Synthetic_Armor_Legs",
+            "ItemStaticData": {
+                "RowName": "Synthetic_Armor_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Synthetic_Armor_Feet",
+            "ItemStaticData": {
+                "RowName": "Synthetic_Armor_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Slinker_Head",
+            "ItemStaticData": {
+                "RowName": "Slinker_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Slinker_Trophy",
+            "ItemStaticData": {
+                "RowName": "Slinker_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Chew_Head",
+            "ItemStaticData": {
+                "RowName": "Chew_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Chew_Trophy",
+            "ItemStaticData": {
+                "RowName": "Chew_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Raptor_Head",
+            "ItemStaticData": {
+                "RowName": "Raptor_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Raptor_Trophy",
+            "ItemStaticData": {
+                "RowName": "Raptor_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Raptor_Desert_Head",
+            "ItemStaticData": {
+                "RowName": "Raptor_Desert_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Raptor_Desert_Trophy",
+            "ItemStaticData": {
+                "RowName": "Raptor_Desert_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Storca_Head",
+            "ItemStaticData": {
+                "RowName": "Storca_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Storca_Trophy",
+            "ItemStaticData": {
+                "RowName": "Storca_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Reaver_Head",
+            "ItemStaticData": {
+                "RowName": "Reaver_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Reaver_Trophy",
+            "ItemStaticData": {
+                "RowName": "Reaver_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Bounder_Head",
+            "ItemStaticData": {
+                "RowName": "Bounder_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Bounder_Trophy",
+            "ItemStaticData": {
+                "RowName": "Bounder_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tundra_Deer_Head",
+            "ItemStaticData": {
+                "RowName": "Tundra_Deer_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tundra_Deer_Trophy",
+            "ItemStaticData": {
+                "RowName": "Tundra_Deer_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hopping_Creature_Head",
+            "ItemStaticData": {
+                "RowName": "Hopping_Creature_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hopping_Creature_Trophy",
+            "ItemStaticData": {
+                "RowName": "Hopping_Creature_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hopping_Creature_Swamp_Head",
+            "ItemStaticData": {
+                "RowName": "Hopping_Creature_Swamp_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Hopping_Creature_Swamp_Trophy",
+            "ItemStaticData": {
+                "RowName": "Hopping_Creature_Swamp_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "SulfurWorm_Head",
+            "ItemStaticData": {
+                "RowName": "SulfurWorm_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "SulfurWorm_Trophy",
+            "ItemStaticData": {
+                "RowName": "SulfurWorm_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Stomper_Head",
+            "ItemStaticData": {
+                "RowName": "Stomper_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Stomper_Trophy",
+            "ItemStaticData": {
+                "RowName": "Stomper_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Stomper_Matriarch_Head",
+            "ItemStaticData": {
+                "RowName": "Stomper_Matriarch_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Stomper_Matriarch_Trophy",
+            "ItemStaticData": {
+                "RowName": "Stomper_Matriarch_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Spider_Head",
             "ItemStaticData": {
                 "RowName": "Spider_Head"
@@ -19958,9 +23286,1124 @@
             }
         },
         {
+            "Name": "Giant_Roach_Head",
+            "ItemStaticData": {
+                "RowName": "Giant_Roach_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Giant_Roach_Trophy",
+            "ItemStaticData": {
+                "RowName": "Giant_Roach_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "DragonFly_Head",
+            "ItemStaticData": {
+                "RowName": "DragonFly_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "DragonFly_Trophy",
+            "ItemStaticData": {
+                "RowName": "DragonFly_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flightless_Tank_Head",
+            "ItemStaticData": {
+                "RowName": "Flightless_Tank_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flightless_Tank_Trophy",
+            "ItemStaticData": {
+                "RowName": "Flightless_Tank_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flying_Tank_Head",
+            "ItemStaticData": {
+                "RowName": "Flying_Tank_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Flying_Tank_Trophy",
+            "ItemStaticData": {
+                "RowName": "Flying_Tank_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandwyrm_Queen_Head",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Queen_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Rabbit_Variant_Snow_Head",
+            "ItemStaticData": {
+                "RowName": "Rabbit_Variant_Snow_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Rabbit_Variant_Snow_Trophy",
+            "ItemStaticData": {
+                "RowName": "Rabbit_Variant_Snow_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_Device_Eden",
+            "ItemStaticData": {
+                "RowName": "Mission_Device_EDEN"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Stasis_Bag_Full_Iris",
+            "ItemStaticData": {
+                "RowName": "Mission_Stasis_Bag_Full_Iris"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Concrete_Gate",
+            "ItemStaticData": {
+                "RowName": "Fortification_Concrete_Gate"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Concrete_Wall",
+            "ItemStaticData": {
+                "RowName": "Fortification_Concrete_Wall"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Concrete_Walkway",
+            "ItemStaticData": {
+                "RowName": "Fortification_Concrete_Walkway"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Concrete_Platform",
+            "ItemStaticData": {
+                "RowName": "Fortification_Concrete_Platform"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Concrete_Spikes",
+            "ItemStaticData": {
+                "RowName": "Fortification_Concrete_Spikes"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Stone_Gate",
+            "ItemStaticData": {
+                "RowName": "Fortification_Stone_Gate"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Stone_Wall",
+            "ItemStaticData": {
+                "RowName": "Fortification_Stone_Wall"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Stone_Walkway",
+            "ItemStaticData": {
+                "RowName": "Fortification_Stone_Walkway"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Stone_Platform",
+            "ItemStaticData": {
+                "RowName": "Fortification_Stone_Platform"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fortification_Stone_Spikes",
+            "ItemStaticData": {
+                "RowName": "Fortification_Stone_Spikes"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Laser_Pistol",
+            "ItemStaticData": {
+                "RowName": "Laser_Pistol"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Laser_Attachment_Fire",
+            "ItemStaticData": {
+                "RowName": "Laser_Attachment_Fire"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Laser_Attachment_Frost",
+            "ItemStaticData": {
+                "RowName": "Laser_Attachment_Frost"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Laser_Attachment_Electric",
+            "ItemStaticData": {
+                "RowName": "Laser_Attachment_Electric"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Laser_Attachment_Poison",
+            "ItemStaticData": {
+                "RowName": "Laser_Attachment_Poison"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "CreatureBait_Orka",
+            "ItemStaticData": {
+                "RowName": "CreatureBait_Orka"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "CreatureBait_Storca",
+            "ItemStaticData": {
+                "RowName": "CreatureBait_Storca"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mange_Wolf_Head",
+            "ItemStaticData": {
+                "RowName": "Mange_Wolf_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mange_Wolf_Alpha_Head",
+            "ItemStaticData": {
+                "RowName": "Mange_Wolf_Alpha_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ghost_Crocodile_Head",
+            "ItemStaticData": {
+                "RowName": "Ghost_Crocodile_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Geothermal_Bat_Head",
+            "ItemStaticData": {
+                "RowName": "Geothermal_Bat_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandscuttle_Head",
+            "ItemStaticData": {
+                "RowName": "Sandscuttle_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Saddle_Raptor",
+            "ItemStaticData": {
+                "RowName": "Saddle_Raptor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tundra_Monkey_Head",
+            "ItemStaticData": {
+                "RowName": "Tundra_Monkey_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tundra_Monkey_Trophy",
+            "ItemStaticData": {
+                "RowName": "Tundra_Monkey_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "CreatureBait_Tundra_Monkey",
+            "ItemStaticData": {
+                "RowName": "CreatureBait_Tundra_Monkey"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Aluminium_Screw",
+            "ItemStaticData": {
+                "RowName": "Aluminium_Screw"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Bolt",
+            "ItemStaticData": {
+                "RowName": "Lithium_Bolt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Bolt",
+            "ItemStaticData": {
+                "RowName": "Uranium_Bolt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Lithium_Arrow",
+            "ItemStaticData": {
+                "RowName": "Lithium_Arrow"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Arrow",
+            "ItemStaticData": {
+                "RowName": "Uranium_Arrow"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Powerbank",
+            "ItemStaticData": {
+                "RowName": "Powerbank"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Stasis_Bag_Full_ELY4_NPC1",
+            "ItemStaticData": {
+                "RowName": "Stasis_Bag_Full_ELY4_NPC1"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Plant_Extract",
+            "ItemStaticData": {
+                "RowName": "Plant_Extract"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Terraforming_Dust",
+            "ItemStaticData": {
+                "RowName": "Terraforming_Dust"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "AntiRadiation_Tonic",
+            "ItemStaticData": {
+                "RowName": "AntiRadiation_Tonic"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Magazine_Eden",
+            "ItemStaticData": {
+                "RowName": "Prop_Magazine_Eden"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Filing_Cabinet",
+            "ItemStaticData": {
+                "RowName": "Prop_Filing_Cabinet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Monitor",
+            "ItemStaticData": {
+                "RowName": "Prop_Monitor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Radio",
+            "ItemStaticData": {
+                "RowName": "Prop_Radio"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Record_Player",
+            "ItemStaticData": {
+                "RowName": "Prop_Record_Player"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Dissected_Roach",
+            "ItemStaticData": {
+                "RowName": "Prop_Dissected_Roach"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Cone",
+            "ItemStaticData": {
+                "RowName": "Prop_Cone"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Specimen_Small",
+            "ItemStaticData": {
+                "RowName": "Prop_Specimen_Small"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Specimen",
+            "ItemStaticData": {
+                "RowName": "Prop_Specimen"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Specimen_Large",
+            "ItemStaticData": {
+                "RowName": "Prop_Specimen_Large"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Eden_Corkboard",
+            "ItemStaticData": {
+                "RowName": "Prop_Eden_Corkboard"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Keyboard",
+            "ItemStaticData": {
+                "RowName": "Prop_Keyboard"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Mouse",
+            "ItemStaticData": {
+                "RowName": "Prop_Mouse"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Sandworm_Poster",
+            "ItemStaticData": {
+                "RowName": "Prop_Sandworm_Poster"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_NPC_File",
+            "ItemStaticData": {
+                "RowName": "Prop_NPC_File"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Record",
+            "ItemStaticData": {
+                "RowName": "Prop_Record"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_UDA_Sign",
+            "ItemStaticData": {
+                "RowName": "Prop_UDA_Sign"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_UDA_Sign_Defaced",
+            "ItemStaticData": {
+                "RowName": "Prop_UDA_Sign_Defaced"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Saddle_Overrider",
+            "ItemStaticData": {
+                "RowName": "Saddle_Overrider"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Saddle_Carrier",
+            "ItemStaticData": {
+                "RowName": "Saddle_Carrier"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Saddle_Mammoth_Standard",
             "ItemStaticData": {
                 "RowName": "Saddle_Mammoth_Standard"
+            }
+        },
+        {
+            "Name": "Saddle_Mammoth_Heavy",
+            "ItemStaticData": {
+                "RowName": "Saddle_Mammoth_Heavy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Bulky_Armor_Head",
+            "ItemStaticData": {
+                "RowName": "Bulky_Armor_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Bulky_Armor_Chest",
+            "ItemStaticData": {
+                "RowName": "Bulky_Armor_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Bulky_Armor_Arms",
+            "ItemStaticData": {
+                "RowName": "Bulky_Armor_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Bulky_Armor_Legs",
+            "ItemStaticData": {
+                "RowName": "Bulky_Armor_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Bulky_Armor_Feet",
+            "ItemStaticData": {
+                "RowName": "Bulky_Armor_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Enzyme_Vat",
+            "ItemStaticData": {
+                "RowName": "Prop_Enzyme_Vat"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Enzyme_Vat_Empty",
+            "ItemStaticData": {
+                "RowName": "Prop_Enzyme_Vat_Empty"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 54
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 55
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_3",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 56
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_4",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 57
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_5",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 58
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_6",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 59
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_7",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 60
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_8",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 61
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY3_Lab_9",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 62
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Eden_Whiteboard",
+            "ItemStaticData": {
+                "RowName": "Prop_Eden_Whiteboard"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Alloy_Armor_Head",
+            "ItemStaticData": {
+                "RowName": "Alloy_Armor_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Alloy_Armor_Chest",
+            "ItemStaticData": {
+                "RowName": "Alloy_Armor_Chest"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Alloy_Armor_Arms",
+            "ItemStaticData": {
+                "RowName": "Alloy_Armor_Arms"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Alloy_Armor_Legs",
+            "ItemStaticData": {
+                "RowName": "Alloy_Armor_Legs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Alloy_Armor_Feet",
+            "ItemStaticData": {
+                "RowName": "Alloy_Armor_Feet"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Solar_Backpack",
+            "ItemStaticData": {
+                "RowName": "Solar_Backpack"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -19970,9 +24413,190 @@
             }
         },
         {
+            "Name": "Prop_LaserControls",
+            "ItemStaticData": {
+                "RowName": "Prop_LaserControls"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Spider_Silk",
             "ItemStaticData": {
                 "RowName": "Spider_Silk"
+            }
+        },
+        {
+            "Name": "Prop_Camera",
+            "ItemStaticData": {
+                "RowName": "Prop_Camera"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Prop_Mug",
+            "ItemStaticData": {
+                "RowName": "Prop_Mug"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandscuttle_Trophy",
+            "ItemStaticData": {
+                "RowName": "Sandscuttle_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mange_Wolf_Trophy",
+            "ItemStaticData": {
+                "RowName": "Mange_Wolf_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mange_Wolf_Alpha_Trophy",
+            "ItemStaticData": {
+                "RowName": "Mange_Wolf_Alpha_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ghost_Crocodile_Trophy",
+            "ItemStaticData": {
+                "RowName": "Ghost_Crocodile_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Geothermal_Spider_Trophy",
+            "ItemStaticData": {
+                "RowName": "Geothermal_Spider_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Geothermal_Spider_Head",
+            "ItemStaticData": {
+                "RowName": "Geothermal_Spider_Head"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Geothermal_Bat_Trophy",
+            "ItemStaticData": {
+                "RowName": "Geothermal_Bat_Trophy"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Enemy_Turret_Flamethrower",
+            "ItemStaticData": {
+                "RowName": "Enemy_Turret_Flamethrower"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY6_Code",
+            "ItemStaticData": {
+                "RowName": "Collectable_Logbook"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 79
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY6_Code_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 80
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Landing_Pad_Prop",
+            "ItemStaticData": {
+                "RowName": "Landing_Pad_Prop"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Polarbear_Head_Armor_Yeti",
+            "ItemStaticData": {
+                "RowName": "Polarbear_Head_Armor_Yeti"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -20471,6 +25095,93 @@
             }
         },
         {
+            "Name": "Cooked_Banana",
+            "ItemStaticData": {
+                "RowName": "Cooked_Banana"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Dried_Banana",
+            "ItemStaticData": {
+                "RowName": "Dried_Banana"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Banana_Porridge",
+            "ItemStaticData": {
+                "RowName": "Banana_Porridge"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Frozen_Banana",
+            "ItemStaticData": {
+                "RowName": "Frozen_Banana"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Banana_Tart",
+            "ItemStaticData": {
+                "RowName": "Banana_Tart"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Banana_Toast",
+            "ItemStaticData": {
+                "RowName": "Banana_Toast"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Tame_Capture_Grenade",
+            "ItemStaticData": {
+                "RowName": "Tame_Capture_Grenade"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 25000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Elephant_Tusk",
             "ItemStaticData": {
                 "RowName": "Elephant_Tusk"
@@ -20521,6 +25232,72 @@
             }
         },
         {
+            "Name": "Sandwyrm_Egg",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Egg"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandwyrm_Lantern",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Lantern"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandwyrm_Backpack",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Backpack"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandwyrm_Lure",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Lure"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandwyrm_Target",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Target"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Sandwyrm_Throne",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Throne"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Kitchen_Sink",
             "ItemStaticData": {
                 "RowName": "Kitchen_Sink"
@@ -20528,6 +25305,34 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
+                }
+            }
+        },
+        {
+            "Name": "Oil_Can",
+            "ItemStaticData": {
+                "RowName": "Oil_Can"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 8
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Eden_NPC_Hunter",
+            "ItemStaticData": {
+                "RowName": "Eden_NPC_Hunter"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
                 }
             }
         },
@@ -20599,6 +25404,17 @@
             }
         },
         {
+            "Name": "Deep_Mining_Drill_Oil",
+            "ItemStaticData": {
+                "RowName": "Deep_Mining_Drill_Oil"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Piglet_Head",
             "ItemStaticData": {
                 "RowName": "Piglet_Head"
@@ -20643,6 +25459,39 @@
             }
         },
         {
+            "Name": "Metal_Grate_Floor",
+            "ItemStaticData": {
+                "RowName": "Metal_Grate_Floor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Metal_Grate_Stairs",
+            "ItemStaticData": {
+                "RowName": "Metal_Grate_Stairs"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Eden_NPC_Norex",
+            "ItemStaticData": {
+                "RowName": "Eden_NPC_Norex"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Animal_Bed_Nesting",
             "ItemStaticData": {
                 "RowName": "Animal_Bed_Nesting"
@@ -20654,15 +25503,98 @@
             }
         },
         {
+            "Name": "Eden_NPC_Farmer",
+            "ItemStaticData": {
+                "RowName": "Eden_NPC_Farmer"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Eden_NPC_Fisher",
+            "ItemStaticData": {
+                "RowName": "Eden_NPC_Fisher"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Eden_NPC_Chef",
+            "ItemStaticData": {
+                "RowName": "Eden_NPC_Chef"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Gruel",
+            "ItemStaticData": {
+                "RowName": "Gruel"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Prebuilt_Spawn_Location",
             "ItemStaticData": {
                 "RowName": "Prebuilt_Spawn_Location"
             }
         },
         {
+            "Name": "Fur_Stack",
+            "ItemStaticData": {
+                "RowName": "Fur_Stack"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fur_Unstack",
+            "ItemStaticData": {
+                "RowName": "Fur"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 200
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Prop_Dropship",
             "ItemStaticData": {
                 "RowName": "Prop_Dropship"
+            }
+        },
+        {
+            "Name": "Sandwyrm_Bow",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Bow"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {
@@ -20684,6 +25616,17 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
+                }
+            }
+        },
+        {
+            "Name": "Saddle_SpeederBike",
+            "ItemStaticData": {
+                "RowName": "Saddle_SpeederBike"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
                 }
             }
         },
@@ -20793,6 +25736,605 @@
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
                 }
+            }
+        },
+        {
+            "Name": "Mission_Drone_Navigation",
+            "ItemStaticData": {
+                "RowName": "Mission_Drone_Navigation"
+            }
+        },
+        {
+            "Name": "Mission_Drone_Rotor",
+            "ItemStaticData": {
+                "RowName": "Mission_Drone_Rotor"
+            }
+        },
+        {
+            "Name": "Fertility_Serum_Raptor",
+            "ItemStaticData": {
+                "RowName": "Fertility_Serum_Raptor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fertility_Serum_Slinker",
+            "ItemStaticData": {
+                "RowName": "Fertility_Serum_Slinker"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Speeder_Kit",
+            "ItemStaticData": {
+                "RowName": "Speeder_Kit"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Checkered_Flag",
+            "ItemStaticData": {
+                "RowName": "Checkered_Flag"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Envirosuit_Larkwell_White",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Larkwell_White"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Submachine_Gun_Scout",
+            "ItemStaticData": {
+                "RowName": "Submachine_Gun_Scout"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Submachine_Gun_Sandwyrm",
+            "ItemStaticData": {
+                "RowName": "Submachine_Gun_Sandwyrm"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Limestone",
+            "ItemStaticData": {
+                "RowName": "Meta_Resource_Pack_Limestone"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Stack_100",
+            "ItemStaticData": {
+                "RowName": "Limestone"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 100
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Oil_Can_Meta",
+            "ItemStaticData": {
+                "RowName": "Oil_Can_Meta"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 8
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 25000
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY2_Hut_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 52
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY2_Hut_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 53
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Mo_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 43
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Mo_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 44
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Mo_3",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 45
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Iris_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 46
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Iris_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 47
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Victor_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 48
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Victor_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 49
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Theo_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 50
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Mission_ELY1_Theo_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 51
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Post_Story_Note_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 71
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Post_Story_Note_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 72
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Post_Story_Note_3",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 73
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "LegendaryWeapon_Sandwyrm_Chainsaw",
+            "ItemStaticData": {
+                "RowName": "LegendaryWeapon_Sandwyrm_Chainsaw"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "ComingSoon"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "Limestone_Diagonal_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "Limestone_Curved_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "Limestone_Diagonal_Curved_Wall_Angles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "Limestone_Roof_CurvedAngles"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "Limestone_Wall_Curved"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Limestone_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "Limestone_Advanced_Beam_Set"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Lithium",
+            "ItemStaticData": {
+                "RowName": "Meta_Resource_Pack_Lithium"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Ruby",
+            "ItemStaticData": {
+                "RowName": "Meta_Resource_Pack_Ruby"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Uranium_Rod",
+            "ItemStaticData": {
+                "RowName": "Meta_Resource_Pack_Uranium_Rod"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Ren",
+            "ItemStaticData": {
+                "RowName": "Meta_Resource_Pack_Ren"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Raw_Lithium_Stack_100",
+            "ItemStaticData": {
+                "RowName": "Lithium_Ore"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 100
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Raw_Ruby_Stack_50",
+            "ItemStaticData": {
+                "RowName": "Ruby_Ore"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 50
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Uranium_Rod_Stack_10",
+            "ItemStaticData": {
+                "RowName": "Uranium_Rod"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 10
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Ren_Stack_100",
+            "ItemStaticData": {
+                "RowName": "Ren"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 100
+                }
+            ],
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fertility_Serum_Wolf",
+            "ItemStaticData": {
+                "RowName": "Fertility_Serum_Wolf"
             }
         }
     ]

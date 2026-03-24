@@ -366,7 +366,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Fur.ITEM_Fur",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fur-Description\", \"One of nature\\'s more perfect insulation materials.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fur-FlavorText\", \"Fur remains an exceptional material, especially in the terrazone, where temperatures are significantly cooler.\")",
-            "Weight": 10,
+            "Weight": 50,
             "MaxStack": 100
         },
         {
@@ -4296,24 +4296,6 @@
             "MaxStack": 20
         },
         {
-            "Name": "Item_Wood_Build_HalfPitch",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Build_HalfPitch-DisplayName\", \"Wood Halfpitches\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Half_Pitch_2.ITEM_Wood_Half_Pitch_2",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Build_HalfPitch-Description\", \"Combinable elements for creating 2:1 inclines.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Build_HalfPitch-FlavorText\", \"For the more discerning builder.\")",
-            "Weight": 500,
-            "MaxStack": 20
-        },
-        {
-            "Name": "Item_Wood_Build_HalfNormal",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Build_HalfNormal-DisplayName\", \"Wood Half Normal\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Halfpiece_0.ITEM_Wood_Halfpiece_0",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Build_HalfNormal-Description\", \"A kit of half-sized wooden building elements.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Build_HalfNormal-FlavorText\", \"Wood structures withstand light storms without damage. Can be repaired with a repair hammer.\")",
-            "Weight": 500,
-            "MaxStack": 20
-        },
-        {
             "Name": "Item_Sandworm_Knife",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Knife-DisplayName\", \"Sandworm Knife\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Worm_Knife.ITEM_Worm_Knife",
@@ -7091,7 +7073,7 @@
         {
             "Name": "Item_Biofuel_Can_Meta",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Can_Meta-DisplayName\", \"MXC Fuel Canister\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Biofuel_Can_Meta.ITEM_Biofuel_Can_Meta",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Workshop_Biofuel_Can.T_ITEM_Workshop_Biofuel_Can",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Can_Meta-Description\", \"A makeshift fuel canister, that can hold biofuel, comes prefilled.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Biofuel_Can_Meta-FlavorText\", \"The caps a bit loose, still sealed, but that\\'s fine right?\")",
             "Weight": 1000
@@ -14361,7 +14343,7 @@
         {
             "Name": "Item_Stone_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Diagonal_Set-DisplayName\", \"Stone Diagonal Buildings\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_1.T_ITEM_Stone_Diagonal_Set_1",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_0.T_ITEM_Stone_Diagonal_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -14385,7 +14367,7 @@
         {
             "Name": "Item_Stone_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Roof_CurvedAngles-DisplayName\", \"Stone Roof Curved Angle\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Curved_Set_2.T_ITEM_Stone_Curved_Set_2",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Roof_CurvedAngles_0.T_ITEM_Stone_Roof_CurvedAngles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -14393,7 +14375,7 @@
         {
             "Name": "Item_Stone_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Curved_Wall-DisplayName\", \"Stone Wall/Roof Curved\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Curved_Set_1.T_ITEM_Stone_Curved_Set_1",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Wall_Curved_0.T_ITEM_Stone_Wall_Curved_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -15747,7 +15729,7 @@
         {
             "Name": "Item_Ice_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Diagonal_Set-DisplayName\", \"Ice Diagonal Buildings\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Diagonal_Set_1.T_ITEM_Ice_Diagonal_Set_1",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Diagonal_Set_0.T_ITEM_Ice_Diagonal_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -15770,8 +15752,8 @@
         },
         {
             "Name": "Item_Ice_Roof_CurvedAngles",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Roof_CurvedAngles-DisplayName\", \"Ice Roof Curved Angle\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Curved_Set_2.T_ITEM_Ice_Curved_Set_2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Roof_CurvedAngles-DisplayName\", \"Ice Curved Roof Angles\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Roof_CurvedAngles_0.T_ITEM_Ice_Roof_CurvedAngles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -15779,7 +15761,7 @@
         {
             "Name": "Item_Ice_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Curved_Wall-DisplayName\", \"Ice Wall/Roof Curved\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Curved_Set_1.T_ITEM_Ice_Curved_Set_1",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Wall_Curved_0.T_ITEM_Ice_Wall_Curved_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -15795,7 +15777,7 @@
         {
             "Name": "Item_Scoria_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Diagonal_Set-DisplayName\", \"Scoria Diagonal Buildings\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Diagonal_Set_1.T_ITEM_Scoria_Diagonal_Set_1",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Diagonal_Set_0.T_ITEM_Scoria_Diagonal_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -15819,7 +15801,7 @@
         {
             "Name": "Item_Scoria_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Roof_CurvedAngles-DisplayName\", \"Scoria Roof Curved Angle\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Curved_Set_2.T_ITEM_Scoria_Curved_Set_2",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Roof_CurvedAngles_0.T_ITEM_Scoria_Roof_CurvedAngles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -15827,7 +15809,7 @@
         {
             "Name": "Item_Scoria_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Curved_Wall-DisplayName\", \"Scoria Wall/Roof Curved\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Curved_Set_1.T_ITEM_Scoria_Curved_Set_1",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Wall_Curved_0.T_ITEM_Scoria_Wall_Curved_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -16733,7 +16715,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Packed_Fuel_Brick-Description\", \"Compressed Fur mixed with Tree Sap to create a longer lasting fuel.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Packed_Fuel_Brick-FlavorText\", \"Weird, but it works.\")",
             "Weight": 500,
-            "MaxStack": 100
+            "MaxStack": 25
         },
         {
             "Name": "Item_Animal_Feed_Squash",
@@ -18822,7 +18804,7 @@
             "Name": "Item_Module_Basic_Night",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_Basic_Night-DisplayName\", \"Basic Night Module\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/T_ITEM_MODULE_BASIC_Night.T_ITEM_MODULE_BASIC_Night",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_Basic_Night-Description\", \"A Module for increasing night movement speed and reducing consumption at night\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_Basic_Night-Description\", \"A Module for increasing night movement speed and reducing food consumption at night\")",
             "Weight": 100
         },
         {
@@ -18892,7 +18874,7 @@
             "Name": "Item_Module_Night",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_Night-DisplayName\", \"Night Module\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/T_ITEM_MODULE_ADV_Night.T_ITEM_MODULE_ADV_Night",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_Night-Description\", \"A Module for greatly increasing night movement speed and reducing consumption at night\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_Night-Description\", \"A Module for greatly increasing night movement speed and reducing food consumption at night\")",
             "Weight": 100
         },
         {
@@ -19072,7 +19054,7 @@
             "Name": "Item_Oil_Power_Generator",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Power_Generator-DisplayName\", \"Crude Oil Generator\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Oil_Power_Generator.T_ITEM_Oil_Power_Generator",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Power_Generator-Description\", \"A combustion-driven generator that converts refined oil into reliable electrical output.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Power_Generator-Description\", \"A combustion-driven generator that converts crude oil into reliable electrical output.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Power_Generator-FlavorText\", \"Feed it fuel and it\\'ll keep your entire outpost alive.\")",
             "Weight": 40000
         },
@@ -19111,7 +19093,7 @@
         {
             "Name": "Item_Workshop_Hydrazine_Container",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Hydrazine_Container-DisplayName\", \"MXC Hydrazine Canister\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Workshop_Hydrazine_Container.T_ITEM_Workshop_Hydrazine_Container",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Workshop_Hydrazine_Can.T_ITEM_Workshop_Hydrazine_Can",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Hydrazine_Container-Description\", \"A canister to power your applicable MXC equipment.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Hydrazine_Container-FlavorText\", \"A rare gas that once floated amongst the stars... now cooking your dinner.\")",
             "Weight": 2000
@@ -23049,6 +23031,461 @@
             "Weight": 50000
         },
         {
+            "Name": "Item_Carcass_Slinker",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Slinker-DisplayName\", \"Slinker Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Slinker.T_ITEM_AnimalCarcass_Slinker",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Slinker-Description\", \"This slinker\\'s twisted frame lies motionless, its unnatural agility finally spent.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Slinker-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Irradiated_Prospector",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Irradiated_Prospector-DisplayName\", \"Spectre Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Irradiated_Prospector.T_ITEM_AnimalCarcass_Irradiated_Prospector",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Irradiated_Prospector-Description\", \"The mangled remains of what appears to have once been a prospector...\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Onion",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion-DisplayName\", \"Onion\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Onion.T_ITEM_Onion",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion-Description\", \"A versatile vegetable that enhances the flavour of most dishes.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion-FlavorText\", \"Every layer hides another reason to cry.\")",
+            "Weight": 150,
+            "MaxStack": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Onion_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Seed-DisplayName\", \"Onion Seed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_Seed_Onion.T_ITEM_Seed_Onion",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Seed-Description\", \"Can be planted in a Dirt Mound or Crop Plot.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Seed-FlavorText\", \"You reap what you sow.\")",
+            "Weight": 10,
+            "MaxStack": 400,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Meta_Onion_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Onion_Seed-DisplayName\", \"Onion Farming Packet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_FarmingPacket_Onion.T_ITEM_FarmingPacket_Onion",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Onion_Seed-Description\", \"Right click to open a packet of Onion Seeds that have been stabilised for off-world farming\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Onion_Seed-FlavorText\", \"Right click to open\")",
+            "Weight": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Cooked_Onion",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Onion-DisplayName\", \"Cooked Onion\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Onion.T_ITEM_Cooked_Onion",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Onion-Description\", \"Softened and sweetened, perfect for simple meals.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Onion-FlavorText\", \"Heat turns sharpness into sweetness.\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Caramelized_Onions",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Caramelized_Onions-DisplayName\", \"Caramelized Onions\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Caramelized_Onion.T_ITEM_Caramelized_Onion",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Caramelized_Onions-Description\", \"Slow-cooked onions with rich, sweet flavour.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Caramelized_Onions-FlavorText\", \"Time and patience make for pure gold.\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_French_Onion_Soup",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_French_Onion_Soup-DisplayName\", \"French Onion Soup\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Onion_Soup.T_ITEM_Onion_Soup",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_French_Onion_Soup-Description\", \"A hearty broth topped with onions.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_French_Onion_Soup-FlavorText\", \"A hug in a bowl when nights grow cold.\")",
+            "Weight": 200,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Onion_Rings",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Rings-DisplayName\", \"Onion Rings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Onion_Rings.T_ITEM_Onion_Rings",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Rings-Description\", \"Crispy fried rings that make for a comforting snack.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Rings-FlavorText\", \"Proof that frying makes everything better.\")",
+            "Weight": 100,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Onion_Souffle",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Souffle-DisplayName\", \"Onion Souffle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Onion_Souffle.T_ITEM_Onion_Souffle",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Souffle-Description\", \"A delicate dish with a surprisingly savoury kick.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Onion_Souffle-FlavorText\", \"Light as air, don\\'t let it collapse.\")",
+            "Weight": 200,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Agave",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave-DisplayName\", \"Agave\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Agave.T_ITEM_Agave",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave-Description\", \"A desert plant known for its hardy growth and sweet core.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave-FlavorText\", \"Sweetness hidden inside spiny armor.\")",
+            "Weight": 250,
+            "MaxStack": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Agave_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave_Seed-DisplayName\", \"Agave Seed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_Seed_Agave.T_ITEM_Seed_Agave",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave_Seed-Description\", \"Can be planted in a Dirt Mound or Crop Plot.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave_Seed-FlavorText\", \"You reap what you sow.\")",
+            "Weight": 10,
+            "MaxStack": 400,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Meta_Agave_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Agave_Seed-DisplayName\", \"Agave Farming Packet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_FarmingPacket_Agave.T_ITEM_FarmingPacket_Agave",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Agave_Seed-Description\", \"Right click to open a packet of Agave Seeds that have been stabilised for off-world farming\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Agave_Seed-FlavorText\", \"Right click to open\")",
+            "Weight": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Cooked_Agave",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Agave-DisplayName\", \"Cooked Agave\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Agave.T_ITEM_Cooked_Agave",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Agave-Description\", \"Roasted to release subtle sweetness and energy.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Agave-FlavorText\", \"Roasting teases out a caramel heart.\")",
+            "Weight": 250,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Agave_Syrup",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave_Syrup-DisplayName\", \"Agave Syrup\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Agave_Syrup.T_ITEM_Agave_Syrup",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave_Syrup-Description\", \"A natural sweetener extracted from Agave.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agave_Syrup-FlavorText\", \"Liquid sunlight bottled for the weary.\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Tequila",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Tequila-DisplayName\", \"Bottled Tequila\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Tequila.T_ITEM_Tequila",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Tequila-Description\", \"A strong distilled spirit with a fiery kick.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Tequila-FlavorText\", \"Just like back home.\")",
+            "Weight": 100,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Glazed_Carrots",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glazed_Carrots-DisplayName\", \"Glazed Carrots\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Glazed_Carrots.T_ITEM_Glazed_Carrots",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glazed_Carrots-Description\", \"Sweet, tender carrots coated in a glossy glaze.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Glazed_Carrots-FlavorText\", \"Vegetables dressed for success.\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Pumpkin_Pie",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Pumpkin_Pie-DisplayName\", \"Pumpkin Pie\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pumpkin_Pie.T_ITEM_Pumpkin_Pie",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pumpkin_Pie-Description\", \"A spiced dessert baked with a golden crust.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Pumpkin_Pie-FlavorText\", \"A slice of comfort in every bite.\")",
+            "Weight": 300,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_PricklyPear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear-DisplayName\", \"Prickly Pear\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Prickly_Pear.T_ITEM_Prickly_Pear",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear-Description\", \"A cactus fruit with vibrant colour and mild sweetness.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear-FlavorText\", \"A bright treasure.\")",
+            "Weight": 250,
+            "MaxStack": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_PricklyPear_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Seed-DisplayName\", \"Prickly Pear Seed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_Seed_Prickly_Pear.T_ITEM_Seed_Prickly_Pear",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Seed-Description\", \"Can be planted in a Dirt Mound or Crop Plot.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Seed-FlavorText\", \"You reap what you sow.\")",
+            "Weight": 10,
+            "MaxStack": 400,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Meta_PricklyPear_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_PricklyPear_Seed-DisplayName\", \"Prickly Pear Farming Packet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_FarmingPacket_Prickly_Pear.T_ITEM_FarmingPacket_Prickly_Pear",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_PricklyPear_Seed-Description\", \"Right click to open a packet of Prickly Pear Seeds that have been stabilised for off-world farming\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_PricklyPear_Seed-FlavorText\", \"Right click to open\")",
+            "Weight": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Cooked_PricklyPear",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_PricklyPear-DisplayName\", \"Cooked Prickly Pear\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_PricklyPear.T_ITEM_Cooked_PricklyPear",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_PricklyPear-Description\", \"Softened cactus fruit with a mellow sweetness.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_PricklyPear-FlavorText\", \"Sweetness wrestled from a thorny shell.\")",
+            "Weight": 250,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_PricklyPear_Margarita",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Margarita-DisplayName\", \"Prickly Pear Margarita\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_PricklyPear_Margarita.T_ITEM_PricklyPear_Margarita",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Margarita-Description\", \"A refreshing beverage with a tart twist.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Margarita-FlavorText\", \"Desert in a glass.\")",
+            "Weight": 100,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_PricklyPear_Jelly",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Jelly-DisplayName\", \"Prickly Pear Jelly\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_PricklyPear_Jelly.T_ITEM_PricklyPear_Jelly",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Jelly-Description\", \"A sweet treat made from cactus fruit pulp.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Jelly-FlavorText\", \"Proof that even cacti can be comforting.\")",
+            "Weight": 100,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_PricklyPear_Muffins",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Muffins-DisplayName\", \"Prickly Pear Muffins\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_PricklyPear_Muffin.T_ITEM_PricklyPear_Muffin",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Muffins-Description\", \"Moist, fruity muffins baked with delightful flavours.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_PricklyPear_Muffins-FlavorText\", \"Soft, sweet, and far safer than picking the fruit.\")",
+            "Weight": 200,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Garlic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic-DisplayName\", \"Garlic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Garlic.T_ITEM_Garlic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic-Description\", \"A pungent bulb used to elevate savoury dishes.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic-FlavorText\", \"One can never have too much garlic in a dish.\")",
+            "Weight": 250,
+            "MaxStack": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Garlic_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Seed-DisplayName\", \"Garlic Seed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_Seed_Garlic.T_ITEM_Seed_Garlic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Seed-Description\", \"Can be planted in a Dirt Mound or Crop Plot.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Seed-FlavorText\", \"You reap what you sow.\")",
+            "Weight": 10,
+            "MaxStack": 400,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Meta_Garlic_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Garlic_Seed-DisplayName\", \"Garlic Farming Packet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_FarmingPacket_Garlic.T_ITEM_FarmingPacket_Garlic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Garlic_Seed-Description\", \"Right click to open a packet of Garlic Seeds that have been stabilised for off-world farming\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Garlic_Seed-FlavorText\", \"Right click to open\")",
+            "Weight": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Cooked_Garlic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Garlic-DisplayName\", \"Cooked Garlic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Garlic.T_ITEM_Cooked_Garlic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Garlic-Description\", \"Roasted cloves with a rich, mellow taste.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Garlic-FlavorText\", \"Pure savoury bliss.\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Garlic_Butter",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Butter-DisplayName\", \"Garlic Butter\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Garlic_Butter.T_ITEM_Garlic_Butter",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Butter-Description\", \"Creamy butter infused with garlic\\'s bold flavour.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Butter-FlavorText\", \"Luxury spread, one bite at a time.\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Garlic_Bread",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Bread-DisplayName\", \"Garlic Bread\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Garlic_Bread.T_ITEM_Garlic_Bread",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Bread-Description\", \"Toasted bread dripping with garlic and butter.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Bread-FlavorText\", \"Who doesn\\'t love garlic bread?\")",
+            "Weight": 200,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Garlic_Pizza",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Pizza-DisplayName\", \"Garlic Pizza\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Garlic_Pizza.T_ITEM_Garlic_Pizza",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Pizza-Description\", \"A simple, aromatic pizza topped with garlic.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Garlic_Pizza-FlavorText\", \"A slice of happiness.\")",
+            "Weight": 250,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Smoked_Garlic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Smoked_Garlic-DisplayName\", \"Smoked Garlic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Smoked_Garlic.T_ITEM_Smoked_Garlic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Smoked_Garlic-Description\", \"Garlic cured with smoke for a deep, earthy taste.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Smoked_Garlic-FlavorText\", \"One word: Delicious.\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Item_Truffle",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Truffle-DisplayName\", \"Truffle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Truffle.T_ITEM_Truffle",
@@ -23067,6 +23504,19 @@
             "MaxStack": 400
         },
         {
+            "Name": "Item_Meta_Truffle_Seed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Truffle_Seed-DisplayName\", \"Truffle Farming Packet\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Seeds/T_ITEM_FarmingPacket_Truffle.T_ITEM_FarmingPacket_Truffle",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Truffle_Seed-Description\", \"Right click to open a packet of Truffle Seeds that have been stabilised for off-world farming\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Truffle_Seed-FlavorText\", \"Right click to open\")",
+            "Weight": 100,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Item_Cooked_Truffle",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Truffle-DisplayName\", \"Cooked Truffle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cooked_Truffle.T_ITEM_Cooked_Truffle",
@@ -23074,6 +23524,34 @@
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Truffle-FlavorText\", \"Earthy notes that whisper of rare indulgence on this side of the system.\")",
             "Weight": 100,
             "MaxStack": 10
+        },
+        {
+            "Name": "Item_Vodka",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Vodka-DisplayName\", \"Vodka\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Vodka.T_ITEM_Vodka",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Vodka-Description\", \"A clear spirit that packs a sharp, clean bite.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Vodka-FlavorText\", \"Brace yourself.\")",
+            "Weight": 100,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Truffle_Vodka",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Truffle_Vodka-DisplayName\", \"Truffle Spiced Vodka\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Truffle_Vodka.T_ITEM_Truffle_Vodka",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Truffle_Vodka-Description\", \"Vodka infused with earthy truffle essence.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Truffle_Vodka-FlavorText\", \"The forest and the fire, bottled together.\")",
+            "Weight": 100,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         },
         {
             "Name": "Item_Truffle_Focaccia",
@@ -23094,6 +23572,20 @@
             "MaxStack": 10
         },
         {
+            "Name": "Item_Truffle_Fries",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Truffle_Fries-DisplayName\", \"Truffle Fries\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Truffle_Fries.T_ITEM_Truffle_Fries",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Truffle_Fries-Description\", \"Crispy golden fries drizzled with earthy truffle flavour.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Truffle_Fries-FlavorText\", \"What\\'s not to love?\")",
+            "Weight": 150,
+            "MaxStack": 10,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Item_Concrete_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Diagonal_Set-DisplayName\", \"Concrete Diagonal Buildings\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Diagonal_Set_0.T_ITEM_Concrete_Diagonal_Set_0",
@@ -23104,7 +23596,7 @@
         {
             "Name": "Item_Concrete_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Curved_Set-DisplayName\", \"Concrete Curved Buildings\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Curved_Set_0.T_ITEM_Concrete_Curved_Set_0",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Curved_Set_1.T_ITEM_Concrete_Curved_Set_1",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23152,7 +23644,7 @@
         {
             "Name": "Item_Glass_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set-DisplayName\", \"Glass Curved Buildings\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_0.T_ITEM_Glass_Curved_Set_0",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_1.T_ITEM_Glass_Curved_Set_1",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23200,7 +23692,7 @@
         {
             "Name": "Item_Glass_Curved_Set_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set_Tempered-DisplayName\", \"Reinforced Glass Curved Buildings\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_Tempered_0.T_ITEM_Glass_Curved_Set_Tempered_0",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Curved_Set_Tempered_1.T_ITEM_Glass_Curved_Set_Tempered_1",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Curved_Set_Tempered-Description\", \"A set of cross-tile curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23208,7 +23700,7 @@
         {
             "Name": "Item_Glass_Diagonal_Curved_Wall_Angles_Tempered",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles_Tempered-DisplayName\", \"Reinforced Glass Curved Wall Angles\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Wall_Angle_Tempered_0.T_ITEM_Glass_Wall_Angle_Tempered_0",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Glass_Diagonal_Curved_Wall_Angles_Tempered_0.T_ITEM_Glass_Diagonal_Curved_Wall_Angles_Tempered_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Diagonal_Curved_Wall_Angles_Tempered-Description\", \"A set of cross-tile curved walls in various angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23413,7 +23905,7 @@
         {
             "Name": "Item_Clay_Brick_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Set-DisplayName\", \"Clay Brick Curved Buildings\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Curved_Set_0.T_ITEM_ClayBrick_Curved_Set_0",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Curved_Set_1.T_ITEM_ClayBrick_Curved_Set_1",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23453,6 +23945,7 @@
         {
             "Name": "Item_Scoria_Brick_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Set-DisplayName\", \"Scoria Brick Diagonal Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ScoriaBrick_Diagonal_Set_0.T_ITEM_ScoriaBrick_Diagonal_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23460,6 +23953,7 @@
         {
             "Name": "Item_Scoria_Brick_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Set-DisplayName\", \"Scoria Brick Curved Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ScoriaBrick_Curved_Set_1.T_ITEM_ScoriaBrick_Curved_Set_1",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23467,6 +23961,7 @@
         {
             "Name": "Item_Scoria_Brick_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Curved_Wall_Angles-DisplayName\", \"Scoria Brick Curved Wall Angles\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ScoriaBrick_Diagonal_Curved_Wall_Angles_0.T_ITEM_ScoriaBrick_Diagonal_Curved_Wall_Angles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23474,6 +23969,7 @@
         {
             "Name": "Item_Scoria_Brick_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Roof_CurvedAngles-DisplayName\", \"Scoria Brick Roof Curved Angle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ScoriaBrick_Roof_CurvedAngles_0.T_ITEM_ScoriaBrick_Roof_CurvedAngles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23481,6 +23977,7 @@
         {
             "Name": "Item_Scoria_Brick_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Wall-DisplayName\", \"Scoria Brick Wall/Roof Curved\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ScoriaBrick_Wall_Curved_0.T_ITEM_ScoriaBrick_Wall_Curved_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23488,6 +23985,7 @@
         {
             "Name": "Item_Scoria_Brick_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Advanced_Beam_Set-DisplayName\", \"Scoria Brick Advanced Beams\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ScoriaBrick_Advanced_Beam_Set_0.T_ITEM_ScoriaBrick_Advanced_Beam_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Scoria_Brick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23495,6 +23993,7 @@
         {
             "Name": "Item_Stone_Brick_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Set-DisplayName\", \"Stone Brick Diagonal Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_StoneBrick_Diagonal_Set_0.T_ITEM_StoneBrick_Diagonal_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23502,6 +24001,7 @@
         {
             "Name": "Item_Stone_Brick_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Set-DisplayName\", \"Stone Brick Curved Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_StoneBrick_Curved_Set_1.T_ITEM_StoneBrick_Curved_Set_1",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23509,6 +24009,7 @@
         {
             "Name": "Item_Stone_Brick_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Curved_Wall_Angles-DisplayName\", \"Stone Brick Curved Wall Angles\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_StoneBrick_Diagonal_Curved_Wall_Angles_0.T_ITEM_StoneBrick_Diagonal_Curved_Wall_Angles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23516,6 +24017,7 @@
         {
             "Name": "Item_Stone_Brick_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Roof_CurvedAngles-DisplayName\", \"Stone Brick Roof Curved Angle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_StoneBrick_Roof_CurvedAngles_0.T_ITEM_StoneBrick_Roof_CurvedAngles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23523,6 +24025,7 @@
         {
             "Name": "Item_Stone_Brick_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Wall-DisplayName\", \"Stone Brick Wall/Roof Curved\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_StoneBrick_Wall_Curved_0.T_ITEM_StoneBrick_Wall_Curved_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23530,6 +24033,7 @@
         {
             "Name": "Item_Stone_Brick_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Advanced_Beam_Set-DisplayName\", \"Stone Brick Advanced Beams\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_StoneBrick_Advanced_Beam_Set_0.T_ITEM_StoneBrick_Advanced_Beam_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Brick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23831,11 +24335,37 @@
             "Weight": 1000
         },
         {
+            "Name": "Item_Carcass_Raptor_Juvenile",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor_Juvenile-DisplayName\", \"Juvenile Raptor Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Raptor_Juvenile.T_ITEM_AnimalCarcass_Raptor_Juvenile",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor_Juvenile-Description\", \"Smaller and less developed, but still deadly enough to leave scars.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor_Juvenile-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 3500,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Item_Nailgun",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Nailgun-DisplayName\", \"Nailgun\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_Nailgun.T_ITEM_Nailgun",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Nailgun-Description\", \"Fires Nails to Repair Buildings from a Distance\")",
             "Weight": 2000
+        },
+        {
+            "Name": "Item_Carcass_Reaver",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Reaver-DisplayName\", \"Reaver Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Reaver.T_ITEM_AnimalCarcass_Reaver",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Reaver-Description\", \"The reaver\\'s predatory form is twisted and torn, its threat finally ended.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Reaver-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         },
         {
             "Name": "Item_Module_Radiation",
@@ -23846,6 +24376,32 @@
             "Weight": 100
         },
         {
+            "Name": "Item_Carcass_Raptor",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor-DisplayName\", \"Raptor Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Raptor.T_ITEM_AnimalCarcass_Raptor",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor-Description\", \"Razor talons and lean muscle tell the story of a relentless hunter.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Chew_Juvenile",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Chew_Juvenile-DisplayName\", \"Juvenile Draven Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Chew_Juvenile.T_ITEM_AnimalCarcass_Chew_Juvenile",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Chew_Juvenile-Description\", \"Underdeveloped features and fragile bone reveal how young this draven was.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Chew_Juvenile-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 10000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Item_Hay_Bale",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hay_Bale-DisplayName\", \"Hay Bale\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Hay_Bale_B.T_ITEM_Hay_Bale_B",
@@ -23853,6 +24409,84 @@
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Hay_Bale-FlavorText\", \"Home sweet home\")",
             "Weight": 500,
             "MaxStack": 10
+        },
+        {
+            "Name": "Item_Carcass_Hopping_Creature_Swamp",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Hopping_Creature_Swamp-DisplayName\", \"Swamp Hopper Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_HoppingCreature_Swamp.T_ITEM_AnimalCarcass_HoppingCreature_Swamp",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Hopping_Creature_Swamp-Description\", \"Matted hide and swollen limbs hint at a life spent in stagnant wetlands.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Hopping_Creature_Swamp-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 10000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Raptor_Desert",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor_Desert-DisplayName\", \"Dune Raptor Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Raptor_Desert.T_ITEM_AnimalCarcass_Raptor_Desert",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor_Desert-Description\", \"Sand-stained scales and lean muscle show a predator adapted to arid terrain.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Raptor_Desert-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Stomper",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper-DisplayName\", \"Stomper Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Stomper.T_ITEM_AnimalCarcass_Stomper",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper-Description\", \"The ground no longer trembles beneath the stomper\\'s immense legs.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 5000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Stomper_Matriarch",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper_Matriarch-DisplayName\", \"Stomper Matriarch Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Stomper_Matriarch.T_ITEM_AnimalCarcass_Stomper_Matriarch",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper_Matriarch-Description\", \"Larger and more heavily armored, this matriarch once ruled its territory through sheer force.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper_Matriarch-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 5000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Slinker_Juvenile",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Slinker_Juvenile-DisplayName\", \"Juvenile Slinker Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Slinker_Juvenilee.T_ITEM_AnimalCarcass_Slinker_Juvenilee",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Slinker_Juvenile-Description\", \"Smaller and less distorted, though no less unsettling to look at.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Slinker_Juvenile-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 3500,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Storca",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Storca-DisplayName\", \"Storca Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Storca.T_ITEM_AnimalCarcass_Storca",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Storca-Description\", \"The storca\\'s thick hide and heavy frame suggest a creature built to endure.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Storca-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         },
         {
             "Name": "Item_Mission_ELY2_Epsilon",
@@ -23874,6 +24508,58 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Laptop_A.T_ITEM_Prop_Laptop_A",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY2_Laptop-Description\", \"Group 15 Encrypted Data\")",
             "Weight": 500
+        },
+        {
+            "Name": "Item_Carcass_Giant_Roach",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Giant_Roach-DisplayName\", \"Clicker Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Giant_Roach.T_ITEM_AnimalCarcass_Giant_Roach",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Giant_Roach-Description\", \"The clicker\\'s rigid limbs and fractured shell lie scattered where it fell.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Giant_Roach-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_DragonFly",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_DragonFly-DisplayName\", \"Venomfly Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_DragonFly.T_ITEM_AnimalCarcass_DragonFly",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_DragonFly-Description\", \"Iridescent wings lie crumpled, their toxic payload now harmless.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_DragonFly-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Flying_Tank",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Flying_Tank-DisplayName\", \"Ravager Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Flying_Tank.T_ITEM_AnimalCarcass_Flying_Tank",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Flying_Tank-Description\", \"Scarred flesh and an oversized shell mark a creature shaped by constant aggression.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Flying_Tank-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Carcass_Flightless_Tank",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Flightless_Tank-DisplayName\", \"Sandhorn Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Flightless_Tank.T_ITEM_AnimalCarcass_Flightless_Tank",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Flightless_Tank-Description\", \"The sandhorn\\'s plated head and curved horn are half-buried in dust.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Flightless_Tank-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         },
         {
             "Name": "Item_Attachment_Tool_Durability_1",
@@ -24130,6 +24816,19 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Rifle_Accuracy_2-Description\", \"An attachment that greatly increases accuracy for Rifles.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Attachment_Rifle_Accuracy_2-FlavorText\", \"Can be equipped to a valid Rifle at an Alteration Bench.\")",
             "Weight": 1000
+        },
+        {
+            "Name": "Item_Carcass_Sandwyrm_Queen",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Sandwyrm_Queen-DisplayName\", \"Sandwyrm Queen Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Sandwyrm_Queen.T_ITEM_AnimalCarcass_Sandwyrm_Queen",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Sandwyrm_Queen-Description\", \"The remains of a fearsome beast, now dead at your feet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Sandwyrm_Queen-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         },
         {
             "Name": "Item_NationalFlag_NewZealand",
@@ -24744,6 +25443,33 @@
             "MaxStack": 10
         },
         {
+            "Name": "Item_Carcass_Yeti",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Yeti-DisplayName\", \"Frostfoot Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Yeti.T_ITEM_AnimalCarcass_Yeti",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Yeti-Description\", \"Pale hide and insulated limbs show how it survived the cold - until now.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Yeti-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
+            "Weight": 4000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Yeti_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Yeti_Head-DisplayName\", \"Frostfoot Vestige\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Yeti_Head.T_ITEM_Yeti_Head",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Yeti_Head-Description\", \"A preserved memory of a great beast.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Yeti_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 1000,
+            "MaxStack": 5,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Item_Yeti_Trophy",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Yeti_Trophy-DisplayName\", \"Frostfoot Trophy\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Yeti_Trophy.T_ITEM_Yeti_Trophy",
@@ -24792,12 +25518,37 @@
             "Weight": 2000
         },
         {
+            "Name": "Item_Carcass_Irradiated_Abomination",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Irradiated_Abomination-DisplayName\", \"Revenant Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Irradiated_Abomination.T_ITEM_AnimalCarcass_Irradiated_Abomination",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Irradiated_Abomination-Description\", \"The mangled remains of what appears to have once been a prospector...\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Item_Carcass_SandScuttle",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_SandScuttle-DisplayName\", \"Scuttler Carcass\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_SandScuttle.T_ITEM_AnimalCarcass_SandScuttle",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_SandScuttle-Description\", \"This creature will scuttle no more.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_SandScuttle-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
             "Weight": 1000
+        },
+        {
+            "Name": "Item_Mission_Stasis_Bag_Full_Iris",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Stasis_Bag_Full_Iris-DisplayName\", \"Stasis Bag (Iris)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Stasis_Bag_Full.T_ITEM_Stasis_Bag_Full",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Stasis_Bag_Full_Iris-Description\", \"Iris is frozen in a medically induced stasis ready to be transported to safety.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Stasis_Bag_Full_Iris-FlavorText\", \"Another XIGO product that is at the bleeding edge of medical technology.\")",
+            "Weight": 75000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         },
         {
             "Name": "Item_Fortification_Concrete_Wall",
@@ -25343,7 +26094,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Terraforming_Dust-Description\", \"Remnants of the terraforming process brimming with ions for catalysation. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Terraforming_Dust-FlavorText\", \"Such a rich, dangerous blue shade.\")",
             "Weight": 10,
-            "MaxStack": 200
+            "MaxStack": 500
         },
         {
             "Name": "Item_AntiRadiation_Tonic",
@@ -25455,6 +26206,19 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_GeothermalSpider-Description\", \"The remains of a furry legged menace. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_GeothermalSpider-FlavorText\", \"So many legs.\")",
             "Weight": 8000
+        },
+        {
+            "Name": "Item_Carcass_Irradiated_Mutation",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Irradiated_Mutation-DisplayName\", \"Wraith Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Irradiated_Mutation.T_ITEM_AnimalCarcass_Irradiated_Mutation",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Irradiated_Mutation-Description\", \"The carcass of a mutated prospector.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Irradiated_Mutation-FlavorText\", \"A result of too much raditation.\")",
+            "Weight": 8000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         },
         {
             "Name": "Item_Prop_Keyboard",
@@ -25678,7 +26442,7 @@
             "Name": "Item_Carcass_Mammoth_Mount",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Mount-DisplayName\", \"Woolly Mammoth Carcass\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Mammoth.ITEM_AnimalCarcass_Mammoth",
-            "Description": "INVTEXT(\"[DNT] Woolly Mammoth Mount Carcass\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Mount-Description\", \"Woolly Mammoth Mount Carcass\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Mount-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
             "Weight": 10000
         },
@@ -25935,12 +26699,6 @@
             "Weight": 20000
         },
         {
-            "Name": "Item_Enemy_Turret_NPC",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_NPC-DisplayName\", \"TPS Agent\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_NPC-Description\", \"Aggressive, will fire at you.\")",
-            "Weight": 20000
-        },
-        {
             "Name": "Item_Mission_ELY6_Code",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY6_Code-DisplayName\", \"TPS Compound Tower Code\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Logbook.T_ITEM_Collectable_Logbook",
@@ -25964,7 +26722,7 @@
         },
         {
             "Name": "Item_Polarbear_Head_Armor_Yeti",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Polarbear_Head_Armor_Yeti-DisplayName\", \"Arctic Head Armor (Yeti)\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Polarbear_Head_Armor_Yeti-DisplayName\", \"Arctic Head Armor (Frostfoot)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Polarbear_Head_Armor_Yeti.T_ITEM_Polarbear_Head_Armor_Yeti",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Polarbear_Head_Armor_Yeti-Description\", \"Lightweight, highly insulated head protection.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Polarbear_Head_Armor_Yeti-FlavorText\", \"Once a warm high altitude desert, the arctic\\'s temperature dropped in the aftermath of failed terraforming, leaving a frigid wasteland of which the polar Frostfoot is now the unchallenged apex predator.\")",
@@ -26404,6 +27162,13 @@
             "MaxStack": 10
         },
         {
+            "Name": "Item_Tame_Capture_Grenade",
+            "DisplayName": "INVTEXT(\"[DNT] Tame Capture Device\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Ape_Grenade.T_ITEM_Ape_Grenade",
+            "Description": "INVTEXT(\"[DNT] Multi-use throwable used to capture and store the nearest tamed creature. Only capturing player can retrieve the creature stored within.\")",
+            "Weight": 150
+        },
+        {
             "Name": "Item_Elephant_Tusk",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Elephant_Tusk-DisplayName\", \"Elephant Tusk\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_Elephant_Tusk.ITEM_Elephant_Tusk",
@@ -26465,7 +27230,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Sandwyrm_Backpack.T_ITEM_Sandwyrm_Backpack",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Backpack-Description\", \"Heavy-duty pack crafted from cured hide. Highly resistant to heat, abrasion, and the general wear of desert survival.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Backpack-FlavorText\", \"Still smells like the desert, but it\\'s tougher than you are.\")",
-            "Weight": 250
+            "Weight": 500
         },
         {
             "Name": "Item_Sandwyrm_Lure",
@@ -26489,15 +27254,15 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Sandwyrm_Chair.T_ITEM_Sandwyrm_Chair",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Throne-Description\", \"A seat fashioned from mandible plates and vertebrae. A grim trophy for contractors who enjoy a bit of dark comfort.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Throne-FlavorText\", \"Surprisingly good lumbar support for a predator\\'s jaw.\")",
-            "Weight": 500
+            "Weight": 2000
         },
         {
             "Name": "Item_Sandwyrm_Bow",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Bow-DisplayName\", \"Sandwyrm Queen Bow\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Bows/T_ITEM_Sandwyrm_Bow.T_ITEM_Sandwyrm_Bow",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Bow-Description\", \"A high-tension recurve bow made from organic composites.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Bow-FlavorText\", \"Right on target.\")",
-            "Weight": 1000
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Bow-FlavorText\", \"Float like a Queen, hit like a Truck.\")",
+            "Weight": 2500
         },
         {
             "Name": "Item_Oil_Can",
@@ -26555,9 +27320,10 @@
         {
             "Name": "Item_Deep_Mining_Drill_Oil",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Deep_Mining_Drill_Oil-DisplayName\", \"Oil Deep-Mining Drill\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Deep_Mining_Drill_Oil.T_ITEM_Deep_Mining_Drill_Oil",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Deep_Mining_Drill_Oil-Description\", \"An oil-powered drill capable of mining ore trapped deep under the surface. Has even more storage space.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Deep_Mining_Drill_Oil-FlavorText\", \"Drill baby Drill\")",
-            "Weight": 10000
+            "Weight": 15000
         },
         {
             "Name": "Item_Carcass_Pig",
@@ -26648,10 +27414,10 @@
         },
         {
             "Name": "Item_Eden_NPC_Norex",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Eden_NPC_Norex-DisplayName\", \"Norex Liason \\'Agent\\'\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Eden_NPC_Norex-DisplayName\", \"Norex Liaison \\'Agent\\'\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_NPC_Norex.T_Icon_Map_NPC_Norex",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Eden_NPC_Norex-Description\", \"A Norex representative who deals in the trading of Biomass. Buys creature parts.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Eden_NPC_Norex-FlavorText\", \"Why was it programmed with attitude.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Eden_NPC_Norex-FlavorText\", \"Why was it programmed with such an attitude?!\")",
             "Weight": 20000
         },
         {
@@ -26743,8 +27509,8 @@
         },
         {
             "Name": "Item_Saddle_SpeederBike",
-            "DisplayName": "INVTEXT(\"[DNT] Default Speeder Bike Saddle\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ICON_Cart_Wood.ICON_Cart_Wood",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_SpeederBike-DisplayName\", \"Prototype Hoverframe\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Vehicles/T_Speeder_kit.T_Speeder_kit",
             "bAllowZeroWeight": true
         },
         {
@@ -26803,6 +27569,251 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Silage-Description\", \"Long-life, fermented animal feed. Simple but Convenient.\")",
             "Weight": 50,
             "MaxStack": 50
+        },
+        {
+            "Name": "Item_Mission_Drone_Navigation",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Drone_Navigation-DisplayName\", \"Navigation Core Module\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_HighTech_Assembled.ITEM_Mission_HighTech_Assembled",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Drone_Navigation-Description\", \"A navigation computuer core, custom made for a heavy duty drone.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Drone_Navigation-FlavorText\", \"A drone can\\'t go anywhere without navigation.\")",
+            "Weight": 50000
+        },
+        {
+            "Name": "Item_Mission_Drone_Rotor",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Drone_Rotor-DisplayName\", \"Heavy Rotor Assembly\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Mission_Drone_Rotor.T_ITEM_Mission_Drone_Rotor",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Drone_Rotor-Description\", \"A sturdy rotor which helps generate lift for a heavy duty transport drone.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Drone_Rotor-FlavorText\", \"A drone can\\'t go anywhere without lift.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Fertility_Serum_Raptor",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Raptor-DisplayName\", \"Raptor Fertility Serum\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Serum_Raptor.T_ITEM_Serum_Raptor",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Raptor-Description\", \"Primes Male Raptors for mating. Once primed will seek out and fertilize nearby Female Raptor. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Raptor-FlavorText\", \"Husbandry has come to Icarus\")",
+            "Weight": 50,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Fertility_Serum_Slinker",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Slinker-DisplayName\", \"Slinker Fertility Serum\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Serum_Slinker.T_ITEM_Serum_Slinker",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Slinker-Description\", \"Primes Male Slinkers for mating. Once primed will seek out and fertilize nearby Female Slinker.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Slinker-FlavorText\", \"Husbandry has come to Icarus\")",
+            "Weight": 50,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Fertility_Serum_Wolf",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Wolf-DisplayName\", \"Wolf Fertility Serum\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Serum_Wolf.T_ITEM_Serum_Wolf",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Wolf-Description\", \"Primes Male Wolves for mating. Once primed will seek out and fertilize nearby Female Wolf. Applies to Wolves found in both Forest biomes and Arctic.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Wolf-FlavorText\", \"Husbandry has come to Icarus\")",
+            "Weight": 50,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Speeder_Kit",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit-DisplayName\", \"Prototype Hoverframe\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Vehicles/T_Speeder_kit.T_Speeder_kit",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit-Description\", \"A mechanical vehicle which can be deployed to ride. Powered by Refined Oil.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit-FlavorText\", \"Zoom Zoom Zoom\")",
+            "Weight": 50000
+        },
+        {
+            "Name": "Item_Sandwyrm_Queen_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Queen_Head-DisplayName\", \"Sandwyrm Queen Vestige\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Sandwyrm_Queen_Head.T_ITEM_Sandwyrm_Queen_Head",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Queen_Head-Description\", \"A preserved memory of a great beast.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Queen_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 2000,
+            "MaxStack": 5,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Checkered_Flag",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Checkered_Flag-DisplayName\", \"Checkered Flag\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Checkered_Flag.T_ITEM_Checkered_Flag",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Checkered_Flag-Description\", \"A Flag Pole with flag, made to withstand harsh conditions.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Checkered_Flag-FlavorText\", \"Time to Race\")",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Envirosuit_Larkwell_White",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Larkwell_White-DisplayName\", \"Scouts Arctic Envirosuit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Envirosuit_Larkwell_White.T_ITEM_Envirosuit_Larkwell_White",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Larkwell_White-Description\", \"A specialised envirosuit designed for the Eden Scouts.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Larkwell_White-FlavorText\", \"Captain Church would be Proud\")",
+            "Weight": 100
+        },
+        {
+            "Name": "Item_Submachine_Gun_Scout",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Submachine_Gun_Scout-DisplayName\", \"Scouts Submachine Gun\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_Submachine_Gun_Scout.T_ITEM_Submachine_Gun_Scout",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Submachine_Gun_Scout-Description\", \"An automatic firearm that fires low caliber pistol rounds. Works with Pistol Attachments and Talents. Specially desidned for the Eden Scouts.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Submachine_Gun_Scout-FlavorText\", \"Quantity over Quality\")",
+            "Weight": 3000
+        },
+        {
+            "Name": "Item_Submachine_Gun_Sandwyrm",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Submachine_Gun_Sandwyrm-DisplayName\", \"Sandwyrm Submachine Gun\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_Submachine_Gun_Sandwyrm.T_ITEM_Submachine_Gun_Sandwyrm",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Submachine_Gun_Sandwyrm-Description\", \"An automatic firearm that fires low caliber pistol rounds. Works with Pistol Attachments and Talents.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Submachine_Gun_Sandwyrm-FlavorText\", \"Quantity over Quality\")",
+            "Weight": 3000
+        },
+        {
+            "Name": "Item_FieldGuide_RefinedOil",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_FieldGuide_RefinedOil-DisplayName\", \"Refined Oil\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Recipe_Oil.T_ICON_Recipe_Oil",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_FieldGuide_RefinedOil-Description\", \"Refined Oil can be converted from Biofuel or Crude Oil.\")",
+            "Weight": 100
+        },
+        {
+            "Name": "Item_FieldGuide_CrudeOil",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_FieldGuide_CrudeOil-DisplayName\", \"Crude Oil\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Recipe_CrudeOil.T_ICON_Recipe_CrudeOil",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_FieldGuide_CrudeOil-Description\", \"Crude Oil is gathered from Oil Geysers.\")",
+            "Weight": 100
+        },
+        {
+            "Name": "Item_Meta_Resource_Pack_Limestone",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Limestone-DisplayName\", \"UDA Limestone Ore Resource Supply\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Limestone.T_ITEM_Resource_Pack_Limestone",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Limestone-Description\", \"A collection of 100 Limestone collected by another prospector for you. \\'CONSUME\\' to open bundle.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Limestone-FlavorText\", \"These supplies are ethically provided by contractors who were found to be in breach of precept 45-379b, this is enforced by Group 15 and its subsidiaries.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Oil_Can_Meta",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Can_Meta-DisplayName\", \"MXC Refined Oil Canister\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Workshop_Oil_Can.T_ITEM_Workshop_Oil_Can",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Can_Meta-Description\", \"A makeshift oil canister, that can hold Refined Oil, comes pre-filled.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Oil_Can_Meta-FlavorText\", \"The cap\\'s a bit loose, still sealed, but that\\'s fine right?\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Carcass_SpeederBike",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_SpeederBike-DisplayName\", \"Destroyed Hoverframe\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Vehicles/T_Speeder_kit_Carcass.T_Speeder_kit_Carcass",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_SpeederBike-Description\", \"An expensive pile of scrap metal and components\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_LegendaryWeapon_Sandwyrm_Chainsaw",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_LegendaryWeapon_Sandwyrm_Chainsaw-DisplayName\", \"Timber Extraction Unit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/LegendaryWeapons/T_ITEM_LegendaryWeapon_Sandwyrm_Chainsaw.T_ITEM_LegendaryWeapon_Sandwyrm_Chainsaw",
+            "Weight": 12000,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Item_Limestone_Diagonal_Set",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Diagonal_Set-DisplayName\", \"Limestone Diagonal Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Diagonal_Set_0.T_ITEM_Limestone_Diagonal_Set_0",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Diagonal_Set-FlavorText\", \"Back on Earth, Limestone as Calcium Carbonate is used in some medicines to soothe an upset stomach. Icarus Limestone is poisonous. Do NOT eat.\")",
+            "Weight": 5000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Limestone_Curved_Set",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Curved_Set-DisplayName\", \"Limestone Curved Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Curved_Set_1.T_ITEM_Limestone_Curved_Set_1",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Curved_Set-FlavorText\", \"Back on Earth, Limestone as Calcium Carbonate is used in some medicines to soothe an upset stomach. Icarus Limestone is poisonous. Do NOT eat.\")",
+            "Weight": 5000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Limestone_Diagonal_Curved_Wall_Angles",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Diagonal_Curved_Wall_Angles-DisplayName\", \"Limestone Curved Wall Angles\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Diagonal_Curved_Wall_Angles_0.T_ITEM_Limestone_Diagonal_Curved_Wall_Angles_0",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Diagonal_Curved_Wall_Angles-FlavorText\", \"Back on Earth, Limestone as Calcium Carbonate is used in some medicines to soothe an upset stomach. Icarus Limestone is poisonous. Do NOT eat.\")",
+            "Weight": 5000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Limestone_Roof_CurvedAngles",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Roof_CurvedAngles-DisplayName\", \"Limestone Roof Curved Angle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Concrete_Roof_CurvedAngles_0.T_ITEM_Concrete_Roof_CurvedAngles_0",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Roof_CurvedAngles-FlavorText\", \"Back on Earth, Limestone as Calcium Carbonate is used in some medicines to soothe an upset stomach. Icarus Limestone is poisonous. Do NOT eat.\")",
+            "Weight": 5000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Limestone_Curved_Wall",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Curved_Wall-DisplayName\", \"Limestone Wall/Roof Curved\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Wall_Curved_0.T_ITEM_Limestone_Wall_Curved_0",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Curved_Wall-FlavorText\", \"Back on Earth, Limestone as Calcium Carbonate is used in some medicines to soothe an upset stomach. Icarus Limestone is poisonous. Do NOT eat.\")",
+            "Weight": 5000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Limestone_Advanced_Beam_Set",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Advanced_Beam_Set-DisplayName\", \"Limestone Advanced Beams\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Advanced_Beam_Set_0.T_ITEM_Limestone_Advanced_Beam_Set_0",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Advanced_Beam_Set-FlavorText\", \"Back on Earth, Limestone as Calcium Carbonate is used in some medicines to soothe an upset stomach. Icarus Limestone is poisonous. Do NOT eat.\")",
+            "Weight": 5000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Meta_Resource_Pack_Lithium",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Lithium-DisplayName\", \"UDA Lithium Ore Resource Supply\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Lithium.T_ITEM_Resource_Pack_Lithium",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Lithium-Description\", \"A collection of 100 Lithium collected by another prospector for you. \\'CONSUME\\' to open bundle.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Lithium-FlavorText\", \"These supplies are ethically provided by contractors who were found to be in breach of precept 45-379b, this is enforced by Group 15 and its subsidiaries.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Meta_Resource_Pack_Ruby",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ruby-DisplayName\", \"UDA Ruby Ore Resource Supply\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Ruby.T_ITEM_Resource_Pack_Ruby",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ruby-Description\", \"A collection of 50 ruby collected by another prospector for you. \\'CONSUME\\' to open bundle.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ruby-FlavorText\", \"These supplies are ethically provided by contractors who were found to be in breach of precept 45-379b, this is enforced by Group 15 and its subsidiaries.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Meta_Resource_Pack_Uranium_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Uranium_Rod-DisplayName\", \"UDA Uranium Rod Resource Supply\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Uranium_Rod.T_ITEM_Resource_Pack_Uranium_Rod",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Uranium_Rod-Description\", \"A collection of 10 Uranium Rods collected by another prospector for you. \\'CONSUME\\' to open bundle.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Uranium_Rod-FlavorText\", \"These supplies are ethically provided by contractors who were found to be in breach of precept 45-379b, this is enforced by Group 15 and its subsidiaries.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Meta_Resource_Pack_Ren",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ren-DisplayName\", \"UDA Ren Resource Supply\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Ren.T_ITEM_Resource_Pack_Ren",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ren-Description\", \"A collection of 100 Ren collected by another prospector for you. \\'CONSUME\\' to open bundle.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Resource_Pack_Ren-FlavorText\", \"These supplies are ethically provided by contractors who were found to be in breach of precept 45-379b, this is enforced by Group 15 and its subsidiaries.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Carcass_Juvenile_Conifer_Wolf",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Juvenile_Conifer_Wolf-DisplayName\", \"Juvenile Wolf Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Conifer_Wolf.ITEM_AnimalCarcass_Conifer_Wolf",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Juvenile_Conifer_Wolf-Description\", \"A juvenile Wolf which never quite made it to adulthood.\")",
+            "Weight": 3500
+        },
+        {
+            "Name": "Item_Carcass_Juvenile_Snow_Wolf",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Juvenile_Snow_Wolf-DisplayName\", \"Juvenile Snow Wolf Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Snow_Wolf.ITEM_AnimalCarcass_Snow_Wolf",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Juvenile_Snow_Wolf-Description\", \"A juvenile Snow Wolf which never quite made it to adulthood.\")",
+            "Weight": 3500
         }
     ]
 }
