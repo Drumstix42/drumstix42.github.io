@@ -41,7 +41,7 @@
             <tabs-view class="tab-view flex-1"></tabs-view>
         </div>
 
-        <n-alert class="m-2 mt-3 mb-4" title="Developer Todo List" type="default" closable>
+        <n-alert v-if="showDevTodoAlert" class="m-2 mt-3 mb-4" title="Developer Todo List" type="default" closable @after-leave="dismissAlert('devTodo')">
             <template #icon>
                 <n-icon size="20">
                     <Hammer></Hammer>
@@ -81,6 +81,7 @@ icarusStore.loadRecipeData();
 const AlertVersion = Object.freeze({
     welcome: 1,
     whatsNew: 20260319,
+    devTodo: 20260324,
 });
 
 const isAlertVisible = (alertName) => {
@@ -100,6 +101,7 @@ export default {
         return {
             showWelcomeAlert: isAlertVisible('welcome'),
             showWhatsNewAlert: isAlertVisible('whatsNew'),
+            showDevTodoAlert: isAlertVisible('devTodo'),
         };
     },
     computed: {},
