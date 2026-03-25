@@ -94,7 +94,7 @@ export default {
 
 .recipe-item {
     height: 40px;
-    padding: 0.1rem 1rem;
+    padding: 0.1rem 1rem 0.1rem 0.6rem;
     cursor: pointer;
 
     .icon {
@@ -103,6 +103,7 @@ export default {
 
     .label {
         font-weight: 600;
+        line-height: 1rem;
     }
 
     .hover-button {

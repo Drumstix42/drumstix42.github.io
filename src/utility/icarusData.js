@@ -77,6 +77,9 @@ export const itemLabelMap = Object.freeze({
     Bulk_Pistol_Round: 'Pistol Round (Bulk, Talent)',
     Shotgun_Shell_Buckshot: 'Shotgun Buckshot Shell',
     Bulk_Shotgun_Shell_Buckshot: 'Shotgun Buckshot Shell (Bulk, Talent)',
+    Sugar_Cane: 'Sugar (Cane)',
+    Sugar_Honey: 'Sugar (Honey)',
+    Sugar_Kumara: 'Sugar (Kumara)',
 });
 
 const cleanItemDefaultLabel = (itemId) => {
@@ -210,7 +213,8 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
         const itemStaticRecord =
             itemStaticData[itemTemplateRecord?.itemStaticId] ??
             itemStaticDataNorm[itemTemplateRecord?.itemStaticId?.toLowerCase()] ??
-            itemStaticData[inputFallbackId];
+            itemStaticData[inputFallbackId] ??
+            itemStaticData[id];
 
         if (!itemStaticRecord) {
             console.warn('Missing itemStaticRecord for', {

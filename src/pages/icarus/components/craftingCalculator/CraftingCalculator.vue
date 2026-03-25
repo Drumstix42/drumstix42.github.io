@@ -74,7 +74,7 @@
                 </div>
                 <div>
                     <div v-for="item in requiredComponents" :key="item.id" class="component-row flex align-items-center">
-                        <div class="label">{{ item.quantity }} {{ recipeData[item.id]?.label ?? itemLabelMap[item.id] ?? item.id }}</div>
+                        <div class="label" :data-item-id="item.id">{{ item.quantity }} {{ item.label }}</div>
                         <component-source-picker :component-id="item.id" @change="triggerCalc()"></component-source-picker>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ export default {
         },
     },
     computed: {
-        ...mapState(useIcarusStore, ['recipeData', 'itemTableData', 'isLoadingRecipes', 'settings']),
+        ...mapState(useIcarusStore, ['recipeData', 'itemStaticData', 'itemTableData', 'isLoadingRecipes', 'settings']),
         ...mapGetters(useIcarusStore, ['includeSubComponents', 'includeStationComponents']),
     },
     methods: {
@@ -192,6 +192,8 @@ export default {
         calculateRequiredItems() {
             const selectedItems = this.tab.items || [];
             const recipeData = this.recipeData;
+            const itemStaticData = this.itemStaticData;
+            const itemTableData = this.itemTableData;
             const includeSubComponents = this.includeSubComponents;
             const includeStationComponents = this.includeStationComponents;
 
@@ -247,9 +249,15 @@ export default {
 
             const requiredComponents = Object.keys(requiredItemData).map((componentName) => {
                 const roundedQuantity = Math.ceil(requiredItemData[componentName]);
+                const label =
+                    recipeData[componentName]?.label ??
+                    itemLabelMap[componentName] ??
+                    itemTableData[itemStaticData[componentName]?.itemTableId]?.displayName ??
+                    componentName.replace(/_/g, ' ');
                 return {
                     id: componentName,
                     quantity: roundedQuantity,
+                    label,
                 };
             });
 
@@ -273,7 +281,7 @@ export default {
 <style scoped lang="scss">
 .recipe-item {
     min-height: 60px;
-    padding: 0.5rem 0.3rem;
+    padding: 0.3rem 0.3rem 0.4rem 0.3rem;
 
     &.stations {
         min-height: 40px;

@@ -30,18 +30,27 @@
         <div class="flex flex-wrap">
             <div>
                 <item-search-view class="item-selector"></item-search-view>
-                <div class="m-2 text-200 flex align-items-center">
+                <div class="m-2 text-200">
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
-                    <div class="game-version">
-                        <n-input :value="'v3.0.2.150527-rel-DangerousHorizons'" readonly></n-input>
+                    <div class="flex align-items-center mt-2">
+                        <div class="game-version">
+                            <n-input :value="'v3.0.2.150527-rel-DangerousHorizons'" readonly></n-input>
+                        </div>
+                        <n-text depth="3">📅 2026-03-19</n-text>
                     </div>
-                    <n-text depth="3">📅 2026-03-19</n-text>
                 </div>
             </div>
             <tabs-view class="tab-view flex-1"></tabs-view>
         </div>
 
-        <n-alert v-if="showDevTodoAlert" class="m-2 mt-3 mb-4" title="Developer Todo List" type="default" closable @after-leave="dismissAlert('devTodo')">
+        <n-alert
+            v-if="showDevTodoAlert"
+            class="m-2 mt-3 mb-4"
+            title="Developer Todo List"
+            type="default"
+            closable
+            @after-leave="dismissAlert('devTodo')"
+        >
             <template #icon>
                 <n-icon size="20">
                     <Hammer></Hammer>
@@ -123,12 +132,12 @@ export default {
     margin: 0.5rem;
 }
 .item-selector {
-    width: 25rem;
+    width: 23rem;
     margin: 0.5rem;
 }
 .game-version {
     width: 8rem;
     text-align: center;
-    margin: 0 1rem;
+    margin-right: 1rem;
 }
 </style>
