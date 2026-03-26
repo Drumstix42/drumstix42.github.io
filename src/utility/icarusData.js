@@ -3,6 +3,50 @@ export const itemIgnoreMap = Object.freeze({
     Charcoal: true, // shows "Spoiled Meat" as the only input, which is misleading
 });
 
+// Manually curated list of item display labels that are considered raw/harvestable materials.
+// Entries may be exact strings or RegExp patterns matched against the resolved display label.
+// Note: items with overrides in itemLabelMap should use their overridden label (e.g. 'Aluminum Ore' not 'Bauxite').
+export const rawItemMatchers = Object.freeze([
+    // --- Patterns ---
+    /Ore$/, // Iron Ore, Copper Ore, Coal Ore, Gold Ore, Platinum Ore, Titanium Ore, etc.
+    /Vestige$/, // e.g. "Alpha Wolf Vestige"
+    /Fur$/, // e.g. "Bear Fur", "Wolf Fur"
+    /Noxious Crust/,
+    /Animal Fat/,
+    /Meat$/, // e.g. "Raw Meat", "Cooked Meat"
+    /Carcass$/, // e.g. "Small Carcass", "Medium Carcass", "Large Carcass"
+    /Pelt$/, // e.g. "Rabbit Pelt", "Wolf Pelt"
+
+    // --- Exact labels ---
+    'Aluminum Ore', // itemLabelMap override (ID: Bauxite)
+    'Animal Fat',
+    'Bone',
+    'Clay',
+    'Condensed Enzymes',
+    'Egg',
+    'Exotics',
+    'Fiber',
+    'Fur',
+    'Leather',
+    'Obsidian',
+    'Oxite',
+    'Poison Sac',
+    'Salt',
+    'Scoria',
+    'Seed',
+    'Silica',
+    'Stabilized Exotics',
+    'Stone',
+    'Stick',
+    'Sulfur',
+    'Tree Sap',
+    'Volatile Raw Exotics',
+    'Wood',
+    // TODO: add more as needed
+]);
+
+export const isRawItem = (label) => rawItemMatchers.some((matcher) => (matcher instanceof RegExp ? matcher.test(label) : matcher === label));
+
 export const itemLabelMap = Object.freeze({
     // raw material that doesn't have a recipe definition with `Name` will need correcting
     Bauxite: 'Aluminum Ore',
@@ -90,6 +134,15 @@ const cleanItemDefaultLabel = (itemId) => {
 const getItemLabel = (itemId, { displayName } = {}) => {
     const label = itemLabelMap[itemId];
     return label ? label : (displayName ?? cleanItemDefaultLabel(itemId));
+};
+
+const normalizeItemId = (value = '') => value.toLowerCase().split('_').filter(Boolean).sort().join('_');
+
+const isSameItemVariant = (left, right) => {
+    if (!left || !right) {
+        return false;
+    }
+    return left === right || normalizeItemId(left) === normalizeItemId(right);
 };
 
 const postProcessByItem = Object.freeze({
@@ -201,7 +254,7 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
             if (
                 recipe.Outputs.length === 1 &&
                 outputName &&
-                (outputName?.includes(itemTemplateId) || recipe.Requirement || recipe.SessionRequirement || !recipeDataByName[outputName])
+                (isSameItemVariant(outputName, itemTemplateId) || recipe.Requirement || recipe.SessionRequirement || !recipeDataByName[outputName])
             ) {
                 return outputName;
             }
@@ -213,11 +266,10 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
         const itemStaticRecord =
             itemStaticData[itemTemplateRecord?.itemStaticId] ??
             itemStaticDataNorm[itemTemplateRecord?.itemStaticId?.toLowerCase()] ??
-            itemStaticData[inputFallbackId] ??
             itemStaticData[id];
 
         if (!itemStaticRecord) {
-            console.warn('Missing itemStaticRecord for', {
+            /* console.warn('Missing itemStaticRecord for', {
                 id,
                 inputFallbackId,
                 itemTemplateId,
@@ -225,7 +277,7 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
                 itemStaticRecord,
                 recipe,
                 recipeDataByName,
-            });
+            }); */
         }
 
         const iconPath = recipe.ResourceOutputs?.length > 0 ? '' : (itemTableData[itemStaticRecord?.itemTableId]?.icon ?? '');
@@ -233,11 +285,14 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
         // since the PNG files are now deduplicated, but the code references are not
         // we can just take the first part of the file name, e.g. `"Weapons/Guns/T_ITEM_Pistol_T4.T_ITEM_Pistol_T4"` => `"Weapons/Guns/T_ITEM_Pistol_T4"`
         const iconPathDedupe = iconPath?.length > 0 && iconPath.includes('.') ? iconPath.split('.')[0] : '';
+        const outputItemId = recipe.Outputs?.length === 1 ? recipe.Outputs[0]?.Element?.RowName : null;
 
         recipeData[id] = {
             id: id,
             label: getItemLabel(id, { displayName: itemTableData[itemStaticRecord?.itemTableId]?.displayName }),
             iconPath: iconPathDedupe ?? iconPath ?? '',
+            outputItemId,
+            itemStaticId: itemStaticRecord?.id,
 
             inputs: [],
             sources: [],
@@ -259,17 +314,43 @@ export function processRecipeData(rows = [], { itemTemplateData = {}, itemStatic
         });
 
         // TODO: set preferred source from localStorage
+        // for now just default to the first source if it exists
         recipeData[id].preferredSource = recipeData[id].sources[0];
 
         // determine output quantity
         (recipe.Outputs || []).forEach((output) => {
-            if (id === output.Element.RowName || id.includes(output.Element.RowName)) {
+            if (isSameItemVariant(id, output.Element.RowName)) {
                 recipeData[id].outputQuantity = output.Count;
             }
         });
+
+        /* // Some recipes use a different recipe name than the produced item id
+        // (e.g. Refined_Wood -> Wood_Refined). For single-output recipes,
+        // use the output count directly so quantity math remains accurate.
+        if (recipeData[id].outputQuantity === 1 && recipe.Outputs?.length === 1) {
+            recipeData[id].outputQuantity = recipe.Outputs[0].Count ?? 1;
+        }
+
+        // When recipe.Name differs from the actual output item ID (e.g. Refined_Wood -> Wood_Refined),
+        // register an alias key for lookup-by-input without changing the canonical recipe object's id.
+        // Mutating recipeData[id].id causes incorrect identity in sub-component calculations.
+        const outputItemId = recipe.Outputs.length === 1 ? recipe.Outputs[0]?.Element.RowName : null;
+        if (outputItemId && outputItemId !== id && isSameItemVariant(id, outputItemId) && !recipeData[outputItemId]) {
+            recipeData[outputItemId] = recipeData[id]; // alias; same object reference
+        }
+
+        // When D_ItemsStatic RowName differs from recipe name due data typo
+        // (e.g. Platinum_Shealth vs Platinum_Sheath), alias the static id lookup.
+        // Only do this when the recipe's produced item is still the same canonical item,
+        // otherwise alternate conversion recipes can overwrite canonical raw item labels.
+        const staticAliasOutputItemId = recipe.Outputs?.length === 1 ? recipe.Outputs[0]?.Element?.RowName : null;
+        const outputsSameItem = !staticAliasOutputItemId || isSameItemVariant(staticAliasOutputItemId, id);
+        if (outputsSameItem && itemStaticRecord && itemStaticRecord.id !== id && !recipeData[itemStaticRecord.id]) {
+            recipeData[itemStaticRecord.id] = recipeData[id]; // alias; same object reference
+        } */
     });
 
-    return postProcessData(recipeData);
+    return { recipeData: postProcessData(recipeData) };
 }
 
 export function generateHighlightedText(inputText, regions = []) {
@@ -291,9 +372,12 @@ export function generateHighlightedText(inputText, regions = []) {
 }
 
 function postProcessData(recipeData = {}) {
-    Object.keys(recipeData).forEach((id) => {
-        const item = recipeData[id];
-        postProcessByItem[id]?.(item, id, recipeData);
-    });
+    if (Object.keys(postProcessByItem).length > 0) {
+        // apply any custom post processing defined for specific items
+        Object.keys(recipeData).forEach((id) => {
+            const item = recipeData[id];
+            postProcessByItem[id]?.(item, id, recipeData);
+        });
+    }
     return recipeData;
 }
