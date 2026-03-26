@@ -28,21 +28,29 @@ const tabData = useStorage(`${LOCAL_STORAGE_PREFIX}/tabs`, [defaultTab]);
 const defaultTabId = tabData.value[0].id ?? defaultTab.id;
 //console.log({defaultTabId, defaultTab, tabData});
 
+const settingsData = useStorage(
+    `${LOCAL_STORAGE_PREFIX}/settings`,
+    {
+        includeSubComponents: false,
+        includeStationComponents: false,
+        splitRawComponents: true,
+        searchFuzzyMatch: true,
+    },
+    localStorage,
+    { mergeDefaults: true }
+);
+
+// Enforce invariant: station components requires sub-components
+if (settingsData.value.includeStationComponents) {
+    settingsData.value.includeSubComponents = true;
+}
+
 // * data store
 export const useIcarusStore = defineStore('icarus', {
     state: () => ({
         activeTabId: defaultTabId,
         tabs: tabData,
-        settings: useStorage(
-            `${LOCAL_STORAGE_PREFIX}/settings`,
-            {
-                includeSubComponents: false,
-                includeStationComponents: false,
-                searchFuzzyMatch: true,
-            },
-            localStorage,
-            { mergeDefaults: true }
-        ),
+        settings: settingsData,
 
         itemTemplateData: {},
         itemStaticData: {},
@@ -64,6 +72,9 @@ export const useIcarusStore = defineStore('icarus', {
         },
         includeStationComponents(state) {
             return state.settings.includeStationComponents;
+        },
+        splitRawComponents(state) {
+            return state.settings.splitRawComponents;
         },
         sortedRecipeOptions(state) {
             return state.recipeOptions.sort((a, b) => a.label.localeCompare(b.label));
@@ -168,6 +179,9 @@ export const useIcarusStore = defineStore('icarus', {
         setIncludeStationComponents(value) {
             this.settings.includeStationComponents = value;
         },
+        setSplitRawComponents(value) {
+            this.settings.splitRawComponents = value;
+        },
 
         // * recipe data
         async loadRecipeData() {
@@ -217,9 +231,11 @@ export const useIcarusStore = defineStore('icarus', {
             const itemTableData = processItemTableData(itemTable.Rows);
             this.itemTableData = itemTableData;
 
-            const recipeData = processRecipeData(recipes?.Rows, { itemTemplateData, itemStaticData, itemTableData });
+            const { recipeData } = processRecipeData(recipes?.Rows, { itemTemplateData, itemStaticData, itemTableData });
             this.recipeData = recipeData;
-            this.recipeOptions = Object.values(recipeData);
+            // Use Set to deduplicate: aliased entries (e.g. "Refined_Wood" / "Wood_Refined")
+            // share the same object reference so Set collapses them to one search result.
+            this.recipeOptions = [...new Set(Object.values(recipeData))];
             this.isLoadingRecipes = false;
 
             console.log({ itemTemplateData, itemStaticData, itemTableData, recipeData });

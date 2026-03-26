@@ -1,18 +1,18 @@
 <template>
-    <template v-if="recipeData[componentId]">
+    <template v-if="componentRecipe">
         <n-button-group size="small">
-            <template v-for="(craftingStationName, index) in recipeData[componentId].sources" :key="craftingStationName">
+            <template v-for="(craftingStationName, index) in componentRecipe.sources" :key="craftingStationName">
                 <n-button
                     class="mx-1"
                     size="tiny"
                     ghost
                     type="info"
                     :style="[
-                        recipeData[componentId].preferredSource === craftingStationName
-                            ? null
-                            : '--n-border: 1px solid rgba(255, 255, 255, 0.2); --n-text-color: #bbb',
+                        componentRecipe.preferredSource === craftingStationName
+                            ? '--n-border: 1px solid #364266'
+                            : '--n-border: 1px solid rgba(255, 255, 255, 0.1); --n-text-color: #bbb',
                     ]"
-                    @click="setComponentPreferredSource(componentId, craftingStationName)"
+                    @click="setComponentPreferredSource(componentRecipe.id, craftingStationName)"
                 >
                     <span>{{ recipeData[craftingStationName]?.label ?? itemLabelMap[craftingStationName] ?? craftingStationName }}</span>
                 </n-button>
@@ -42,10 +42,16 @@ export default {
     },
     computed: {
         ...mapState(useIcarusStore, ['recipeData']),
+        componentRecipe() {
+            return (
+                this.recipeData[this.componentId] ??
+                Object.values(this.recipeData).find((recipe) => recipe.outputItemId === this.componentId || recipe.itemStaticId === this.componentId)
+            );
+        },
     },
     methods: {
-        setComponentPreferredSource(componentId, craftingStationName) {
-            this.recipeData[componentId].preferredSource = craftingStationName;
+        setComponentPreferredSource(recipeId, craftingStationName) {
+            this.recipeData[recipeId].preferredSource = craftingStationName;
             this.$emit('change');
         },
     },
