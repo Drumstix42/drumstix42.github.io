@@ -3802,6 +3802,10 @@
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
@@ -4315,10 +4319,6 @@
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
@@ -4327,11 +4327,19 @@
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -4388,10 +4396,6 @@
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
@@ -4400,11 +4404,19 @@
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -5376,10 +5388,6 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
@@ -5388,11 +5396,19 @@
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -17991,6 +18007,10 @@
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 },
@@ -20120,6 +20140,18 @@
                 },
                 {
                     "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Advanced_Armor_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34556,7 +34588,7 @@
             }
         },
         {
-            "Name": "Clay_Bick_Roof_Corner",
+            "Name": "Clay_Brick_Roof_Corner",
             "Requirement": {
                 "RowName": "Clay_Brick_Advanced"
             },
@@ -34613,15 +34645,19 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34668,15 +34704,19 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34723,15 +34763,19 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34778,15 +34822,19 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -74322,15 +74370,19 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Carpentry_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -111194,6 +111246,10 @@
                 },
                 {
                     "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
