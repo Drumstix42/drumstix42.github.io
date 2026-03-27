@@ -18,12 +18,15 @@
             <ul class="mb-0 pl-0 list-none">
                 <li class="mb-1">
                     Support for
-                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/520866849641989358" target="_blank">
-                        Icarus Week 224 Update
+                    <a class="text-primary font-bold" href="https://store.steampowered.com/news/app/1149460/view/493845885655974289" target="_blank">
+                        Icarus Week 225 Update
                     </a>
                 </li>
-                <!-- <li class="mb-1">🔍 Fuzzy search added to Item Search list. It should be a little easier to find items.</li>
-                <li class="mb-1">🔨 "Stack" count displays on icons for Items which are crafted in bulk (<em>e.g. x100 Steel Screw</em>)</li> -->
+                <li class="mb-1">
+                    <strong>New:</strong> The components list now separates Raw items by in the UI by default (with an option to Disable it as
+                    desired).
+                </li>
+                <!-- <li class="mb-1">🔨 "Stack" count displays on icons for Items which are crafted in bulk (<em>e.g. x100 Steel Screw</em>)</li> -->
             </ul>
         </n-alert>
 
@@ -34,9 +37,9 @@
                     <n-text depth="3" class="flex-shrink-0">Supports game version</n-text>
                     <div class="flex align-items-center mt-2">
                         <div class="game-version">
-                            <n-input :value="'v3.0.2.150527-rel-DangerousHorizons'" readonly></n-input>
+                            <n-input :value="'v3.0.3.150621-rel-DangerousHorizons'" readonly></n-input>
                         </div>
-                        <n-text depth="3">📅 2026-03-19</n-text>
+                        <n-text depth="3">📅 2026-03-26</n-text>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,7 @@ icarusStore.loadRecipeData();
 
 const AlertVersion = Object.freeze({
     welcome: 1,
-    whatsNew: 20260319,
+    whatsNew: 20260326,
     devTodo: 20260324,
 });
 

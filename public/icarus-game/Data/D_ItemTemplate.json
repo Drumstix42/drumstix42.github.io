@@ -26147,6 +26147,16 @@
             "ItemStaticData": {
                 "RowName": "LegendaryWeapon_Sandwyrm_Chainsaw"
             },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 8
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 2000
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "ComingSoon"

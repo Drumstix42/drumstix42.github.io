@@ -19,7 +19,7 @@
         "fuse.js": "^7.1.0",
         "pinia": "^3.0.4",
         "primeflex": "^3.3.1",
-        "vue": "^3.5.30",
+        "vue": "^3.5.31",
         "vue-router": "4.5.0",
         "vue-virtual-scroller": "next"
     },
@@ -33,7 +33,7 @@
         "eslint-plugin-vue": "^9.32.0",
         "gh-pages": "^6.3.0",
         "naive-ui": "^2.44.1",
-        "sass": "^1.97.3",
+        "sass": "^1.98.0",
         "vfonts": "^0.0.3",
         "vite": "^6.1.1",
         "vite-plugin-eslint": "^1.8.1"
