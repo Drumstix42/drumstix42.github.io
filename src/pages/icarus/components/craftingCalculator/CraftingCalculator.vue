@@ -92,18 +92,32 @@
                     <div class="mt-4">
                         <div class="components-section--label">Craftable</div>
                         <em v-if="craftableComponents.length === 0" class="empty-subcategory-label">No craftable items</em>
+                        <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
+                            <div class="quantity header">Qty</div>
+                            <div class="label header">Item</div>
+                            <div class="includeSubComponents header">Incl. Sub.</div>
+                            <div class="sourcePicker header">Source</div>
+                        </div>
                         <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center">
                             <div class="quantity">{{ item.quantity }}</div>
                             <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                            <component-source-picker :component-id="item.id" @change="triggerCalc()"></component-source-picker>
+                            <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="expandedItems[item.id]" @update:checked="triggerCalc()" />
+                            <component-source-picker class="sourcePicker" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
                         </div>
                     </div>
                 </div>
                 <div v-else>
+                    <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
+                        <div class="quantity header">Qty</div>
+                        <div class="label header">Item</div>
+                        <div class="includeSubComponents header">Incl. Sub.</div>
+                        <div class="sourcePicker header">Source</div>
+                    </div>
                     <div v-for="item in requiredComponents" :key="item.id" class="component-row flex align-items-center">
                         <div class="quantity">{{ item.quantity }}</div>
                         <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                        <component-source-picker v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
+                        <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="expandedItems[item.id]" @update:checked="triggerCalc()" />
+                        <component-source-picker class="sourcePicker" v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
                     </div>
                 </div>
             </div>
@@ -164,6 +178,7 @@ export default {
             requiredItemData: {},
             requiredCraftingStations: [],
             requiredComponents: [],
+            expandedItems: {},
             requirementTrees: {
                 primary: [],
                 stations: [],
@@ -250,7 +265,7 @@ export default {
             };
 
             const buildRequirementNode = (itemId, requestedQuantity, options = {}, activePath = new Set()) => {
-                const { expandSubComponents = false, totals = {}, stations = new Set() } = options;
+                const { expandSubComponents = false, totals = {}, stations = new Set(), expandedItems = {} } = options;
 
                 const node = {
                     id: itemId,
@@ -291,7 +306,7 @@ export default {
                     };
                     node.children.push(child);
 
-                    if (expandSubComponents && recipeData[input.id] && !child.isRaw && !nextPath.has(input.id)) {
+                    if ((expandSubComponents || expandedItems[input.id]) && recipeData[input.id] && !child.isRaw && !nextPath.has(input.id)) {
                         child.expanded = buildRequirementNode(input.id, inputQuantity, options, nextPath);
                     }
                 });
@@ -305,6 +320,7 @@ export default {
                     expandSubComponents: includeSubComponents,
                     totals: requiredItemData,
                     stations: primaryStations,
+                    expandedItems: this.expandedItems,
                 })
             );
             primaryStations.forEach((station) => requiredCraftingStations.add(station));
@@ -328,6 +344,7 @@ export default {
                                 expandSubComponents: includeSubComponents,
                                 totals: requiredItemData,
                                 stations: iterationStations,
+                                expandedItems: this.expandedItems,
                             })
                         );
                     });
@@ -451,6 +468,21 @@ export default {
 
     .label {
         min-width: 12rem;
+    }
+
+    .includeSubComponents {
+        min-width: 4.5rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sourcePicker {
+        min-width: 14rem;
+    }
+
+    .header {
+        font-weight: 600;
+        opacity: 0.7;
     }
 
     &:hover {
