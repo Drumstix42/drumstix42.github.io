@@ -80,30 +80,62 @@
                         <span>Include station components</span>
                     </div>
                 </div>
+
                 <div v-if="settings.splitRawComponents" class="mt-4">
-                    <div>
-                        <div class="components-section--label">Raw</div>
-                        <em v-if="rawComponents.length === 0" class="empty-subcategory-label">No raw items</em>
-                        <div v-for="item in rawComponents" :key="item.id" class="component-row flex align-items-center">
-                            <div class="quantity">{{ item.quantity }}</div>
-                            <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                        </div>
+                    <div class="components-section--label">Raw</div>
+                    <em v-if="rawComponents.length === 0" class="empty-subcategory-label">No raw items</em>
+
+                    <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
+                        <div class="done-quantity header">Done</div>
+                        <div class="quantity header">Qty</div>
+                        <div class="label header">Item</div>
                     </div>
-                    <div class="mt-4">
-                        <div class="components-section--label">Craftable</div>
-                        <em v-if="craftableComponents.length === 0" class="empty-subcategory-label">No craftable items</em>
-                        <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center">
-                            <div class="quantity">{{ item.quantity }}</div>
-                            <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                            <component-source-picker :component-id="item.id" @change="triggerCalc()"></component-source-picker>
+                    <div v-for="item in rawComponents" :key="item.id" class="component-row flex align-items-center" :class="{ completed: tab.doneQuantities[item.id] >= item.quantity }">
+                        <div class="done-quantity">
+                            <n-input-number
+                                    class="done-quantity flex-shrink-0"
+                                    v-model:value="tab.doneQuantities[item.id]"
+                                    placeholder=0
+                                    :show-button="false"
+                                    :min="0"
+                                    :max=item.quantity
+                                    :validator="validateQuantity"
+                                    @update:value="triggerCalc()"
+                                />
                         </div>
-                    </div>
-                </div>
-                <div v-else>
-                    <div v-for="item in requiredComponents" :key="item.id" class="component-row flex align-items-center">
                         <div class="quantity">{{ item.quantity }}</div>
                         <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                        <component-source-picker v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <div v-if="settings.splitRawComponents" class="components-section--label">Craftable</div>
+                    <em v-if="settings.splitRawComponents && craftableComponents.length === 0" class="empty-subcategory-label">No craftable items</em>
+
+                    <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
+                        <div class="done-quantity header">Done</div>
+                        <div class="quantity header">Qty</div>
+                        <div class="label header">Item</div>
+                        <div class="includeSubComponents header">Incl. Sub.</div>
+                        <div class="sourcePicker header">Source</div>
+                    </div>
+                    <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center" :class="{ completed: tab.doneQuantities[item.id] >= item.quantity }">
+                        <div class="done-quantity">
+                            <n-input-number
+                                    class="done-quantity flex-shrink-0"
+                                    v-model:value="tab.doneQuantities[item.id]"
+                                    placeholder=0
+                                    :show-button="false"
+                                    :min="0"
+                                    :max=item.quantity
+                                    :validator="validateQuantity"
+                                    @update:value="triggerCalc()"
+                                />
+                        </div>
+                        <div class="quantity">{{ item.quantity }}</div>
+                        <div class="label" :data-item-id="item.id">{{ item.label }}</div>
+                        <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="tab.expandedItems[item.id]" @update:checked="triggerCalc()" />
+                        <component-source-picker class="sourcePicker" v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()" />
                     </div>
                 </div>
             </div>
@@ -188,7 +220,11 @@ export default {
         ...mapState(useIcarusStore, ['recipeData', 'itemStaticData', 'itemTableData', 'isLoadingRecipes', 'settings']),
         ...mapGetters(useIcarusStore, ['includeSubComponents', 'includeStationComponents', 'splitRawComponents']),
         craftableComponents() {
-            return this.requiredComponents.filter((item) => !item.isRaw);
+            if (this.splitRawComponents) {
+                return this.requiredComponents.filter((item) => !item.isRaw);
+            } else {
+                return this.requiredComponents;
+            }
         },
         rawComponents() {
             return this.requiredComponents.filter((item) => item.isRaw);
@@ -238,6 +274,10 @@ export default {
             const requiredItemData = {};
             const requiredCraftingStations = new Set();
 
+            const expandedItems = this.tab.expandedItems || {};
+            const doneQuantities = this.tab.doneQuantities || {};
+            const removedQuantities = {};
+
             const getComponentLabel = (componentId) =>
                 recipeData[componentId]?.label ??
                 itemLabelMap[componentId] ??
@@ -250,7 +290,7 @@ export default {
             };
 
             const buildRequirementNode = (itemId, requestedQuantity, options = {}, activePath = new Set()) => {
-                const { expandSubComponents = false, totals = {}, stations = new Set() } = options;
+                const { expandSubComponents = false, totals = {}, stations = new Set(), expandedItems = {}, doneQuantities = {}, removedQuantities = {} } = options;
 
                 const node = {
                     id: itemId,
@@ -289,10 +329,28 @@ export default {
                         label: getComponentLabel(input.id),
                         isRaw: isRawItem(getComponentLabel(input.id)),
                     };
+
+                    if (expandedItems[input.id] === undefined) {
+                        expandedItems[input.id] = false;
+                    }
+
+                    if (doneQuantities[input.id] === undefined) {
+                        doneQuantities[input.id] = 0;
+                    }
+
+                    if (removedQuantities[input.id] === undefined) {
+                        removedQuantities[input.id] = 0;
+                    }
+
                     node.children.push(child);
 
-                    if (expandSubComponents && recipeData[input.id] && !child.isRaw && !nextPath.has(input.id)) {
-                        child.expanded = buildRequirementNode(input.id, inputQuantity, options, nextPath);
+                    if ((expandSubComponents || expandedItems[input.id]) && recipeData[input.id] && !child.isRaw && !nextPath.has(input.id)) {
+                        const leftToRemove = doneQuantities[input.id] - removedQuantities[input.id];
+                        const actualRemoval = Math.min(inputQuantity, leftToRemove);
+                        removedQuantities[input.id] += actualRemoval;
+                        const adjustedInputQuantity = inputQuantity - actualRemoval;
+
+                        child.expanded = buildRequirementNode(input.id, adjustedInputQuantity, options, nextPath);
                     }
                 });
 
@@ -305,6 +363,9 @@ export default {
                     expandSubComponents: includeSubComponents,
                     totals: requiredItemData,
                     stations: primaryStations,
+                    expandedItems: expandedItems,
+                    doneQuantities: doneQuantities,
+                    removedQuantities: removedQuantities,
                 })
             );
             primaryStations.forEach((station) => requiredCraftingStations.add(station));
@@ -328,6 +389,9 @@ export default {
                                 expandSubComponents: includeSubComponents,
                                 totals: requiredItemData,
                                 stations: iterationStations,
+                                expandedItems: expandedItems,
+                                doneQuantities: doneQuantities,
+                                removedQuantities: removedQuantities,
                             })
                         );
                     });
@@ -441,6 +505,14 @@ export default {
     min-height: 1.7rem;
     border-radius: 4px;
 
+    .done-quantity {
+        width: 3.5rem;
+        text-align: right;
+        margin-right: 0.5rem;
+        flex-shrink: 0;
+        font-weight: 500;
+    }
+
     .quantity {
         min-width: 2rem;
         text-align: right;
@@ -453,8 +525,27 @@ export default {
         min-width: 12rem;
     }
 
+    .includeSubComponents {
+        min-width: 4.5rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sourcePicker {
+        min-width: 14rem;
+    }
+
+    .header {
+        font-weight: 600;
+        opacity: 0.7;
+    }
+
     &:hover {
         background-color: rgba(222, 222, 255, 0.03);
+    }
+
+    &.completed {
+        opacity: 0.3;
     }
 }
 
