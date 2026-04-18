@@ -86,10 +86,23 @@
                     <em v-if="rawComponents.length === 0" class="empty-subcategory-label">No raw items</em>
 
                     <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
+                        <div class="done-quantity header">Done</div>
                         <div class="quantity header">Qty</div>
                         <div class="label header">Item</div>
                     </div>
-                    <div v-for="item in rawComponents" :key="item.id" class="component-row flex align-items-center">
+                    <div v-for="item in rawComponents" :key="item.id" class="component-row flex align-items-center" :class="{ completed: tab.doneQuantities[item.id] >= item.quantity }">
+                        <div class="done-quantity">
+                            <n-input-number
+                                    class="done-quantity flex-shrink-0"
+                                    v-model:value="tab.doneQuantities[item.id]"
+                                    placeholder=0
+                                    :show-button="false"
+                                    :min="0"
+                                    :max=item.quantity
+                                    :validator="validateQuantity"
+                                    @update:value="triggerCalc()"
+                                />
+                        </div>
                         <div class="quantity">{{ item.quantity }}</div>
                         <div class="label" :data-item-id="item.id">{{ item.label }}</div>
                     </div>
@@ -100,12 +113,25 @@
                     <em v-if="settings.splitRawComponents && craftableComponents.length === 0" class="empty-subcategory-label">No craftable items</em>
 
                     <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
+                        <div class="done-quantity header">Done</div>
                         <div class="quantity header">Qty</div>
                         <div class="label header">Item</div>
                         <div class="includeSubComponents header">Incl. Sub.</div>
                         <div class="sourcePicker header">Source</div>
                     </div>
-                    <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center">
+                    <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center" :class="{ completed: tab.doneQuantities[item.id] >= item.quantity }">
+                        <div class="done-quantity">
+                            <n-input-number
+                                    class="done-quantity flex-shrink-0"
+                                    v-model:value="tab.doneQuantities[item.id]"
+                                    placeholder=0
+                                    :show-button="false"
+                                    :min="0"
+                                    :max=item.quantity
+                                    :validator="validateQuantity"
+                                    @update:value="triggerCalc()"
+                                />
+                        </div>
                         <div class="quantity">{{ item.quantity }}</div>
                         <div class="label" :data-item-id="item.id">{{ item.label }}</div>
                         <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="tab.expandedItems[item.id]" @update:checked="triggerCalc()" />
@@ -249,6 +275,7 @@ export default {
             const requiredCraftingStations = new Set();
 
             const expandedItems = this.tab.expandedItems || {};
+            const doneQuantities = this.tab.doneQuantities || {};
 
             const getComponentLabel = (componentId) =>
                 recipeData[componentId]?.label ??
@@ -262,7 +289,7 @@ export default {
             };
 
             const buildRequirementNode = (itemId, requestedQuantity, options = {}, activePath = new Set()) => {
-                const { expandSubComponents = false, totals = {}, stations = new Set(), expandedItems = {} } = options;
+                const { expandSubComponents = false, totals = {}, stations = new Set(), expandedItems = {}, doneQuantities = {} } = options;
 
                 const node = {
                     id: itemId,
@@ -306,10 +333,15 @@ export default {
                         expandedItems[input.id] = false;
                     }
 
+                    if (doneQuantities[input.id] === undefined) {
+                        doneQuantities[input.id] = 0;
+                    }
+
                     node.children.push(child);
 
                     if ((expandSubComponents || expandedItems[input.id]) && recipeData[input.id] && !child.isRaw && !nextPath.has(input.id)) {
-                        child.expanded = buildRequirementNode(input.id, inputQuantity, options, nextPath);
+                        const adjustedInputQuantity = inputQuantity - (doneQuantities[input.id] || 0);
+                        child.expanded = buildRequirementNode(input.id, adjustedInputQuantity, options, nextPath);
                     }
                 });
 
@@ -323,6 +355,7 @@ export default {
                     totals: requiredItemData,
                     stations: primaryStations,
                     expandedItems: expandedItems,
+                    doneQuantities: doneQuantities,
                 })
             );
             primaryStations.forEach((station) => requiredCraftingStations.add(station));
@@ -347,6 +380,7 @@ export default {
                                 totals: requiredItemData,
                                 stations: iterationStations,
                                 expandedItems: expandedItems,
+                                doneQuantities: doneQuantities,
                             })
                         );
                     });
@@ -460,6 +494,14 @@ export default {
     min-height: 1.7rem;
     border-radius: 4px;
 
+    .done-quantity {
+        width: 3.5rem;
+        text-align: right;
+        margin-right: 0.5rem;
+        flex-shrink: 0;
+        font-weight: 500;
+    }
+
     .quantity {
         min-width: 2rem;
         text-align: right;
@@ -489,6 +531,10 @@ export default {
 
     &:hover {
         background-color: rgba(222, 222, 255, 0.03);
+    }
+
+    &.completed {
+        opacity: 0.3;
     }
 }
 
