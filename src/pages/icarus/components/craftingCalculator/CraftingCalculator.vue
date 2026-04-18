@@ -276,6 +276,7 @@ export default {
 
             const expandedItems = this.tab.expandedItems || {};
             const doneQuantities = this.tab.doneQuantities || {};
+            const removedQuantities = {};
 
             const getComponentLabel = (componentId) =>
                 recipeData[componentId]?.label ??
@@ -289,7 +290,7 @@ export default {
             };
 
             const buildRequirementNode = (itemId, requestedQuantity, options = {}, activePath = new Set()) => {
-                const { expandSubComponents = false, totals = {}, stations = new Set(), expandedItems = {}, doneQuantities = {} } = options;
+                const { expandSubComponents = false, totals = {}, stations = new Set(), expandedItems = {}, doneQuantities = {}, removedQuantities = {} } = options;
 
                 const node = {
                     id: itemId,
@@ -337,10 +338,18 @@ export default {
                         doneQuantities[input.id] = 0;
                     }
 
+                    if (removedQuantities[input.id] === undefined) {
+                        removedQuantities[input.id] = 0;
+                    }
+
                     node.children.push(child);
 
                     if ((expandSubComponents || expandedItems[input.id]) && recipeData[input.id] && !child.isRaw && !nextPath.has(input.id)) {
-                        const adjustedInputQuantity = inputQuantity - (doneQuantities[input.id] || 0);
+                        const leftToRemove = doneQuantities[input.id] - removedQuantities[input.id];
+                        const actualRemoval = Math.min(inputQuantity, leftToRemove);
+                        removedQuantities[input.id] += actualRemoval;
+                        const adjustedInputQuantity = inputQuantity - actualRemoval;
+
                         child.expanded = buildRequirementNode(input.id, adjustedInputQuantity, options, nextPath);
                     }
                 });
@@ -356,6 +365,7 @@ export default {
                     stations: primaryStations,
                     expandedItems: expandedItems,
                     doneQuantities: doneQuantities,
+                    removedQuantities: removedQuantities,
                 })
             );
             primaryStations.forEach((station) => requiredCraftingStations.add(station));
@@ -381,6 +391,7 @@ export default {
                                 stations: iterationStations,
                                 expandedItems: expandedItems,
                                 doneQuantities: doneQuantities,
+                                removedQuantities: removedQuantities,
                             })
                         );
                     });
