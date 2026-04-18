@@ -80,44 +80,36 @@
                         <span>Include station components</span>
                     </div>
                 </div>
+
                 <div v-if="settings.splitRawComponents" class="mt-4">
-                    <div>
-                        <div class="components-section--label">Raw</div>
-                        <em v-if="rawComponents.length === 0" class="empty-subcategory-label">No raw items</em>
-                        <div v-for="item in rawComponents" :key="item.id" class="component-row flex align-items-center">
-                            <div class="quantity">{{ item.quantity }}</div>
-                            <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                        </div>
+                    <div class="components-section--label">Raw</div>
+                    <em v-if="rawComponents.length === 0" class="empty-subcategory-label">No raw items</em>
+
+                    <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
+                        <div class="quantity header">Qty</div>
+                        <div class="label header">Item</div>
                     </div>
-                    <div class="mt-4">
-                        <div class="components-section--label">Craftable</div>
-                        <em v-if="craftableComponents.length === 0" class="empty-subcategory-label">No craftable items</em>
-                        <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
-                            <div class="quantity header">Qty</div>
-                            <div class="label header">Item</div>
-                            <div class="includeSubComponents header">Incl. Sub.</div>
-                            <div class="sourcePicker header">Source</div>
-                        </div>
-                        <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center">
-                            <div class="quantity">{{ item.quantity }}</div>
-                            <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                            <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="expandedItems[item.id]" @update:checked="triggerCalc()" />
-                            <component-source-picker class="sourcePicker" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
-                        </div>
+                    <div v-for="item in rawComponents" :key="item.id" class="component-row flex align-items-center">
+                        <div class="quantity">{{ item.quantity }}</div>
+                        <div class="label" :data-item-id="item.id">{{ item.label }}</div>
                     </div>
                 </div>
-                <div v-else>
+
+                <div class="mt-4">
+                    <div v-if="settings.splitRawComponents" class="components-section--label">Craftable</div>
+                    <em v-if="settings.splitRawComponents && craftableComponents.length === 0" class="empty-subcategory-label">No craftable items</em>
+
                     <div v-if="craftableComponents.length !== 0" class="component-row flex align-items-center">
                         <div class="quantity header">Qty</div>
                         <div class="label header">Item</div>
                         <div class="includeSubComponents header">Incl. Sub.</div>
                         <div class="sourcePicker header">Source</div>
                     </div>
-                    <div v-for="item in requiredComponents" :key="item.id" class="component-row flex align-items-center">
+                    <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center">
                         <div class="quantity">{{ item.quantity }}</div>
                         <div class="label" :data-item-id="item.id">{{ item.label }}</div>
                         <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="tab.expandedItems[item.id]" @update:checked="triggerCalc()" />
-                        <component-source-picker class="sourcePicker" v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
+                        <component-source-picker class="sourcePicker" v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()" />
                     </div>
                 </div>
             </div>
@@ -202,7 +194,11 @@ export default {
         ...mapState(useIcarusStore, ['recipeData', 'itemStaticData', 'itemTableData', 'isLoadingRecipes', 'settings']),
         ...mapGetters(useIcarusStore, ['includeSubComponents', 'includeStationComponents', 'splitRawComponents']),
         craftableComponents() {
-            return this.requiredComponents.filter((item) => !item.isRaw);
+            if (this.splitRawComponents) {
+                return this.requiredComponents.filter((item) => !item.isRaw);
+            } else {
+                return this.requiredComponents;
+            }
         },
         rawComponents() {
             return this.requiredComponents.filter((item) => item.isRaw);
