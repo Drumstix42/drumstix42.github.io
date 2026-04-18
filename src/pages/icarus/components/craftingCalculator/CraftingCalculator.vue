@@ -116,7 +116,7 @@
                     <div v-for="item in requiredComponents" :key="item.id" class="component-row flex align-items-center">
                         <div class="quantity">{{ item.quantity }}</div>
                         <div class="label" :data-item-id="item.id">{{ item.label }}</div>
-                        <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="expandedItems[item.id]" @update:checked="triggerCalc()" />
+                        <n-checkbox class="includeSubComponents" v-if="!includeSubComponents && !item.isRaw" v-model:checked="tab.expandedItems[item.id]" @update:checked="triggerCalc()" />
                         <component-source-picker class="sourcePicker" v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
                     </div>
                 </div>
@@ -178,7 +178,6 @@ export default {
             requiredItemData: {},
             requiredCraftingStations: [],
             requiredComponents: [],
-            expandedItems: {},
             requirementTrees: {
                 primary: [],
                 stations: [],
@@ -253,6 +252,8 @@ export default {
             const requiredItemData = {};
             const requiredCraftingStations = new Set();
 
+            const expandedItems = this.tab.expandedItems || {};
+
             const getComponentLabel = (componentId) =>
                 recipeData[componentId]?.label ??
                 itemLabelMap[componentId] ??
@@ -304,6 +305,11 @@ export default {
                         label: getComponentLabel(input.id),
                         isRaw: isRawItem(getComponentLabel(input.id)),
                     };
+
+                    if (expandedItems[input.id] === undefined) {
+                        expandedItems[input.id] = false;
+                    }
+
                     node.children.push(child);
 
                     if ((expandSubComponents || expandedItems[input.id]) && recipeData[input.id] && !child.isRaw && !nextPath.has(input.id)) {
@@ -320,7 +326,7 @@ export default {
                     expandSubComponents: includeSubComponents,
                     totals: requiredItemData,
                     stations: primaryStations,
-                    expandedItems: this.expandedItems,
+                    expandedItems: expandedItems,
                 })
             );
             primaryStations.forEach((station) => requiredCraftingStations.add(station));
@@ -344,7 +350,7 @@ export default {
                                 expandSubComponents: includeSubComponents,
                                 totals: requiredItemData,
                                 stations: iterationStations,
-                                expandedItems: this.expandedItems,
+                                expandedItems: expandedItems,
                             })
                         );
                     });

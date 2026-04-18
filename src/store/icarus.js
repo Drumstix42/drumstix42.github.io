@@ -19,6 +19,7 @@ const generateNewTab = () =>
         id: generateTabId(),
         title: `Planning`,
         items: [],
+        expandedItems: {},
     });
 const findTabIndex = (id, tabs) => tabs.findIndex((tab) => tab.id === id);
 
