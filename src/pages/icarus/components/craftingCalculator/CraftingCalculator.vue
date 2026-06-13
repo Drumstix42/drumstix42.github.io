@@ -93,6 +93,14 @@
                         <div class="components-section--label">Craftable</div>
                         <em v-if="craftableComponents.length === 0" class="empty-subcategory-label">No craftable items</em>
                         <div v-for="item in craftableComponents" :key="item.id" class="component-row flex align-items-center">
+                            <n-tooltip placement="left" trigger="hover">
+                                <template #trigger>
+                                    <n-button class="track-button ml-1" size="tiny" secondary circle type="primary" @click="trackComponent(item)">
+                                        <n-icon size="11"><Plus /></n-icon>
+                                    </n-button>
+                                </template>
+                                Add to tracking list
+                            </n-tooltip>
                             <div class="quantity">{{ item.quantity }}</div>
                             <div class="label" :data-item-id="item.id">{{ item.label }}</div>
                             <component-source-picker :component-id="item.id" @change="triggerCalc()"></component-source-picker>
@@ -101,6 +109,14 @@
                 </div>
                 <div v-else>
                     <div v-for="item in requiredComponents" :key="item.id" class="component-row flex align-items-center">
+                        <n-tooltip v-if="!item.isRaw" placement="left" trigger="hover">
+                            <template #trigger>
+                                <n-button class="track-button ml-1" size="tiny" secondary circle type="primary" @click="trackComponent(item)">
+                                    <n-icon size="11"><Plus /></n-icon>
+                                </n-button>
+                            </template>
+                            Add to tracking list
+                        </n-tooltip>
                         <div class="quantity">{{ item.quantity }}</div>
                         <div class="label" :data-item-id="item.id">{{ item.label }}</div>
                         <component-source-picker v-if="!item.isRaw" :component-id="item.id" @change="triggerCalc()"></component-source-picker>
@@ -137,7 +153,7 @@
 <script>
 import debounce from 'debounce';
 import { mapActions, mapGetters, mapState } from 'pinia';
-import { SortAlphaDown, Times } from '@vicons/fa';
+import { Plus, SortAlphaDown, Times } from '@vicons/fa';
 
 import ComponentSourcePicker from './ComponentSourcePicker.vue';
 import { useIcarusStore } from '@/store/icarus';
@@ -148,6 +164,7 @@ export default {
     name: 'CraftingToolCalculator',
     components: {
         ComponentSourcePicker,
+        Plus,
         SortAlphaDown,
         Times,
     },
@@ -195,7 +212,11 @@ export default {
         },
     },
     methods: {
-        ...mapActions(useIcarusStore, ['setIncludeSubComponents', 'setIncludeStationComponents', 'setSplitRawComponents']),
+        ...mapActions(useIcarusStore, ['addItem', 'setIncludeSubComponents', 'setIncludeStationComponents', 'setSplitRawComponents']),
+        trackComponent(item) {
+            this.addItem(item.id);
+            this.triggerCalc();
+        },
         sortInputs() {
             this.tab.items.sort((a, b) => {
                 const aLabel = this.recipeData[a.id].label;
@@ -453,8 +474,16 @@ export default {
         min-width: 12rem;
     }
 
+    .track-button {
+        visibility: hidden;
+    }
+
     &:hover {
         background-color: rgba(222, 222, 255, 0.03);
+
+        .track-button {
+            visibility: visible;
+        }
     }
 }
 
